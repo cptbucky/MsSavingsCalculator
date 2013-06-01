@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:id="@+id/LinearLayout2"
+        style="@style/linearLayoutRow"
+        android:layout_width="fill_parent"
+        android:layout_height="37sp" >
+
+        <TextView
+            android:id="@+id/stLabel"
+            style="@style/rightAlignLabel"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/statement_total" />
+
+        <EditText
+            android:id="@+id/statementTotal"
+            style="@style/percentageInput"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/LinearLayout3"
+        style="@style/linearLayoutRow"
+        android:layout_width="fill_parent"
+        android:layout_height="37sp">
+
+        <TextView
+            android:id="@+id/ccLabel"
+            style="@style/rightAlignLabel"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/cc_long" />
+
+        <EditText
+            android:id="@+id/ccTurnover"
+            style="@style/currencyInput"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" />
+    </LinearLayout>
+    
+    <LinearLayout
+        android:id="@+id/LinearLayout4"
+        style="@style/linearLayoutRow"
+        android:layout_width="fill_parent"
+        android:layout_height="37sp" >
+
+        <TextView
+            android:id="@+id/bcLabel"
+            style="@style/rightAlignLabel"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/bc_long" />
+
+        <EditText
+            android:id="@+id/bcTurnover"
+            style="@style/percentageInput"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/LinearLayout5"
+        style="@style/linearLayoutRow"
+        android:layout_width="fill_parent"
+        android:layout_height="37sp">
+
+        <TextView
+            android:id="@+id/dcLabel"
+            style="@style/rightAlignLabel"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/dc_long" />
+
+        <EditText
+            android:id="@+id/dcTurnover"
+            style="@style/currencyInput"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" />
+    </LinearLayout>
+
+</LinearLayout>
