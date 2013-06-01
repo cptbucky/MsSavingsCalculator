@@ -22,7 +22,7 @@
     <orderEntry type="jdk" jdkName="Android 4.2.2" jdkType="Android SDK" />
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="library" name="android-support-v41" level="project" />
-    <orderEntry type="module" module-name="SavingsCalculatorCommon" />
+    <orderEntry type="module" module-name="SavingsCalculatorCommon" exported="" />
   </component>
 </module>
 
