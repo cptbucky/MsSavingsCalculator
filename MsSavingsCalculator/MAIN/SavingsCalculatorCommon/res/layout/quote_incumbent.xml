@@ -1,97 +1,121 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:orientation="vertical" >
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical"
+              android:padding="20dp">
 
     <LinearLayout
-        android:id="@+id/LinearLayout2"
-        style="@style/linearLayoutRow"
-        android:layout_width="fill_parent"
-        android:layout_height="37sp" >
+            android:id="@+id/LinearLayout2"
+            style="@style/linearLayoutRow"
+            android:layout_width="fill_parent"
+            android:layout_height="37sp">
 
         <TextView
-            android:id="@+id/stLabel"
-            style="@style/rightAlignLabel"
-            android:layout_width="0dp"
-            android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:text="@string/statement_total" />
+                android:id="@+id/TextView01"
+                style="@style/rightAlignLabel"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/statement_total_exc_terminal"/>
 
         <EditText
-            android:id="@+id/statementTotal"
-            style="@style/percentageInput"
-            android:layout_width="0dp"
-            android:layout_height="wrap_content"
-            android:layout_weight="1" />
+                android:id="@+id/CSTotalExcTerminal"
+                style="@style/currencyInput"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"/>
 
     </LinearLayout>
 
     <LinearLayout
-        android:id="@+id/LinearLayout3"
-        style="@style/linearLayoutRow"
-        android:layout_width="fill_parent"
-        android:layout_height="37sp">
+            android:id="@+id/LinearLayout2"
+            style="@style/linearLayoutRow"
+            android:layout_width="fill_parent"
+            android:layout_height="37sp">
 
         <TextView
-            android:id="@+id/ccLabel"
-            style="@style/rightAlignLabel"
-            android:layout_width="0dp"
-            android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:text="@string/cc_long" />
+                android:id="@+id/TextView02"
+                style="@style/rightAlignLabel"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/customer_teminal"/>
 
         <EditText
-            android:id="@+id/ccTurnover"
-            style="@style/currencyInput"
-            android:layout_width="0dp"
-            android:layout_height="wrap_content"
-            android:layout_weight="1" />
-    </LinearLayout>
-    
-    <LinearLayout
-        android:id="@+id/LinearLayout4"
-        style="@style/linearLayoutRow"
-        android:layout_width="fill_parent"
-        android:layout_height="37sp" >
-
-        <TextView
-            android:id="@+id/bcLabel"
-            style="@style/rightAlignLabel"
-            android:layout_width="0dp"
-            android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:text="@string/bc_long" />
-
-        <EditText
-            android:id="@+id/bcTurnover"
-            style="@style/percentageInput"
-            android:layout_width="0dp"
-            android:layout_height="wrap_content"
-            android:layout_weight="1" />
+                android:id="@+id/CSTerminal"
+                style="@style/currencyInput"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"/>
 
     </LinearLayout>
 
     <LinearLayout
-        android:id="@+id/LinearLayout5"
-        style="@style/linearLayoutRow"
-        android:layout_width="fill_parent"
-        android:layout_height="37sp">
+            android:id="@+id/LinearLayout3"
+            style="@style/linearLayoutRow"
+            android:layout_width="fill_parent"
+            android:layout_height="37sp">
 
         <TextView
-            android:id="@+id/dcLabel"
-            style="@style/rightAlignLabel"
-            android:layout_width="0dp"
-            android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:text="@string/dc_long" />
+                android:id="@+id/ccLabel"
+                style="@style/rightAlignLabel"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/cc_long"/>
 
         <EditText
-            android:id="@+id/dcTurnover"
-            style="@style/currencyInput"
-            android:layout_width="0dp"
-            android:layout_height="wrap_content"
-            android:layout_weight="1" />
+                android:id="@+id/CCST"
+                style="@style/currencyInput"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"/>
+    </LinearLayout>
+
+    <LinearLayout
+            android:id="@+id/LinearLayout4"
+            style="@style/linearLayoutRow"
+            android:layout_width="fill_parent"
+            android:layout_height="37sp">
+
+        <TextView
+                android:id="@+id/bcLabel"
+                style="@style/rightAlignLabel"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/bc_long"/>
+
+        <EditText
+                android:id="@+id/BCST"
+                style="@style/currencyInput"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+            android:id="@+id/LinearLayout5"
+            style="@style/linearLayoutRow"
+            android:layout_width="fill_parent"
+            android:layout_height="37sp">
+
+        <TextView
+                android:id="@+id/dcLabel"
+                style="@style/rightAlignLabel"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/dc_long"/>
+
+        <EditText
+                android:id="@+id/DCST"
+                style="@style/inputValue"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"/>
     </LinearLayout>
 
 </LinearLayout>

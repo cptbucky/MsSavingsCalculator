@@ -2,8 +2,6 @@
 <resources xmlns:android="http://schemas.android.com/apk/res/android">
 
     <style name="standardFont" parent="@android:style/TextAppearance.Small">
-
-        <!-- <item name="android:textColor">black</item> -->
         <item name="android:typeface">sans</item>
         <item name="android:textSize">14sp</item>
     </style>
@@ -11,16 +9,14 @@
     <style name="standardLayout" parent="@style/standardFont"></style>
 
     <style name="totalLabel" parent="@style/standardLayout">
-
-        <!-- <item name="android:text">£0.00</item> -->
         <item name="android:gravity">center</item>
     </style>
 
     <style name="rightAlignLabel" parent="@style/standardLayout">
         <item name="android:gravity">right</item>
-        <item name="android:layout_marginRight">5dp</item>
+        <item name="android:layout_marginRight">10dp</item>
     </style>
-    
+
     <style name="leftAlignLabel" parent="@style/standardLayout">
         <item name="android:gravity">left</item>
         <item name="android:layout_marginLeft">5dp</item>
@@ -39,7 +35,6 @@
     <style name="inputValue" parent="@style/standardLayout">
         <item name="android:gravity">center_horizontal|center_vertical</item>
         <item name="android:text">0.00</item>
-        <!-- <item name="android:digits">0123456789.,£%</item> -->
         <item name="android:inputType">numberDecimal</item>
         <item name="android:selectAllOnFocus">true</item>
     </style>
@@ -54,13 +49,14 @@
 
     <style name="linearLayoutRow">
         <item name="android:gravity">center_vertical</item>
+        <item name="android:layout_marginTop">20dp</item>
     </style>
 
     <style name="horizontalRule">
         <item name="android:layout_marginTop">20dp</item>
         <item name="android:layout_marginBottom">20dp</item>
-        <item name="android:layout_marginRight">20dp</item>
-        <item name="android:layout_marginLeft">20dp</item>
+        <item name="android:layout_marginRight">0dp</item>
+        <item name="android:layout_marginLeft">0dp</item>
         <item name="android:background">@android:color/darker_gray</item>
     </style>
 

@@ -1,119 +1,120 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:orientation="vertical" >
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical"
+              android:padding="20dp">
 
     <LinearLayout
-        android:id="@+id/LinearLayout4"
-        style="@style/linearLayoutRow"
-        android:layout_width="fill_parent"
-        android:layout_height="37sp" >
+            android:id="@+id/LinearLayout4"
+            style="@style/linearLayoutRow"
+            android:layout_width="fill_parent"
+            android:layout_height="37sp">
 
         <TextView
-            android:id="@+id/TextView04"
-            style="@style/rightAlignLabel"
-            android:layout_width="0dp"
-            android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:text="@string/cc_rate" />
+                android:id="@+id/TextView04"
+                style="@style/rightAlignLabel"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/cc_rate_long"/>
 
         <EditText
-            android:id="@+id/CCFR"
-            style="@style/percentageInput"
-            android:layout_width="0dp"
-            android:layout_height="wrap_content"
-            android:layout_weight="1" />
-
-    </LinearLayout>
-
-    <LinearLayout
-        android:id="@+id/LinearLayout5"
-        style="@style/linearLayoutRow"
-        android:layout_width="fill_parent"
-        android:layout_height="37sp">
-
-        <TextView
-            android:id="@+id/TextView03"
-            style="@style/rightAlignLabel"
-            android:layout_width="0dp"
-            android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:text="@string/bc_rate" />
-
-        <EditText
-            android:id="@+id/BCST"
-            style="@style/currencyInput"
-            android:layout_width="0dp"
-            android:layout_height="wrap_content"
-            android:layout_weight="1" />
-    </LinearLayout>
-    
-    <LinearLayout
-        android:id="@+id/LinearLayout4"
-        style="@style/linearLayoutRow"
-        android:layout_width="fill_parent"
-        android:layout_height="37sp" >
-
-        <TextView
-            android:id="@+id/TextView04"
-            style="@style/rightAlignLabel"
-            android:layout_width="0dp"
-            android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:text="@string/dc_rate" />
-
-        <EditText
-            android:id="@+id/CCFR"
-            style="@style/percentageInput"
-            android:layout_width="0dp"
-            android:layout_height="wrap_content"
-            android:layout_weight="1" />
+                android:id="@+id/CCFR"
+                style="@style/percentageInput"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"/>
 
     </LinearLayout>
 
     <LinearLayout
-        android:id="@+id/LinearLayout5"
-        style="@style/linearLayoutRow"
-        android:layout_width="fill_parent"
-        android:layout_height="37sp">
+            android:id="@+id/LinearLayout5"
+            style="@style/linearLayoutRow"
+            android:layout_width="fill_parent"
+            android:layout_height="37sp">
 
         <TextView
-            android:id="@+id/TextView03"
-            style="@style/rightAlignLabel"
-            android:layout_width="0dp"
-            android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:text="@string/vendor_terminal" />
+                android:id="@+id/TextView03"
+                style="@style/rightAlignLabel"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/bc_rate_long"/>
 
         <EditText
-            android:id="@+id/BCST"
-            style="@style/currencyInput"
-            android:layout_width="0dp"
-            android:layout_height="wrap_content"
-            android:layout_weight="1" />
+                android:id="@+id/BCFR"
+                style="@style/percentageInput"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"/>
     </LinearLayout>
 
-        <LinearLayout
-        android:id="@+id/LinearLayout5"
-        style="@style/linearLayoutRow"
-        android:layout_width="fill_parent"
-        android:layout_height="37sp">
+    <LinearLayout
+            android:id="@+id/LinearLayout4"
+            style="@style/linearLayoutRow"
+            android:layout_width="fill_parent"
+            android:layout_height="37sp">
 
         <TextView
-            android:id="@+id/TextView03"
-            style="@style/rightAlignLabel"
-            android:layout_width="0dp"
-            android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:text="@string/vendor_inc_pci" />
+                android:id="@+id/TextView04"
+                style="@style/rightAlignLabel"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/dc_rate_long"/>
 
         <EditText
-            android:id="@+id/BCST"
-            style="@style/currencyInput"
-            android:layout_width="0dp"
-            android:layout_height="wrap_content"
-            android:layout_weight="1" />
+                android:id="@+id/DCFR"
+                style="@style/currencyInput"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"/>
+
     </LinearLayout>
-    
+
+    <LinearLayout
+            android:id="@+id/LinearLayout5"
+            style="@style/linearLayoutRow"
+            android:layout_width="fill_parent"
+            android:layout_height="37sp">
+
+        <TextView
+                android:id="@+id/lblVendorIncPci"
+                style="@style/rightAlignLabel"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/vendor_inc_pci"/>
+
+        <EditText
+                android:id="@+id/FIncPciRate"
+                style="@style/percentageInput"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"/>
+    </LinearLayout>
+
+    <LinearLayout
+            android:id="@+id/LinearLayout5"
+            style="@style/linearLayoutRow"
+            android:layout_width="fill_parent"
+            android:layout_height="37sp">
+
+        <TextView
+                android:id="@+id/lblVendorTerminal"
+                style="@style/rightAlignLabel"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/vendor_terminal"/>
+
+        <EditText
+                android:id="@+id/VendorTerminal"
+                style="@style/currencyInput"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"/>
+    </LinearLayout>
+
 </LinearLayout>

@@ -7,7 +7,7 @@ import android.app.FragmentManager;
 import android.content.Context;
 import android.content.DialogInterface;
 import android.content.Intent;
-import android.content.res.Resources;
+import android.content.SharedPreferences;
 import android.net.Uri;
 import android.os.Bundle;
 import android.os.Environment;
@@ -39,17 +39,10 @@ import com.avantics.savingscalcpremium.ExcelExporter;
 import com.avantics.savingscalcpremium.LoadListItem;
 import com.avantics.savingscalcpremium.LoadListItemAdapter;
 import com.avantics.savingscalcpremium.R;
+import com.avantics.savingscalcpremium.fragments.SettingsFragment;
 
 import java.io.File;
-import java.io.IOException;
 import java.util.ArrayList;
-
-import jxl.write.WritableSheet;
-import jxl.write.WritableWorkbook;
-import jxl.write.WriteException;
-import jxl.write.biff.RowsExceededException;
-
-//import au.com.bytecode.opencsv.CSVWriter;
 
 public class MainActivity extends Activity implements IActivity {
 
@@ -77,7 +70,7 @@ public class MainActivity extends Activity implements IActivity {
 
         getFilesDir().getAbsolutePath();
 
-        dbHelper = new DatabaseHelper(this, 5);
+        dbHelper = new DatabaseHelper(this, 6);
 
         if (savedInstanceState != null) {
             String savedText = savedInstanceState.getString(HeaderTextKey);
@@ -154,108 +147,15 @@ public class MainActivity extends Activity implements IActivity {
     }
 
     private void sendQuote() {
-        String filePath = String.format("%s/client_date.xls", Environment.getExternalStorageDirectory());
+        String filePath = String.format("%s/MsSavingsCalculator_Quote.xls", Environment.getExternalStorageDirectory());
 
-        ExcelExporter xlExporter = new ExcelExporter();
+        ExcelExporter.CreateWorksheetFromBinder(filePath, binder, getResources());
 
-        WritableWorkbook wb = xlExporter.createWorkbook(filePath);
+        SendEmailAttachWorksheet(filePath);
+    }
 
-        WritableSheet ws = xlExporter.createSheet(wb, "test sheet", 1);
-
-        Resources resources = getResources();
-
-        try {
-            // column headers
-            xlExporter.writeCell(1, 3, resources.getString(R.string.statement_total),
-                    false, ws);
-            xlExporter.writeCell(2, 3, resources.getString(R.string.vendor_rate),
-                    false, ws);
-            xlExporter.writeCell(3, 3, resources.getString(R.string.calculated_total),
-                    false, ws);
-
-            xlExporter.writeCell(0, 4, resources.getString(R.string.cc_short),
-                    false, ws);
-
-            xlExporter.writeCell(1, 4, binder.ccst.getValue().toString(), false, ws);
-            xlExporter.writeCell(2, 4, binder.ccfr.getValue().toString(), false, ws);
-            xlExporter.writeCell(3, 4, binder.cct.getValue().toString(), false, ws);
-            xlExporter.writeCell(0, 5, resources.getString(R.string.bc_short),
-                    false, ws);
-            xlExporter.writeCell(1, 5, binder.bcst.getValue().toString(),
-                    false, ws);
-            xlExporter.writeCell(2, 5, binder.bcfr.getValue().toString(),
-                    false, ws);
-            xlExporter.writeCell(3, 5, binder.bct.getValue().toString(),
-                    false, ws);
-            xlExporter.writeCell(0, 6, resources.getString(R.string.dc_short),
-                    false, ws);
-            xlExporter.writeCell(1, 6, binder.dcst.getValue().toString(),
-                    false, ws);
-            xlExporter.writeCell(2, 6, binder.dcfr.getValue().toString(),
-                    false, ws);
-            xlExporter.writeCell(3, 6, binder.dct.getValue().toString(),
-                    false, ws);
-
-            xlExporter.writeCell(2, 7, resources.getString(R.string.vendor_inc_pci),
-                    false, ws);
-            xlExporter.writeCell(3, 7, binder.fincpci.getValue().toString(),
-                    false, ws);
-
-            xlExporter.writeCell(2, 7, resources.getString(R.string.statement_total_exc_terminal),
-                    false, ws);
-            xlExporter.writeCell(3, 7, binder.stet.getValue().toString(),
-                    false, ws);
-
-            xlExporter.writeCell(1, 8, resources.getString(R.string.vendor_terminal),
-                    false, ws);
-            xlExporter.writeCell(2, 8, binder.vendorterminal.getValue().toString(),
-                    false, ws);
-            xlExporter.writeCell(3, 8, binder.vendorterminaltotal.getValue().toString(),
-                    false, ws);
-
-            xlExporter.writeCell(2, 9, resources.getString(R.string.saving_percentage),
-                    false, ws);
-            xlExporter.writeCell(3, 9, binder.savingsPercentage.getValue().toString(),
-                    false, ws);
-
-            xlExporter.writeCell(2, 10, resources.getString(R.string.savings_month),
-                    false, ws);
-            xlExporter.writeCell(3, 10, binder.savings1month.getValue().toString(),
-                    false, ws);
-
-            xlExporter.writeCell(2, 11, resources.getString(R.string.saving_year),
-                    false, ws);
-            xlExporter.writeCell(3, 11, binder.savings1year.getValue().toString(),
-                    false, ws);
-
-            xlExporter.writeCell(2, 12, resources.getString(R.string.saving_4years),
-                    false, ws);
-            xlExporter.writeCell(3, 12, binder.savings4years.getValue().toString(),
-                    false, ws);
-        } catch (RowsExceededException e) {
-            // TODO Auto-generated catch block
-            e.printStackTrace();
-        } catch (WriteException e) {
-            // TODO Auto-generated catch block
-            e.printStackTrace();
-        }
-
-        try {
-            wb.write();
-        } catch (IOException e) {
-            // TODO Auto-generated catch block
-            e.printStackTrace();
-        }
-
-        try {
-            wb.close();
-        } catch (WriteException e) {
-            // TODO Auto-generated catch block
-            e.printStackTrace();
-        } catch (IOException e) {
-            // TODO Auto-generated catch block
-            e.printStackTrace();
-        }
+    private void SendEmailAttachWorksheet(String filePath) {
+        SharedPreferences preferences = PreferenceManager.getDefaultSharedPreferences(getApplicationContext());
 
         File file = new File(filePath);
 
@@ -263,9 +163,21 @@ public class MainActivity extends Activity implements IActivity {
 
         Intent i = new Intent(Intent.ACTION_SEND);
         i.setType("message/rfc822");
-        i.putExtra(Intent.EXTRA_EMAIL, new String[]{"cpt.bucky@gmail.com"});
-        i.putExtra(Intent.EXTRA_SUBJECT, "subject of email");
-        i.putExtra(Intent.EXTRA_TEXT, "body of email");
+
+        String[] recipient = new String[]{preferences.getString(SettingsFragment.PREF_SHARE_RECIPIENT, String.valueOf(Activity.MODE_PRIVATE))};
+        if (recipient.length == 1)
+            i.putExtra(Intent.EXTRA_EMAIL, recipient);
+
+        String[] cc = new String[]{preferences.getString(SettingsFragment.PREF_SHARE_CC, String.valueOf(Activity.MODE_PRIVATE))};
+        if (cc.length == 1)
+            i.putExtra(Intent.EXTRA_CC, cc);
+
+        String[] bcc = new String[]{preferences.getString(SettingsFragment.PREF_SHARE_BCC, String.valueOf(Activity.MODE_PRIVATE))};
+        if (bcc.length == 1)
+            i.putExtra(Intent.EXTRA_BCC, bcc);
+
+        i.putExtra(Intent.EXTRA_SUBJECT, "MsSavingsCalculator Quote");
+        i.putExtra(Intent.EXTRA_TEXT, "Please see attached for the MsSavingsCalculator export of a client quote.");
         i.putExtra(Intent.EXTRA_STREAM, fileUri);
 
         try {
@@ -489,51 +401,6 @@ public class MainActivity extends Activity implements IActivity {
 
         btn.setOnClickListener(listener);
     }
-
-    // private void save(String fileName) {
-    // String csv = String.format("%s/%s.csv", getFilesDir(), fileName);
-    // CSVWriter writer = null;
-    // try {
-    // Writer test = new FileWriter(csv, false);
-    //
-    // writer = new CSVWriter(test);
-    // } catch (IOException e) {
-    // e.printStackTrace();
-    // }
-    //
-    // String[] headings = new String[] {
-    // getResources().getString(com.avantics.savingscalc.common.R.string.statement_total_exc_terminal),
-    // getResources().getString(com.avantics.savingscalc.common.R.string.customer_teminal)
-    // };
-    //
-    // writer.writeNext(headings);
-    //
-    // String[] values = new String[] {
-    // String.valueOf(binder.cstet.getValue()),
-    // String.valueOf(binder.csterminal.getValue()) };
-    //
-    // writer.writeNext(values);
-    //
-    // try {
-    // writer.close();
-    // } catch (IOException e) {
-    // e.printStackTrace();
-    // }
-    // }
-
-    // private String[] getFileNames(String root) {
-    // File f = new File(root);
-    // File[] files = f.listFiles();
-    //
-    // String[] paths = new String[files.length];
-    //
-    // for (int i = 0; i < files.length; i++) {
-    // // hack assumption that only csvs are going to be stored
-    // paths[i] = files[i].getName().replace(".csv", "");
-    // }
-    //
-    // return paths;
-    // }
 
     public void setSelectedQuote(int which) {
         String quoteName = availableQuoteNames.valueAt(which);

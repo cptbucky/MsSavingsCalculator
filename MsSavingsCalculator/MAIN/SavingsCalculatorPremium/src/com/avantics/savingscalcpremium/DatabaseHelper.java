@@ -13,151 +13,155 @@ import com.avantics.savingscalc.common.Quote;
 
 public class DatabaseHelper extends SQLiteOpenHelper {
 
-	static final String dbName = "savingsCalculatorDb";
+    static final String dbName = "savingsCalculatorDb";
 
-	static final String tableQuotes = "Quotes";
-	static final String colID = "QuoteId";
-	static final String colName = "Name";
-	static final String colCTET = "CustTotalExcTerminal";
-	static final String colCT = "CustTerminal";
-	static final String colCCST = "CCStatementTotal";
-	static final String colCCR = "CCRate";
-	static final String colBCST = "BCStatementTotal";
-	static final String colBCR = "BCRate";
-	static final String colDCST = "DCStatementTotal";
-	static final String colDCR = "DCRate";
-	static final String colFPMSTerminal = "FPMSTerminal";
+    static final String tableQuotes = "Quotes";
+    static final String colID = "QuoteId";
+    static final String colName = "Name";
+    static final String colCTET = "CustTotalExcTerminal";
+    static final String colCT = "CustTerminal";
+    static final String colCCST = "CCStatementTotal";
+    static final String colCCR = "CCRate";
+    static final String colBCST = "BCStatementTotal";
+    static final String colBCR = "BCRate";
+    static final String colDCST = "DCStatementTotal";
+    static final String colDCR = "DCRate";
+    static final String colFincPCIRate = "FincPCIRate";
+    static final String colVendorTerminal = "VendorTerminal";
 
-	String[] columns = new String[] { colID, colName, colCTET, colCT,
-			colCCST, colCCR, colBCST, colBCR, colDCST, colDCR,
-			colFPMSTerminal };
-	
-	SQLiteDatabase db;
+    String[] columns = new String[]{colID, colName, colCTET, colCT,
+            colCCST, colCCR, colBCST, colBCR, colDCST, colDCR, colFincPCIRate,
+            colVendorTerminal};
 
-	public DatabaseHelper(Context context, int version) {
-		super(context, dbName, null, version);
+    SQLiteDatabase db;
 
-		db = getWritableDatabase();
-	}
+    public DatabaseHelper(Context context, int version) {
+        super(context, dbName, null, version);
 
-	public void onCreate(SQLiteDatabase db) {
-		String createStatement = String
-				.format("CREATE TABLE %s (%s INTEGER PRIMARY KEY AUTOINCREMENT, %s TEXT UNIQUE, %s DOUB, %s DOUB, %s DOUB, %s DOUB, %s DOUB, %s DOUB, %s DOUB, %s DOUB, %s DOUB)",
-						tableQuotes, colID, colName, colCTET, colCT, colCCST,
-						colCCR, colBCST, colBCR, colDCST, colDCR,
-						colFPMSTerminal);
+        db = getWritableDatabase();
+    }
 
-		db.execSQL(createStatement);
-	}
+    public void onCreate(SQLiteDatabase db) {
+        String createStatement = String
+                .format("CREATE TABLE %s (%s INTEGER PRIMARY KEY AUTOINCREMENT, %s TEXT UNIQUE, %s DOUB, %s DOUB, %s DOUB, %s DOUB, %s DOUB, %s DOUB, %s DOUB, %s DOUB, %s DOUB, %s DOUB)",
+                        tableQuotes, colID, colName, colCTET, colCT, colCCST,
+                        colCCR, colBCST, colBCR, colDCST, colDCR, colFincPCIRate,
+                        colVendorTerminal);
 
-	public void onUpgrade(SQLiteDatabase db, int oldVersion, int newVersion) {
-		db.execSQL("DROP TABLE IF EXISTS " + tableQuotes);
+        db.execSQL(createStatement);
+    }
 
-		onCreate(db);
-	}
+    public void onUpgrade(SQLiteDatabase db, int oldVersion, int newVersion) {
+        db.execSQL("DROP TABLE IF EXISTS " + tableQuotes);
 
-	public void addQuote(Quote quote) {
-		ContentValues cv = new ContentValues();
-		cv.put(colName, quote.Name);
-		cv.put(colCTET, quote.cstet);
-		cv.put(colCT, quote.csterminal);
-		cv.put(colCCST, quote.ccst);
-		cv.put(colCCR, quote.ccfr);
-		cv.put(colBCST, quote.bcst);
-		cv.put(colBCR, quote.bcfr);
-		cv.put(colDCST, quote.dcst);
-		cv.put(colDCR, quote.dcfr);
-		cv.put(colFPMSTerminal, quote.fpmsterminal);
-		db.insert(tableQuotes, null, cv);
-	}
+        onCreate(db);
+    }
 
-	public SparseArray<String> getAvailableQuoteNames() {
-		String[] columns = new String[] { colID, colName };
-		Cursor c = db.query(tableQuotes, columns, null, null, null, null, null);
+    public void addQuote(Quote quote) {
+        ContentValues cv = new ContentValues();
+        cv.put(colName, quote.Name);
+        cv.put(colCTET, quote.cstet);
+        cv.put(colCT, quote.csterminal);
+        cv.put(colCCST, quote.ccst);
+        cv.put(colCCR, quote.ccfr);
+        cv.put(colBCST, quote.bcst);
+        cv.put(colBCR, quote.bcfr);
+        cv.put(colDCST, quote.dcst);
+        cv.put(colDCR, quote.dcfr);
+        cv.put(colFincPCIRate, quote.fincpcirate);
+        cv.put(colVendorTerminal, quote.vendorterminal);
+        db.insert(tableQuotes, null, cv);
+    }
 
-		SparseArray<String> quotes = new SparseArray<String>();
+    public SparseArray<String> getAvailableQuoteNames() {
+        String[] columns = new String[]{colID, colName};
+        Cursor c = db.query(tableQuotes, columns, null, null, null, null, null);
 
-		while (c.moveToNext()) {
-			quotes.put(c.getInt(0), c.getString(1));
-		}
+        SparseArray<String> quotes = new SparseArray<String>();
 
-		return quotes;
-	}
+        while (c.moveToNext()) {
+            quotes.put(c.getInt(0), c.getString(1));
+        }
 
-	public boolean quoteExists(String quoteName){
-		Cursor c = db.query(tableQuotes, columns, colName + " == ?",
-				new String[] { quoteName }, null, null, null);
+        return quotes;
+    }
 
-		return c.getCount() > 0;
-	}
-	
-	public Quote getQuote(String quoteName) {
-		Cursor c = db.query(tableQuotes, columns, colName + " == ?",
-				new String[] { String.valueOf(quoteName) }, null, null, null);
+    public boolean quoteExists(String quoteName) {
+        Cursor c = db.query(tableQuotes, columns, colName + " == ?",
+                new String[]{quoteName}, null, null, null);
 
-		Quote quote = new Quote();
+        return c.getCount() > 0;
+    }
 
-		while (c.moveToNext()) {
-			quote.Id = c.getInt(0);
-			quote.Name = c.getString(1);
-			quote.cstet = c.getDouble(2);
-			quote.csterminal = c.getDouble(3);
-			quote.ccst = c.getDouble(4);
-			quote.ccfr = c.getDouble(5);
-			quote.bcst = c.getDouble(6);
-			quote.bcfr = c.getDouble(7);
-			quote.dcst = c.getDouble(8);
-			quote.dcfr = c.getDouble(9);
-			quote.fpmsterminal = c.getDouble(10);
-		}
+    public Quote getQuote(String quoteName) {
+        Cursor c = db.query(tableQuotes, columns, colName + " == ?",
+                new String[]{String.valueOf(quoteName)}, null, null, null);
 
-		return quote;
-	}
+        Quote quote = new Quote();
 
-	public Quote[] getQuotes() {
-		Cursor c = db.query(tableQuotes, columns, null, null, null, null, null);
+        while (c.moveToNext()) {
+            quote.Id = c.getInt(0);
+            quote.Name = c.getString(1);
+            quote.cstet = c.getDouble(2);
+            quote.csterminal = c.getDouble(3);
+            quote.ccst = c.getDouble(4);
+            quote.ccfr = c.getDouble(5);
+            quote.bcst = c.getDouble(6);
+            quote.bcfr = c.getDouble(7);
+            quote.dcst = c.getDouble(8);
+            quote.dcfr = c.getDouble(9);
+            quote.fincpcirate = c.getDouble(10);
+            quote.vendorterminal = c.getDouble(11);
+        }
 
-		Quote[] quotes = new Quote[c.getCount()];
-		int i = 0;
-		while (c.moveToNext()) {
-			Quote quote = new Quote();
+        return quote;
+    }
 
-			quote.Id = c.getInt(0);
-			quote.Name = c.getString(1);
-			quote.cstet = c.getDouble(2);
-			quote.csterminal = c.getDouble(3);
-			quote.ccst = c.getDouble(4);
-			quote.ccfr = c.getDouble(5);
-			quote.bcst = c.getDouble(6);
-			quote.bcfr = c.getDouble(7);
-			quote.dcst = c.getDouble(8);
-			quote.dcfr = c.getDouble(9);
-			quote.fpmsterminal = c.getDouble(10);
+//	public Quote[] getQuotes() {
+//		Cursor c = db.query(tableQuotes, columns, null, null, null, null, null);
+//
+//		Quote[] quotes = new Quote[c.getCount()];
+//		int i = 0;
+//		while (c.moveToNext()) {
+//			Quote quote = new Quote();
+//
+//			quote.Id = c.getInt(0);
+//			quote.Name = c.getString(1);
+//			quote.cstet = c.getDouble(2);
+//			quote.csterminal = c.getDouble(3);
+//			quote.ccst = c.getDouble(4);
+//			quote.ccfr = c.getDouble(5);
+//			quote.bcst = c.getDouble(6);
+//			quote.bcfr = c.getDouble(7);
+//			quote.dcst = c.getDouble(8);
+//			quote.dcfr = c.getDouble(9);
+//			quote.vendorterminal = c.getDouble(10);
+//
+//			quotes[i] = quote;
+//
+//			i++;
+//		}
+//
+//		return quotes;
+//	}
 
-			quotes[i] = quote;
+    public void updateQuote(Quote quote) {
+        ContentValues cv = new ContentValues();
+        cv.put(colName, quote.Name);
+        cv.put(colCTET, quote.cstet);
+        cv.put(colCT, quote.csterminal);
+        cv.put(colCCST, quote.ccst);
+        cv.put(colCCR, quote.ccfr);
+        cv.put(colBCST, quote.bcst);
+        cv.put(colBCR, quote.bcfr);
+        cv.put(colDCST, quote.dcst);
+        cv.put(colDCR, quote.dcfr);
+        cv.put(colFincPCIRate, quote.fincpcirate);
+        cv.put(colVendorTerminal, quote.vendorterminal);
+        db.update(tableQuotes, cv, colName + " == ?", new String[]{String.valueOf(quote.Name)});
+    }
 
-			i++;
-		}
-
-		return quotes;
-	}
-
-	public void updateQuote(Quote quote) {
-		ContentValues cv = new ContentValues();
-		cv.put(colName, quote.Name);
-		cv.put(colCTET, quote.cstet);
-		cv.put(colCT, quote.csterminal);
-		cv.put(colCCST, quote.ccst);
-		cv.put(colCCR, quote.ccfr);
-		cv.put(colBCST, quote.bcst);
-		cv.put(colBCR, quote.bcfr);
-		cv.put(colDCST, quote.dcst);
-		cv.put(colDCR, quote.dcfr);
-		cv.put(colFPMSTerminal, quote.fpmsterminal);
-		db.update(tableQuotes, cv, colName + " == ?",	new String[] { String.valueOf(quote.Name) });
-	}
-
-	public void deleteQuote(String title) {
-		this.db.delete(tableQuotes, String.format("%s='%s'",colName, title), null);
-	}
+    public void deleteQuote(String title) {
+        this.db.delete(tableQuotes, String.format("%s='%s'", colName, title), null);
+    }
 }

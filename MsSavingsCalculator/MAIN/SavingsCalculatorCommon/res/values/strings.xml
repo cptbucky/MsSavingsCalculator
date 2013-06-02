@@ -4,22 +4,25 @@
     <string name="statement_total">Statement Total</string>
     <string name="statement_total_exc_terminal">Statement Total exc. Terminal</string>
     <string name="customer_teminal">Client Terminal</string>
-    <string name="vendor_inc_pci">PCIDSS Fee</string>
+    <string name="vendor_inc_pci">PCI DSS Fee</string>
     <string name="vendor_rate">Vendor Rate</string>
     <string name="vendor_terminal">Vendor Terminal</string>
-    <string name="cc_short">CC</string>
-    <string name="bc_short">BC</string>
-    <string name="dc_short">DC</string>
     <string name="calculated_total">Cost</string>
     <string name="saving_percentage">Saving:</string>
     <string name="savings_month">1 Month</string>
     <string name="saving_year">1 Year</string>
     <string name="saving_4years">4 Years</string>
+    <string name="cc_short">CC</string>
     <string name="cc_long">CC Turnover</string>
-    <string name="bc_long">BC Turnover</string>
-    <string name="dc_long">DC Volume Total</string>
     <string name="cc_rate">CC Rate</string>
+    <string name="cc_rate_long">Credit Card Rate</string>
+    <string name="bc_short">BC</string>
+    <string name="bc_long">BC Turnover</string>
     <string name="bc_rate">BC Rate</string>
+    <string name="bc_rate_long">Bank Card Rate</string>
+    <string name="dc_short">DC</string>
+    <string name="dc_long">DC Volume Total</string>
     <string name="dc_rate">DC Rate</string>
-    
+    <string name="dc_rate_long">Debit Card Rate</string>
+
 </resources>

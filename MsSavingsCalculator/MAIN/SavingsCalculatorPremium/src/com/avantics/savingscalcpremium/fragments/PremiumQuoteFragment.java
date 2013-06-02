@@ -13,45 +13,53 @@ import com.avantics.savingscalc.common.fragments.QuoteFragment;
 
 public class PremiumQuoteFragment extends QuoteFragment {
 
-	TextView lblVendorRate;
-	TextView lblVendorIncPci;
-	TextView lblVendorTerminal;
-	
-	SharedPreferences sp;
-	
-	@Override
-	public View onCreateView(LayoutInflater inflater, ViewGroup container,
-			Bundle savedInstanceState) {
-		
-		View view = super.onCreateView(inflater, container, savedInstanceState);
+    TextView lblVendorRate;
+    TextView lblVendorIncPci;
+    TextView lblVendorTerminal;
 
-		lblVendorRate = (TextView) view.findViewById(R.id.lblVendorRate);
-		lblVendorIncPci = (TextView) view.findViewById(R.id.lblVendorIncPci);
-		lblVendorTerminal = (TextView) view.findViewById(R.id.lblVendorTerminal);
+    SharedPreferences sp;
 
-		sp = PreferenceManager
-				.getDefaultSharedPreferences(getActivity().getApplicationContext());
+    public static String VENDOR_RATE_LABEL;
+    public static String VENDOR_INCPCI_LABEL;
+    public static String VENDOR_TERMINAL_LABEL;
 
-		updateLabelsWithUserSettings();
+    @Override
+    public View onCreateView(LayoutInflater inflater, ViewGroup container,
+                             Bundle savedInstanceState) {
+
+        View view = super.onCreateView(inflater, container, savedInstanceState);
+
+        lblVendorRate = (TextView) view.findViewById(R.id.lblVendorRate);
+        lblVendorIncPci = (TextView) view.findViewById(R.id.lblVendorIncPci);
+        lblVendorTerminal = (TextView) view.findViewById(R.id.lblVendorTerminal);
+
+        sp = PreferenceManager
+                .getDefaultSharedPreferences(getActivity().getApplicationContext());
+
+        updateLabelsWithUserSettings();
 
 //		sp.registerOnSharedPreferenceChangeListener(this);
-		
-		return view;
-	}
 
-	private void updateLabelsWithUserSettings() {
-		String vendorName = sp.getString(
-				SettingsFragment.PREF_BRANDING_VENDOR_NAME, "");
-		
-		if (!vendorName.equals("")) {
-			lblVendorRate.setText(getResources().getText(R.string.vendor_rate).toString()
-					.replace("Vendor", vendorName));
-			lblVendorIncPci.setText(getResources().getText(R.string.vendor_inc_pci).toString()
-					.replace("Vendor", vendorName));
-			lblVendorTerminal.setText(getResources().getText(R.string.vendor_terminal).toString()
-					.replace("Vendor", vendorName));
-		}
-	}
+        return view;
+    }
+
+    private void updateLabelsWithUserSettings() {
+        String vendorName = sp.getString(SettingsFragment.PREF_BRANDING_VENDOR_NAME, "Vendor");
+
+        //setting these up as other parts of the system want them
+        VENDOR_RATE_LABEL = getResources().getText(R.string.vendor_rate).toString()
+                .replace("Vendor", vendorName);
+        VENDOR_INCPCI_LABEL = getResources().getText(R.string.vendor_inc_pci).toString()
+                .replace("Vendor", vendorName);
+        VENDOR_TERMINAL_LABEL = getResources().getText(R.string.vendor_terminal).toString()
+                .replace("Vendor", vendorName);
+
+        if (!vendorName.equals("Vendor")) {
+            lblVendorRate.setText(VENDOR_RATE_LABEL);
+            lblVendorIncPci.setText(VENDOR_INCPCI_LABEL);
+            lblVendorTerminal.setText(VENDOR_TERMINAL_LABEL);
+        }
+    }
 
 //	@Override
 //	public void onSharedPreferenceChanged(SharedPreferences sharedPreferences,
@@ -61,11 +69,11 @@ public class PremiumQuoteFragment extends QuoteFragment {
 //			updateLabelsWithUserSettings(sharedPreferences.getString(key, ""));
 //		}
 //	}
-	
-	@Override
-	public void onResume() {
-	    super.onResume();
-	    
-	    updateLabelsWithUserSettings();
-	}
+
+    @Override
+    public void onResume() {
+        super.onResume();
+
+        updateLabelsWithUserSettings();
+    }
 }
