@@ -33,7 +33,7 @@ public class ExcelExporter {
 
         try {
             xlExporter.writeCell(2, currentRowIndex, resources.getString(R.string.statement_total_exc_terminal), false, ws);
-            xlExporter.writeCell(3, currentRowIndex, binder.stet.getValue().toString(), false, ws);
+            xlExporter.writeCell(3, currentRowIndex, binder.cstet.getValue().toString(), false, ws);
 
             currentRowIndex++;
             xlExporter.writeCell(2, currentRowIndex, resources.getString(R.string.customer_teminal), false, ws);
@@ -74,7 +74,7 @@ public class ExcelExporter {
             currentRowIndex++;
             xlExporter.writeCell(1, currentRowIndex, PremiumQuoteFragment.VENDOR_TERMINAL_LABEL, false, ws);
             xlExporter.writeCell(2, currentRowIndex, binder.vendorterminal.getValue().toString(), false, ws);
-            xlExporter.writeCell(3, currentRowIndex, binder.vendorterminaltotal.getValue().toString(), false, ws);
+            xlExporter.writeCell(3, currentRowIndex, binder.vendorTerminalTotal.getValue().toString(), false, ws);
 
             currentRowIndex += 2;
             xlExporter.writeCell(0, currentRowIndex, resources.getString(R.string.saving_percentage), false, ws);

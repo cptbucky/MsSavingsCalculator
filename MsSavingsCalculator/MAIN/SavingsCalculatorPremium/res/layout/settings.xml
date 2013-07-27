@@ -9,11 +9,11 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent">
 
-        <EditTextPreference
-                android:key="pref_branding_icon"
-                android:summary="@string/pref_branding_icon_summ"
-                android:title="@string/pref_branding_icon"
-                android:layout_width="match_parent"/>
+        <!--<EditTextPreference-->
+                <!--android:key="pref_branding_icon"-->
+                <!--android:summary="@string/pref_branding_icon_summ"-->
+                <!--android:title="@string/pref_branding_icon"-->
+                <!--android:layout_width="match_parent"/>-->
 
         <EditTextPreference
                 android:key="pref_branding_vendor_name"
@@ -49,14 +49,14 @@
                 android:defaultValue=""/>
     </PreferenceCategory>
 
-    <PreferenceCategory
-            android:key="pref_key_quote"
-            android:title="@string/pref_key_quote">
+    <!--<PreferenceCategory-->
+            <!--android:key="pref_key_quote"-->
+            <!--android:title="@string/pref_key_quote">-->
 
-        <EditTextPreference
-                android:key="pref_quote_default"
-                android:summary="@string/pref_quote_default_summ"
-                android:title="@string/pref_quote_default"/>
-    </PreferenceCategory>
+        <!--<EditTextPreference-->
+                <!--android:key="pref_quote_default"-->
+                <!--android:summary="@string/pref_quote_default_summ"-->
+                <!--android:title="@string/pref_quote_default"/>-->
+    <!--</PreferenceCategory>-->
 
 </PreferenceScreen>

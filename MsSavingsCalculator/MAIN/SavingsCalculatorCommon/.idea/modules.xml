@@ -3,9 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/../../../AndroidCommon/MAIN/AvanticsCommon/AvanticsCommon.iml" filepath="$PROJECT_DIR$/../../../AndroidCommon/MAIN/AvanticsCommon/AvanticsCommon.iml" />
-      <module fileurl="file://$PROJECT_DIR$/../SavingsCalculator/SavingsCalculator.iml" filepath="$PROJECT_DIR$/../SavingsCalculator/SavingsCalculator.iml" />
       <module fileurl="file://$PROJECT_DIR$/SavingsCalculatorCommon.iml" filepath="$PROJECT_DIR$/SavingsCalculatorCommon.iml" />
-      <module fileurl="file://$PROJECT_DIR$/../SavingsCalculatorPremium/SavingsCalculatorPremium.iml" filepath="$PROJECT_DIR$/../SavingsCalculatorPremium/SavingsCalculatorPremium.iml" />
     </modules>
   </component>
 </project>

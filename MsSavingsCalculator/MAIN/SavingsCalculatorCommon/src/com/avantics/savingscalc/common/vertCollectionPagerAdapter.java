@@ -21,7 +21,7 @@ public class vertCollectionPagerAdapter extends FragmentPagerAdapter {
     private List<Fragment> mFragments = new ArrayList<Fragment>();
     private FragmentManager mFM;
 
-    public vertCollectionPagerAdapter(FragmentManager fm) {
+    public vertCollectionPagerAdapter(FragmentManager fm, UiBindingManager binder) {
         super(fm);
 
         mFM = fm;
@@ -42,8 +42,6 @@ public class vertCollectionPagerAdapter extends FragmentPagerAdapter {
     @Override
     public Fragment getItem(int pos) {
         Fragment f = mFragments.get(pos);
-
-        UiBindingManager binder = new UiBindingManager(f.getView());
 
         return f;
     }

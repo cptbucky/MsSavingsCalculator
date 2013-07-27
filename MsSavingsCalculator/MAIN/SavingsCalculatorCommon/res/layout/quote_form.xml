@@ -264,7 +264,7 @@
 
             <EditText
                     android:id="@+id/FIncPciRate"
-                    style="@style/percentageInput"
+                    style="@style/currencyInput"
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"/>
@@ -301,7 +301,7 @@
                     android:layout_weight="1"/>
 
             <TextView
-                    android:id="@+id/FpmsTerminalTotal"
+                    android:id="@+id/VendorTerminalTotal"
                     style="@style/totalLabel"
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"

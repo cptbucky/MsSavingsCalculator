@@ -19,13 +19,8 @@ import android.view.MenuItem;
 import android.view.View;
 import android.view.WindowManager;
 import android.view.inputmethod.InputMethodManager;
-import android.widget.AdapterView;
+import android.widget.*;
 import android.widget.AdapterView.OnItemClickListener;
-import android.widget.Button;
-import android.widget.EditText;
-import android.widget.LinearLayout;
-import android.widget.ListView;
-import android.widget.Toast;
 
 import com.avantics.savingscalc.common.IActivity;
 import com.avantics.savingscalc.common.Quote;
@@ -68,7 +63,7 @@ public class MainActivity extends Activity implements IActivity {
 
         binder = quoteFrag.binder;
 
-        getFilesDir().getAbsolutePath();
+        /*getFilesDir().getAbsolutePath();*/
 
         dbHelper = new DatabaseHelper(this, 6);
 
@@ -135,7 +130,7 @@ public class MainActivity extends Activity implements IActivity {
     }
 
     private void clearFocusAndKeyboard() {
-        LinearLayout myLayout = (LinearLayout) findViewById(com.avantics.savingscalc.common.R.id.LinearLayout1);
+        RelativeLayout myLayout = (RelativeLayout) findViewById(com.avantics.savingscalc.common.R.id.RelativeLayout1);
         myLayout.requestFocus();
 
         InputMethodManager inputManager = (InputMethodManager) getSystemService(Context.INPUT_METHOD_SERVICE);

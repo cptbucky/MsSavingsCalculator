@@ -1,21 +1,24 @@
 package com.avantics.savingscalc.common.fragments;
 
-import com.avantics.savingscalc.common.R;
-
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
+import com.avantics.common.IBindManager;
+import com.avantics.savingscalc.common.R;
+
 public class IncumbentFragment extends Fragment {
-	@Override
+    @Override
 	public View onCreateView(LayoutInflater inflater, ViewGroup container,
 			Bundle savedInstanceState) {
 		
 		View view = inflater.inflate(R.layout.quote_incumbent, container, false);
-	
-		
+
+        IBindManager binder = (IBindManager)getActivity();
+
+		binder.AttachToView(view);
 		
 		return view;
 	}

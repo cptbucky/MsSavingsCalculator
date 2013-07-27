@@ -4,7 +4,9 @@ import android.app.ActionBar;
 import android.os.Bundle;
 import android.support.v4.app.FragmentActivity;
 import android.support.v4.view.ViewPager;
+import android.view.View;
 
+import com.avantics.common.IBindManager;
 import com.avantics.savingscalc.common.R;
 import com.avantics.savingscalc.common.UiBindingManager;
 import com.avantics.savingscalc.common.ViewPagerCustom;
@@ -13,7 +15,7 @@ import com.avantics.savingscalc.common.vertCollectionPagerAdapter;
 /**
  * Created by tom on 02/06/13.
  */
-public class Tab_Swipe_Activity extends FragmentActivity {
+public class Tab_Swipe_Activity extends FragmentActivity implements IBindManager {
     public UiBindingManager binder = null;
 
     vertCollectionPagerAdapter mVCollectionPageAdapter;
@@ -25,11 +27,11 @@ public class Tab_Swipe_Activity extends FragmentActivity {
 
         setContentView(R.layout.tab_swipe_activity);
 
+        binder = new UiBindingManager();
+
         setupPager();
 
         setupABar();
-
-//        binder = new UiBindingManager(getWindow().getDecorView().findViewById(android.R.id.content));
     }
 
     private void setupABar() {
@@ -65,7 +67,7 @@ public class Tab_Swipe_Activity extends FragmentActivity {
 
     private void setupPager() {
         // the page adapter contains all the fragment registrations
-        mVCollectionPageAdapter = new vertCollectionPagerAdapter(getSupportFragmentManager());
+        mVCollectionPageAdapter = new vertCollectionPagerAdapter(getSupportFragmentManager(), binder);
         mViewPager = (ViewPagerCustom) findViewById(R.id.pager);
 
         // set the contents of the ViewPager
@@ -79,5 +81,10 @@ public class Tab_Swipe_Activity extends FragmentActivity {
                 getActionBar().setSelectedNavigationItem(pos);
             }
         });
+    }
+
+    @Override
+    public void AttachToView(View view) {
+        binder.AttachToView(view);
     }
 }

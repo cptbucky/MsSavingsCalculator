@@ -73,27 +73,37 @@
 
     </LinearLayout>
 
-    <LinearLayout
-            android:id="@+id/LinearLayout5"
-            style="@style/linearLayoutRow"
-            android:layout_width="fill_parent"
-            android:layout_height="37sp">
+	<LinearLayout
+			android:id="@+id/LinearLayout7"
+			style="@style/linearLayoutRow"
+			android:layout_width="fill_parent"
+			android:layout_height="37sp"
+			android:layout_below="@+id/LinearLayout6"
+			android:layout_marginTop="20dp">
 
-        <TextView
-                android:id="@+id/lblVendorIncPci"
-                style="@style/rightAlignLabel"
-                android:layout_width="0dp"
-                android:layout_height="wrap_content"
-                android:layout_weight="1"
-                android:text="@string/vendor_inc_pci"/>
+		<TextView
+				android:id="@+id/lblVendorIncPci"
+				style="@style/rightAlignLabel"
+				android:layout_width="0dp"
+				android:layout_height="wrap_content"
+				android:layout_weight="1.3"
+				android:text="@string/vendor_inc_pci"/>
 
-        <EditText
-                android:id="@+id/FIncPciRate"
-                style="@style/percentageInput"
-                android:layout_width="0dp"
-                android:layout_height="wrap_content"
-                android:layout_weight="1"/>
-    </LinearLayout>
+		<EditText
+				android:id="@+id/FIncPciRate"
+				style="@style/currencyInput"
+				android:layout_width="0dp"
+				android:layout_height="wrap_content"
+				android:layout_weight="1"/>
+
+		<TextView
+				android:id="@+id/FIncPci"
+				style="@style/totalLabel"
+				android:layout_width="0dp"
+				android:layout_height="wrap_content"
+				android:layout_weight="1"
+				android:textIsSelectable="true"/>
+	</LinearLayout>
 
     <LinearLayout
             android:id="@+id/LinearLayout5"

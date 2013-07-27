@@ -4,170 +4,274 @@ import android.view.View;
 import android.widget.EditText;
 import android.widget.TextView;
 
-import com.avantics.common.Formatters;
-import com.avantics.common.UiBindingContainer;
+import com.avantics.common.*;
 
-public class UiBindingManager {
+import java.text.NumberFormat;
+
+public class UiBindingManager implements IBindManager {
     public Formatters formatters = null;
+
+    private Quote currentQuote;
 
     public String name = "";
 
-    public UiBindingContainer cstet = null;
-    public UiBindingContainer csterminal = null;
-    public UiBindingContainer cstotal = null;
+//    public UiBindingContainer cstet = null;
+//    public UiBindingContainer csterminal = null;
+//    public UiBindingContainer cstotal = null;
+//
+//    public UiBindingContainer ccst = null;
+//    public UiBindingContainer ccfr = null;
+//    public UiBindingContainer cct = null;
+//
+//    public UiBindingContainer bcst = null;
+//    public UiBindingContainer bcfr = null;
+//    public UiBindingContainer bct = null;
+//
+//    public UiBindingContainer dcst = null;
+//    public UiBindingContainer dcfr = null;
+//    public UiBindingContainer dct = null;
+//
+//    public UiBindingContainer fincpci = null;
+//    public UiBindingContainer fincpcirate;
+//
+//    public UiBindingContainer vendorterminal = null;
+//    public UiBindingContainer vendorTerminalTotal = null;
 
-    public UiBindingContainer ccst = null;
-    public UiBindingContainer ccfr = null;
-    public UiBindingContainer cct = null;
+//    public UiBindingContainer savingsPercentage = null;
+//    public UiBindingContainer savings1month = null;
+//    public UiBindingContainer savings1year = null;
+//    public UiBindingContainer savings4years = null;
 
-    public UiBindingContainer bcst = null;
-    public UiBindingContainer bcfr = null;
-    public UiBindingContainer bct = null;
-
-    public UiBindingContainer dcst = null;
-    public UiBindingContainer dcfr = null;
-    public UiBindingContainer dct = null;
-
-    public UiBindingContainer fincpci = null;
-    public UiBindingContainer fincpcirate;
-
-    public UiBindingContainer stet = null;
-
-    public UiBindingContainer vendorterminal = null;
-    public UiBindingContainer vendorterminaltotal = null;
-
-    public UiBindingContainer savingsPercentage = null;
-    public UiBindingContainer savings1month = null;
-    public UiBindingContainer savings1year = null;
-    public UiBindingContainer savings4years = null;
-
-    public UiBindingManager(View view) {
+    public UiBindingManager() {
         formatters = new Formatters();
 
-        cstet = new UiBindingContainer(
-                formatters.getCurrencyEditor((EditText) view.findViewById(R.id.CSTotalExcTerminal)),
-                formatters.CURRENCY_FORMATTER);
-        csterminal = new UiBindingContainer(
-                formatters.getCurrencyEditor((EditText) view.findViewById(R.id.CSTerminal)),
-                formatters.CURRENCY_FORMATTER);
-        cstotal = new UiBindingContainer(
-                (TextView) view.findViewById(R.id.CSTotal),
-                formatters.CURRENCY_FORMATTER);
-
-        ccst = new UiBindingContainer(formatters.getCurrencyEditor((EditText) view.findViewById(R.id.CCST)),
-                formatters.CURRENCY_FORMATTER);
-        ccfr = new UiBindingContainer(formatters.getDecimalEditor((EditText) view.findViewById(R.id.CCFR)),
-                formatters.DECIMAL_FORMATTER);
-        cct = new UiBindingContainer(
-                (TextView) view.findViewById(R.id.CCT),
-                formatters.CURRENCY_FORMATTER);
-
-        bcst = new UiBindingContainer(formatters.getCurrencyEditor((EditText) view.findViewById(R.id.BCST)),
-                formatters.CURRENCY_FORMATTER);
-        bcfr = new UiBindingContainer(formatters.getDecimalEditor((EditText) view.findViewById(R.id.BCFR)),
-                formatters.DECIMAL_FORMATTER);
-        bct = new UiBindingContainer(
-                (TextView) view.findViewById(R.id.BCT),
-                formatters.CURRENCY_FORMATTER);
-
-        dcst = new UiBindingContainer(formatters.getDecimalEditor((EditText) view.findViewById(R.id.DCST)),
-                formatters.DECIMAL_FORMATTER);
-        dcfr = new UiBindingContainer(formatters.getCurrencyEditor((EditText) view.findViewById(R.id.DCFR)),
-                formatters.CURRENCY_FORMATTER);
-        dct = new UiBindingContainer(
-                (TextView) view.findViewById(R.id.DCT),
-                formatters.CURRENCY_FORMATTER);
-
-        fincpci = new UiBindingContainer((TextView) view.findViewById(R.id.FIncPci),
-                formatters.CURRENCY_FORMATTER);
-        fincpcirate = new UiBindingContainer(formatters.getDecimalEditor((EditText) view.findViewById(R.id.FIncPciRate)),
-                formatters.DECIMAL_FORMATTER);
-
-        stet = new UiBindingContainer(
-                formatters.getCurrencyEditor((EditText) view.findViewById(R.id.CSTotalExcTerminal)),
-                formatters.CURRENCY_FORMATTER);
-
-        vendorterminal = new UiBindingContainer(
-                formatters.getCurrencyEditor((EditText) view.findViewById(R.id.VendorTerminal)),
-                formatters.CURRENCY_FORMATTER);
-        vendorterminaltotal = new UiBindingContainer(
-                (TextView) view.findViewById(R.id.FpmsTerminalTotal),
-                formatters.CURRENCY_FORMATTER);
-
-        savingsPercentage = new UiBindingContainer(
-                (TextView) view.findViewById(R.id.savingsPercentage),
-                formatters.PERCENTAGE_FORMATTER);
-        savings1month = new UiBindingContainer(
-                (TextView) view.findViewById(R.id.Savings1Month),
-                formatters.CURRENCY_FORMATTER);
-        savings1year = new UiBindingContainer(
-                (TextView) view.findViewById(R.id.Savings1Year),
-                formatters.CURRENCY_FORMATTER);
-        savings4years = new UiBindingContainer(
-                (TextView) view.findViewById(R.id.Savings4Years),
-                formatters.CURRENCY_FORMATTER);
+        currentQuote = new Quote();
     }
 
-    public Quote getSelectedQuote() {
-        Quote quote = new Quote();
-        quote.Name = name;
+    @Override
+    public void AttachToView(View view) {
 
-        quote.cstet = cstet.getValue();
-        quote.csterminal = csterminal.getValue();
+//        CalculateInterface oneMonthCalculator = new CalculateInterface() {
+//            @Override
+//            public void Calculate() {
+//                double total = currentQuote.CustomerStatementTotal.getValue() - currentQuote.CustomerTerminal.getValue();
+//
+//                savings1month.setValue(total);
+//
+//                double percentageIncrease = (total / currentQuote.CustomerStatementTotal.getValue()) * 100;
+//
+//                double value = Double.isNaN(percentageIncrease)
+//                        || Double.isInfinite(percentageIncrease) ? 0.00
+//                        : percentageIncrease;
+//
+//                savingsPercentage.setValue(value);
+//
+//                double total1year = savings1month.getValue() * 12; // 1 year
+//
+//                savings1year.setValue(total1year);
+//
+//                double total4years = savings1month.getValue() * 48; // 2 years
+//
+//                savings4years.setValue(total4years);
+//            }
+//        };
 
-        quote.ccst = ccst.getValue();
-        quote.ccfr = ccfr.getValue();
+        CalculateInterface csTotalCalculator = new CalculateInterface() {
+            @Override
+            public void Calculate() {
+//                if (cstotal == null) // | csterminal == null | cstet == null
+//                    return;
 
-        quote.bcst = bcst.getValue();
-        quote.bcfr = bcfr.getValue();
+                currentQuote.CustomerStatementTotal.setValue(currentQuote.CustomerTerminal.getValue() + currentQuote.CustomerTotalExcludingTerminal.getValue());
+            }
+        };
 
-        quote.dcst = dcst.getValue();
-        quote.dcfr = dcfr.getValue();
+        getUiBindingContainer((EditText) view.findViewById(R.id.CSTotalExcTerminal), currentQuote.CustomerTotalExcludingTerminal, formatters.CURRENCY_FORMATTER, csTotalCalculator);
+        getUiBindingContainer((EditText) view.findViewById(R.id.CSTerminal), currentQuote.CustomerTerminal, formatters.CURRENCY_FORMATTER, csTotalCalculator);
+//        getUiBindingContainer((EditText) view.findViewById(R.id.CSTotal), currentQuote.CustomerStatementTotal, formatters.CURRENCY_FORMATTER, oneMonthCalculator);
 
-        quote.fincpcirate = fincpcirate.getValue();
+        CalculateInterface fIncCalculator = new CalculateInterface() {
+            @Override
+            public void Calculate() {
+                double total = currentQuote.CreditCardTotal.getValue() + currentQuote.BankCardTotal.getValue()
+                        + currentQuote.DebitCardTotal.getValue() + currentQuote.FIncludingPciRate.getValue();
 
-        quote.vendorterminal = vendorterminal.getValue();
+                currentQuote.FIncludingPciTotal.setValue(total);
+            }
+        };
 
-        return quote;
+        CalculateInterface cctCalculator = new CalculateInterface() {
+            @Override
+            public void Calculate() {
+                double total = currentQuote.CreditCardStatementTotal.getValue() * (currentQuote.CreditCardRate.getValue() / 100);
+
+                currentQuote.CreditCardTotal.setValue(total);
+            }
+        };
+
+        getUiBindingContainer((EditText) view.findViewById(R.id.CCST), currentQuote.CreditCardStatementTotal, formatters.CURRENCY_FORMATTER, cctCalculator);
+        getUiBindingContainer((EditText) view.findViewById(R.id.CCFR), currentQuote.CreditCardRate, formatters.DECIMAL_FORMATTER, cctCalculator);
+        getUiBindingContainer((TextView) view.findViewById(R.id.CCT), currentQuote.CreditCardTotal, formatters.CURRENCY_FORMATTER, fIncCalculator);
+
+        CalculateInterface bctCalculator = new CalculateInterface() {
+            @Override
+            public void Calculate() {
+                double total = currentQuote.BankCardStatementTotal.getValue() * (currentQuote.BankCardRate.getValue() / 100);
+
+                currentQuote.BankCardTotal.setValue(total);
+            }
+        };
+
+        getUiBindingContainer((EditText) view.findViewById(R.id.BCST), currentQuote.BankCardStatementTotal, formatters.CURRENCY_FORMATTER, bctCalculator);
+        getUiBindingContainer((EditText) view.findViewById(R.id.BCFR), currentQuote.BankCardRate, formatters.DECIMAL_FORMATTER, bctCalculator);
+        getUiBindingContainer((TextView) view.findViewById(R.id.BCT), currentQuote.BankCardTotal, formatters.CURRENCY_FORMATTER, fIncCalculator);
+
+        CalculateInterface dctCalculator = new CalculateInterface() {
+            @Override
+            public void Calculate() {
+                double total = currentQuote.DebitCardStatementTotal.getValue() * currentQuote.DebitCardRate.getValue();
+
+                currentQuote.DebitCardTotal.setValue(total);
+            }
+        };
+
+        getUiBindingContainer((EditText) view.findViewById(R.id.DCST), currentQuote.DebitCardStatementTotal, formatters.DECIMAL_FORMATTER, dctCalculator);
+        getUiBindingContainer((EditText) view.findViewById(R.id.DCFR), currentQuote.DebitCardRate, formatters.CURRENCY_FORMATTER, dctCalculator);
+        getUiBindingContainer((TextView) view.findViewById(R.id.DCT), currentQuote.DebitCardTotal, formatters.CURRENCY_FORMATTER, fIncCalculator);
+
+        CalculateInterface vendorTerminalTotalCalculator = new CalculateInterface() {
+            @Override
+            public void Calculate() {
+                double total = currentQuote.FIncludingPciTotal.getValue() + currentQuote.VendorTerminal.getValue();
+
+                currentQuote.VendorTerminalTotal.setValue(total);
+            }
+        };
+
+        getUiBindingContainer((TextView) view.findViewById(R.id.FIncPci), currentQuote.FIncludingPciTotal, formatters.CURRENCY_FORMATTER, vendorTerminalTotalCalculator);
+        getUiBindingContainer((EditText) view.findViewById(R.id.FIncPciRate), currentQuote.FIncludingPciRate, formatters.CURRENCY_FORMATTER, fIncCalculator);
+
+        getUiBindingContainer((EditText) view.findViewById(R.id.VendorTerminal), currentQuote.VendorTerminal, formatters.CURRENCY_FORMATTER, vendorTerminalTotalCalculator);
+//        getUiBindingContainer((EditText) view.findViewById(R.id.VendorTerminalTotal), currentQuote.VendorTerminalTotal, formatters.CURRENCY_FORMATTER, oneMonthCalculator);
+//
+//        savingsPercentage = getUiBindingContainer((TextView) view.findViewById(R.id.savingsPercentage), savingsPercentage, formatters.PERCENTAGE_FORMATTER);
+//        savings1month = getUiBindingContainer((TextView) view.findViewById(R.id.Savings1Month), savings1month, formatters.CURRENCY_FORMATTER);
+//        savings1year = getUiBindingContainer((TextView) view.findViewById(R.id.Savings1Year), savings1year, formatters.CURRENCY_FORMATTER);
+//        savings4years = getUiBindingContainer((TextView) view.findViewById(R.id.Savings4Years), savings4years, formatters.CURRENCY_FORMATTER);
     }
 
-    public void setSelectedQuote(Quote quote) {
-        name = quote.Name;
+//    private UiBindingContainer getUiBindingContainer(EditText editor, UiBindingContainer container, NumberFormat formatter, CalculateInterface callback) {
+//        if (editor == null){
+//            return container;
+//        }
+//
+//        EditText wrappedEditor = null;
+//
+//        if (formatter == formatters.CURRENCY_FORMATTER){
+//            wrappedEditor = formatters.getCurrencyEditor(editor);
+//        } else if (formatter == formatters.DECIMAL_FORMATTER){
+//            wrappedEditor = formatters.getDecimalEditor(editor);
+//        } else {
+//            throw new IllegalArgumentException("formatter not recognised.");
+//        }
+//
+//        return new UiBindingContainer(wrappedEditor, formatter, callback, container);
+//    }
 
-        cstet.setValue(quote.cstet);
-        csterminal.setValue(quote.csterminal);
+    private void getUiBindingContainer(EditText editor, BindableProperty property, NumberFormat formatter, CalculateInterface callback) {
+        if (editor == null){
+            return;
+        }
 
-        ccst.setValue(quote.ccst);
-        ccfr.setValue(quote.ccfr);
+        EditText wrappedEditor = null;
 
-        bcst.setValue(quote.bcst);
-        bcfr.setValue(quote.bcfr);
+        if (formatter == formatters.CURRENCY_FORMATTER){
+            wrappedEditor = formatters.getCurrencyEditor(editor);
+        } else if (formatter == formatters.DECIMAL_FORMATTER){
+            wrappedEditor = formatters.getDecimalEditor(editor);
+        } else {
+            throw new IllegalArgumentException("formatter not recognised.");
+        }
 
-        dcst.setValue(quote.dcst);
-        dcfr.setValue(quote.dcfr);
+        UiBindingContainer newWrapper = new UiBindingContainer(wrappedEditor, formatter, callback, property);
 
-        fincpcirate.setValue(quote.fincpcirate);
-
-        vendorterminal.setValue(quote.vendorterminal);
+        property.addListener(newWrapper);
     }
 
-    public void resetQuote() {
-        name = "";
+//    private void getUiBindingContainer(TextView editor, BindableProperty container, NumberFormat formatter) {
+//        getUiBindingContainer(editor, container, formatter, null);
+//    }
 
-        cstet.defaultToFormattedZero();
-        csterminal.defaultToFormattedZero();
+    private void getUiBindingContainer(TextView editor, BindableProperty property, NumberFormat formatter, CalculateInterface callback) {
+        if (editor == null){
+            return;
+        }
 
-        ccst.defaultToFormattedZero();
-        ccfr.defaultToFormattedZero();
+        UiBindingContainer newWrapper = new UiBindingContainer(editor, formatter, callback, property);
 
-        bcst.defaultToFormattedZero();
-        bcfr.defaultToFormattedZero();
-
-        dcst.defaultToFormattedZero();
-        dcfr.defaultToFormattedZero();
-
-        fincpcirate.defaultToFormattedZero();
-
-        vendorterminal.defaultToFormattedZero();
+        property.addListener(newWrapper);
     }
+
+//    public Quote getSelectedQuote() {
+//        Quote quote = new Quote();
+//        quote.Name.setValue(name);
+//
+//        quote.CustomerTotalExcludingTerminal.setValue(cstet.getValue());
+//        quote.CustomerTerminal.setValue(csterminal.getValue());
+//
+//        quote.CreditCardStatementTotal.setValue(ccst.getValue());
+//        quote.CreditCardRate.setValue(ccfr.getValue());
+//
+//        quote.BankCardStatementTotal.setValue(bcst.getValue());
+//        quote.BankCardRate.setValue(bcfr.getValue());
+//
+//        quote.DebitCardStatementTotal.setValue(dcst.getValue());
+//        quote.DebitCardRate.setValue(dcfr.getValue());
+//
+//        quote.FIncludingPciRate.setValue(fincpcirate.getValue());
+//
+//        quote.VendorTerminal.setValue(vendorterminal.getValue());
+//
+//        return quote;
+//    }
+//
+//    public void setSelectedQuote(Quote quote) {
+//        name = quote.Name.getValue();
+//
+//        cstet.setValue(quote.CustomerTotalExcludingTerminal.getValue());
+//        csterminal.setValue(quote.CustomerTerminal.getValue());
+//
+//        ccst.setValue(quote.CreditCardStatementTotal.getValue());
+//        ccfr.setValue(quote.CreditCardRate.getValue());
+//
+//        bcst.setValue(quote.BankCardStatementTotal.getValue());
+//        bcfr.setValue(quote.BankCardRate.getValue());
+//
+//        dcst.setValue(quote.DebitCardStatementTotal.getValue());
+//        dcfr.setValue(quote.DebitCardRate.getValue());
+//
+//        fincpcirate.setValue(quote.FIncludingPciRate.getValue());
+//
+//        vendorterminal.setValue(quote.VendorTerminal.getValue());
+//    }
+//
+//    public void resetQuote() {
+//        name = "";
+//
+//        cstet.defaultToFormattedZero();
+//        csterminal.defaultToFormattedZero();
+//
+//        ccst.defaultToFormattedZero();
+//        ccfr.defaultToFormattedZero();
+//
+//        bcst.defaultToFormattedZero();
+//        bcfr.defaultToFormattedZero();
+//
+//        dcst.defaultToFormattedZero();
+//        dcfr.defaultToFormattedZero();
+//
+//        fincpcirate.defaultToFormattedZero();
+//
+//        vendorterminal.defaultToFormattedZero();
+//    }
 }

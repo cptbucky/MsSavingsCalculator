@@ -1,22 +1,57 @@
 package com.avantics.savingscalc.common;
 
+import com.avantics.common.BindableProperty;
+
 public class Quote {
     public int Id = -1;
-    public String Name = null;
+    public BindableProperty<String> Name;
 
-    public Double cstet = null;
-    public Double csterminal = null;
+    public BindableProperty<Double> CustomerTerminal;
+    public BindableProperty<Double> CustomerTotalExcludingTerminal;
+    public BindableProperty<Double> CustomerStatementTotal;
 
-    public Double ccst = null;
-    public Double ccfr = null;
+    public BindableProperty<Double> CreditCardStatementTotal;
+    public BindableProperty<Double> CreditCardRate;
+    public BindableProperty<Double> CreditCardTotal;
 
-    public Double bcst = null;
-    public Double bcfr = null;
+    public BindableProperty<Double> BankCardStatementTotal;
+    public BindableProperty<Double> BankCardRate;
+    public BindableProperty<Double> BankCardTotal;
 
-    public Double dcst = null;
-    public Double dcfr = null;
+    public BindableProperty<Double> DebitCardStatementTotal;
+    public BindableProperty<Double> DebitCardRate;
+    public BindableProperty<Double> DebitCardTotal;
 
-    public double fincpcirate;
+    public BindableProperty<Double> FIncludingPciRate;
+    public BindableProperty<Double> FIncludingPciTotal;
 
-    public Double vendorterminal = null;
+    public BindableProperty<Double> VendorTerminal;
+    public BindableProperty<Double> VendorTerminalTotal;
+
+    public Quote(){
+
+        Name = new BindableProperty<String>("");
+
+        CustomerTotalExcludingTerminal = new BindableProperty<Double>(0.00);
+        CustomerTerminal = new BindableProperty<Double>(0.00);
+        CustomerStatementTotal = new BindableProperty<Double>(0.00);
+
+        CreditCardStatementTotal = new BindableProperty<Double>(0.00);
+        CreditCardRate = new BindableProperty<Double>(0.00);
+        CreditCardTotal = new BindableProperty<Double>(0.00);
+
+        BankCardStatementTotal = new BindableProperty<Double>(0.00);
+        BankCardRate = new BindableProperty<Double>(0.00);
+        BankCardTotal = new BindableProperty<Double>(0.00);
+
+        DebitCardStatementTotal = new BindableProperty<Double>(0.00);
+        DebitCardRate = new BindableProperty<Double>(0.00);
+        DebitCardTotal = new BindableProperty<Double>(0.00);
+
+        FIncludingPciRate = new BindableProperty<Double>(0.00);
+        FIncludingPciTotal = new BindableProperty<Double>(0.00);
+
+        VendorTerminal = new BindableProperty<Double>(0.00);
+        VendorTerminalTotal = new BindableProperty<Double>(0.00);
+    }
 }

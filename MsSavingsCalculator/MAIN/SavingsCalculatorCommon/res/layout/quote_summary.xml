@@ -6,6 +6,30 @@
               android:padding="20dp">
 
     <LinearLayout
+            android:id="@+id/LinearLayout02"
+            style="@style/linearLayoutRow"
+            android:layout_width="fill_parent"
+            android:layout_height="37sp"
+            android:layout_below="@+id/LinearLayout2">
+
+        <TextView
+                android:id="@+id/CSTLabel"
+                style="@style/rightAlignLabel"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="2.3"
+                android:text="@string/calculated_total"/>
+
+        <TextView
+                android:id="@+id/CSTotal"
+                style="@style/totalLabel"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textIsSelectable="true"/>
+    </LinearLayout>
+
+    <LinearLayout
             android:id="@+id/LinearLayout3"
             style="@style/linearLayoutRow"
             android:layout_width="fill_parent"
@@ -214,7 +238,7 @@
                 android:text="@string/calculated_total"/>
 
         <TextView
-                android:id="@+id/FpmsTerminalTotal"
+                android:id="@+id/VendorTerminalTotal"
                 style="@style/totalLabel"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
@@ -222,4 +246,66 @@
                 android:textIsSelectable="true"/>
     </LinearLayout>
 
+	<View
+			android:id="@+id/sepLine02"
+			style="@style/horizontalRule"
+			android:layout_width="fill_parent"
+			android:layout_height="1dp"
+			android:layout_below="@+id/LinearLayout8"/>
+
+	<LinearLayout
+			android:id="@+id/LinearLayout01"
+			style="@style/linearLayoutRow"
+			android:layout_width="fill_parent"
+			android:layout_height="37sp"
+			android:layout_below="@id/sepLine02">
+
+		<TextView
+				android:id="@+id/savingsLabel"
+				style="@style/centerAlignLabel"
+				android:layout_width="0dp"
+				android:layout_height="wrap_content"
+				android:layout_weight="1"
+				android:text="@string/saving_percentage"/>
+
+		<TextView
+				android:id="@+id/savingsPercentage"
+				style="@style/leftAlignLabel"
+				android:layout_width="0dp"
+				android:layout_height="wrap_content"
+				android:layout_weight="2"
+				android:textIsSelectable="true"/>
+	</LinearLayout>
+
+	<LinearLayout
+			android:id="@+id/LinearLayout10"
+			style="@style/linearLayoutRow"
+			android:layout_width="fill_parent"
+			android:layout_height="37sp"
+			android:layout_below="@+id/LinearLayout9">
+
+		<TextView
+				android:id="@+id/Savings1Month"
+				style="@style/totalLabel"
+				android:layout_width="0dp"
+				android:layout_height="wrap_content"
+				android:layout_weight="1"
+				android:textIsSelectable="true"/>
+
+		<TextView
+				android:id="@+id/Savings1Year"
+				style="@style/totalLabel"
+				android:layout_width="0dp"
+				android:layout_height="wrap_content"
+				android:layout_weight="1"
+				android:textIsSelectable="true"/>
+
+		<TextView
+				android:id="@+id/Savings4Years"
+				style="@style/totalLabel"
+				android:layout_width="0dp"
+				android:layout_height="wrap_content"
+				android:layout_weight="1"
+				android:textIsSelectable="true"/>
+	</LinearLayout>
 </LinearLayout>
