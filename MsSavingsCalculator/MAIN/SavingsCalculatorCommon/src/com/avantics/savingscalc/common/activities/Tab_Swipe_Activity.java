@@ -5,12 +5,14 @@ import android.os.Bundle;
 import android.support.v4.app.FragmentActivity;
 import android.support.v4.view.ViewPager;
 import android.view.View;
-
 import com.avantics.common.IBindManager;
+import com.avantics.common.UiBindingContainer;
 import com.avantics.savingscalc.common.R;
 import com.avantics.savingscalc.common.UiBindingManager;
 import com.avantics.savingscalc.common.ViewPagerCustom;
 import com.avantics.savingscalc.common.vertCollectionPagerAdapter;
+
+import java.util.ArrayList;
 
 /**
  * Created by tom on 02/06/13.
@@ -84,7 +86,7 @@ public class Tab_Swipe_Activity extends FragmentActivity implements IBindManager
     }
 
     @Override
-    public void AttachToView(View view) {
-        binder.AttachToView(view);
+    public ArrayList<UiBindingContainer> AttachToView(View view) {
+        return binder.AttachToView(view);
     }
 }

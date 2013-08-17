@@ -1,5 +1,6 @@
 package com.avantics.common;
 
+import android.text.Editable;
 import android.text.TextWatcher;
 import android.widget.TextView;
 
@@ -7,78 +8,115 @@ import java.text.NumberFormat;
 import java.text.ParseException;
 
 public class UiBindingContainer<T> {
-    private final CalculateInterface calcInterface;
+    //    private final CalculateInterface calcInterface;
     public TextView Ctrl = null;
-	private NumberFormat formatter = null;
+    public BindableProperty<T> sourceProperty;
+    private NumberFormat formatter = null;
     private TextWatcher watcher = null;
 
-    private BindableProperty<T> sourceProperty;
+//    public UiBindingContainer(TextView editor, NumberFormat format, CalculateInterface callback) {
+//        Ctrl = editor;
+//        formatter = format;
+//        sourceProperty = null;
+//
+//        defaultToFormattedZero();
+//
+//        calcInterface = callback;
+//
+//        if (callback != null){
+//            watcher = new CalcWatcher(callback, this);
+//
+//            Ctrl.addTextChangedListener(watcher);
+//        }
+//    }
 
-    public UiBindingContainer(TextView editor, NumberFormat format, CalculateInterface callback) {
-        Ctrl = editor;
+//    public UiBindingContainer(TextView editor, NumberFormat format, CalculateInterface callback, BindableProperty<T> container) {
+//        Ctrl = editor;
+//        formatter = format;
+//        sourceProperty = container;
+//
+////        defaultToFormattedZero();
+//
+////        setValue(sourceProperty.getValue());
+//
+//        calcInterface = callback;
+//
+//        if (callback != null){
+//            watcher = new CalcWatcher(callback, this);
+//
+//            Ctrl.addTextChangedListener(watcher);
+//        }
+//    }
+
+    public UiBindingContainer(TextView wrappedEditor, NumberFormat format, BindableProperty property) {
+        Ctrl = wrappedEditor;
         formatter = format;
-        sourceProperty = null;
+        sourceProperty = property;
 
-        defaultToFormattedZero();
+        Ctrl.addTextChangedListener(new TextWatcher() {
+            @Override
+            public void beforeTextChanged(CharSequence s, int start, int count, int after) {
+            }
 
-        calcInterface = callback;
+            @Override
+            public void onTextChanged(CharSequence s, int start, int before, int count) {
+                updateProperty();
+            }
 
-        if (callback != null){
-            watcher = new CalcWatcher(callback, this);
-
-            Ctrl.addTextChangedListener(watcher);
-        }
+            @Override
+            public void afterTextChanged(Editable s) {
+            }
+        });
     }
 
-    public UiBindingContainer(TextView editor, NumberFormat format, CalculateInterface callback, BindableProperty<T> container) {
-        Ctrl = editor;
-        formatter = format;
-        sourceProperty = container;
+//    public String getStringValue() {
+//        String extractedValue;
+//
+//        String currentText = Ctrl.getText().toString();
+//
+//        // hate this code..
+//        try {
+//            extractedValue = formatter.parse(currentText);
+//        } catch (ParseException e) {
+//            extractedValue = Helper.getDoubleFrom(currentText);
+//        }
+//
+//        return extractedValue;
+//    }
 
-        defaultToFormattedZero();
+    public Double getDoubleValue() {
+        Double extractedValue;
 
-        calcInterface = callback;
+        String currentText = Ctrl.getText().toString();
 
-        if (callback != null){
-            watcher = new CalcWatcher(callback, this);
-
-            Ctrl.addTextChangedListener(watcher);
+        // hate this code..
+        try {
+            extractedValue = formatter.parse(currentText).doubleValue();
+        } catch (ParseException e) {
+            extractedValue = Helper.getDoubleFrom(currentText);
         }
-    }
-
-	public double getValue() {
-		double extractedValue;
-
-		String currentText = Ctrl.getText().toString();
-
-		// hate this code..
-		try {
-			extractedValue = formatter.parse(currentText).doubleValue();
-		} catch (ParseException e) {
-			extractedValue = Helper.getDoubleFrom(currentText);
-		}
 
         return extractedValue;
-	}
+    }
 
-	public void setValue(T value) {
-        T currentValue = sourceProperty.getValue();
+    public void setValue(T value) {
+        T currentValue = (T) getDoubleValue();
 
         if (value.equals(currentValue))
             return;
 
-        sourceProperty.setValue(value);
+//        sourceProperty.setValue(value);
 
         if (Ctrl.isFocused()) {
-			Ctrl.setText(String.valueOf(value));
-		} else {
-			Ctrl.setText(formatter.format(value));
-		}
+            Ctrl.setText(String.valueOf(value));
+        } else {
+            Ctrl.setText(formatter.format(value));
+        }
 
 //        recalculate();
-	}
+    }
 
-	public void defaultToFormattedZero() {
+    public void defaultToFormattedZero() {
         if (formatter == null) {
             Ctrl.setText(String.valueOf(0));
         } else {
@@ -86,21 +124,39 @@ public class UiBindingContainer<T> {
         }
     }
 
-    public void suspendChangeNotification(){
-        if (watcher != null){
+    public void suspendChangeNotification() {
+        if (watcher != null) {
             Ctrl.removeTextChangedListener(watcher);
         }
     }
 
-    public void resumeChangeNotification(){
-        if (watcher != null){
+    public void resumeChangeNotification() {
+        if (watcher != null) {
             Ctrl.addTextChangedListener(watcher);
         }
     }
 
-    public void recalculate(){
-        if (calcInterface != null){
-            calcInterface.Calculate();
+//    public void recalculate(){
+//        if (calcInterface != null){
+//            calcInterface.Calculate();
+//        }
+//    }
+
+    public void updateProperty() {
+        Double currentValue = getDoubleValue();
+
+/*
+        if (!currentValue.equals(sourceProperty.getValue())) {
+*/
+        sourceProperty.setValue((T) currentValue);
+/*
         }
+*/
+
+//        recalculate();
+    }
+
+    public void rebindValue() {
+        setValue(sourceProperty.getValue());
     }
 }
