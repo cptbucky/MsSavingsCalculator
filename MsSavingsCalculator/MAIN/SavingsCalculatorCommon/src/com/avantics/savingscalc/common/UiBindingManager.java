@@ -165,24 +165,6 @@ public class UiBindingManager implements IBindManager {
         return containedControls;
     }
 
-//    private UiBindingContainer getUiBindingContainer(EditText editor, UiBindingContainer container, NumberFormat formatter, CalculateInterface callback) {
-//        if (editor == null){
-//            return container;
-//        }
-//
-//        EditText wrappedEditor = null;
-//
-//        if (formatter == formatters.CURRENCY_FORMATTER){
-//            wrappedEditor = formatters.getCurrencyEditor(editor);
-//        } else if (formatter == formatters.DECIMAL_FORMATTER){
-//            wrappedEditor = formatters.getDecimalEditor(editor);
-//        } else {
-//            throw new IllegalArgumentException("formatter not recognised.");
-//        }
-//
-//        return new UiBindingContainer(wrappedEditor, formatter, callback, container);
-//    }
-
     private void getUiBindingContainer(EditText editor, BindableProperty property, NumberFormat formatter) {
         if (editor == null) {
             return;
@@ -206,14 +188,12 @@ public class UiBindingManager implements IBindManager {
         property.addListener(contained);
     }
 
-//    private void getUiBindingContainer(TextView editor, BindableProperty container, NumberFormat formatter) {
-//        getUiBindingContainer(editor, container, formatter, null);
-//    }
-
     private void getUiBindingContainer(TextView editor, BindableProperty property, NumberFormat formatter) {
         if (editor == null) {
             return;
         }
+
+        editor.setText(formatter.format(0.00));
 
         UiBindingContainer newWrapper = new UiBindingContainer(editor, formatter, property);
 

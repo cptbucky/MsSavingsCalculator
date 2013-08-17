@@ -48,7 +48,22 @@ public class Quote {
         CustomerTotalExcludingTerminal = new BindableProperty<Double>(0.00, customerStatementTotals);
         CustomerTerminal = new BindableProperty<Double>(0.00, customerStatementTotals);
 
-        CustomerStatementTotal = new BindableProperty<Double>(0.00);
+        OnValueChangedEventListener savingsPercentage = new OnValueChangedEventListener() {
+            @Override
+            public void OnValueChanged() {
+                double actualSaving = CustomerStatementTotal.getValue() - VendorTerminalTotal.getValue();
+
+                SavingsOneMonth.setValue(actualSaving);
+                SavingsOneYear.setValue(actualSaving * 12);
+                SavingsFourYears.setValue(actualSaving * 48);
+
+                double total = (actualSaving / CustomerStatementTotal.getValue());
+
+                SavingsPercentage.setValue(total);
+            }
+        };
+
+        CustomerStatementTotal = new BindableProperty<Double>(0.00, savingsPercentage);
 
         OnValueChangedEventListener fIncPciTotal = new OnValueChangedEventListener() {
             @Override
@@ -115,23 +130,7 @@ public class Quote {
         FIncludingPciTotal = new BindableProperty<Double>(0.00, vTerminalTotal);
 
         VendorTerminal = new BindableProperty<Double>(0.00, vTerminalTotal);
-
-        OnValueChangedEventListener savingsPercentage = new OnValueChangedEventListener() {
-            @Override
-            public void OnValueChanged() {
-                double total = (CustomerStatementTotal.getValue() / VendorTerminalTotal.getValue()) * 100;
-
-                SavingsPercentage.setValue(total);
-
-                double actualSaving = CustomerStatementTotal.getValue() - VendorTerminalTotal.getValue();
-
-                SavingsOneMonth.setValue(actualSaving);
-                SavingsOneYear.setValue(actualSaving * 12);
-                SavingsFourYears.setValue(actualSaving * 48);
-            }
-        };
-
-        VendorTerminalTotal = new BindableProperty<Double>(0.00);
+        VendorTerminalTotal = new BindableProperty<Double>(0.00, savingsPercentage);
 
         SavingsPercentage = new BindableProperty<Double>(0.00);
         SavingsOneMonth = new BindableProperty<Double>(0.00);

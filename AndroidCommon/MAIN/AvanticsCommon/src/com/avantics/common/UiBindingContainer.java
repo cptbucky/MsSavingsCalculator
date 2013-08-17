@@ -14,40 +14,6 @@ public class UiBindingContainer<T> {
     private NumberFormat formatter = null;
     private TextWatcher watcher = null;
 
-//    public UiBindingContainer(TextView editor, NumberFormat format, CalculateInterface callback) {
-//        Ctrl = editor;
-//        formatter = format;
-//        sourceProperty = null;
-//
-//        defaultToFormattedZero();
-//
-//        calcInterface = callback;
-//
-//        if (callback != null){
-//            watcher = new CalcWatcher(callback, this);
-//
-//            Ctrl.addTextChangedListener(watcher);
-//        }
-//    }
-
-//    public UiBindingContainer(TextView editor, NumberFormat format, CalculateInterface callback, BindableProperty<T> container) {
-//        Ctrl = editor;
-//        formatter = format;
-//        sourceProperty = container;
-//
-////        defaultToFormattedZero();
-//
-////        setValue(sourceProperty.getValue());
-//
-//        calcInterface = callback;
-//
-//        if (callback != null){
-//            watcher = new CalcWatcher(callback, this);
-//
-//            Ctrl.addTextChangedListener(watcher);
-//        }
-//    }
-
     public UiBindingContainer(TextView wrappedEditor, NumberFormat format, BindableProperty property) {
         Ctrl = wrappedEditor;
         formatter = format;
@@ -68,21 +34,6 @@ public class UiBindingContainer<T> {
             }
         });
     }
-
-//    public String getStringValue() {
-//        String extractedValue;
-//
-//        String currentText = Ctrl.getText().toString();
-//
-//        // hate this code..
-//        try {
-//            extractedValue = formatter.parse(currentText);
-//        } catch (ParseException e) {
-//            extractedValue = Helper.getDoubleFrom(currentText);
-//        }
-//
-//        return extractedValue;
-//    }
 
     public Double getDoubleValue() {
         Double extractedValue;
@@ -105,23 +56,12 @@ public class UiBindingContainer<T> {
         if (value.equals(currentValue))
             return;
 
-//        sourceProperty.setValue(value);
-
         if (Ctrl.isFocused()) {
             Ctrl.setText(String.valueOf(value));
         } else {
             Ctrl.setText(formatter.format(value));
         }
 
-//        recalculate();
-    }
-
-    public void defaultToFormattedZero() {
-        if (formatter == null) {
-            Ctrl.setText(String.valueOf(0));
-        } else {
-            Ctrl.setText(formatter.format(0));
-        }
     }
 
     public void suspendChangeNotification() {
@@ -136,24 +76,10 @@ public class UiBindingContainer<T> {
         }
     }
 
-//    public void recalculate(){
-//        if (calcInterface != null){
-//            calcInterface.Calculate();
-//        }
-//    }
-
     public void updateProperty() {
         Double currentValue = getDoubleValue();
 
-/*
-        if (!currentValue.equals(sourceProperty.getValue())) {
-*/
         sourceProperty.setValue((T) currentValue);
-/*
-        }
-*/
-
-//        recalculate();
     }
 
     public void rebindValue() {

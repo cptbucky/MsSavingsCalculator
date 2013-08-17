@@ -39,7 +39,7 @@ class NumericRangeFilter implements InputFilter {
 
         try {
             newEntry = p_dest.toString();
-            if (stringToBeReplaced != "")
+            if (!stringToBeReplaced.equals(""))
                 newEntry = newEntry.replace(stringToBeReplaced, "");
             newEntry = newEntry.concat(p_source.toString());
         } catch (NullPointerException ex) {
