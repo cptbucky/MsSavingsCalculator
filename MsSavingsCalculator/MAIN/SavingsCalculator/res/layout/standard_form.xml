@@ -2,14 +2,14 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
               xmlns:tools="http://schemas.android.com/tools"
               android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:id="@+id/fragContainer" >
+              android:layout_height="match_parent"
+              android:id="@+id/fragContainer">
 
-    <fragment
-        android:id="@+id/quoteFragment"
-        android:name="com.avantics.savingscalc.common.fragments.QuoteFragment"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        tools:layout="@layout/quote_form"/>
+	<fragment
+			android:id="@+id/quoteFragment"
+			android:name="com.avantics.savingscalc.common.fragments.QuoteFragment"
+			android:layout_width="match_parent"
+			android:layout_height="match_parent"
+			tools:layout="@layout/quote_form"/>
 
 </LinearLayout>

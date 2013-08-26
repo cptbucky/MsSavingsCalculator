@@ -5,7 +5,8 @@
 
 	<LinearLayout android:layout_width="match_parent"
 	              android:layout_height="match_parent"
-	              android:orientation="vertical">
+	              android:orientation="vertical"
+	              android:isScrollContainer="true">
 
 		<LinearLayout
 				style="@style/linearLayoutRow"
@@ -17,15 +18,15 @@
 					android:layout_width="0dp"
 					android:layout_height="wrap_content"
 					android:layout_weight="1"
-					android:text="@string/cc_rate_long"/>
+					android:text="@string/cc_total"/>
 
-			<EditText
-					android:id="@+id/CCFR"
-					style="@style/percentageInput"
+			<TextView
+					android:id="@+id/CCT"
+					style="@style/centerAlignLabel"
 					android:layout_width="0dp"
 					android:layout_height="wrap_content"
-					android:layout_weight="1"/>
-
+					android:layout_weight="1"
+					android:textIsSelectable="true"/>
 		</LinearLayout>
 
 		<LinearLayout
@@ -38,14 +39,15 @@
 					android:layout_width="0dp"
 					android:layout_height="wrap_content"
 					android:layout_weight="1"
-					android:text="@string/bc_rate_long"/>
+					android:text="@string/bc_total"/>
 
-			<EditText
-					android:id="@+id/BCFR"
-					style="@style/percentageInput"
+			<TextView
+					android:id="@+id/BCT"
+					style="@style/centerAlignLabel"
 					android:layout_width="0dp"
 					android:layout_height="wrap_content"
-					android:layout_weight="1"/>
+					android:layout_weight="1"
+					android:textIsSelectable="true"/>
 		</LinearLayout>
 
 		<LinearLayout
@@ -58,39 +60,15 @@
 					android:layout_width="0dp"
 					android:layout_height="wrap_content"
 					android:layout_weight="1"
-					android:text="@string/dc_rate_long"/>
-
-			<EditText
-					android:id="@+id/DCFR"
-					style="@style/currencyInput"
-					android:layout_width="0dp"
-					android:layout_height="wrap_content"
-					android:layout_weight="1"/>
-
-		</LinearLayout>
-
-		<LinearLayout
-				style="@style/linearLayoutRow"
-				android:layout_width="fill_parent"
-				android:layout_height="37sp"
-				android:layout_below="@+id/LinearLayout6"
-				>
+					android:text="@string/dc_total"/>
 
 			<TextView
-					android:id="@+id/lblVendorIncPci"
-					style="@style/leftAlignLabel"
+					android:id="@+id/DCT"
+					style="@style/centerAlignLabel"
 					android:layout_width="0dp"
 					android:layout_height="wrap_content"
 					android:layout_weight="1"
-					android:text="@string/vendor_inc_pci"/>
-
-			<EditText
-					android:id="@+id/FIncPciRate"
-					style="@style/currencyInput"
-					android:layout_width="0dp"
-					android:layout_height="wrap_content"
-					android:layout_weight="1"/>
-
+					android:textIsSelectable="true"/>
 		</LinearLayout>
 
 		<LinearLayout
@@ -104,14 +82,38 @@
 					android:layout_width="0dp"
 					android:layout_height="wrap_content"
 					android:layout_weight="1"
-					android:text="@string/vendor_terminal"/>
+					android:text="@string/vendor_statement_total"/>
 
-			<EditText
-					android:id="@+id/VendorTerminal"
-					style="@style/currencyInput"
+			<TextView
+					android:id="@+id/VendorTerminalTotal"
+					style="@style/centerAlignLabel"
 					android:layout_width="0dp"
 					android:layout_height="wrap_content"
-					android:layout_weight="1"/>
+					android:layout_weight="1"
+					android:textIsSelectable="true"/>
+		</LinearLayout>
+
+		<LinearLayout
+				style="@style/linearLayoutRow"
+				android:layout_width="fill_parent"
+				android:layout_height="37sp"
+				android:layout_below="@+id/LinearLayout2">
+
+			<TextView
+					android:id="@+id/CSTLabel"
+					style="@style/leftAlignLabel"
+					android:layout_width="0dp"
+					android:layout_height="wrap_content"
+					android:layout_weight="1"
+					android:text="@string/client_statement_total"/>
+
+			<TextView
+					android:id="@+id/CSTotal"
+					style="@style/centerAlignLabel"
+					android:layout_width="0dp"
+					android:layout_height="wrap_content"
+					android:layout_weight="1"
+					android:textIsSelectable="true"/>
 		</LinearLayout>
 
 	</LinearLayout>

@@ -1,10 +1,13 @@
-package com.avantics.savingscalc.common.activities;
+package com.avantics.savingscalc.common.fragments;
 
 import android.app.ActionBar;
+import android.app.Activity;
 import android.os.Bundle;
-import android.support.v4.app.FragmentActivity;
+import android.support.v4.app.Fragment;
 import android.support.v4.view.ViewPager;
+import android.view.LayoutInflater;
 import android.view.View;
+import android.view.ViewGroup;
 import com.avantics.common.IBindManager;
 import com.avantics.common.UiBindingContainer;
 import com.avantics.savingscalc.common.R;
@@ -17,30 +20,34 @@ import java.util.ArrayList;
 /**
  * Created by tom on 02/06/13.
  */
-public class Tab_Swipe_Activity extends FragmentActivity implements IBindManager {
+public class TabbedFragment extends Fragment implements IBindManager {
     public UiBindingManager binder = null;
 
     vertCollectionPagerAdapter mVCollectionPageAdapter;
     ViewPagerCustom mViewPager;
 
-    public Tab_Swipe_Activity() {
+    public TabbedFragment() {
         binder = new UiBindingManager();
     }
 
     @Override
-    protected void onCreate(Bundle savedInstanceState) {
-        super.onCreate(savedInstanceState);
+    public View onCreateView(LayoutInflater inflater, ViewGroup container,
+                             Bundle savedInstanceState) {
 
-        setContentView(R.layout.main);
+        View view = inflater.inflate(R.layout.tab_swipe_activity, container, false);
 
-        setupPager();
+        setupPager(view);
 
-        setupABar();
+        setupABar(view);
+
+        return view;
     }
 
-    private void setupABar() {
+    private void setupABar(View view) {
+        final Activity currentActivity = getActivity();
+
         // obtain the action bar
-        final ActionBar aBar = getActionBar();
+        final ActionBar aBar = currentActivity.getActionBar();
 
         // set it to tab mode
         aBar.setNavigationMode(ActionBar.NAVIGATION_MODE_TABS);
@@ -69,10 +76,12 @@ public class Tab_Swipe_Activity extends FragmentActivity implements IBindManager
         aBar.addTab(aBar.newTab().setText("Savings").setTabListener(tabListener));
     }
 
-    private void setupPager() {
+    private void setupPager(View view) {
+        final Activity currentActivity = getActivity();
+
         // the page adapter contains all the fragment registrations
-        mVCollectionPageAdapter = new vertCollectionPagerAdapter(getSupportFragmentManager(), binder);
-        mViewPager = (ViewPagerCustom) findViewById(R.id.pager);
+        mVCollectionPageAdapter = new vertCollectionPagerAdapter(getActivity().getSupportFragmentManager(), binder);
+        mViewPager = (ViewPagerCustom) view.findViewById(R.id.pager);
 
         // set the contents of the ViewPager
         mViewPager.setAdapter(mVCollectionPageAdapter);
@@ -82,7 +91,7 @@ public class Tab_Swipe_Activity extends FragmentActivity implements IBindManager
         mViewPager.setOnPageChangeListener(new ViewPager.SimpleOnPageChangeListener() {
             @Override
             public void onPageSelected(int pos) {
-                getActionBar().setSelectedNavigationItem(pos);
+                currentActivity.getActionBar().setSelectedNavigationItem(pos);
             }
         });
     }

@@ -34,6 +34,8 @@ public class Quote {
     public BindableProperty<Double> SavingsOneYear;
     public BindableProperty<Double> SavingsFourYears;
 
+    private boolean changed = false;
+
     public Quote() {
 
         Name = new BindableProperty<String>("");
@@ -41,6 +43,8 @@ public class Quote {
         OnValueChangedEventListener customerStatementTotals = new OnValueChangedEventListener() {
             @Override
             public void OnValueChanged() {
+                changed = true;
+
                 CustomerStatementTotal.setValue(CustomerTerminal.getValue() + CustomerTotalExcludingTerminal.getValue());
             }
         };
@@ -51,6 +55,8 @@ public class Quote {
         OnValueChangedEventListener savingsPercentage = new OnValueChangedEventListener() {
             @Override
             public void OnValueChanged() {
+                changed = true;
+
                 double actualSaving = CustomerStatementTotal.getValue() - VendorTerminalTotal.getValue();
 
                 SavingsOneMonth.setValue(actualSaving);
@@ -68,6 +74,8 @@ public class Quote {
         OnValueChangedEventListener fIncPciTotal = new OnValueChangedEventListener() {
             @Override
             public void OnValueChanged() {
+                changed = true;
+
                 double total = CreditCardTotal.getValue() + BankCardTotal.getValue() + DebitCardTotal.getValue() + FIncludingPciRate.getValue();
 
                 FIncludingPciTotal.setValue(total);
@@ -77,6 +85,8 @@ public class Quote {
         OnValueChangedEventListener creditCardTotal = new OnValueChangedEventListener() {
             @Override
             public void OnValueChanged() {
+                changed = true;
+
                 double total = CreditCardStatementTotal.getValue() * (CreditCardRate.getValue() / 100);
 
                 CreditCardTotal.setValue(total);
@@ -91,6 +101,8 @@ public class Quote {
         OnValueChangedEventListener bankCardTotal = new OnValueChangedEventListener() {
             @Override
             public void OnValueChanged() {
+                changed = true;
+
                 double total = BankCardStatementTotal.getValue() * (BankCardRate.getValue() / 100);
 
                 BankCardTotal.setValue(total);
@@ -105,6 +117,8 @@ public class Quote {
         OnValueChangedEventListener debitCardTotal = new OnValueChangedEventListener() {
             @Override
             public void OnValueChanged() {
+                changed = true;
+
                 double total = DebitCardStatementTotal.getValue() * DebitCardRate.getValue();
 
                 DebitCardTotal.setValue(total);
@@ -121,6 +135,8 @@ public class Quote {
         OnValueChangedEventListener vTerminalTotal = new OnValueChangedEventListener() {
             @Override
             public void OnValueChanged() {
+                changed = true;
+
                 double total = FIncludingPciTotal.getValue() + VendorTerminal.getValue();
 
                 VendorTerminalTotal.setValue(total);
@@ -136,5 +152,13 @@ public class Quote {
         SavingsOneMonth = new BindableProperty<Double>(0.00);
         SavingsOneYear = new BindableProperty<Double>(0.00);
         SavingsFourYears = new BindableProperty<Double>(0.00);
+    }
+
+    public void ResetChangesFlag() {
+        changed = false;
+    }
+
+    public boolean HasChanged() {
+        return changed;
     }
 }

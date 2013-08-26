@@ -5,115 +5,88 @@
 
 	<LinearLayout android:layout_width="match_parent"
 	              android:layout_height="match_parent"
-	              android:orientation="vertical">
-
+	              android:orientation="vertical"
+	              android:isScrollContainer="true">
 		<LinearLayout
 				style="@style/linearLayoutRow"
 				android:layout_width="fill_parent"
-				android:layout_height="37sp">
+				android:layout_height="fill_parent">
 
 			<TextView
+					android:id="@+id/savingsLabel"
 					style="@style/leftAlignLabel"
 					android:layout_width="0dp"
 					android:layout_height="wrap_content"
 					android:layout_weight="1"
-					android:text="@string/cc_rate_long"/>
-
-			<EditText
-					android:id="@+id/CCFR"
-					style="@style/percentageInput"
-					android:layout_width="0dp"
-					android:layout_height="wrap_content"
-					android:layout_weight="1"/>
-
-		</LinearLayout>
-
-		<LinearLayout
-				style="@style/linearLayoutRow"
-				android:layout_width="fill_parent"
-				android:layout_height="37sp">
+					android:text="@string/saving_percentage"/>
 
 			<TextView
-					style="@style/leftAlignLabel"
+					android:id="@+id/savingsPercentage"
+					style="@style/centerAlignLabel"
 					android:layout_width="0dp"
 					android:layout_height="wrap_content"
 					android:layout_weight="1"
-					android:text="@string/bc_rate_long"/>
-
-			<EditText
-					android:id="@+id/BCFR"
-					style="@style/percentageInput"
-					android:layout_width="0dp"
-					android:layout_height="wrap_content"
-					android:layout_weight="1"/>
-		</LinearLayout>
-
-		<LinearLayout
-				style="@style/linearLayoutRow"
-				android:layout_width="fill_parent"
-				android:layout_height="37sp">
-
-			<TextView
-					style="@style/leftAlignLabel"
-					android:layout_width="0dp"
-					android:layout_height="wrap_content"
-					android:layout_weight="1"
-					android:text="@string/dc_rate_long"/>
-
-			<EditText
-					android:id="@+id/DCFR"
-					style="@style/currencyInput"
-					android:layout_width="0dp"
-					android:layout_height="wrap_content"
-					android:layout_weight="1"/>
-
+					android:textIsSelectable="true"/>
 		</LinearLayout>
 
 		<LinearLayout
 				style="@style/linearLayoutRow"
 				android:layout_width="fill_parent"
 				android:layout_height="37sp"
-				android:layout_below="@+id/LinearLayout6"
-				>
+				android:layout_below="@+id/LinearLayout01">
 
 			<TextView
-					android:id="@+id/lblVendorIncPci"
 					style="@style/leftAlignLabel"
 					android:layout_width="0dp"
 					android:layout_height="wrap_content"
 					android:layout_weight="1"
-					android:text="@string/vendor_inc_pci"/>
+					android:text="@string/savings_month"/>
 
-			<EditText
-					android:id="@+id/FIncPciRate"
-					style="@style/currencyInput"
+			<TextView
+					style="@style/leftAlignLabel"
 					android:layout_width="0dp"
 					android:layout_height="wrap_content"
-					android:layout_weight="1"/>
+					android:layout_weight="1"
+					android:text="@string/saving_year"/>
 
+			<TextView
+					style="@style/leftAlignLabel"
+					android:layout_width="0dp"
+					android:layout_height="wrap_content"
+					android:layout_weight="1"
+					android:text="@string/saving_4years"/>
 		</LinearLayout>
 
 		<LinearLayout
 				style="@style/linearLayoutRow"
 				android:layout_width="fill_parent"
-				android:layout_height="37sp">
+				android:layout_height="37sp"
+				android:layout_below="@+id/LinearLayout9">
 
 			<TextView
-					android:id="@+id/lblVendorTerminal"
+					android:id="@+id/Savings1Month"
 					style="@style/leftAlignLabel"
 					android:layout_width="0dp"
 					android:layout_height="wrap_content"
 					android:layout_weight="1"
-					android:text="@string/vendor_terminal"/>
+					android:textIsSelectable="true"/>
 
-			<EditText
-					android:id="@+id/VendorTerminal"
-					style="@style/currencyInput"
+			<TextView
+					android:id="@+id/Savings1Year"
+					style="@style/leftAlignLabel"
 					android:layout_width="0dp"
 					android:layout_height="wrap_content"
-					android:layout_weight="1"/>
-		</LinearLayout>
+					android:layout_weight="1"
+					android:textIsSelectable="true"/>
 
+			<TextView
+					android:id="@+id/Savings4Years"
+					style="@style/leftAlignLabel"
+					android:layout_width="0dp"
+					android:layout_height="wrap_content"
+					android:layout_weight="1"
+					android:textIsSelectable="true"/>
+		</LinearLayout>
 	</LinearLayout>
 
 </ScrollView>

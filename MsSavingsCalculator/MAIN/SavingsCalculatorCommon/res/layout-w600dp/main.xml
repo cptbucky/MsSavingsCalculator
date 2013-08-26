@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:tools="http://schemas.android.com/tools"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
+
+	<LinearLayout android:layout_width="fill_parent"
+	              android:layout_height="fill_parent"
+	              android:orientation="vertical"
+	              android:padding="20dp">
+		<TextView
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:text="@string/client_section_header"
+				android:id="@+id/textView" style="@style/sectionHeaderLabel"/>
+		<fragment
+				android:name="com.avantics.savingscalc.common.fragments.IncumbentFragment"
+				android:layout_width="match_parent"
+				android:layout_height="match_parent"
+				tools:layout="@layout/quote_incumbent"
+				android:layout_marginLeft="20dp" android:layout_marginRight="20dp" android:layout_marginTop="20dp"/>
+
+		<TextView
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:text="@string/vendor_section_header"
+				android:id="@+id/textView1" style="@style/sectionHeaderLabel"/>
+		<fragment
+				android:name="com.avantics.savingscalc.common.fragments.ProposedFragment"
+				android:layout_width="match_parent"
+				android:layout_height="match_parent"
+				tools:layout="@layout/quote_proposed"
+				android:layout_marginLeft="20dp" android:layout_marginRight="20dp" android:layout_marginTop="20dp"/>
+
+		<TextView
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:text="@string/summary_section_header"
+				android:id="@+id/textView2" style="@style/sectionHeaderLabel"/>
+
+		<fragment
+				android:name="com.avantics.savingscalc.common.fragments.SummaryFragment"
+				android:layout_width="match_parent"
+				android:layout_height="match_parent"
+				tools:layout="@layout/quote_summary"
+				android:layout_marginLeft="20dp" android:layout_marginRight="20dp" android:layout_marginTop="20dp"/>
+
+		<fragment
+				android:name="com.avantics.savingscalc.common.fragments.SavingsFragment"
+				android:layout_width="match_parent"
+				android:layout_height="match_parent"
+				tools:layout="@layout/quote_summary"
+				android:layout_marginRight="20dp" android:layout_marginTop="20dp"/>
+
+	</LinearLayout>
+</ScrollView>
