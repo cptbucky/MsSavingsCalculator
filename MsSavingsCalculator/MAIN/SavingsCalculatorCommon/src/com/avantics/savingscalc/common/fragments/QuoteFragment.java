@@ -17,7 +17,7 @@ public class QuoteFragment extends Fragment {
     public UiBindingManager binder = null;
 
     public QuoteFragment() {
-
+        binder = new UiBindingManager();
     }
 
     @Override
@@ -25,8 +25,6 @@ public class QuoteFragment extends Fragment {
                              Bundle savedInstanceState) {
 
         View view = inflater.inflate(R.layout.quote_form, container, false);
-
-        binder = new UiBindingManager();
 
         containedControls = binder.AttachToView(view);
 

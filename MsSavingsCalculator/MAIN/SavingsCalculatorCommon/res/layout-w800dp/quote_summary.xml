@@ -77,7 +77,7 @@
 				android:layout_height="37sp">
 
 			<TextView
-					android:id="@+id/lblVendorTerminal"
+					android:id="@+id/lblVendorTotal"
 					style="@style/leftAlignLabel"
 					android:layout_width="0dp"
 					android:layout_height="wrap_content"

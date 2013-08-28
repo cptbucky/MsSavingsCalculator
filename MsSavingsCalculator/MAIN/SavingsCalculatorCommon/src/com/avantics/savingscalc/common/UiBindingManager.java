@@ -86,7 +86,7 @@ public class UiBindingManager implements IBindManager {
             return;
         }
 
-        editor.setText(formatter.format(0.00));
+        editor.setText(formatter.format(property.getValue()));
 
         UiBindingContainer newWrapper = new UiBindingContainer(editor, formatter, property);
 

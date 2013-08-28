@@ -24,7 +24,8 @@
 				android:layout_width="wrap_content"
 				android:layout_height="wrap_content"
 				android:text="@string/vendor_section_header"
-				android:id="@+id/textView1" style="@style/sectionHeaderLabel"/>
+				android:id="@+id/vendorHeaderLabel" style="@style/sectionHeaderLabel"/>
+
 		<fragment
 				android:name="com.avantics.savingscalc.common.fragments.ProposedFragment"
 				android:layout_width="match_parent"
@@ -36,7 +37,7 @@
 				android:layout_width="wrap_content"
 				android:layout_height="wrap_content"
 				android:text="@string/summary_section_header"
-				android:id="@+id/textView2" style="@style/sectionHeaderLabel"/>
+				android:id="@+id/summaryHeaderLabel" style="@style/sectionHeaderLabel"/>
 
 		<fragment
 				android:name="com.avantics.savingscalc.common.fragments.SummaryFragment"

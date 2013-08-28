@@ -31,48 +31,13 @@ public class ViewPagerCustom extends ViewPager {
 //        return super.canScroll(v, checkV, dx, x, y);
 //    }
 
-//    @Override
-//    public boolean onInterceptTouchEvent(MotionEvent event) {
-//        int eventAction = event.getAction();
-//
-////        switch (eventaction) {
-////            case MotionEvent.ACTION_DOWN:
-////                // finger touches the screen
-////                break;
-////            case MotionEvent.ACTION_MOVE:
-////                // finger moves on the screen
-////                break;
-////            case MotionEvent.ACTION_UP:
-////                // finger leaves the screen
-////                break;
-////        }
-//
-//        switch (eventAction) {
-//            case MotionEvent.ACTION_MOVE:
-//                return false;
-//            case MotionEvent.ACTION_UP:
-//            case MotionEvent.ACTION_CANCEL:
-//            case MotionEvent.ACTION_DOWN:
-//                return false;
-//        }
-//
-////        boolean rtrn = super.onInterceptTouchEvent(event);
-//
-//        return false;
-//    }
+    @Override
+    public boolean onInterceptTouchEvent(MotionEvent event) {
+        return false;
+    }
 
     @Override
     public boolean onTouchEvent(MotionEvent event) {
-        // Never allow swiping to switch between pages
-//        switch (event.getAction()) {
-//            case MotionEvent.ACTION_MOVE:
-//                return true;
-//            case MotionEvent.ACTION_UP:
-//            case MotionEvent.ACTION_CANCEL:
-//            case MotionEvent.ACTION_DOWN:
-//                return false;
-//        }
-
         return false;
     }
 }
