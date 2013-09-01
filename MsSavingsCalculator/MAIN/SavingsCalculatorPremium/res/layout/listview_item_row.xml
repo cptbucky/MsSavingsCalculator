@@ -23,13 +23,15 @@
     <ImageButton
         android:id="@+id/deleteQuote"
         android:focusableInTouchMode="true"
-        android:background="?android:selectableItemBackground"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentRight="true"
         android:contentDescription="@string/load_quote_dialog_row_remove"
         android:src="@drawable/content_remove"
-        android:padding="10sp" />
+        android:padding="10sp"
+        style="@style/listViewImageButton"/>
+
+	<!--android:background="?android:selectableItemBackground"-->
 
     <!-- <TextView -->
     <!-- android:id="@+id/txtTitle" -->

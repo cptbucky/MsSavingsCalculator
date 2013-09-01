@@ -1,69 +1,70 @@
 package com.avantics.savingscalcpremium.activities;
 
-import android.app.Activity;
 import android.app.AlertDialog;
 import android.app.Dialog;
-import android.app.FragmentManager;
 import android.content.Context;
 import android.content.DialogInterface;
 import android.content.Intent;
 import android.content.SharedPreferences;
 import android.net.Uri;
+import android.os.Build;
 import android.os.Bundle;
 import android.os.Environment;
 import android.preference.PreferenceManager;
+import android.support.v4.app.FragmentActivity;
+import android.support.v4.app.FragmentManager;
 import android.util.SparseArray;
-import android.view.LayoutInflater;
-import android.view.Menu;
-import android.view.MenuItem;
-import android.view.View;
-import android.view.WindowManager;
+import android.view.*;
 import android.view.inputmethod.InputMethodManager;
 import android.widget.*;
 import android.widget.AdapterView.OnItemClickListener;
-
-import com.avantics.savingscalc.common.IActivity;
-import com.avantics.savingscalc.common.Quote;
-import com.avantics.savingscalc.common.UiBindingManager;
+import com.avantics.common.IBindManager;
+import com.avantics.common.UiBindingContainer;
+import com.avantics.savingscalc.common.*;
+import com.avantics.savingscalc.common.activities.Main;
 import com.avantics.savingscalc.common.fragments.QuoteFragment;
-import com.avantics.savingscalcpremium.ConfirmDialogFragment;
-import com.avantics.savingscalcpremium.ConfirmationDialogHandler;
-import com.avantics.savingscalcpremium.DatabaseHelper;
-import com.avantics.savingscalcpremium.DeleteQuoteRequestHandler;
-import com.avantics.savingscalcpremium.ExcelExporter;
-import com.avantics.savingscalcpremium.LoadListItem;
-import com.avantics.savingscalcpremium.LoadListItemAdapter;
+import com.avantics.savingscalcpremium.*;
 import com.avantics.savingscalcpremium.R;
 import com.avantics.savingscalcpremium.fragments.SettingsFragment;
 
 import java.io.File;
 import java.util.ArrayList;
 
-public class MainActivity extends Activity implements IActivity {
+public class MainActivity extends FragmentActivity implements IBindManager {
 
     private static final String HeaderTextKey = "HEADER_TEXT";
 
-    private UiBindingManager binder = null;
-    DatabaseHelper dbHelper = null;
+    private static UiBindingManager binder;
+
+    private DatabaseHelper dbHelper = null;
     private SparseArray<String> availableQuoteNames;
 
     private Menu appMenu;
-    QuoteFragment quoteFrag;
+
+    public MainActivity() {
+        if (binder == null) {
+            binder = new UiBindingManager();
+        }
+    }
+
+    @Override
+    public ArrayList<UiBindingContainer> AttachToView(View view) {
+        return binder.AttachToView(view);
+    }
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
 
-        setContentView(R.layout.premium_quote_form);
+        if (Build.VERSION.SDK_INT < Build.VERSION_CODES.HONEYCOMB) {
+            setContentView(com.avantics.savingscalc.common.R.layout.standard_form);
+        } else{
+            setContentView(R.layout.premium_quote_form);
+        }
+
+//        setContentView(R.layout.premium_quote_form);
 
         PreferenceManager.setDefaultValues(this, R.layout.settings, false);
-
-        FragmentManager fragManager = getFragmentManager();
-        quoteFrag = (QuoteFragment) fragManager.findFragmentById(R.id.quoteFragment);
-
-        binder = quoteFrag.binder;
-
-        /*getFilesDir().getAbsolutePath();*/
 
         dbHelper = new DatabaseHelper(this, 6);
 
@@ -92,7 +93,11 @@ public class MainActivity extends Activity implements IActivity {
         // Handle item selection
         switch (item.getItemId()) {
             case R.id.action_save:
-                saveQuote();
+                saveQuote(new ConfirmationDialogHandler() {
+                    @Override
+                    public void callback() {
+                    }
+                });
 
                 return true;
             case R.id.action_load:
@@ -108,8 +113,13 @@ public class MainActivity extends Activity implements IActivity {
 
                 return true;
             case R.id.action_settings:
-                Intent i = new Intent(this, SettingsActivity.class);
-                startActivityForResult(i, 1);
+                if (Build.VERSION.SDK_INT < Build.VERSION_CODES.HONEYCOMB) {
+                    Intent i = new Intent(this, SupportSettingsActivity.class);
+                    startActivityForResult(i, 1);
+                } else {
+                    Intent i = new Intent(this, SettingsActivity.class);
+                    startActivityForResult(i, 1);
+                }
                 return true;
             default:
                 return super.onOptionsItemSelected(item);
@@ -119,7 +129,7 @@ public class MainActivity extends Activity implements IActivity {
     @Override
     protected void onSaveInstanceState(Bundle outState) {
         super.onSaveInstanceState(outState);
-        outState.putString(HeaderTextKey, binder.name);
+        outState.putString(HeaderTextKey, binder.currentQuote.Name.getValue());
     }
 
     private void setLoadVisibility() {
@@ -130,8 +140,8 @@ public class MainActivity extends Activity implements IActivity {
     }
 
     private void clearFocusAndKeyboard() {
-        RelativeLayout myLayout = (RelativeLayout) findViewById(com.avantics.savingscalc.common.R.id.RelativeLayout1);
-        myLayout.requestFocus();
+        LinearLayout rootLayout = (LinearLayout) findViewById(R.id.fragContainer);
+        rootLayout.requestFocus();
 
         InputMethodManager inputManager = (InputMethodManager) getSystemService(Context.INPUT_METHOD_SERVICE);
         inputManager.hideSoftInputFromWindow(this.getCurrentFocus().getWindowToken(), InputMethodManager.HIDE_NOT_ALWAYS);
@@ -144,7 +154,7 @@ public class MainActivity extends Activity implements IActivity {
     private void sendQuote() {
         String filePath = String.format("%s/MsSavingsCalculator_Quote.xls", Environment.getExternalStorageDirectory());
 
-        ExcelExporter.CreateWorksheetFromBinder(filePath, binder, getResources());
+        ExcelExporter.CreateWorksheetFromBinder(filePath, binder.currentQuote, getResources());
 
         SendEmailAttachWorksheet(filePath);
     }
@@ -159,15 +169,15 @@ public class MainActivity extends Activity implements IActivity {
         Intent i = new Intent(Intent.ACTION_SEND);
         i.setType("message/rfc822");
 
-        String[] recipient = new String[]{preferences.getString(SettingsFragment.PREF_SHARE_RECIPIENT, String.valueOf(Activity.MODE_PRIVATE))};
+        String[] recipient = new String[]{preferences.getString(SettingsFragment.PREF_SHARE_RECIPIENT, String.valueOf(FragmentActivity.MODE_PRIVATE))};
         if (recipient.length == 1)
             i.putExtra(Intent.EXTRA_EMAIL, recipient);
 
-        String[] cc = new String[]{preferences.getString(SettingsFragment.PREF_SHARE_CC, String.valueOf(Activity.MODE_PRIVATE))};
+        String[] cc = new String[]{preferences.getString(SettingsFragment.PREF_SHARE_CC, String.valueOf(FragmentActivity.MODE_PRIVATE))};
         if (cc.length == 1)
             i.putExtra(Intent.EXTRA_CC, cc);
 
-        String[] bcc = new String[]{preferences.getString(SettingsFragment.PREF_SHARE_BCC, String.valueOf(Activity.MODE_PRIVATE))};
+        String[] bcc = new String[]{preferences.getString(SettingsFragment.PREF_SHARE_BCC, String.valueOf(FragmentActivity.MODE_PRIVATE))};
         if (bcc.length == 1)
             i.putExtra(Intent.EXTRA_BCC, bcc);
 
@@ -216,54 +226,53 @@ public class MainActivity extends Activity implements IActivity {
                     args.putString("titleString",
                             String.format("Delete Quote %s?", title));
                     args.putString("confirmString", "Delete");
+                    args.putString("cancelString", "Cancel");
                     confirmation.setArguments(args);
-                    confirmation
-                            .setOnConfirmed(new ConfirmationDialogHandler() {
+                    confirmation.setOnConfirmed(new ConfirmationDialogHandler() {
 
-                                @Override
-                                public void callback() {
-                                    Context context = getApplicationContext();
-                                    CharSequence text = String.format(
-                                            "%s deleted.", title);
-                                    int duration = Toast.LENGTH_SHORT;
+                        @Override
+                        public void callback() {
+                            Context context = getApplicationContext();
+                            CharSequence text = String.format(
+                                    "%s deleted", title);
+                            int duration = Toast.LENGTH_SHORT;
 
-                                    dbHelper.deleteQuote(title);
+                            dbHelper.deleteQuote(title);
 
-                                    if (binder.getSelectedQuote().Name
-                                            .equals(title)) {
-                                        binder.resetQuote();
+                            if (binder.getSelectedQuote().Name
+                                    .equals(title)) {
+                                binder.resetQuote();
 
-                                        setTitle(getResources().getString(
-                                                R.string.app_name));
-                                    }
+                                setTitle(getResources().getString(
+                                        R.string.app_name));
+                            }
 
-                                    availableQuoteNames = dbHelper
-                                            .getAvailableQuoteNames();
+                            availableQuoteNames = dbHelper
+                                    .getAvailableQuoteNames();
 
-                                    load_items.clear();
+                            load_items.clear();
 
-                                    for (int i = 0; i < availableQuoteNames
-                                            .size(); i++) {
-                                        load_items
-                                                .add(new LoadListItem(
-                                                        availableQuoteNames
-                                                                .valueAt(i)));
-                                    }
+                            for (int i = 0; i < availableQuoteNames
+                                    .size(); i++) {
+                                load_items
+                                        .add(new LoadListItem(
+                                                availableQuoteNames
+                                                        .valueAt(i)));
+                            }
 
-                                    if (availableQuoteNames.size() == 0) {
-                                        manageDialog.dismiss();
-                                        setLoadVisibility();
-                                    } else {
-                                        adapter.notifyDataSetChanged();
-                                    }
+                            if (availableQuoteNames.size() == 0) {
+                                manageDialog.dismiss();
+                                setLoadVisibility();
+                            } else {
+                                adapter.notifyDataSetChanged();
+                            }
 
-                                    Toast toast = Toast.makeText(context, text,
-                                            duration);
-                                    toast.show();
-                                }
-                            });
+                            Toast toast = Toast.makeText(context, text, duration);
+                            toast.show();
+                        }
+                    });
 
-                    confirmation.show(getFragmentManager(), "confirmDelete");
+                    confirmation.show(getSupportFragmentManager(), "confirmDelete");
                 }
             });
 
@@ -276,9 +285,46 @@ public class MainActivity extends Activity implements IActivity {
                 @Override
                 public void onItemClick(AdapterView<?> arg0, View arg1,
                                         int arg2, long arg3) {
-                    setSelectedQuote(arg2);
+                    final int title = arg2;
 
-                    manageDialog.dismiss();
+                    if (binder.getSelectedQuote().HasChanged()) {
+                        ConfirmDialogFragment confirmation = new ConfirmDialogFragment();
+                        Bundle args = new Bundle();
+                        args.putString("titleString", "Save Previous Quote?");
+                        args.putString("confirmString", "Yes");
+                        args.putString("cancelString", "No");
+                        confirmation.setArguments(args);
+                        confirmation.setOnConfirmed(new ConfirmationDialogHandler() {
+
+                                    @Override
+                                    public void callback() {
+                                        saveQuote(new ConfirmationDialogHandler(){
+
+                                            @Override
+                                            public void callback() {
+                                                setSelectedQuote(title);
+
+                                                manageDialog.dismiss();
+                                            }
+                                        });
+                                    }
+                                });
+                        confirmation.setOnCanceled(new ConfirmationDialogHandler() {
+
+                                    @Override
+                                    public void callback() {
+                                        setSelectedQuote(title);
+
+                                        manageDialog.dismiss();
+                                    }
+                                });
+
+                        confirmation.show(getSupportFragmentManager(), "savePreviousQuote");
+                    }   else{
+                        setSelectedQuote(arg2);
+
+                        manageDialog.dismiss();
+                    }
                 }
             });
 
@@ -286,16 +332,10 @@ public class MainActivity extends Activity implements IActivity {
         }
     }
 
-    private void saveQuote() {
-        // final EditText input = new EditText(this);
-
-        // LayoutInflater inflater = getLayoutInflater();
-        // View dialoglayout = inflater.inflate(R.layout.save_quote_view,
-        // (ViewGroup) getCurrentFocus());
-        //
+    private void saveQuote(final ConfirmationDialogHandler confirmationDialogHandler) {
         LayoutInflater factory = LayoutInflater.from(MainActivity.this);
-        final View alertDialogView = factory.inflate(R.layout.save_quote_view,
-                null);
+
+        final View alertDialogView = factory.inflate(R.layout.save_quote_view, null);
 
         final AlertDialog.Builder builder = new AlertDialog.Builder(this)
                 .setTitle("Save Quote As..")
@@ -319,6 +359,7 @@ public class MainActivity extends Activity implements IActivity {
         Bundle args = new Bundle();
         args.putString("titleString", "Overwrite Quote?");
         args.putString("confirmString", "Overwrite");
+        args.putString("cancelString", "Cancel");
         confirmation.setArguments(args);
         confirmation.setOnConfirmed(new ConfirmationDialogHandler() {
 
@@ -332,16 +373,18 @@ public class MainActivity extends Activity implements IActivity {
                 // validation!!
 
                 Quote quote = binder.getSelectedQuote();
-                quote.Name = quoteName;
+                quote.Name.setValue(quoteName);
 
                 dbHelper.updateQuote(quote);
 
-                setCurrentTitle(quote.Name);
+                setCurrentTitle(quote.Name.getValue());
 
                 saveDialog.dismiss();
 
+                confirmationDialogHandler.callback();
+
                 Context context = getApplicationContext();
-                CharSequence text = String.format("%s saved.", quoteName);
+                CharSequence text = String.format("%s saved", quoteName);
                 int duration = Toast.LENGTH_SHORT;
 
                 setLoadVisibility();
@@ -372,16 +415,18 @@ public class MainActivity extends Activity implements IActivity {
 
                 if (wantToCloseDialog) {
                     Quote quote = binder.getSelectedQuote();
-                    quote.Name = quoteName;
+                    quote.Name.setValue(quoteName);
 
                     dbHelper.addQuote(quote);
 
-                    setCurrentTitle(quote.Name);
+                    setCurrentTitle(quote.Name.getValue());
 
                     saveDialog.dismiss();
 
+                    confirmationDialogHandler.callback();
+
                     Context context = getApplicationContext();
-                    CharSequence text = String.format("%s saved.", quoteName);
+                    CharSequence text = String.format("%s saved", quoteName);
                     int duration = Toast.LENGTH_SHORT;
 
                     setLoadVisibility();
@@ -389,7 +434,7 @@ public class MainActivity extends Activity implements IActivity {
                     Toast toast = Toast.makeText(context, text, duration);
                     toast.show();
                 } else {
-                    confirmation.show(getFragmentManager(), "confirmOverwrite");
+                    confirmation.show(getSupportFragmentManager(), "confirmOverwrite");
                 }
             }
         };
@@ -407,7 +452,7 @@ public class MainActivity extends Activity implements IActivity {
     }
 
     private void setCurrentTitle(String title) {
-        binder.name = title;
+//        binder.name = title;
 
         setTitle(String.format("%s%s",
                 getResources().getString(R.string.app_name),

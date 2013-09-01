@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.avantics.savingscalcpremium"
-    android:versionCode="2"
-    android:versionName="1.0.1" >
+    android:versionCode="5"
+    android:versionName="1.0.4" >
 
     <uses-sdk
-        android:minSdkVersion="12"
+        android:minSdkVersion="7"
         android:targetSdkVersion="12" />
 
     <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
@@ -28,6 +28,9 @@
         </activity>
         <activity android:name=".activities.SettingsActivity"
             android:label="@string/pref_title" />
+	    <activity
+			    android:name=".activities.SupportSettingsActivity"
+			    android:label="@string/pref_title" />
     </application>
 
 </manifest>

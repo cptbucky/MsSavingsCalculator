@@ -59,17 +59,17 @@ public class DatabaseHelper extends SQLiteOpenHelper {
 
     public void addQuote(Quote quote) {
         ContentValues cv = new ContentValues();
-        cv.put(colName, quote.Name);
-        cv.put(colCTET, quote.cstet);
-        cv.put(colCT, quote.csterminal);
-        cv.put(colCCST, quote.ccst);
-        cv.put(colCCR, quote.ccfr);
-        cv.put(colBCST, quote.bcst);
-        cv.put(colBCR, quote.bcfr);
-        cv.put(colDCST, quote.dcst);
-        cv.put(colDCR, quote.dcfr);
-        cv.put(colFincPCIRate, quote.fincpcirate);
-        cv.put(colVendorTerminal, quote.vendorterminal);
+        cv.put(colName, quote.Name.getValue());
+        cv.put(colCTET, quote.CustomerTotalExcludingTerminal.getValue());
+        cv.put(colCT, quote.CustomerTerminal.getValue());
+        cv.put(colCCST, quote.CreditCardStatementTotal.getValue());
+        cv.put(colCCR, quote.CreditCardRate.getValue());
+        cv.put(colBCST, quote.BankCardStatementTotal.getValue());
+        cv.put(colBCR, quote.BankCardRate.getValue());
+        cv.put(colDCST, quote.DebitCardStatementTotal.getValue());
+        cv.put(colDCR, quote.DebitCardRate.getValue());
+        cv.put(colFincPCIRate, quote.FIncludingPciRate.getValue());
+        cv.put(colVendorTerminal, quote.VendorTerminal.getValue());
         db.insert(tableQuotes, null, cv);
     }
 
@@ -101,18 +101,20 @@ public class DatabaseHelper extends SQLiteOpenHelper {
 
         while (c.moveToNext()) {
             quote.Id = c.getInt(0);
-            quote.Name = c.getString(1);
-            quote.cstet = c.getDouble(2);
-            quote.csterminal = c.getDouble(3);
-            quote.ccst = c.getDouble(4);
-            quote.ccfr = c.getDouble(5);
-            quote.bcst = c.getDouble(6);
-            quote.bcfr = c.getDouble(7);
-            quote.dcst = c.getDouble(8);
-            quote.dcfr = c.getDouble(9);
-            quote.fincpcirate = c.getDouble(10);
-            quote.vendorterminal = c.getDouble(11);
+            quote.Name.setValue(c.getString(1));
+            quote.CustomerTotalExcludingTerminal.setValue(c.getDouble(2));
+            quote.CustomerTerminal.setValue(c.getDouble(3));
+            quote.CreditCardStatementTotal.setValue(c.getDouble(4));
+            quote.CreditCardRate.setValue(c.getDouble(5));
+            quote.BankCardStatementTotal.setValue(c.getDouble(6));
+            quote.BankCardRate.setValue(c.getDouble(7));
+            quote.DebitCardStatementTotal.setValue(c.getDouble(8));
+            quote.DebitCardRate.setValue(c.getDouble(9));
+            quote.FIncludingPciRate.setValue(c.getDouble(10));
+            quote.VendorTerminal.setValue(c.getDouble(11));
         }
+
+        quote.ResetChangesFlag();
 
         return quote;
     }
@@ -147,18 +149,18 @@ public class DatabaseHelper extends SQLiteOpenHelper {
 
     public void updateQuote(Quote quote) {
         ContentValues cv = new ContentValues();
-        cv.put(colName, quote.Name);
-        cv.put(colCTET, quote.cstet);
-        cv.put(colCT, quote.csterminal);
-        cv.put(colCCST, quote.ccst);
-        cv.put(colCCR, quote.ccfr);
-        cv.put(colBCST, quote.bcst);
-        cv.put(colBCR, quote.bcfr);
-        cv.put(colDCST, quote.dcst);
-        cv.put(colDCR, quote.dcfr);
-        cv.put(colFincPCIRate, quote.fincpcirate);
-        cv.put(colVendorTerminal, quote.vendorterminal);
-        db.update(tableQuotes, cv, colName + " == ?", new String[]{String.valueOf(quote.Name)});
+        cv.put(colName, quote.Name.getValue());
+        cv.put(colCTET, quote.CustomerTotalExcludingTerminal.getValue());
+        cv.put(colCT, quote.CustomerTerminal.getValue());
+        cv.put(colCCST, quote.CreditCardStatementTotal.getValue());
+        cv.put(colCCR, quote.CreditCardRate.getValue());
+        cv.put(colBCST, quote.BankCardStatementTotal.getValue());
+        cv.put(colBCR, quote.BankCardRate.getValue());
+        cv.put(colDCST, quote.DebitCardStatementTotal.getValue());
+        cv.put(colDCR, quote.DebitCardRate.getValue());
+        cv.put(colFincPCIRate, quote.FIncludingPciRate.getValue());
+        cv.put(colVendorTerminal, quote.VendorTerminal.getValue());
+        db.update(tableQuotes, cv, colName + " == ?", new String[]{quote.Name.getValue()});
     }
 
     public void deleteQuote(String title) {

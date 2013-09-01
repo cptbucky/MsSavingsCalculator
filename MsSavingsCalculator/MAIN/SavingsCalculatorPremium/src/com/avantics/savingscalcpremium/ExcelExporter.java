@@ -3,7 +3,7 @@ package com.avantics.savingscalcpremium;
 import android.content.res.Resources;
 import android.util.Log;
 
-import com.avantics.savingscalc.common.UiBindingManager;
+import com.avantics.savingscalc.common.Quote;
 import com.avantics.savingscalcpremium.fragments.PremiumQuoteFragment;
 
 import java.io.File;
@@ -21,7 +21,8 @@ import jxl.write.WriteException;
 import jxl.write.biff.RowsExceededException;
 
 public class ExcelExporter {
-    public static void CreateWorksheetFromBinder(String filePath, UiBindingManager binder, Resources resources) {
+
+    public static void CreateWorksheetFromBinder(String filePath, Quote quote, Resources resources) {
         ExcelExporter xlExporter = new ExcelExporter();
 
         WritableWorkbook wb = xlExporter.createWorkbook(filePath);
@@ -33,64 +34,66 @@ public class ExcelExporter {
 
         try {
             xlExporter.writeCell(2, currentRowIndex, resources.getString(R.string.statement_total_exc_terminal), false, ws);
-            xlExporter.writeCell(3, currentRowIndex, binder.cstet.getValue().toString(), false, ws);
+            xlExporter.writeCell(3, currentRowIndex, quote.CustomerTotalExcludingTerminal.getValue().toString(), false, ws);
 
             currentRowIndex++;
             xlExporter.writeCell(2, currentRowIndex, resources.getString(R.string.customer_teminal), false, ws);
-            xlExporter.writeCell(3, currentRowIndex, binder.csterminal.getValue().toString(), false, ws);
+            xlExporter.writeCell(3, currentRowIndex, quote.CustomerTerminal.getValue().toString(), false, ws);
 
             currentRowIndex++;
             xlExporter.writeCell(2, currentRowIndex, resources.getString(R.string.statement_total), false, ws);
-            xlExporter.writeCell(3, currentRowIndex, binder.cstotal.getValue().toString(), false, ws);
+            xlExporter.writeCell(3, currentRowIndex, quote.CustomerStatementTotal.getValue().toString(), false, ws);
 
             currentRowIndex += 2;
             xlExporter.writeCell(1, currentRowIndex, resources.getString(R.string.statement_total), false, ws);
-            xlExporter.writeCell(2, currentRowIndex, PremiumQuoteFragment.VENDOR_RATE_LABEL, false, ws);
+            xlExporter.writeCell(2, currentRowIndex, PremiumQuoteFragment.VENDOR_HEADER_LABEL, false, ws);
             xlExporter.writeCell(3, currentRowIndex, resources.getString(R.string.calculated_total), false, ws);
 
             currentRowIndex++;
             xlExporter.writeCell(0, currentRowIndex, resources.getString(R.string.cc_short), false, ws);
-            xlExporter.writeCell(1, currentRowIndex, binder.ccst.getValue().toString(), false, ws);
-            xlExporter.writeCell(2, currentRowIndex, binder.ccfr.getValue().toString(), false, ws);
-            xlExporter.writeCell(3, currentRowIndex, binder.cct.getValue().toString(), false, ws);
+            xlExporter.writeCell(1, currentRowIndex, quote.CreditCardStatementTotal.getValue().toString(), false, ws);
+            xlExporter.writeCell(2, currentRowIndex, quote.CreditCardRate.getValue().toString(), false, ws);
+            xlExporter.writeCell(3, currentRowIndex, quote.CreditCardTotal.getValue().toString(), false, ws);
 
             currentRowIndex++;
             xlExporter.writeCell(0, currentRowIndex, resources.getString(R.string.bc_short), false, ws);
-            xlExporter.writeCell(1, currentRowIndex, binder.bcst.getValue().toString(), false, ws);
-            xlExporter.writeCell(2, currentRowIndex, binder.bcfr.getValue().toString(), false, ws);
-            xlExporter.writeCell(3, currentRowIndex, binder.bct.getValue().toString(), false, ws);
+            xlExporter.writeCell(1, currentRowIndex, quote.BankCardStatementTotal.getValue().toString(), false, ws);
+            xlExporter.writeCell(2, currentRowIndex, quote.BankCardRate.getValue().toString(), false, ws);
+            xlExporter.writeCell(3, currentRowIndex, quote.BankCardTotal.getValue().toString(), false, ws);
 
             currentRowIndex++;
             xlExporter.writeCell(0, currentRowIndex, resources.getString(R.string.dc_short), false, ws);
-            xlExporter.writeCell(1, currentRowIndex, binder.dcst.getValue().toString(), false, ws);
-            xlExporter.writeCell(2, currentRowIndex, binder.dcfr.getValue().toString(), false, ws);
-            xlExporter.writeCell(3, currentRowIndex, binder.dct.getValue().toString(), false, ws);
+            xlExporter.writeCell(1, currentRowIndex, quote.DebitCardStatementTotal.getValue().toString(), false, ws);
+            xlExporter.writeCell(2, currentRowIndex, quote.DebitCardRate.getValue().toString(), false, ws);
+            xlExporter.writeCell(3, currentRowIndex, quote.DebitCardTotal.getValue().toString(), false, ws);
 
             currentRowIndex++;
             xlExporter.writeCell(1, currentRowIndex, PremiumQuoteFragment.VENDOR_INCPCI_LABEL, false, ws);
-            xlExporter.writeCell(2, currentRowIndex, binder.fincpcirate.getValue().toString(), false, ws);
-            xlExporter.writeCell(3, currentRowIndex, binder.fincpci.getValue().toString(), false, ws);
+            xlExporter.writeCell(2, currentRowIndex, quote.FIncludingPciRate.getValue().toString(), false, ws);
+            xlExporter.writeCell(3, currentRowIndex, quote.FIncludingPciTotal.getValue().toString(), false, ws);
 
             currentRowIndex++;
             xlExporter.writeCell(1, currentRowIndex, PremiumQuoteFragment.VENDOR_TERMINAL_LABEL, false, ws);
-            xlExporter.writeCell(2, currentRowIndex, binder.vendorterminal.getValue().toString(), false, ws);
-            xlExporter.writeCell(3, currentRowIndex, binder.vendorTerminalTotal.getValue().toString(), false, ws);
+            xlExporter.writeCell(2, currentRowIndex, quote.VendorTerminal.getValue().toString(), false, ws);
+            xlExporter.writeCell(3, currentRowIndex, quote.VendorTerminalTotal.getValue().toString(), false, ws);
 
             currentRowIndex += 2;
             xlExporter.writeCell(0, currentRowIndex, resources.getString(R.string.saving_percentage), false, ws);
-            xlExporter.writeCell(1, currentRowIndex, binder.savingsPercentage.getValue().toString(), false, ws);
+
+            Double savingsPercent = (quote.SavingsPercentage.getValue() * 100);
+            xlExporter.writeCell(1, currentRowIndex, savingsPercent.toString(), false, ws);
 
             currentRowIndex++;
             xlExporter.writeCell(0, currentRowIndex, resources.getString(R.string.savings_month), false, ws);
-            xlExporter.writeCell(1, currentRowIndex, binder.savings1month.getValue().toString(), false, ws);
+            xlExporter.writeCell(1, currentRowIndex, quote.SavingsOneMonth.getValue().toString(), false, ws);
 
             currentRowIndex++;
             xlExporter.writeCell(0, currentRowIndex, resources.getString(R.string.saving_year), false, ws);
-            xlExporter.writeCell(1, currentRowIndex, binder.savings1year.getValue().toString(), false, ws);
+            xlExporter.writeCell(1, currentRowIndex, quote.SavingsOneYear.getValue().toString(), false, ws);
 
             currentRowIndex++;
             xlExporter.writeCell(0, currentRowIndex, resources.getString(R.string.saving_4years), false, ws);
-            xlExporter.writeCell(1, currentRowIndex, binder.savings4years.getValue().toString(), false, ws);
+            xlExporter.writeCell(1, currentRowIndex, quote.SavingsFourYears.getValue().toString(), false, ws);
 
             xlExporter.setColumnWidth(ws, 1, 25);
             xlExporter.setColumnWidth(ws, 2, 30);

@@ -32,20 +32,81 @@
     <option name="TOOL_WINDOW_LOG_LEVEL" value="ERROR" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="523303bf-c867-4726-b503-d2c1e50084aa" name="Default" comment="" />
+    <list default="true" id="523303bf-c867-4726-b503-d2c1e50084aa" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/avantics/savingscalcpremium/activities/SupportSettingsActivity.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../../iWantToGoHome/res/values/styles.xml" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/res/values/style.xml" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AndroidManifest.xml" afterPath="$PROJECT_DIR$/AndroidManifest.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/avantics/savingscalcpremium/ConfirmDialogFragment.java" afterPath="$PROJECT_DIR$/src/com/avantics/savingscalcpremium/ConfirmDialogFragment.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/avantics/savingscalcpremium/DatabaseHelper.java" afterPath="$PROJECT_DIR$/src/com/avantics/savingscalcpremium/DatabaseHelper.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/avantics/savingscalcpremium/ExcelExporter.java" afterPath="$PROJECT_DIR$/src/com/avantics/savingscalcpremium/ExcelExporter.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/avantics/savingscalcpremium/activities/MainActivity.java" afterPath="$PROJECT_DIR$/src/com/avantics/savingscalcpremium/activities/MainActivity.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/avantics/savingscalcpremium/fragments/PremiumQuoteFragment.java" afterPath="$PROJECT_DIR$/src/com/avantics/savingscalcpremium/fragments/PremiumQuoteFragment.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/layout/listview_item_row.xml" afterPath="$PROJECT_DIR$/res/layout/listview_item_row.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/layout/premium_quote_form.xml" afterPath="$PROJECT_DIR$/res/layout/premium_quote_form.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/values/styles.xml" afterPath="$PROJECT_DIR$/res/values/styles.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/values-v14/styles.xml" afterPath="$PROJECT_DIR$/res/values-v14/styles.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../SavingsCalculator/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../SavingsCalculator/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+    </list>
     <ignored path="SavingsCalculatorPremium.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/ProposedFragment.java" changelist="523303bf-c867-4726-b503-d2c1e50084aa" time="1369078568194" ignored="false" />
-    <file path="/MainActivity.java" changelist="523303bf-c867-4726-b503-d2c1e50084aa" time="1372696792902" ignored="false" />
+    <file path="/ProposedFragment.java" changelist="523303bf-c867-4726-b503-d2c1e50084aa" time="1377718182368" ignored="false" />
+    <file path="/MainActivity.java" changelist="523303bf-c867-4726-b503-d2c1e50084aa" time="1377727620570" ignored="false" />
     <file path="/standard_form.xml" changelist="523303bf-c867-4726-b503-d2c1e50084aa" time="1369082457139" ignored="false" />
     <file path="/quote_form.xml" changelist="523303bf-c867-4726-b503-d2c1e50084aa" time="1369083778061" ignored="false" />
     <file path="/StandardActivity.java" changelist="523303bf-c867-4726-b503-d2c1e50084aa" time="1369084449262" ignored="false" />
-    <file path="/fragment.java" changelist="523303bf-c867-4726-b503-d2c1e50084aa" time="1374514043553" ignored="false" />
+    <file path="/fragment.java" changelist="523303bf-c867-4726-b503-d2c1e50084aa" time="1377723822731" ignored="false" />
     <file path="/a.xml" changelist="523303bf-c867-4726-b503-d2c1e50084aa" time="1372696666768" ignored="false" />
     <file path="/UiBindingContainer.java" changelist="523303bf-c867-4726-b503-d2c1e50084aa" time="1372718198062" ignored="false" />
     <file path="/CalcWatcher.java" changelist="523303bf-c867-4726-b503-d2c1e50084aa" time="1372701661135" ignored="false" />
-    <file path="/QuoteFragment.java" changelist="523303bf-c867-4726-b503-d2c1e50084aa" time="1372705704085" ignored="false" />
-    <file path="/UiBindingManager.java" changelist="523303bf-c867-4726-b503-d2c1e50084aa" time="1372717441475" ignored="false" />
+    <file path="/QuoteFragment.java" changelist="523303bf-c867-4726-b503-d2c1e50084aa" time="1377718618597" ignored="false" />
+    <file path="/UiBindingManager.java" changelist="523303bf-c867-4726-b503-d2c1e50084aa" time="1377434321413" ignored="false" />
+    <file path="/ExcelExporter.java" changelist="523303bf-c867-4726-b503-d2c1e50084aa" time="1377110974829" ignored="false" />
+    <file path="/a.dummy" changelist="523303bf-c867-4726-b503-d2c1e50084aa" time="1377632806442" ignored="false" />
+    <file path="/DatabaseHelper.java" changelist="523303bf-c867-4726-b503-d2c1e50084aa" time="1377438279734" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../AndroidCommon/MAIN/AvanticsCommon/gen/com/avantics/common/BuildConfig.java" changelist="523303bf-c867-4726-b503-d2c1e50084aa" time="1376786025982" ignored="false" />
+    <file path="$PROJECT_DIR$/../SavingsCalculatorCommon/gen/com/avantics/savingscalc/common/BuildConfig.java" changelist="523303bf-c867-4726-b503-d2c1e50084aa" time="1376786025982" ignored="false" />
+    <file path="/Dummy.txt" changelist="523303bf-c867-4726-b503-d2c1e50084aa" time="1378055277712" ignored="false" />
+    <file path="/SettingsActivity.java" changelist="523303bf-c867-4726-b503-d2c1e50084aa" time="1377035112881" ignored="false" />
+    <file path="/SettingsFragment.java" changelist="523303bf-c867-4726-b503-d2c1e50084aa" time="1377035222236" ignored="false" />
+    <file path="/SupportSettingsActivity.java" changelist="523303bf-c867-4726-b503-d2c1e50084aa" time="1377035087457" ignored="false" />
+    <file path="/AndroidManifest.xml" changelist="523303bf-c867-4726-b503-d2c1e50084aa" time="1377530617591" ignored="false" />
+    <file path="/listview_item_row.xml" changelist="523303bf-c867-4726-b503-d2c1e50084aa" time="1376857287181" ignored="false" />
+    <file path="/style.xml" changelist="523303bf-c867-4726-b503-d2c1e50084aa" time="1377544474065" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../iWantToGoHome/.idea/workspace.xml" changelist="523303bf-c867-4726-b503-d2c1e50084aa" time="1377035918351" ignored="false" />
+    <file path="/settings.xml" changelist="523303bf-c867-4726-b503-d2c1e50084aa" time="1377086697189" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../iWantToGoHome/res/values/strings.xml" changelist="523303bf-c867-4726-b503-d2c1e50084aa" time="1377087192712" ignored="false" />
+    <file path="/strings.xml" changelist="523303bf-c867-4726-b503-d2c1e50084aa" time="1377541710759" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../iWantToGoHome/res/menu/main.xml" changelist="523303bf-c867-4726-b503-d2c1e50084aa" time="1377034681732" ignored="false" />
+    <file path="/main.xml" changelist="523303bf-c867-4726-b503-d2c1e50084aa" time="1377724782880" ignored="false" />
+    <file path="/CountdownActivity.java" changelist="523303bf-c867-4726-b503-d2c1e50084aa" time="1377433619666" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../iWantToGoHome/src/com/avantics/iWantToGoHome/activities/SupportSettingsActivity.java" changelist="523303bf-c867-4726-b503-d2c1e50084aa" time="1377035404991" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../iWantToGoHome/src/com/avantics/iWantToGoHome/activities/CountdownActivity.java" changelist="523303bf-c867-4726-b503-d2c1e50084aa" time="1377433748405" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../iWantToGoHome/src/com/avantics/iWantToGoHome/activities/SettingsActivity.java" changelist="523303bf-c867-4726-b503-d2c1e50084aa" time="1377035390393" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../iWantToGoHome/AndroidManifest.xml" changelist="523303bf-c867-4726-b503-d2c1e50084aa" time="1377433783085" ignored="false" />
+    <file path="/time_preference.xml" changelist="523303bf-c867-4726-b503-d2c1e50084aa" time="1377086426203" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../iWantToGoHome/src/com/avantics/iWantToGoHome/TimePreference.java" changelist="523303bf-c867-4726-b503-d2c1e50084aa" time="1377433241460" ignored="false" />
+    <file path="/TimePreference.java" changelist="523303bf-c867-4726-b503-d2c1e50084aa" time="1377433234048" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../iWantToGoHome/res/layout/settings.xml" changelist="523303bf-c867-4726-b503-d2c1e50084aa" time="1377086695646" ignored="false" />
+    <file path="/Tab_Swipe_Activity.java" changelist="523303bf-c867-4726-b503-d2c1e50084aa" time="1377119701409" ignored="false" />
+    <file path="/ViewPagerCustom.java" changelist="523303bf-c867-4726-b503-d2c1e50084aa" time="1377123012971" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../iWantToGoHome/res/layout/main.xml" changelist="523303bf-c867-4726-b503-d2c1e50084aa" time="1377198818952" ignored="false" />
+    <file path="/styles.xml" changelist="523303bf-c867-4726-b503-d2c1e50084aa" time="1378053978126" ignored="false" />
+    <file path="/Quote.java" changelist="523303bf-c867-4726-b503-d2c1e50084aa" time="1377434789045" ignored="false" />
+    <file path="/ConfirmDialogFragment.java" changelist="523303bf-c867-4726-b503-d2c1e50084aa" time="1377435749373" ignored="false" />
+    <file path="/TabbedFragment.java" changelist="523303bf-c867-4726-b503-d2c1e50084aa" time="1377723788314" ignored="false" />
+    <file path="/Main.java" changelist="523303bf-c867-4726-b503-d2c1e50084aa" time="1377727112287" ignored="false" />
+    <file path="/quote_summary.xml" changelist="523303bf-c867-4726-b503-d2c1e50084aa" time="1377640304580" ignored="false" />
+    <file path="/SavingsFragment.java" changelist="523303bf-c867-4726-b503-d2c1e50084aa" time="1377718432131" ignored="false" />
+    <file path="/quote_savings.xml" changelist="523303bf-c867-4726-b503-d2c1e50084aa" time="1377548362072" ignored="false" />
+    <file path="/premium_quote_form.xml" changelist="523303bf-c867-4726-b503-d2c1e50084aa" time="1377631933817" ignored="false" />
+    <file path="/PremiumQuoteFragment.java" changelist="523303bf-c867-4726-b503-d2c1e50084aa" time="1377726331071" ignored="false" />
+    <file path="/IncumbentFragment.java" changelist="523303bf-c867-4726-b503-d2c1e50084aa" time="1377718227156" ignored="false" />
+    <file path="/SummaryFragment.java" changelist="523303bf-c867-4726-b503-d2c1e50084aa" time="1377718298660" ignored="false" />
+    <file path="/BindableFragment.java" changelist="523303bf-c867-4726-b503-d2c1e50084aa" time="1377721251187" ignored="false" />
+    <file path="/vertCollectionPagerAdapter.java" changelist="523303bf-c867-4726-b503-d2c1e50084aa" time="1377724481076" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -97,7 +158,128 @@
         <option name="LOG_MESSAGE" value="" />
       </breakpoint>
     </breakpoint_any>
-    <line_breakpoints default_suspend_policy="SuspendAll" default_condition_enabled="true" />
+    <line_breakpoints default_suspend_policy="SuspendAll" default_condition_enabled="true">
+      <breakpoint url="file://$PROJECT_DIR$/src/com/avantics/savingscalcpremium/activities/MainActivity.java" line="150" class="com.avantics.savingscalcpremium.activities.MainActivity" package="com.avantics.savingscalcpremium.activities">
+        <option name="ENABLED" value="true" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="REMOVE_AFTER_HIT" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="SUSPEND" value="true" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="true" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
+      <breakpoint url="file://$PROJECT_DIR$/src/com/avantics/savingscalcpremium/activities/MainActivity.java" line="345" class="com.avantics.savingscalcpremium.activities.MainActivity$4" package="com.avantics.savingscalcpremium.activities">
+        <option name="ENABLED" value="true" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="REMOVE_AFTER_HIT" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="SUSPEND" value="true" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="true" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
+      <breakpoint url="file://$PROJECT_DIR$/src/com/avantics/savingscalcpremium/activities/MainActivity.java" line="383" class="com.avantics.savingscalcpremium.activities.MainActivity$6" package="com.avantics.savingscalcpremium.activities">
+        <option name="ENABLED" value="true" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="REMOVE_AFTER_HIT" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="SUSPEND" value="true" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="true" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
+      <breakpoint url="file://$PROJECT_DIR$/src/com/avantics/savingscalcpremium/activities/MainActivity.java" line="425" class="com.avantics.savingscalcpremium.activities.MainActivity$7" package="com.avantics.savingscalcpremium.activities">
+        <option name="ENABLED" value="true" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="REMOVE_AFTER_HIT" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="SUSPEND" value="true" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="true" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
+      <breakpoint url="file://$PROJECT_DIR$/src/com/avantics/savingscalcpremium/activities/MainActivity.java" line="304" class="com.avantics.savingscalcpremium.activities.MainActivity$3$1$1" package="com.avantics.savingscalcpremium.activities">
+        <option name="ENABLED" value="true" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="REMOVE_AFTER_HIT" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="SUSPEND" value="true" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="true" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
+      <breakpoint url="file://$PROJECT_DIR$/src/com/avantics/savingscalcpremium/activities/MainActivity.java" line="377" class="com.avantics.savingscalcpremium.activities.MainActivity$6" package="com.avantics.savingscalcpremium.activities">
+        <option name="ENABLED" value="true" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="REMOVE_AFTER_HIT" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="SUSPEND" value="true" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="true" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
+      <breakpoint url="file://$PROJECT_DIR$/../SavingsCalculatorCommon/src/com/avantics/savingscalc/common/fragments/TabbedFragment.java" line="25" class="com.avantics.savingscalc.common.fragments.TabbedFragment" package="com.avantics.savingscalc.common.fragments">
+        <option name="ENABLED" value="true" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="REMOVE_AFTER_HIT" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="SUSPEND" value="true" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="true" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
+      <breakpoint url="file://$PROJECT_DIR$/../SavingsCalculatorCommon/src/com/avantics/savingscalc/common/activities/Main.java" line="28" class="com.avantics.savingscalc.common.activities.Main" package="com.avantics.savingscalc.common.activities">
+        <option name="ENABLED" value="true" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="REMOVE_AFTER_HIT" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="SUSPEND" value="true" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="true" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
+    </line_breakpoints>
     <breakpoint_rules />
     <ui_properties />
   </component>
@@ -107,49 +289,37 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="MainActivity.java" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="MainActivity.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/avantics/savingscalcpremium/activities/MainActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="297" column="81" selection-start="11100" selection-end="11100" vertical-scroll-proportion="6.5575223">
+            <state line="59" column="81" selection-start="1971" selection-end="1971" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="UiBindingManager.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../SavingsCalculatorCommon/src/com/avantics/savingscalc/common/UiBindingManager.java">
+      <file leaf-file-name="styles.xml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/res/values-v14/styles.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="13" column="13" selection-start="353" selection-end="353" vertical-scroll-proportion="0.0">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="settings.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/res/layout/settings.xml">
+      <file leaf-file-name="styles.xml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/res/values-v11/styles.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="51" column="95" selection-start="2107" selection-end="2107" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-          <provider editor-type-id="android-designer">
-            <state />
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="SettingsFragment.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/avantics/savingscalcpremium/fragments/SettingsFragment.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="102" column="50" selection-start="3951" selection-end="3951" vertical-scroll-proportion="0.0">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AndroidManifest.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/AndroidManifest.xml">
+      <file leaf-file-name="styles.xml" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/res/values/styles.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="3" column="26" selection-start="180" selection-end="180" vertical-scroll-proportion="0.0">
+            <state line="28" column="0" selection-start="1046" selection-end="1046" vertical-scroll-proportion="0.63917524">
               <folding />
             </state>
           </provider>
@@ -158,48 +328,45 @@
       <file leaf-file-name="PremiumQuoteFragment.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/avantics/savingscalcpremium/fragments/PremiumQuoteFragment.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="13" column="49" selection-start="447" selection-end="447" vertical-scroll-proportion="0.0">
+            <state line="76" column="0" selection-start="3022" selection-end="3022" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="UiBindingContainer.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../../../AndroidCommon/MAIN/AvanticsCommon/src/com/avantics/common/UiBindingContainer.java">
+      <file leaf-file-name="styles.xml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../SavingsCalculatorCommon/res/values/styles.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="48" column="0" selection-start="1159" selection-end="1159" vertical-scroll-proportion="0.0">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="CalcWatcher.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../../../AndroidCommon/MAIN/AvanticsCommon/src/com/avantics/common/CalcWatcher.java">
+      <file leaf-file-name="Main.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../SavingsCalculatorCommon/src/com/avantics/savingscalc/common/activities/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="19" column="0" selection-start="576" selection-end="576" vertical-scroll-proportion="0.0">
+            <state line="29" column="0" selection-start="790" selection-end="790" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="QuoteFragment.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../SavingsCalculatorCommon/src/com/avantics/savingscalc/common/fragments/QuoteFragment.java">
+      <file leaf-file-name="TabbedFragment.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../SavingsCalculatorCommon/src/com/avantics/savingscalc/common/fragments/TabbedFragment.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="26" column="22" selection-start="802" selection-end="802" vertical-scroll-proportion="0.0">
+            <state line="74" column="24" selection-start="2407" selection-end="2407" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="quote_form.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../SavingsCalculatorCommon/res/layout/quote_form.xml">
+      <file leaf-file-name="MobileTabbedFragment.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../SavingsCalculatorCommon/src/com/avantics/savingscalc/common/fragments/MobileTabbedFragment.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="9" column="44" selection-start="444" selection-end="444" vertical-scroll-proportion="0.0">
+            <state line="13" column="0" selection-start="421" selection-end="421" vertical-scroll-proportion="0.0">
               <folding />
             </state>
-          </provider>
-          <provider editor-type-id="android-designer">
-            <state />
           </provider>
         </entry>
       </file>
@@ -215,25 +382,33 @@
     <option name="KEY_ALIAS" value="savings_calc_store" />
     <option name="REMEMBER_PASSWORDS" value="true" />
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
+  </component>
+  <component name="GitLogSettings">
+    <option name="myDateState">
+      <MyDateState />
+    </option>
+  </component>
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/../SavingsCalculatorCommon/res/layout-sw600dp/quote_form.xml" />
-        <option value="$PROJECT_DIR$/../SavingsCalculator/src/com/avantics/savingscalc/MainActivity.java" />
-        <option value="$PROJECT_DIR$/../SavingsCalculator/src/com/avantics/savingscalc/StandardActivity.java" />
-        <option value="$PROJECT_DIR$/project.properties" />
-        <option value="$PROJECT_DIR$/../SavingsCalculatorCommon/AndroidManifest.xml" />
-        <option value="$PROJECT_DIR$/../SavingsCalculator/AndroidManifest.xml" />
-        <option value="$PROJECT_DIR$/../../../AndroidCommon/MAIN/AvanticsCommon/AndroidManifest.xml" />
-        <option value="$PROJECT_DIR$/../SavingsCalculatorCommon/src/com/avantics/savingscalc/common/fragments/ProposedFragment.java" />
+        <option value="$PROJECT_DIR$/../SavingsCalculatorCommon/res/layout/quote_summary.xml" />
+        <option value="$PROJECT_DIR$/res/layout/premium_quote_form.xml" />
+        <option value="$PROJECT_DIR$/../SavingsCalculatorCommon/src/com/avantics/savingscalc/common/fragments/BindableFragment.java" />
+        <option value="$PROJECT_DIR$/../SavingsCalculatorCommon/src/com/avantics/savingscalc/common/fragments/MobileTabbedFragment.java" />
+        <option value="$PROJECT_DIR$/../SavingsCalculatorCommon/src/com/avantics/savingscalc/common/fragments/TabletTabbedFragment.java" />
+        <option value="$PROJECT_DIR$/../SavingsCalculatorCommon/src/com/avantics/savingscalc/common/vertCollectionPagerAdapter.java" />
+        <option value="$PROJECT_DIR$/../SavingsCalculatorCommon/src/com/avantics/savingscalc/common/ViewPagerCustom.java" />
+        <option value="$PROJECT_DIR$/../SavingsCalculatorCommon/res/layout/main.xml" />
+        <option value="$PROJECT_DIR$/../SavingsCalculatorCommon/src/com/avantics/savingscalc/common/PagingAdapter.java" />
+        <option value="$PROJECT_DIR$/src/com/avantics/savingscalcpremium/fragments/PremiumQuoteFragment.java" />
+        <option value="$PROJECT_DIR$/../SavingsCalculatorCommon/src/com/avantics/savingscalc/common/fragments/TabbedFragment.java" />
+        <option value="$PROJECT_DIR$/../SavingsCalculatorCommon/src/com/avantics/savingscalc/common/activities/Main.java" />
         <option value="$PROJECT_DIR$/src/com/avantics/savingscalcpremium/activities/MainActivity.java" />
-        <option value="$PROJECT_DIR$/../../../AndroidCommon/MAIN/AvanticsCommon/src/com/avantics/common/CalcWatcher.java" />
-        <option value="$PROJECT_DIR$/../SavingsCalculatorCommon/src/com/avantics/savingscalc/common/UiBindingManager.java" />
-        <option value="$PROJECT_DIR$/../SavingsCalculatorCommon/src/com/avantics/savingscalc/common/fragments/QuoteFragment.java" />
-        <option value="$PROJECT_DIR$/../../../AndroidCommon/MAIN/AvanticsCommon/src/com/avantics/common/UiBindingContainer.java" />
-        <option value="$PROJECT_DIR$/res/layout/settings.xml" />
-        <option value="$PROJECT_DIR$/src/com/avantics/savingscalcpremium/fragments/SettingsFragment.java" />
-        <option value="$PROJECT_DIR$/AndroidManifest.xml" />
+        <option value="$PROJECT_DIR$/../SavingsCalculatorCommon/res/values/style.xml" />
+        <option value="$PROJECT_DIR$/res/values/style.xml" />
+        <option value="$PROJECT_DIR$/res/values/styles.xml" />
       </list>
     </option>
   </component>
@@ -243,14 +418,14 @@
     <option name="width" value="1319" />
     <option name="height" value="773" />
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
     <OptionsSetting value="true" id="Remove" />
     <OptionsSetting value="true" id="Checkout" />
     <OptionsSetting value="true" id="Update" />
     <OptionsSetting value="true" id="Status" />
     <OptionsSetting value="true" id="Edit" />
-    <ConfirmationsSetting value="0" id="Add" />
+    <ConfirmationsSetting value="2" id="Add" />
     <ConfirmationsSetting value="0" id="Remove" />
   </component>
   <component name="ProjectReloadState">
@@ -269,113 +444,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="ProjectPane">
-        <subPane>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="SavingsCalculatorPremium" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="External Libraries" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="SavingsCalculatorPremium" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="SavingsCalculatorPremium" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="SavingsCalculatorPremium" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="SavingsCalculatorPremium" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="savingscalcpremium" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="SavingsCalculatorPremium" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="SavingsCalculatorPremium" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="savingscalcpremium" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="fragments" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="SavingsCalculatorPremium" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="SavingsCalculatorPremium" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="savingscalcpremium" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="activities" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="SavingsCalculatorPremium" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="SavingsCalculatorPremium" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="res" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="SavingsCalculatorPremium" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-          </PATH>
-        </subPane>
-      </pane>
       <pane id="PackagesPane">
         <subPane>
           <PATH>
@@ -446,32 +514,70 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SavingsCalculatorPremium" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="External Libraries" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SavingsCalculatorPremium" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.last.edited" value="Libraries" />
     <property name="GoToFile.includeJavaFiles" value="false" />
+    <property name="OverrideImplement.combined" value="true" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="options.splitter.main.proportions" value="0.3" />
-    <property name="ExportedApkPath" value="$PROJECT_DIR$/SavingsCalculatorPremium_1.0.1.apk" />
-    <property name="options.lastSelected" value="preferences.sourceCode.XML" />
+    <property name="ExportedApkPath" value="$USER_HOME$/Ubuntu One/sales calc releases/SavingsCalculatorPremium_1.0.4.apk" />
+    <property name="options.lastSelected" value="preferences.keymap" />
     <property name="MemberChooser.sorted" value="false" />
     <property name="recentsLimit" value="5" />
     <property name="ExportedModule" value="SavingsCalculatorPremium" />
-    <property name="last_opened_file_path" value="$USER_HOME$/Ubuntu One/savingscalc.keystore" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../SavingsCalculatorCommon" />
     <property name="AndroidLayoutSelectedEditor" value="text-editor" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="ANDROID_EXTENDED_DEVICE_CHOOSER_SERIALS" value="emulator-5554" />
+    <property name="ANDROID_EXTENDED_DEVICE_CHOOSER_SERIALS" value="" />
     <property name="MemberChooser.copyJavadoc" value="false" />
     <property name="GoToClass.toSaveIncludeLibraries" value="false" />
     <property name="AndroidRunProguardForReleaseBuild" value="false" />
+    <property name="ANDROID_EXTENDED_DEVICE_CHOOSER_AVD" value="AVD_for_Nexus_4_by_Google" />
     <property name="restartRequiresConfirmation" value="true" />
     <property name="MemberChooser.showClasses" value="true" />
     <property name="GoToClass.includeLibraries" value="false" />
-    <property name="options.splitter.details.proportions" value="0.2" />
     <property name="options.searchVisible" value="true" />
+    <property name="options.splitter.details.proportions" value="0.2" />
   </component>
-  <component name="RunManager" selected="Android Application.SavingsCalculatorPremium">
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.avantics.savingscalc.common.fragments" />
+      <recent name="com.avantics.savingscalcpremium.activities" />
+      <recent name="com.avantics.savingscalcpremium.fragments" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/../SavingsCalculatorCommon/res/layout-w600dp" />
+      <recent name="$PROJECT_DIR$/res/layout" />
+      <recent name="$PROJECT_DIR$/libs" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/../SavingsCalculatorCommon/res/layout" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Android Application.Nexus4">
     <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
       <module name="" />
       <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
@@ -504,19 +610,6 @@
       <option name="PORT" value="5005" />
       <method />
     </configuration>
-    <configuration default="true" type="Applet" factoryName="Applet">
-      <module name="" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="HTML_FILE_NAME" />
-      <option name="HTML_USED" value="false" />
-      <option name="WIDTH" value="400" />
-      <option name="HEIGHT" value="300" />
-      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
-      <option name="VM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <method />
-    </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
       <module name="" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
@@ -542,6 +635,19 @@
       <envs />
       <properties />
       <listeners />
+      <method />
+    </configuration>
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <module name="" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="HTML_FILE_NAME" />
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <option name="VM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
       <method />
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
@@ -596,10 +702,28 @@
     </configuration>
     <configuration default="false" name="SavingsCalculatorPremium" type="AndroidRunConfigurationType" factoryName="Android Application">
       <module name="SavingsCalculatorPremium" />
-      <option name="ACTIVITY_CLASS" value="" />
-      <option name="MODE" value="default_activity" />
+      <option name="ACTIVITY_CLASS" value="com.avantics.savingscalcpremium.activities.MainActivity" />
+      <option name="MODE" value="specific_activity" />
       <option name="DEPLOY" value="true" />
-      <option name="TARGET_SELECTION_MODE" value="SHOW_DIALOG" />
+      <option name="TARGET_SELECTION_MODE" value="EMULATOR" />
+      <option name="PREFERRED_AVD" value="AVD_for_Nexus_4_by_Google" />
+      <option name="USE_COMMAND_LINE" value="true" />
+      <option name="COMMAND_LINE" value="" />
+      <option name="WIPE_USER_DATA" value="false" />
+      <option name="DISABLE_BOOT_ANIMATION" value="false" />
+      <option name="NETWORK_SPEED" value="full" />
+      <option name="NETWORK_LATENCY" value="none" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <RunnerSettings RunnerId="AndroidDebugRunner" />
+      <ConfigurationWrapper RunnerId="AndroidDebugRunner" />
+      <method />
+    </configuration>
+    <configuration default="false" name="Nexus4" type="AndroidRunConfigurationType" factoryName="Android Application">
+      <module name="SavingsCalculatorPremium" />
+      <option name="ACTIVITY_CLASS" value="com.avantics.savingscalcpremium.activities.MainActivity" />
+      <option name="MODE" value="specific_activity" />
+      <option name="DEPLOY" value="true" />
+      <option name="TARGET_SELECTION_MODE" value="USB_DEVICE" />
       <option name="PREFERRED_AVD" value="" />
       <option name="USE_COMMAND_LINE" value="true" />
       <option name="COMMAND_LINE" value="" />
@@ -612,8 +736,9 @@
       <ConfigurationWrapper RunnerId="AndroidDebugRunner" />
       <method />
     </configuration>
-    <list size="1">
+    <list size="2">
       <item index="0" class="java.lang.String" itemvalue="Android Application.SavingsCalculatorPremium" />
+      <item index="1" class="java.lang.String" itemvalue="Android Application.Nexus4" />
     </list>
     <configuration name="&lt;template&gt;" type="WebApp" default="true" selected="false">
       <Host>localhost</Host>
@@ -679,33 +804,33 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="48" y="-4" width="1319" height="773" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
-      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.31376734" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3296" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.4192" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3296" sideWeight="0.5003934" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3248" sideWeight="0.4996066" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Android" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3664" sideWeight="0.4996066" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3296" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24931507" sideWeight="0.6862327" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.19040126" sideWeight="0.6862327" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25255704" sideWeight="0.5808" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3296" sideWeight="0.4996066" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.22738002" sideWeight="0.6" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.22738002" sideWeight="0.6752" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="5" side_tool="false" content_ui="combo" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="8" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3296617" sideWeight="0.6" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3296617" sideWeight="0.6752" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32100707" sideWeight="0.6" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32100707" sideWeight="0.6" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3296" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3296" sideWeight="0.4996066" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Module Dependencies" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3296617" sideWeight="0.4976" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Module Dependencies" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3296617" sideWeight="0.4976" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Dependency Viewer" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.5024" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
@@ -775,29 +900,47 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/../SavingsCalculator/AndroidManifest.xml">
+    <entry file="file://$PROJECT_DIR$/../SavingsCalculatorCommon/res/layout/main.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="36" selection-start="316" selection-end="316" vertical-scroll-proportion="0.0" />
+        <state line="7" column="81" selection-start="360" selection-end="360" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer">
+        <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../../../AndroidCommon/MAIN/AvanticsCommon/AndroidManifest.xml">
+    <entry file="file://$PROJECT_DIR$/../SavingsCalculatorCommon/src/com/avantics/savingscalc/common/fragments/TabletTabbedFragment.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="33" selection-start="211" selection-end="211" vertical-scroll-proportion="0.22900763" />
+        <state line="8" column="42" selection-start="256" selection-end="256" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/avantics/savingscalcpremium/ExcelExporter.java">
+    <entry file="file://$PROJECT_DIR$/../SavingsCalculatorCommon/src/com/avantics/savingscalc/common/PagingAdapter.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="48" column="68" selection-start="2065" selection-end="2065" vertical-scroll-proportion="-3.4972973" />
+        <state line="15" column="17" selection-start="491" selection-end="491" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../SavingsCalculatorCommon/src/com/avantics/savingscalc/common/fragments/ProposedFragment.java">
+    <entry file="file://$PROJECT_DIR$/../SavingsCalculatorCommon/src/com/avantics/savingscalc/common/ViewPagerCustom.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="46" selection-start="294" selection-end="294" vertical-scroll-proportion="0.10810811" />
+        <state line="10" column="13" selection-start="236" selection-end="236" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../SavingsCalculatorCommon/src/com/avantics/savingscalc/common/fragments/TabbedFragment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="74" column="24" selection-start="2407" selection-end="2407" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/../SavingsCalculatorCommon/res/layout/quote_form.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="44" selection-start="444" selection-end="444" vertical-scroll-proportion="0.0">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-1.8609023">
           <folding />
         </state>
       </provider>
@@ -805,47 +948,9 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/android-sdks/sources/android-17/android/widget/TextView.java">
+    <entry file="file://$PROJECT_DIR$/res/layout/premium_quote_form.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="7230" column="0" selection-start="266078" selection-end="266096" vertical-scroll-proportion="0.33114755" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../../../AndroidCommon/MAIN/AvanticsCommon/src/com/avantics/common/CalcWatcher.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="0" selection-start="576" selection-end="576" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../SavingsCalculatorCommon/src/com/avantics/savingscalc/common/fragments/QuoteFragment.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="26" column="22" selection-start="802" selection-end="802" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/android-sdks/sources/android-17/android/view/View.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="15100" column="0" selection-start="583597" selection-end="583597" vertical-scroll-proportion="0.33114755" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../../../AndroidCommon/MAIN/AvanticsCommon/src/com/avantics/common/UiBindingContainer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="48" column="0" selection-start="1159" selection-end="1159" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../SavingsCalculatorCommon/src/com/avantics/savingscalc/common/UiBindingManager.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="13" selection-start="353" selection-end="353" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/res/layout/settings.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="51" column="95" selection-start="2107" selection-end="2107" vertical-scroll-proportion="0.0">
+        <state line="9" column="76" selection-start="435" selection-end="435" vertical-scroll-proportion="0.47368422">
           <folding />
         </state>
       </provider>
@@ -853,30 +958,65 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/avantics/savingscalcpremium/fragments/SettingsFragment.java">
+    <entry file="file://$PROJECT_DIR$/../SavingsCalculatorCommon/src/com/avantics/savingscalc/common/fragments/MobileTabbedFragment.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="102" column="50" selection-start="3951" selection-end="3951" vertical-scroll-proportion="0.0">
+        <state line="13" column="0" selection-start="421" selection-end="421" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/AndroidManifest.xml">
+    <entry file="file://$PROJECT_DIR$/../SavingsCalculatorCommon/src/com/avantics/savingscalc/common/activities/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="26" selection-start="180" selection-end="180" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/avantics/savingscalcpremium/fragments/PremiumQuoteFragment.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="49" selection-start="447" selection-end="447" vertical-scroll-proportion="0.0">
+        <state line="29" column="0" selection-start="790" selection-end="790" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/avantics/savingscalcpremium/activities/MainActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="297" column="81" selection-start="11100" selection-end="11100" vertical-scroll-proportion="6.5575223">
+        <state line="59" column="81" selection-start="1971" selection-end="1971" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/avantics/savingscalcpremium/fragments/PremiumQuoteFragment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="76" column="0" selection-start="3022" selection-end="3022" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../SavingsCalculatorCommon/res/values/styles.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/values-v14/styles.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/values-v11/styles.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/values/strings.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.77319586">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/values/styles.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="28" column="0" selection-start="1046" selection-end="1046" vertical-scroll-proportion="0.63917524">
           <folding />
         </state>
       </provider>
@@ -898,7 +1038,7 @@
       </state>
       <state key="FacetStructureConfigurable.UI">
         <settings>
-          <last-edited>Android</last-edited>
+          <last-edited>Android (SavingsCalculatorPremium)|Android</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
@@ -957,7 +1097,7 @@
       </state>
       <state key="ProjectLibrariesConfigurable.UI">
         <settings>
-          <last-edited>android-support-v4</last-edited>
+          <last-edited>libs</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
