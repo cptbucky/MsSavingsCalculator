@@ -12,7 +12,6 @@ import android.os.Bundle;
 import android.os.Environment;
 import android.preference.PreferenceManager;
 import android.support.v4.app.FragmentActivity;
-import android.support.v4.app.FragmentManager;
 import android.util.SparseArray;
 import android.view.*;
 import android.view.inputmethod.InputMethodManager;
@@ -20,11 +19,9 @@ import android.widget.*;
 import android.widget.AdapterView.OnItemClickListener;
 import com.avantics.common.IBindManager;
 import com.avantics.common.UiBindingContainer;
-import com.avantics.savingscalc.common.*;
-import com.avantics.savingscalc.common.activities.Main;
-import com.avantics.savingscalc.common.fragments.QuoteFragment;
+import com.avantics.savingscalc.common.Quote;
+import com.avantics.savingscalc.common.UiBindingManager;
 import com.avantics.savingscalcpremium.*;
-import com.avantics.savingscalcpremium.R;
 import com.avantics.savingscalcpremium.fragments.SettingsFragment;
 
 import java.io.File;
@@ -58,7 +55,7 @@ public class MainActivity extends FragmentActivity implements IBindManager {
 
         if (Build.VERSION.SDK_INT < Build.VERSION_CODES.HONEYCOMB) {
             setContentView(com.avantics.savingscalc.common.R.layout.standard_form);
-        } else{
+        } else {
             setContentView(R.layout.premium_quote_form);
         }
 
@@ -154,7 +151,9 @@ public class MainActivity extends FragmentActivity implements IBindManager {
     private void sendQuote() {
         String filePath = String.format("%s/MsSavingsCalculator_Quote.xls", Environment.getExternalStorageDirectory());
 
-        ExcelExporter.CreateWorksheetFromBinder(filePath, binder.currentQuote, getResources());
+        ExcelExporter xlEngine = new ExcelExporter(filePath);
+
+        xlEngine.CreateQuoteWorkSheet_NEW(binder.currentQuote, getResources());
 
         SendEmailAttachWorksheet(filePath);
     }
@@ -296,20 +295,9 @@ public class MainActivity extends FragmentActivity implements IBindManager {
                         confirmation.setArguments(args);
                         confirmation.setOnConfirmed(new ConfirmationDialogHandler() {
 
-                                    @Override
-                                    public void callback() {
-                                        saveQuote(new ConfirmationDialogHandler(){
-
-                                            @Override
-                                            public void callback() {
-                                                setSelectedQuote(title);
-
-                                                manageDialog.dismiss();
-                                            }
-                                        });
-                                    }
-                                });
-                        confirmation.setOnCanceled(new ConfirmationDialogHandler() {
+                            @Override
+                            public void callback() {
+                                saveQuote(new ConfirmationDialogHandler() {
 
                                     @Override
                                     public void callback() {
@@ -318,9 +306,20 @@ public class MainActivity extends FragmentActivity implements IBindManager {
                                         manageDialog.dismiss();
                                     }
                                 });
+                            }
+                        });
+                        confirmation.setOnCanceled(new ConfirmationDialogHandler() {
+
+                            @Override
+                            public void callback() {
+                                setSelectedQuote(title);
+
+                                manageDialog.dismiss();
+                            }
+                        });
 
                         confirmation.show(getSupportFragmentManager(), "savePreviousQuote");
-                    }   else{
+                    } else {
                         setSelectedQuote(arg2);
 
                         manageDialog.dismiss();

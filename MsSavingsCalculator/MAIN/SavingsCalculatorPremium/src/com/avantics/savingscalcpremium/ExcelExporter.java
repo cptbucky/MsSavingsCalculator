@@ -2,101 +2,248 @@ package com.avantics.savingscalcpremium;
 
 import android.content.res.Resources;
 import android.util.Log;
-
 import com.avantics.savingscalc.common.Quote;
-import com.avantics.savingscalcpremium.fragments.PremiumQuoteFragment;
+import jxl.Workbook;
+import jxl.WorkbookSettings;
+import jxl.format.Alignment;
+import jxl.format.VerticalAlignment;
+import jxl.write.*;
+import jxl.write.biff.RowsExceededException;
 
 import java.io.File;
 import java.io.IOException;
 
-import jxl.Workbook;
-import jxl.WorkbookSettings;
-import jxl.format.Alignment;
-import jxl.write.Label;
-import jxl.write.WritableCellFormat;
-import jxl.write.WritableFont;
-import jxl.write.WritableSheet;
-import jxl.write.WritableWorkbook;
-import jxl.write.WriteException;
-import jxl.write.biff.RowsExceededException;
-
 public class ExcelExporter {
 
-    public static void CreateWorksheetFromBinder(String filePath, Quote quote, Resources resources) {
-        ExcelExporter xlExporter = new ExcelExporter();
+    private final WritableSheet ws;
+    private final WritableWorkbook wb;
+    private WritableCellFormat headerFormat;
+    private WritableCellFormat savingsPercentageFormat;
+    private WritableCellFormat numberFormat;
 
-        WritableWorkbook wb = xlExporter.createWorkbook(filePath);
+    public ExcelExporter(String filePath) {
+        // give header cells size 10 Arial bolded
+        WritableFont headerFont = new WritableFont(WritableFont.ARIAL, 12,
+                WritableFont.BOLD);
+        headerFormat = new WritableCellFormat(headerFont);
+        // center align the cells' contents
+        try {
+            headerFormat.setAlignment(Alignment.CENTRE);
+        } catch (WriteException e) {
+            e.printStackTrace();  //To change body of catch statement use File | Settings | File Templates.
+        }
 
-        WritableSheet ws = xlExporter.createSheet(wb, "Quote", 1);
-
-        int rowOffset = 0;
-        int currentRowIndex = rowOffset;
+        WritableFont savingsPercentageFont = new WritableFont(WritableFont.ARIAL, 18, WritableFont.BOLD);
+        savingsPercentageFormat = new WritableCellFormat(savingsPercentageFont);
 
         try {
-            xlExporter.writeCell(2, currentRowIndex, resources.getString(R.string.statement_total_exc_terminal), false, ws);
-            xlExporter.writeCell(3, currentRowIndex, quote.CustomerTotalExcludingTerminal.getValue().toString(), false, ws);
+            savingsPercentageFormat.setAlignment(Alignment.CENTRE);
+            savingsPercentageFormat.setVerticalAlignment(VerticalAlignment.CENTRE);
+        } catch (WriteException e) {
+            e.printStackTrace();  //To change body of catch statement use File | Settings | File Templates.
+        }
 
-            currentRowIndex++;
-            xlExporter.writeCell(2, currentRowIndex, resources.getString(R.string.customer_teminal), false, ws);
-            xlExporter.writeCell(3, currentRowIndex, quote.CustomerTerminal.getValue().toString(), false, ws);
+        numberFormat = new WritableCellFormat(new NumberFormat("0.00"));
 
-            currentRowIndex++;
-            xlExporter.writeCell(2, currentRowIndex, resources.getString(R.string.statement_total), false, ws);
-            xlExporter.writeCell(3, currentRowIndex, quote.CustomerStatementTotal.getValue().toString(), false, ws);
+        wb = createWorkbook(filePath);
 
-            currentRowIndex += 2;
-            xlExporter.writeCell(1, currentRowIndex, resources.getString(R.string.statement_total), false, ws);
-            xlExporter.writeCell(2, currentRowIndex, PremiumQuoteFragment.VENDOR_HEADER_LABEL, false, ws);
-            xlExporter.writeCell(3, currentRowIndex, resources.getString(R.string.calculated_total), false, ws);
+        ws = createSheet(wb, "MSSC Quote", 1);
+    }
 
-            currentRowIndex++;
-            xlExporter.writeCell(0, currentRowIndex, resources.getString(R.string.cc_short), false, ws);
-            xlExporter.writeCell(1, currentRowIndex, quote.CreditCardStatementTotal.getValue().toString(), false, ws);
-            xlExporter.writeCell(2, currentRowIndex, quote.CreditCardRate.getValue().toString(), false, ws);
-            xlExporter.writeCell(3, currentRowIndex, quote.CreditCardTotal.getValue().toString(), false, ws);
+//    public void CreateQuoteWorkSheet(String filePath, Quote quote, Resources resources) {
+//        ExcelExporter xlExporter = new ExcelExporter();
+//
+//        WritableWorkbook wb = xlExporter.createWorkbook(filePath);
+//
+//        WritableSheet ws = xlExporter.createSheet(wb, "Quote", 1);
+//
+//        int rowOffset = 0;
+//        int currentRowIndex = rowOffset;
+//
+//        xlExporter.writeCell(2, currentRowIndex, resources.getString(R.string.statement_total_exc_terminal), ws);
+//        xlExporter.writeCell(3, currentRowIndex, quote.CustomerTotalExcludingTerminal.getValue().toString(), ws);
+//
+//        currentRowIndex++;
+//        xlExporter.writeCell(2, currentRowIndex, resources.getString(R.string.customer_teminal), ws);
+//        xlExporter.writeCell(3, currentRowIndex, quote.CustomerTerminal.getValue().toString(), ws);
+//
+//        currentRowIndex++;
+//        xlExporter.writeCell(2, currentRowIndex, resources.getString(R.string.statement_total), ws);
+//        xlExporter.writeCell(3, currentRowIndex, quote.CustomerStatementTotal.getValue().toString(), ws);
+//
+//        currentRowIndex += 2;
+//        xlExporter.writeCell(1, currentRowIndex, resources.getString(R.string.statement_total), ws);
+//        xlExporter.writeCell(2, currentRowIndex, PremiumQuoteFragment.VENDOR_HEADER_LABEL, ws);
+//        xlExporter.writeCell(3, currentRowIndex, resources.getString(R.string.calculated_total), ws);
+//
+//        currentRowIndex++;
+//        xlExporter.writeCell(0, currentRowIndex, resources.getString(R.string.cc_short), ws);
+//        xlExporter.writeCell(1, currentRowIndex, quote.CreditCardStatementTotal.getValue().toString(), ws);
+//        xlExporter.writeCell(2, currentRowIndex, quote.CreditCardRate.getValue().toString(), ws);
+//        xlExporter.writeCell(3, currentRowIndex, quote.CreditCardTotal.getValue().toString(), ws);
+//
+//        currentRowIndex++;
+//        xlExporter.writeCell(0, currentRowIndex, resources.getString(R.string.bc_short), ws);
+//        xlExporter.writeCell(1, currentRowIndex, quote.BankCardStatementTotal.getValue().toString(), ws);
+//        xlExporter.writeCell(2, currentRowIndex, quote.BankCardRate.getValue().toString(), ws);
+//        xlExporter.writeCell(3, currentRowIndex, quote.BankCardTotal.getValue().toString(), ws);
+//
+//        currentRowIndex++;
+//        xlExporter.writeCell(0, currentRowIndex, resources.getString(R.string.dc_short), ws);
+//        xlExporter.writeCell(1, currentRowIndex, quote.DebitCardStatementTotal.getValue().toString(), ws);
+//        xlExporter.writeCell(2, currentRowIndex, quote.DebitCardRate.getValue().toString(), ws);
+//        xlExporter.writeCell(3, currentRowIndex, quote.DebitCardTotal.getValue().toString(), ws);
+//
+//        currentRowIndex++;
+//        xlExporter.writeCell(1, currentRowIndex, PremiumQuoteFragment.VENDOR_INCPCI_LABEL, ws);
+//        xlExporter.writeCell(2, currentRowIndex, quote.FIncludingPciRate.getValue().toString(), ws);
+//        xlExporter.writeCell(3, currentRowIndex, quote.FIncludingPciTotal.getValue().toString(), ws);
+//
+//        currentRowIndex++;
+//        xlExporter.writeCell(1, currentRowIndex, PremiumQuoteFragment.VENDOR_TERMINAL_LABEL, ws);
+//        xlExporter.writeCell(2, currentRowIndex, quote.VendorTerminal.getValue().toString(), ws);
+//        xlExporter.writeCell(3, currentRowIndex, quote.VendorTerminalTotal.getValue().toString(), ws);
+//
+//        currentRowIndex += 2;
+//        xlExporter.writeCell(0, currentRowIndex, resources.getString(R.string.saving_percentage), ws);
+//
+//        Double savingsPercent = (quote.SavingsPercentage.getValue() * 100);
+//        xlExporter.writeCell(1, currentRowIndex, savingsPercent.toString(), ws);
+//
+//        currentRowIndex++;
+//        xlExporter.writeCell(0, currentRowIndex, resources.getString(R.string.savings_month), ws);
+//        xlExporter.writeCell(1, currentRowIndex, quote.SavingsOneMonth.getValue().toString(), ws);
+//
+//        currentRowIndex++;
+//        xlExporter.writeCell(0, currentRowIndex, resources.getString(R.string.saving_year), ws);
+//        xlExporter.writeCell(1, currentRowIndex, quote.SavingsOneYear.getValue().toString(), ws);
+//
+//        currentRowIndex++;
+//        xlExporter.writeCell(0, currentRowIndex, resources.getString(R.string.saving_4years), ws);
+//        xlExporter.writeCell(1, currentRowIndex, quote.SavingsFourYears.getValue().toString(), ws);
+//
+//        xlExporter.setColumnWidth(ws, 1, 25);
+//        xlExporter.setColumnWidth(ws, 2, 30);
+//
+//        try {
+//            wb.write();
+//        } catch (IOException e) {
+//            // TODO Auto-generated catch block
+//            e.printStackTrace();
+//        }
+//
+//        try {
+//            wb.close();
+//        } catch (WriteException e) {
+//            // TODO Auto-generated catch block
+//            e.printStackTrace();
+//        } catch (IOException e) {
+//            // TODO Auto-generated catch block
+//            e.printStackTrace();
+//        }
+//    }
 
-            currentRowIndex++;
-            xlExporter.writeCell(0, currentRowIndex, resources.getString(R.string.bc_short), false, ws);
-            xlExporter.writeCell(1, currentRowIndex, quote.BankCardStatementTotal.getValue().toString(), false, ws);
-            xlExporter.writeCell(2, currentRowIndex, quote.BankCardRate.getValue().toString(), false, ws);
-            xlExporter.writeCell(3, currentRowIndex, quote.BankCardTotal.getValue().toString(), false, ws);
+    public void CreateQuoteWorkSheet_NEW(Quote quote, Resources resources) {
+        int rowOffset = 0;
 
-            currentRowIndex++;
-            xlExporter.writeCell(0, currentRowIndex, resources.getString(R.string.dc_short), false, ws);
-            xlExporter.writeCell(1, currentRowIndex, quote.DebitCardStatementTotal.getValue().toString(), false, ws);
-            xlExporter.writeCell(2, currentRowIndex, quote.DebitCardRate.getValue().toString(), false, ws);
-            xlExporter.writeCell(3, currentRowIndex, quote.DebitCardTotal.getValue().toString(), false, ws);
+        try {
 
-            currentRowIndex++;
-            xlExporter.writeCell(1, currentRowIndex, PremiumQuoteFragment.VENDOR_INCPCI_LABEL, false, ws);
-            xlExporter.writeCell(2, currentRowIndex, quote.FIncludingPciRate.getValue().toString(), false, ws);
-            xlExporter.writeCell(3, currentRowIndex, quote.FIncludingPciTotal.getValue().toString(), false, ws);
+            /* Incumbent */
+            writeHeaderCell(1, 1, resources.getString(R.string.incumbent_cost));
 
-            currentRowIndex++;
-            xlExporter.writeCell(1, currentRowIndex, PremiumQuoteFragment.VENDOR_TERMINAL_LABEL, false, ws);
-            xlExporter.writeCell(2, currentRowIndex, quote.VendorTerminal.getValue().toString(), false, ws);
-            xlExporter.writeCell(3, currentRowIndex, quote.VendorTerminalTotal.getValue().toString(), false, ws);
+            writeCell(1, 2, resources.getString(R.string.client_statement_total));
+            writeValueCell(2, 2, quote.CustomerStatementTotal.getValue().toString());
 
-            currentRowIndex += 2;
-            xlExporter.writeCell(0, currentRowIndex, resources.getString(R.string.saving_percentage), false, ws);
+            writeCell(1, 4, resources.getString(R.string.cc_long));
+            writeValueCell(2, 4, quote.CreditCardStatementTotal.getValue().toString());
 
-            Double savingsPercent = (quote.SavingsPercentage.getValue() * 100);
-            xlExporter.writeCell(1, currentRowIndex, savingsPercent.toString(), false, ws);
+            writeCell(1, 5, resources.getString(R.string.bc_long));
+            writeValueCell(2, 5, quote.BankCardStatementTotal.getValue().toString());
 
-            currentRowIndex++;
-            xlExporter.writeCell(0, currentRowIndex, resources.getString(R.string.savings_month), false, ws);
-            xlExporter.writeCell(1, currentRowIndex, quote.SavingsOneMonth.getValue().toString(), false, ws);
+            writeCell(1, 6, resources.getString(R.string.dc_long));
+            writeValueCell(2, 6, quote.DebitCardStatementTotal.getValue().toString());
+            /* Incumbent */
 
-            currentRowIndex++;
-            xlExporter.writeCell(0, currentRowIndex, resources.getString(R.string.saving_year), false, ws);
-            xlExporter.writeCell(1, currentRowIndex, quote.SavingsOneYear.getValue().toString(), false, ws);
+            /* Proposed */
+            writeHeaderCell(4, 1, resources.getString(R.string.proposed_rate));
 
-            currentRowIndex++;
-            xlExporter.writeCell(0, currentRowIndex, resources.getString(R.string.saving_4years), false, ws);
-            xlExporter.writeCell(1, currentRowIndex, quote.SavingsFourYears.getValue().toString(), false, ws);
+            writeCell(4, 2, resources.getString(R.string.cc_rate_long));
+            writeValueCell(5, 2, quote.CreditCardRate.getValue().toString());
 
-            xlExporter.setColumnWidth(ws, 1, 25);
-            xlExporter.setColumnWidth(ws, 2, 30);
+            writeCell(4, 3, resources.getString(R.string.bc_rate_long));
+            writeValueCell(5, 3, quote.BankCardRate.getValue().toString());
+
+            writeCell(4, 4, resources.getString(R.string.dc_rate_long));
+            writeValueCell(5, 4, quote.DebitCardRate.getValue().toString());
+
+            writeCell(4, 5, resources.getString(R.string.vendor_terminal));
+            writeValueCell(5, 5, quote.VendorTerminal.getValue().toString());
+
+            writeCell(4, 6, resources.getString(R.string.vendor_inc_pci));
+            writeValueCell(5, 6, quote.FIncludingPciRate.getValue().toString());
+            /* Proposed */
+
+            /* Summary */
+            writeHeaderCell(7, 1, resources.getString(R.string.summary_section_header));
+
+            writeCell(8, 2, resources.getString(R.string.client_statement_total));
+            writeCell(9, 2, resources.getString(R.string.vendor_rate));
+            writeCell(10, 2, resources.getString(R.string.vendor_statement_total));
+
+            writeCell(7, 3, resources.getString(R.string.cc_short));
+            writeValueCell(8, 3, quote.CreditCardStatementTotal.getValue().toString());
+            writeValueCell(9, 3, quote.CreditCardRate.getValue().toString());
+            writeValueCell(10, 3, quote.CreditCardTotal.getValue().toString());
+
+            writeCell(7, 4, resources.getString(R.string.bc_short));
+            writeValueCell(8, 4, quote.BankCardStatementTotal.getValue().toString());
+            writeValueCell(9, 4, quote.BankCardRate.getValue().toString());
+            writeValueCell(10, 4, quote.BankCardTotal.getValue().toString());
+
+            writeCell(7, 5, resources.getString(R.string.dc_short));
+            writeValueCell(8, 5, quote.DebitCardStatementTotal.getValue().toString());
+            writeValueCell(9, 5, quote.DebitCardRate.getValue().toString());
+            writeValueCell(10, 5, quote.DebitCardTotal.getValue().toString());
+
+            writeCell(8, 6, resources.getString(R.string.vendor_terminal));
+            writeValueCell(9, 6, quote.VendorTerminal.getValue().toString());
+            writeValueCell(10, 6, quote.VendorTerminalTotal.getValue().toString());
+
+            writeCell(8, 7, resources.getString(R.string.vendor_inc_pci));
+            writeValueCell(9, 7, quote.FIncludingPciRate.getValue().toString());
+            writeValueCell(10, 7, quote.FIncludingPciTotal.getValue().toString());
+
+            writeHeaderCell(7, 9, resources.getString(R.string.savings_section_header));
+            writeCell(10, 9, "");
+
+            writeCell(7, 10, resources.getString(R.string.savings_month));
+            writeValueCell(9, 10, quote.SavingsOneMonth.getValue().toString());
+            writeCell(10, 10, quote.SavingsPercentage.getValue().toString(), savingsPercentageFormat);
+
+            writeCell(7, 11, resources.getString(R.string.saving_year));
+            writeValueCell(9, 11, quote.SavingsOneYear.getValue().toString());
+
+            writeCell(7, 12, resources.getString(R.string.saving_4years));
+            writeValueCell(9, 12, quote.SavingsFourYears.getValue().toString());
+
+            /* Summary */
+
+            setColumnWidth(1, 20);
+            setColumnWidth(4, 20);
+            setColumnWidth(7, 5);
+            setColumnWidth(8, 15);
+            setColumnWidth(9, 15);
+            setColumnWidth(10, 15);
+
+            ws.mergeCells(1, 1, 2, 1);
+            ws.mergeCells(4, 1, 5, 1);
+            ws.mergeCells(7, 1, 10, 1);
+
+            ws.mergeCells(7, 9, 10, 9);
+            ws.mergeCells(7, 10, 8, 10);
+            ws.mergeCells(7, 11, 8, 11);
+            ws.mergeCells(7, 12, 8, 12);
+            ws.mergeCells(10, 10, 10, 12);
         } catch (RowsExceededException e) {
             // TODO Auto-generated catch block
             e.printStackTrace();
@@ -120,6 +267,30 @@ public class ExcelExporter {
         } catch (IOException e) {
             // TODO Auto-generated catch block
             e.printStackTrace();
+        }
+    }
+
+    private void writeCell(int i, int i1, String string) {
+        try {
+            writeCell(i, i1, string, null);
+        } catch (WriteException e) {
+            e.printStackTrace();  //To change body of catch statement use File | Settings | File Templates.
+        }
+    }
+
+    private void writeHeaderCell(int i, int i1, String string) {
+        try {
+            writeCell(i, i1, string, headerFormat);
+        } catch (WriteException e) {
+            e.printStackTrace();  //To change body of catch statement use File | Settings | File Templates.
+        }
+    }
+
+    private void writeValueCell(int i, int i1, String string) {
+        try {
+            writeCell(i, i1, string, numberFormat);
+        } catch (WriteException e) {
+            e.printStackTrace();  //To change body of catch statement use File | Settings | File Templates.
         }
     }
 
@@ -171,31 +342,23 @@ public class ExcelExporter {
      * @param columnPosition - column to place new cell in
      * @param rowPosition    - row to place new cell in
      * @param contents       - string value to place in cell
-     * @param headerCell     - whether to give this cell special formatting
-     * @param sheet          - WritableSheet to place cell in
+     * @param CellFormat     - whether to give this cell special formatting
      * @throws RowsExceededException - thrown if adding cell exceeds .xls row limit
      * @throws WriteException        - Idunno, might be thrown
      */
-    public void writeCell(int columnPosition, int rowPosition, String contents,
-                          boolean headerCell, WritableSheet sheet)
+    public void writeCell(int columnPosition, int rowPosition, String contents, WritableCellFormat CellFormat)
             throws RowsExceededException, WriteException {
         // create a new cell with contents at position
         Label newCell = new Label(columnPosition, rowPosition, contents);
 
-        if (headerCell) {
-            // give header cells size 10 Arial bolded
-            WritableFont headerFont = new WritableFont(WritableFont.ARIAL, 10,
-                    WritableFont.BOLD);
-            WritableCellFormat headerFormat = new WritableCellFormat(headerFont);
-            // center align the cells' contents
-            headerFormat.setAlignment(Alignment.CENTRE);
-            newCell.setCellFormat(headerFormat);
+        if (CellFormat != null) {
+            newCell.setCellFormat(CellFormat);
         }
 
-        sheet.addCell(newCell);
+        ws.addCell(newCell);
     }
 
-    public void setColumnWidth(WritableSheet sheet, int columnPosition, int columnWidth) {
-        sheet.setColumnView(columnPosition, columnWidth);
+    public void setColumnWidth(int columnPosition, int columnWidth) {
+        ws.setColumnView(columnPosition, columnWidth);
     }
 }

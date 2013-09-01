@@ -78,9 +78,16 @@ public class PremiumQuoteFragment extends Fragment {
 
         final ActionBar aBar = getActivity().getActionBar();
 
-        ActionBar.Tab proposedTab = aBar.getTabAt(1);
+        if (aBar.getTabCount() > 0) {
+            ActionBar.Tab proposedTab = aBar.getTabAt(1);
 
-        proposedTab.setText(vendorName);
+            proposedTab.setText(vendorName);
+        }
+    }
+
+    @Override
+    public void onStart() {
+        super.onStart();
     }
 
     @Override

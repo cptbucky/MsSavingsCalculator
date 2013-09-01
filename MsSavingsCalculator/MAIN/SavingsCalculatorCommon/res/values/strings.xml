@@ -35,5 +35,7 @@
 	<string name="savings_section_header">Saving</string>
 	<string name="quote_calculation_section_heading">Calculation</string>
 	<string name="saving_overall">Overall</string>
+	<string name="incumbent_cost">Incumbent Cost</string>
+	<string name="proposed_rate">Proposed Rates</string>
 
 </resources>

@@ -65,7 +65,11 @@ public class Quote {
 
                 double total = (actualSaving / CustomerStatementTotal.getValue());
 
-                SavingsPercentage.setValue(total);
+                if (Double.isInfinite(total) || Double.isNaN(total)) {
+                    SavingsPercentage.setValue(0.00);
+                } else {
+                    SavingsPercentage.setValue(total);
+                }
             }
         };
 
