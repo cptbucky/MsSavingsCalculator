@@ -34,5 +34,6 @@
 	<string name="summary_section_header">Summary</string>
 	<string name="savings_section_header">Saving</string>
 	<string name="quote_calculation_section_heading">Calculation</string>
+	<string name="saving_overall">Overall</string>
 
 </resources>

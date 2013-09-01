@@ -4,7 +4,7 @@
             android:layout_height="fill_parent">
 
 	<LinearLayout android:layout_width="fill_parent"
-	              android:layout_height="fill_parent"
+	              android:layout_height="wrap_content"
 	              android:orientation="horizontal"
 	              android:isScrollContainer="true">
 
@@ -98,7 +98,7 @@
 					style="@style/leftAlignLabel"
 					android:layout_width="fill_parent"
 					android:layout_height="wrap_content"
-					android:gravity="center_horizontal" android:text="Overall"/>
+					android:gravity="center_horizontal" android:text="@string/saving_overall"/>
 
 		</LinearLayout>
 
