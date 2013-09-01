@@ -8,27 +8,16 @@ import android.support.v4.view.ViewPager;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import com.avantics.common.IBindManager;
-import com.avantics.common.UiBindingContainer;
+import com.avantics.savingscalc.common.PagingAdapter;
 import com.avantics.savingscalc.common.R;
-import com.avantics.savingscalc.common.UiBindingManager;
 import com.avantics.savingscalc.common.ViewPagerCustom;
-import com.avantics.savingscalc.common.vertCollectionPagerAdapter;
-
-import java.util.ArrayList;
 
 /**
  * Created by tom on 02/06/13.
  */
-public class TabbedFragment extends Fragment implements IBindManager {
-    public UiBindingManager binder = null;
-
-    vertCollectionPagerAdapter mVCollectionPageAdapter;
+public class TabbedFragment extends Fragment {
+    PagingAdapter mVCollectionPageAdapter;
     ViewPagerCustom mViewPager;
-
-    public TabbedFragment() {
-        binder = new UiBindingManager();
-    }
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
@@ -36,14 +25,18 @@ public class TabbedFragment extends Fragment implements IBindManager {
 
         View view = inflater.inflate(R.layout.tab_swipe_activity, container, false);
 
-        setupPager(view);
-
-        setupABar(view);
+        setupView(view);
 
         return view;
     }
 
-    private void setupABar(View view) {
+    protected void setupView(View view) {
+        setupPager(view);
+
+        setupABar();
+    }
+
+    private void setupABar() {
         final Activity currentActivity = getActivity();
 
         // obtain the action bar
@@ -71,16 +64,16 @@ public class TabbedFragment extends Fragment implements IBindManager {
         };
 
         // add the tabs, register the event handler for the tabs
-        aBar.addTab(aBar.newTab().setText("Client").setTabListener(tabListener));
-        aBar.addTab(aBar.newTab().setText("Proposed").setTabListener(tabListener));
-        aBar.addTab(aBar.newTab().setText("Savings").setTabListener(tabListener));
+        aBar.addTab(aBar.newTab().setText("Incumbent").setTabListener(tabListener));
+        aBar.addTab(aBar.newTab().setText("Vendor").setTabListener(tabListener));
+        aBar.addTab(aBar.newTab().setText("Summary").setTabListener(tabListener));
     }
 
     private void setupPager(View view) {
         final Activity currentActivity = getActivity();
 
         // the page adapter contains all the fragment registrations
-        mVCollectionPageAdapter = new vertCollectionPagerAdapter(getActivity().getSupportFragmentManager(), binder);
+        mVCollectionPageAdapter = new PagingAdapter(getActivity().getSupportFragmentManager());
         mViewPager = (ViewPagerCustom) view.findViewById(R.id.pager);
 
         // set the contents of the ViewPager
@@ -95,9 +88,5 @@ public class TabbedFragment extends Fragment implements IBindManager {
             }
         });
     }
-
-    @Override
-    public ArrayList<UiBindingContainer> AttachToView(View view) {
-        return binder.AttachToView(view);
-    }
 }
+

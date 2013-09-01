@@ -1,92 +1,117 @@
 <?xml version="1.0" encoding="utf-8"?>
-<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
-            android:layout_width="match_parent"
-            android:layout_height="match_parent">
 
-	<LinearLayout android:layout_width="match_parent"
-	              android:layout_height="match_parent"
-	              android:orientation="vertical"
-	              android:isScrollContainer="true">
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="fill_parent"
+              android:layout_height="wrap_content"
+              android:orientation="vertical"
+              android:isScrollContainer="true">
+
+	<LinearLayout
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:layout_weight="1"
+			android:orientation="vertical">
+
 		<LinearLayout
-				style="@style/linearLayoutRow"
 				android:layout_width="fill_parent"
-				android:layout_height="fill_parent">
+				android:layout_height="115dp"
+				android:gravity="center_vertical">
 
-			<TextView
-					android:id="@+id/savingsLabel"
-					style="@style/leftAlignLabel"
-					android:layout_width="0dp"
-					android:layout_height="wrap_content"
-					android:layout_weight="1"
-					android:text="@string/saving_percentage"/>
+			<LinearLayout android:layout_width="0dp"
+			              android:layout_height="fill_parent"
+			              android:layout_weight="1"
+			              android:orientation="vertical"
+			              android:isScrollContainer="true" android:layout_gravity="center_vertical"
+			              android:id="@+id/oneMonthSavingContainer" android:gravity="center_vertical">
 
-			<TextView
-					android:id="@+id/savingsPercentage"
-					style="@style/centerAlignLabel"
-					android:layout_width="0dp"
-					android:layout_height="wrap_content"
-					android:layout_weight="1"
-					android:textIsSelectable="true"/>
+				<TextView
+						android:id="@+id/Savings1Month"
+						style="@style/centerAlignLabel"
+						android:layout_width="fill_parent"
+						android:layout_height="wrap_content"
+						android:textIsSelectable="true" android:gravity="center_horizontal" android:text="0.00"
+						/>
+
+				<TextView
+						style="@style/leftAlignLabel"
+						android:layout_width="fill_parent"
+						android:layout_height="wrap_content"
+						android:text="@string/savings_month"
+						android:gravity="center|bottom"/>
+
+			</LinearLayout>
+
+			<LinearLayout android:layout_width="0dp"
+			              android:layout_height="fill_parent"
+			              android:layout_weight="1"
+			              android:orientation="vertical"
+			              android:isScrollContainer="true" android:gravity="center_vertical"
+			              android:layout_gravity="center_vertical" android:id="@+id/oneYearSavingContainer">
+
+				<TextView
+						android:id="@+id/Savings1Year"
+						style="@style/centerAlignLabel"
+						android:layout_width="fill_parent"
+						android:layout_height="wrap_content"
+						android:textIsSelectable="true" android:gravity="center_horizontal" android:text="0.00"/>
+
+				<TextView
+						style="@style/leftAlignLabel"
+						android:layout_width="fill_parent"
+						android:layout_height="wrap_content"
+						android:text="@string/saving_year" android:gravity="center|bottom"/>
+
+			</LinearLayout>
+
 		</LinearLayout>
 
 		<LinearLayout
-				style="@style/linearLayoutRow"
 				android:layout_width="fill_parent"
-				android:layout_height="37sp"
-				android:layout_below="@+id/LinearLayout01">
+				android:layout_height="115dp"
+				android:gravity="center_vertical">
 
-			<TextView
-					style="@style/leftAlignLabel"
-					android:layout_width="0dp"
-					android:layout_height="wrap_content"
-					android:layout_weight="1"
-					android:text="@string/savings_month"/>
+			<LinearLayout android:layout_width="0dp"
+			              android:layout_height="fill_parent"
+			              android:layout_weight="1"
+			              android:orientation="vertical"
+			              android:isScrollContainer="true" android:gravity="center_vertical|center_horizontal"
+			              android:id="@+id/fourYearSavingContainer">
 
-			<TextView
-					style="@style/leftAlignLabel"
-					android:layout_width="0dp"
-					android:layout_height="wrap_content"
-					android:layout_weight="1"
-					android:text="@string/saving_year"/>
+				<TextView
+						android:id="@+id/Savings4Years"
+						style="@style/centerAlignLabel"
+						android:layout_width="fill_parent"
+						android:layout_height="wrap_content"
+						android:textIsSelectable="true" android:gravity="center_horizontal" android:text="0.00"/>
 
-			<TextView
-					style="@style/leftAlignLabel"
-					android:layout_width="0dp"
-					android:layout_height="wrap_content"
-					android:layout_weight="1"
-					android:text="@string/saving_4years"/>
+				<TextView
+						style="@style/leftAlignLabel"
+						android:layout_width="fill_parent"
+						android:layout_height="wrap_content"
+						android:text="@string/saving_4years" android:gravity="center"/>
+
+			</LinearLayout>
+
+			<LinearLayout android:layout_width="0dp"
+			              android:layout_height="fill_parent"
+			              android:layout_weight="1"
+			              android:orientation="vertical"
+			              android:isScrollContainer="true"
+			              android:layout_gravity="center_vertical" android:id="@+id/savingPercentageContainer"
+			              android:gravity="center_vertical">
+
+				<TextView
+						android:id="@+id/savingsPercentage"
+						style="@style/highlightedSavingLabel"
+						android:layout_width="fill_parent"
+						android:layout_height="wrap_content"
+						android:text="37.78%"
+						android:gravity="center_horizontal"/>
+
+			</LinearLayout>
+
 		</LinearLayout>
 
-		<LinearLayout
-				style="@style/linearLayoutRow"
-				android:layout_width="fill_parent"
-				android:layout_height="37sp"
-				android:layout_below="@+id/LinearLayout9">
-
-			<TextView
-					android:id="@+id/Savings1Month"
-					style="@style/leftAlignLabel"
-					android:layout_width="0dp"
-					android:layout_height="wrap_content"
-					android:layout_weight="1"
-					android:textIsSelectable="true"/>
-
-			<TextView
-					android:id="@+id/Savings1Year"
-					style="@style/leftAlignLabel"
-					android:layout_width="0dp"
-					android:layout_height="wrap_content"
-					android:layout_weight="1"
-					android:textIsSelectable="true"/>
-
-			<TextView
-					android:id="@+id/Savings4Years"
-					style="@style/leftAlignLabel"
-					android:layout_width="0dp"
-					android:layout_height="wrap_content"
-					android:layout_weight="1"
-					android:textIsSelectable="true"/>
-		</LinearLayout>
 	</LinearLayout>
 
-</ScrollView>
+</LinearLayout>

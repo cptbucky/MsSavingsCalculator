@@ -6,15 +6,16 @@ import android.view.View;
 import android.view.ViewGroup;
 import com.avantics.savingscalc.common.R;
 
-public class IncumbentFragment extends BindableFragment {
+public class CalculationFragment extends BindableFragment {
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
 
-        View view = inflater.inflate(R.layout.quote_incumbent, container, false);
+        View view = inflater.inflate(R.layout.quote_calculation, container, false);
 
         bindView(view);
 
         return view;
     }
 }
+

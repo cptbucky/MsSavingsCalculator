@@ -6,14 +6,14 @@ import android.view.View;
 import android.view.ViewGroup;
 import com.avantics.savingscalc.common.R;
 
-public class IncumbentFragment extends BindableFragment {
+public class TabletTabbedFragment extends TabbedFragment {
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
 
-        View view = inflater.inflate(R.layout.quote_incumbent, container, false);
+        View view = inflater.inflate(R.layout.tab_swipe_activity, container, false);
 
-        bindView(view);
+        setupView(view);
 
         return view;
     }

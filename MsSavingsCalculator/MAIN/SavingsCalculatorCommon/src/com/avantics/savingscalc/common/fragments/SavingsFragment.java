@@ -1,18 +1,16 @@
 package com.avantics.savingscalc.common.fragments;
 
 import android.os.Bundle;
-import android.support.v4.app.Fragment;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import com.avantics.common.IBindManager;
-import com.avantics.common.UiBindingContainer;
+import android.widget.LinearLayout;
+import android.widget.TextView;
 import com.avantics.savingscalc.common.R;
 
-import java.util.ArrayList;
-
-public class SavingsFragment extends Fragment {
-    ArrayList<UiBindingContainer> containedControls;
+public class SavingsFragment extends BindableFragment {
+    LinearLayout oneMonthContainer = null, oneYearContainer = null, fourYearsContainer = null, percentageContainer = null;
+    TextView oneMonthValue = null, oneYearValue = null, fourYearsValue = null, percentageValue = null;
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
@@ -20,31 +18,56 @@ public class SavingsFragment extends Fragment {
 
         View view = inflater.inflate(R.layout.quote_savings, container, false);
 
-        IBindManager binder = (IBindManager) getActivity();
+        bindView(view);
 
-        containedControls = binder.AttachToView(view);
+        oneMonthContainer = (LinearLayout) view.findViewById(R.id.oneMonthSavingContainer);
+        oneMonthValue = (TextView) view.findViewById(R.id.Savings1Month);
+
+        oneYearContainer = (LinearLayout) view.findViewById(R.id.oneYearSavingContainer);
+        oneYearValue = (TextView) view.findViewById(R.id.Savings1Year);
+
+        fourYearsContainer = (LinearLayout) view.findViewById(R.id.fourYearSavingContainer);
+        fourYearsValue = (TextView) view.findViewById(R.id.Savings4Years);
+
+        percentageContainer = (LinearLayout) view.findViewById(R.id.savingPercentageContainer);
+        percentageValue = (TextView) view.findViewById(R.id.savingsPercentage);
+
+        oneMonthContainer.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View view) {
+                oneMonthValue.setTextAppearance(getActivity().getApplicationContext(), R.style.highlightedSavingLabel);
+                oneYearValue.setTextAppearance(getActivity().getApplicationContext(), R.style.centerAlignLabel);
+                fourYearsValue.setTextAppearance(getActivity().getApplicationContext(), R.style.centerAlignLabel);
+                percentageValue.setTextAppearance(getActivity().getApplicationContext(), R.style.centerAlignLabel);
+            }
+        });
+
+        oneYearContainer.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View view) {
+                oneMonthValue.setTextAppearance(getActivity().getApplicationContext(), R.style.centerAlignLabel);
+                oneYearValue.setTextAppearance(getActivity().getApplicationContext(), R.style.highlightedSavingLabel);
+                fourYearsValue.setTextAppearance(getActivity().getApplicationContext(), R.style.centerAlignLabel);
+                percentageValue.setTextAppearance(getActivity().getApplicationContext(), R.style.centerAlignLabel);
+            }
+        });
+
+        fourYearsContainer.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View view) {
+                oneMonthValue.setTextAppearance(getActivity().getApplicationContext(), R.style.centerAlignLabel);
+                oneYearValue.setTextAppearance(getActivity().getApplicationContext(), R.style.centerAlignLabel);
+                fourYearsValue.setTextAppearance(getActivity().getApplicationContext(), R.style.highlightedSavingLabel);
+                percentageValue.setTextAppearance(getActivity().getApplicationContext(), R.style.centerAlignLabel);
+            }
+        });
+
+        percentageContainer.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View view) {
+                oneMonthValue.setTextAppearance(getActivity().getApplicationContext(), R.style.centerAlignLabel);
+                oneYearValue.setTextAppearance(getActivity().getApplicationContext(), R.style.centerAlignLabel);
+                fourYearsValue.setTextAppearance(getActivity().getApplicationContext(), R.style.centerAlignLabel);
+                percentageValue.setTextAppearance(getActivity().getApplicationContext(), R.style.highlightedSavingLabel);
+            }
+        });
 
         return view;
-    }
-
-    @Override
-    public void onViewStateRestored(Bundle b) {
-        // set values of all controls
-        for (int i = 0; i < containedControls.size(); i++) {
-            containedControls.get(i).rebindValue();
-        }
-
-        super.onViewStateRestored(b);
-    }
-
-    @Override
-    public void onDestroyView() {
-        // if any controls exist in lists of listeners ensure they are removed
-        for (int i = 0; i < containedControls.size(); i++) {
-            // this is just plain wrong.. really getting bad now..
-            containedControls.get(i).sourceProperty.removeListener(containedControls.get(i));
-        }
-
-        super.onDestroyView();
     }
 }

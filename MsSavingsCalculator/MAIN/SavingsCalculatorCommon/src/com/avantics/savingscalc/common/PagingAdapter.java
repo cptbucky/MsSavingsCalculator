@@ -3,8 +3,6 @@ package com.avantics.savingscalc.common;
 import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentManager;
 import android.support.v4.app.FragmentPagerAdapter;
-import android.support.v4.view.ViewPager;
-
 import com.avantics.savingscalc.common.fragments.IncumbentFragment;
 import com.avantics.savingscalc.common.fragments.ProposedFragment;
 import com.avantics.savingscalc.common.fragments.SummaryFragment;
@@ -15,16 +13,13 @@ import java.util.List;
 /**
  * Created by tom on 02/06/13.
  */
-public class vertCollectionPagerAdapter extends FragmentPagerAdapter {
+public class PagingAdapter extends FragmentPagerAdapter {
 
     private static final int FRAGMENT_COUNT = 3;
     private List<Fragment> mFragments = new ArrayList<Fragment>();
-    private FragmentManager mFM;
 
-    public vertCollectionPagerAdapter(FragmentManager fm, UiBindingManager binder) {
+    public PagingAdapter(FragmentManager fm) {
         super(fm);
-
-        mFM = fm;
 
         // add fragments
         mFragments.add(new IncumbentFragment());
@@ -41,15 +36,6 @@ public class vertCollectionPagerAdapter extends FragmentPagerAdapter {
     // ViewPager calls this when the Tab handler handles a tab change
     @Override
     public Fragment getItem(int pos) {
-        Fragment f = mFragments.get(pos);
-
-        return f;
+        return mFragments.get(pos);
     }
-
-    public Fragment getActiveFragment(ViewPager container, int pos) {
-        String name = "android:switcher:" + container.getId() + ":" + pos;
-
-        return mFM.findFragmentByTag(name);
-    }
-
 }
