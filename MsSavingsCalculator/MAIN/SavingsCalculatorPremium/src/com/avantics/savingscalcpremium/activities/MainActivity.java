@@ -149,11 +149,17 @@ public class MainActivity extends FragmentActivity implements IBindManager {
     }
 
     private void sendQuote() {
-        String filePath = String.format("%s/MsSavingsCalculator_Quote.xls", Environment.getExternalStorageDirectory());
+        String filePath;
+
+        if (binder.currentQuote.Name.getValue().isEmpty()) {
+            filePath = String.format("%s/MsSavingsCalculator_Quote.xls", Environment.getExternalStorageDirectory());
+        } else {
+            filePath = String.format("%s/MsSavingsCalculator_Quote - %s.xls", Environment.getExternalStorageDirectory(), binder.currentQuote.Name.getValue());
+        }
 
         ExcelExporter xlEngine = new ExcelExporter(filePath);
 
-        xlEngine.CreateQuoteWorkSheet_NEW(binder.currentQuote, getResources());
+        xlEngine.CreateQuoteWorkSheet(binder.currentQuote, getResources());
 
         SendEmailAttachWorksheet(filePath);
     }
