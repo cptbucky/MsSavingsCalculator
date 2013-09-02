@@ -27,56 +27,13 @@
 						android:text="@string/client_section_header"
 						android:id="@+id/textView" style="@style/sectionHeaderLabel"/>
 
-				<LinearLayout android:layout_width="fill_parent"
-				              android:layout_height="match_parent"
-				              android:layout_marginLeft="20dp"
-				              android:layout_marginTop="20dp"
-				              android:layout_marginRight="20dp"
-				              android:orientation="vertical">
-
-					<LinearLayout
-							android:layout_width="fill_parent"
-							android:layout_height="wrap_content"
-							android:paddingTop="20dp">
-
-						<TextView
-								style="@style/leftAlignLabel"
-								android:layout_width="0dp"
-								android:layout_height="wrap_content"
-								android:layout_weight="1"
-								android:text="@string/statement_total_exc_terminal"/>
-
-						<EditText
-								android:id="@+id/CSTotalExcTerminal"
-								style="@style/currencyInput"
-								android:layout_width="0dp"
-								android:layout_height="wrap_content"
-								android:layout_weight="1"/>
-
-					</LinearLayout>
-
-					<LinearLayout
-							style="@style/linearLayoutRow"
-							android:layout_width="fill_parent"
-							android:layout_height="37sp">
-
-						<TextView
-								style="@style/leftAlignLabel"
-								android:layout_width="0dp"
-								android:layout_height="wrap_content"
-								android:layout_weight="1"
-								android:text="@string/customer_teminal"/>
-
-						<EditText
-								android:id="@+id/CSTerminal"
-								style="@style/currencyInput"
-								android:layout_width="0dp"
-								android:layout_height="wrap_content"
-								android:layout_weight="1"/>
-
-					</LinearLayout>
-
-				</LinearLayout>
+				<fragment
+						android:name="com.avantics.savingscalc.common.fragments.IncumbentHeadlineFragment"
+						android:layout_width="fill_parent"
+						android:layout_height="wrap_content"
+						tools:layout="@layout/quote_proposed"
+						android:layout_marginLeft="20dp"
+						android:layout_marginRight="20dp"/>
 
 			</LinearLayout>
 

@@ -1,10 +1,11 @@
 <resources>
 
-	<string name="app_name">SavingsCalculatorCommon</string>
+	<string name="app_name">MS Savings Calculator</string>
+	<!--<string name="app_name">SavingsCalculatorCommon</string>-->
 	<string name="client_statement_total">Client Total</string>
 	<string name="statement_total">Statement Total</string>
 	<string name="statement_total_exc_terminal">Total ex. Terminal</string>
-	<string name="customer_teminal">Client Terminal</string>
+	<string name="customer_terminal">Client Terminal</string>
 	<string name="vendor_inc_pci">PCI DSS Fee</string>
 	<string name="vendor_rate">Vendor Rate</string>
 	<string name="vendor_terminal">Vendor Terminal</string>
