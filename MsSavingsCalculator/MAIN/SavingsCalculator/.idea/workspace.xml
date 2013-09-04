@@ -37,7 +37,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="550ea73c-e9f8-4e55-9604-35df0b659151" name="Default" comment="styling updates">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../../AndroidCommon/MAIN/AvanticsCommon/src/com/avantics/common/BindableProperty.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../../xbmc/src/com/avantics/xbmc/NSDHelper.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../../xbmc/.idea/compiler.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../../xbmc/.idea/encodings.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../../xbmc/.idea/misc.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../../xbmc/.idea/modules.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../../xbmc/.idea/copyright/profiles_settings.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../../xbmc/.idea/scopes/scope_settings.xml" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../../iWantToGoHome/res/values/styles.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../../xbmc/.idea/uiDesigner.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../../xbmc/.idea/vcs.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../../xbmc/.idea/workspace.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../../xbmc/xbmc.iml" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/../SavingsCalculatorPremium/out/production/SavingsCalculatorCommon/com/avantics/savingscalc/common/IActivity.class" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/../SavingsCalculatorPremium/out/production/SavingsCalculatorPremium/com/avantics/savingscalcpremium/activities/MainActivity$1$1.class" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../SavingsCalculatorPremium/out/production/AvanticsCommon/com/avantics/common/CalcWatcher.class" afterPath="$PROJECT_DIR$/../SavingsCalculatorPremium/out/production/AvanticsCommon/com/avantics/common/CalcWatcher.class" />
@@ -92,13 +104,12 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../SavingsCalculatorPremium/out/production/SavingsCalculatorCommon/com/avantics/savingscalc/common/fragments/SummaryFragment.class" afterPath="$PROJECT_DIR$/../SavingsCalculatorPremium/out/production/SavingsCalculatorCommon/com/avantics/savingscalc/common/fragments/SummaryFragment.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../SavingsCalculatorPremium/out/production/AvanticsCommon/com/avantics/common/UiBindingContainer.class" afterPath="$PROJECT_DIR$/../SavingsCalculatorPremium/out/production/AvanticsCommon/com/avantics/common/UiBindingContainer.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../SavingsCalculatorPremium/out/production/SavingsCalculatorCommon/com/avantics/savingscalc/common/UiBindingManager.class" afterPath="$PROJECT_DIR$/../SavingsCalculatorPremium/out/production/SavingsCalculatorCommon/com/avantics/savingscalc/common/UiBindingManager.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AndroidManifest.xml" afterPath="$PROJECT_DIR$/AndroidManifest.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../SavingsCalculatorPremium/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../SavingsCalculatorPremium/.idea/workspace.xml" />
     </list>
     <ignored path="SavingsCalculator.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/fragment.java" changelist="550ea73c-e9f8-4e55-9604-35df0b659151" time="1378230967729" ignored="false" />
+    <file path="/fragment.java" changelist="550ea73c-e9f8-4e55-9604-35df0b659151" time="1378237156657" ignored="false" />
     <file path="/a.xml" changelist="550ea73c-e9f8-4e55-9604-35df0b659151" time="1372696666767" ignored="false" />
     <file path="/MainActivity.java" changelist="550ea73c-e9f8-4e55-9604-35df0b659151" time="1378156800808" ignored="false" />
     <file path="/UiBindingContainer.java" changelist="550ea73c-e9f8-4e55-9604-35df0b659151" time="1375044745757" ignored="false" />
@@ -108,7 +119,7 @@
     <file path="/bindableProperty.java" changelist="550ea73c-e9f8-4e55-9604-35df0b659151" time="1374939748881" ignored="false" />
     <file path="/Quote.java" changelist="550ea73c-e9f8-4e55-9604-35df0b659151" time="1378071788179" ignored="false" />
     <file path="/BindableProperty.java" changelist="550ea73c-e9f8-4e55-9604-35df0b659151" time="1376508865899" ignored="false" />
-    <file path="/Dummy.txt" changelist="550ea73c-e9f8-4e55-9604-35df0b659151" time="1378230599646" ignored="false" />
+    <file path="/Dummy.txt" changelist="550ea73c-e9f8-4e55-9604-35df0b659151" time="1378318174978" ignored="false" />
     <file path="/INotifyPropertyChanged.java" changelist="550ea73c-e9f8-4e55-9604-35df0b659151" time="1375004491189" ignored="false" />
     <file path="/SummaryFragment.java" changelist="550ea73c-e9f8-4e55-9604-35df0b659151" time="1377718298660" ignored="false" />
     <file path="/ValueChanged.java" changelist="550ea73c-e9f8-4e55-9604-35df0b659151" time="1375041098287" ignored="false" />
@@ -149,6 +160,13 @@
     <file path="/TabletLandscapeFragment.java" changelist="550ea73c-e9f8-4e55-9604-35df0b659151" time="1378151725659" ignored="false" />
     <file path="$PROJECT_DIR$/../SavingsCalculatorPremium/gen/com/avantics/savingscalcpremium/BuildConfig.java" changelist="550ea73c-e9f8-4e55-9604-35df0b659151" time="1378157412693" ignored="false" />
     <file path="$PROJECT_DIR$/gen/com/avantics/savingscalc/BuildConfig.java" changelist="550ea73c-e9f8-4e55-9604-35df0b659151" time="1378231113337" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../xbmc/res/values/strings.xml" changelist="550ea73c-e9f8-4e55-9604-35df0b659151" time="1378234038212" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../xbmc/AndroidManifest.xml" changelist="550ea73c-e9f8-4e55-9604-35df0b659151" time="1378238284359" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../xbmc/res/layout/main.xml" changelist="550ea73c-e9f8-4e55-9604-35df0b659151" time="1378234038211" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../xbmc/build.xml" changelist="550ea73c-e9f8-4e55-9604-35df0b659151" time="1378234038212" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../xbmc/src/com/avantics/xbmc/MyActivity.java" changelist="550ea73c-e9f8-4e55-9604-35df0b659151" time="1378239144527" ignored="false" />
+    <file path="/MyActivity.java" changelist="550ea73c-e9f8-4e55-9604-35df0b659151" time="1378238045613" ignored="false" />
+    <file path="/NSDHelper.java" changelist="550ea73c-e9f8-4e55-9604-35df0b659151" time="1378238589694" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -168,6 +186,23 @@
     <disable_hints />
   </component>
   <component name="DebuggerManager">
+    <line_breakpoints default_suspend_policy="SuspendAll" default_condition_enabled="true">
+      <breakpoint url="file://$PROJECT_DIR$/../SavingsCalculatorCommon/src/com/avantics/savingscalc/common/UiBindingManager.java" line="96" class="com.avantics.savingscalc.common.UiBindingManager" package="com.avantics.savingscalc.common">
+        <option name="ENABLED" value="true" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="REMOVE_AFTER_HIT" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="SUSPEND" value="true" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="true" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
+    </line_breakpoints>
     <breakpoint_any default_suspend_policy="SuspendAll" default_condition_enabled="true">
       <breakpoint>
         <option name="NOTIFY_CAUGHT" value="true" />
@@ -205,23 +240,6 @@
       </breakpoint>
     </breakpoint_any>
     <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
-    <line_breakpoints default_suspend_policy="SuspendAll" default_condition_enabled="true">
-      <breakpoint url="file://$PROJECT_DIR$/../SavingsCalculatorCommon/src/com/avantics/savingscalc/common/UiBindingManager.java" line="96" class="com.avantics.savingscalc.common.UiBindingManager" package="com.avantics.savingscalc.common">
-        <option name="ENABLED" value="true" />
-        <option name="LOG_ENABLED" value="false" />
-        <option name="LOG_EXPRESSION_ENABLED" value="false" />
-        <option name="REMOVE_AFTER_HIT" value="false" />
-        <option name="SUSPEND_POLICY" value="SuspendAll" />
-        <option name="SUSPEND" value="true" />
-        <option name="COUNT_FILTER_ENABLED" value="false" />
-        <option name="COUNT_FILTER" value="0" />
-        <option name="CONDITION_ENABLED" value="true" />
-        <option name="CLASS_FILTERS_ENABLED" value="false" />
-        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
-        <option name="CONDITION" value="" />
-        <option name="LOG_MESSAGE" value="" />
-      </breakpoint>
-    </line_breakpoints>
     <breakpoint_rules />
     <ui_properties />
   </component>
@@ -242,27 +260,25 @@
       </file>
       <file leaf-file-name="quote_savings.xml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../SavingsCalculatorCommon/res/layout/quote_savings.xml">
+          <provider editor-type-id="android-designer">
+            <state />
+          </provider>
           <provider selected="true" editor-type-id="text-editor">
             <state line="30" column="55" selection-start="1133" selection-end="1174" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
-          <provider editor-type-id="android-designer">
-            <state />
-          </provider>
         </entry>
       </file>
       <file leaf-file-name="quote_savings.xml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../SavingsCalculatorCommon/res/layout-w800dp/quote_savings.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="105" column="98" selection-start="3676" selection-end="3676" vertical-scroll-proportion="-3.4">
-              <folding>
-                <element signature="tag#TextView#0;tag#LinearLayout#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
           <provider editor-type-id="android-designer">
             <state />
+          </provider>
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="105" column="98" selection-start="3676" selection-end="3676" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
           </provider>
         </entry>
       </file>
@@ -276,33 +292,41 @@
         </entry>
       </file>
       <file leaf-file-name="main.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../SavingsCalculatorCommon/res/layout-w600dp/main.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="32" column="47" selection-start="1167" selection-end="1167" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
+        <entry file="file://$PROJECT_DIR$/../SavingsCalculatorCommon/res/layout/main.xml">
           <provider editor-type-id="android-designer">
             <state />
           </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="main.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../SavingsCalculatorCommon/res/layout/main.xml">
           <provider selected="true" editor-type-id="text-editor">
             <state line="7" column="39" selection-start="318" selection-end="318" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
-          <provider editor-type-id="android-designer">
-            <state />
+        </entry>
+      </file>
+      <file leaf-file-name="AndroidManifest.xml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/AndroidManifest.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="24" column="73" selection-start="783" selection-end="783" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AndroidManifest.xml" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/AndroidManifest.xml">
+      <file leaf-file-name="UiBindingContainer.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../../../AndroidCommon/MAIN/AvanticsCommon/src/com/avantics/common/UiBindingContainer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="4" column="37" selection-start="225" selection-end="225" vertical-scroll-proportion="0.17751479">
+            <state line="12" column="18" selection-start="337" selection-end="337" vertical-scroll-proportion="0.0">
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="BindableProperty.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/../../../AndroidCommon/MAIN/AvanticsCommon/src/com/avantics/common/BindableProperty.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="8" column="63" selection-start="221" selection-end="221" vertical-scroll-proportion="0.20689656">
               <folding />
             </state>
           </provider>
@@ -321,15 +345,6 @@
         <entry file="file://$PROJECT_DIR$/../SavingsCalculatorCommon/src/com/avantics/savingscalc/common/fragments/IncumbentHeadlineFragment.java">
           <provider selected="true" editor-type-id="text-editor">
             <state line="22" column="0" selection-start="670" selection-end="670" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="BindableFragment.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../SavingsCalculatorCommon/src/com/avantics/savingscalc/common/fragments/BindableFragment.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="16" column="0" selection-start="467" selection-end="467" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -439,6 +454,7 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -449,7 +465,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="PackagesPane">
         <subPane>
           <PATH>
@@ -796,7 +811,11 @@
       <created>1378159643174</created>
       <updated>1378159643174</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="bug with duplicate activity in free version">
+      <created>1378231161563</created>
+      <updated>1378231161563</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
@@ -808,14 +827,12 @@
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32928678" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32852808" sideWeight="0.6" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24962063" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.384" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.40201005" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3264" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Android" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24940991" sideWeight="0.5664" order="1" side_tool="false" content_ui="tabs" />
@@ -824,13 +841,15 @@
       <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2147915" sideWeight="0.616" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3296" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24704957" sideWeight="0.616" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25255704" sideWeight="0.616" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32852808" sideWeight="0.6" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.5072" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3264" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Module Dependencies" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3296617" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -876,7 +895,7 @@
     <option name="WRAP_WHEN_TYPING_REACHES_RIGHT_MARGIN" value="false" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="excel updates, bug fix for client headline figures not being captured" />
+    <option name="LAST_COMMIT_MESSAGE" value="bug with duplicate activity in free version" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -896,6 +915,7 @@
     <MESSAGE value="styling updates" />
     <MESSAGE value="version update" />
     <MESSAGE value="excel updates, bug fix for client headline figures not being captured" />
+    <MESSAGE value="bug with duplicate activity in free version" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -905,34 +925,17 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/../SavingsCalculatorCommon/AndroidManifest.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../SavingsCalculatorCommon/res/layout/quote_incumbent.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="1.8" />
-      </provider>
-      <provider editor-type-id="android-designer">
-        <state />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../SavingsCalculatorCommon/res/values/strings.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="18" selection-start="340" selection-end="340" vertical-scroll-proportion="-3.6">
-          <folding />
-        </state>
+        <state line="7" column="18" selection-start="340" selection-end="340" vertical-scroll-proportion="-3.6" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/../SavingsCalculatorCommon/res/layout/quote_incumbent_headline.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="36" column="49" selection-start="1070" selection-end="1070" vertical-scroll-proportion="-10.8" />
-      </provider>
       <provider editor-type-id="android-designer">
         <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="36" column="49" selection-start="1070" selection-end="1070" vertical-scroll-proportion="-10.8" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/../SavingsCalculatorCommon/src/com/avantics/savingscalc/common/fragments/IncumbentFragment.java">
@@ -941,26 +944,21 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/../SavingsCalculatorCommon/res/layout-w800dp/main.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="36" column="0" selection-start="1390" selection-end="1390" vertical-scroll-proportion="0.0">
-          <folding>
-            <marker date="1378151893497" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1378151893497" expanded="true" signature="-1:-1" placeholder="..." />
-          </folding>
-        </state>
-      </provider>
       <provider editor-type-id="android-designer">
         <state />
       </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="36" column="0" selection-start="1390" selection-end="1390" vertical-scroll-proportion="0.0" />
+      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/../SavingsCalculatorCommon/res/layout-w600dp/main.xml">
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
       <provider selected="true" editor-type-id="text-editor">
         <state line="32" column="47" selection-start="1167" selection-end="1167" vertical-scroll-proportion="0.0">
           <folding />
         </state>
-      </provider>
-      <provider editor-type-id="android-designer">
-        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/../SavingsCalculatorCommon/src/com/avantics/savingscalc/common/fragments/BindableFragment.java">
@@ -992,35 +990,33 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/../SavingsCalculatorCommon/res/layout/main.xml">
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
       <provider selected="true" editor-type-id="text-editor">
         <state line="7" column="39" selection-start="318" selection-end="318" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../SavingsCalculatorCommon/res/layout/quote_savings.xml">
       <provider editor-type-id="android-designer">
         <state />
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../SavingsCalculatorCommon/res/layout/quote_savings.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state line="30" column="55" selection-start="1133" selection-end="1174" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
-      <provider editor-type-id="android-designer">
-        <state />
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/../SavingsCalculatorCommon/res/layout-w800dp/quote_savings.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="105" column="98" selection-start="3676" selection-end="3676" vertical-scroll-proportion="-3.4">
-          <folding>
-            <element signature="tag#TextView#0;tag#LinearLayout#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
       <provider editor-type-id="android-designer">
         <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="105" column="98" selection-start="3676" selection-end="3676" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/avantics/savingscalc/StandardActivity.java">
@@ -1032,7 +1028,23 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/AndroidManifest.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="37" selection-start="225" selection-end="225" vertical-scroll-proportion="0.17751479">
+        <state line="24" column="73" selection-start="783" selection-end="783" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../../AndroidCommon/MAIN/AvanticsCommon/src/com/avantics/common/UiBindingContainer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="18" selection-start="337" selection-end="337" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../../AndroidCommon/MAIN/AvanticsCommon/src/com/avantics/common/BindableProperty.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="63" selection-start="221" selection-end="221" vertical-scroll-proportion="0.20689656">
           <folding />
         </state>
       </provider>
