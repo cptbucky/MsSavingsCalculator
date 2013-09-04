@@ -2,17 +2,27 @@ package com.avantics.savingscalcpremium;
 
 import android.content.res.Resources;
 import android.util.Log;
+
 import com.avantics.savingscalc.common.Quote;
+import com.avantics.savingscalc.common.R;
+
+import java.io.File;
+import java.io.IOException;
+
 import jxl.Workbook;
 import jxl.WorkbookSettings;
 import jxl.format.Alignment;
 import jxl.format.VerticalAlignment;
-import jxl.write.*;
+import jxl.write.Formula;
+import jxl.write.Label;
 import jxl.write.Number;
+import jxl.write.NumberFormats;
+import jxl.write.WritableCellFormat;
+import jxl.write.WritableFont;
+import jxl.write.WritableSheet;
+import jxl.write.WritableWorkbook;
+import jxl.write.WriteException;
 import jxl.write.biff.RowsExceededException;
-
-import java.io.File;
-import java.io.IOException;
 
 public class ExcelExporter {
 
@@ -54,7 +64,7 @@ public class ExcelExporter {
     public void CreateQuoteWorkSheet(Quote quote, Resources resources) {
         String sheetTitle;
 
-        if (quote.Name.getValue().isEmpty()) {
+        if (quote.Name.getValue().equals("")) {
             sheetTitle = String.format("%s", resources.getString(R.string.app_name));
         } else {
             sheetTitle = String.format("%s: %s", resources.getString(R.string.app_name), quote.Name.getValue());
