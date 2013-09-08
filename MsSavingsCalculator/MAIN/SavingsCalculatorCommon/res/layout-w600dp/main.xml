@@ -1,74 +1,74 @@
 <?xml version="1.0" encoding="utf-8" ?>
-<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+<ScrollView xmlns:a="http://schemas.android.com/apk/res/android"
             xmlns:tools="http://schemas.android.com/tools"
-            android:layout_width="fill_parent"
-            android:layout_height="fill_parent">
+            a:layout_width="fill_parent"
+            a:layout_height="fill_parent">
 
-	<LinearLayout android:layout_width="fill_parent"
-	              android:layout_height="fill_parent"
-	              android:orientation="vertical"
-	              android:padding="20dp">
-		<LinearLayout
-				android:orientation="vertical"
-				android:layout_width="fill_parent"
-				android:layout_height="wrap_content">
+    <LinearLayout
+            a:layout_width="fill_parent"
+            a:layout_height="wrap_content"
+            a:orientation="vertical"
+            a:padding="20dp">
 
-			<TextView
-					android:layout_width="wrap_content"
-					android:layout_height="wrap_content"
-					android:text="@string/client_section_header"
-					android:id="@+id/textView" style="@style/sectionHeaderLabel"/>
+        <TextView
+                a:layout_width="wrap_content"
+                a:layout_height="wrap_content"
+                a:text="@string/client_section_header"
+                style="@style/sectionHeaderLabel"/>
 
-			<fragment
-					android:name="com.avantics.savingscalc.common.fragments.IncumbentHeadlineFragment"
-					android:layout_width="fill_parent"
-					android:layout_height="wrap_content"
-					tools:layout="@layout/quote_proposed"
-					android:layout_marginLeft="20dp"
-					android:layout_marginRight="20dp"/>
+        <View
+                a:id="@+id/sepLine01"
+                style="@style/underliningRule"
+                a:layout_width="fill_parent"
+                a:layout_height="1dp"/>
 
-		</LinearLayout>
+        <include
+                layout="@layout/quote_incumbent_headline"
+                a:layout_width="fill_parent"
+                a:layout_height="wrap_content"
+                a:layout_marginTop="10dp"
+                a:layout_marginLeft="20dp"
+                a:layout_marginRight="20dp"/>
 
-		<View
-				style="@style/horizontalRule"
-				android:layout_width="fill_parent"
-				android:layout_height="1dp"
-				/>
+        <TextView
+                a:layout_width="wrap_content"
+                a:layout_height="wrap_content"
+                a:text="@string/quote_calculation_section_heading"
+                style="@style/sectionHeaderLabel"
+                a:layout_marginTop="20dp"/>
 
-		<TextView
-				android:layout_width="wrap_content"
-				android:layout_height="wrap_content"
-				android:text="@string/quote_calculation_section_heading"
-				android:id="@+id/vendorHeaderLabel"
-				style="@style/sectionHeaderLabel"
-				android:layout_marginTop="20dp"/>
+        <View
+                a:id="@+id/sepLine02"
+                style="@style/underliningRule"
+                a:layout_width="fill_parent"
+                a:layout_height="1dp"/>
 
-		<fragment
-				android:name="com.avantics.savingscalc.common.fragments.CalculationFragment"
-				android:layout_width="fill_parent"
-				android:layout_height="wrap_content"
-				tools:layout="@layout/quote_proposed"
-				android:layout_marginLeft="20dp"/>
+        <include
+                layout="@layout/quote_calculation"
+                a:layout_width="fill_parent"
+                a:layout_height="fill_parent"
+                a:layout_marginLeft="20dp"
+                a:layout_marginTop="10dp"/>
 
-		<View
-				style="@style/horizontalRule"
-				android:layout_width="fill_parent"
-				android:layout_height="1dp"
-				/>
+        <TextView
+                a:layout_width="wrap_content"
+                a:layout_height="wrap_content"
+                a:text="@string/savings_section_header"
+                style="@style/sectionHeaderLabel"
+                a:layout_marginTop="20dp"/>
 
-		<TextView
-				android:id="@+id/savingsLabel"
-				style="@style/sectionHeaderLabel"
-				android:layout_width="wrap_content"
-				android:layout_height="wrap_content"
-				android:text="@string/saving_percentage"
-				android:layout_marginTop="20dp"/>
+        <View
+                a:id="@+id/sepLine03"
+                style="@style/underliningRule"
+                a:layout_width="fill_parent"
+                a:layout_height="1dp"/>
 
-		<fragment
-				android:name="com.avantics.savingscalc.common.fragments.SavingsFragment"
-				android:layout_width="match_parent"
-				android:layout_height="match_parent"
-				tools:layout="@layout/quote_summary"/>
+        <fragment
+                a:id="@+id/savingsFrag"
+                a:name="com.avantics.savingscalc.common.fragments.SavingsFragment"
+                a:layout_width="fill_parent"
+                a:layout_height="wrap_content"
+                tools:layout="@layout/quote_savings"/>
 
-	</LinearLayout>
+    </LinearLayout>
 </ScrollView>

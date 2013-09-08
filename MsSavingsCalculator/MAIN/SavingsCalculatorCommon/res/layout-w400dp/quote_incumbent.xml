@@ -6,40 +6,33 @@
 
     <LinearLayout
             a:layout_width="match_parent"
-            a:layout_height="match_parent">
+            a:layout_height="wrap_content">
 
         <LinearLayout
-                a:layout_width="match_parent"
+                a:layout_width="0dp"
                 a:layout_height="match_parent"
+                a:layout_weight="1"
                 a:orientation="vertical"
                 a:gravity="center_vertical">
 
             <LinearLayout
-                    a:id="@+id/LinearLayout3"
+                    style="@style/linearLayoutRow"
                     a:layout_width="fill_parent"
-                    a:layout_height="wrap_content">
+                    a:layout_height="37sp">
 
                 <TextView
-                        a:id="@+id/spacer1"
-                        a:layout_width="0dp"
-                        a:layout_weight="1"
-                        a:layout_height="wrap_content"/>
-
-                <TextView
-                        a:id="@+id/TextView14"
-                        style="@style/centerAlignLabel"
+                        style="@style/leftAlignLabel"
                         a:layout_width="0dp"
                         a:layout_height="wrap_content"
                         a:layout_weight="1"
-                        a:text="@string/vendor_rate"/>
+                        a:text="@string/statement_total_exc_terminal"/>
 
-                <TextView
-                        a:id="@+id/lblVendorRate"
-                        style="@style/centerAlignLabel"
+                <EditText
+                        a:id="@+id/CSTotalExcTerminal"
+                        style="@style/currencyInput"
                         a:layout_width="0dp"
                         a:layout_height="wrap_content"
-                        a:layout_weight="1"
-                        a:text="@string/calculated_total"/>
+                        a:layout_weight="1"/>
 
             </LinearLayout>
 
@@ -49,6 +42,51 @@
                     a:layout_height="37sp">
 
                 <TextView
+                        style="@style/leftAlignLabel"
+                        a:layout_width="0dp"
+                        a:layout_height="wrap_content"
+                        a:layout_weight="1"
+                        a:text="@string/customer_terminal"/>
+
+                <EditText
+                        a:id="@+id/CSTerminal"
+                        style="@style/currencyInput"
+                        a:layout_width="0dp"
+                        a:layout_height="wrap_content"
+                        a:layout_weight="1"/>
+
+                <!--<EditText-->
+                <!--a:id="@+id/DCST"-->
+                <!--style="@style/inputValue"-->
+                <!--a:layout_width="0dp"-->
+                <!--a:layout_height="wrap_content"-->
+                <!--a:layout_weight="1"/>-->
+                <!--</LinearLayout>-->
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <View
+                style="@style/verticalRule"
+                a:layout_width="1dp"
+                a:layout_height="fill_parent"
+                a:layout_marginLeft="20dp"/>
+
+        <LinearLayout
+                a:layout_width="0dp"
+                a:layout_height="match_parent"
+                a:layout_weight="1"
+                a:orientation="vertical"
+                a:gravity="center_vertical">
+
+            <LinearLayout
+                    style="@style/linearLayoutRow"
+                    a:layout_width="fill_parent"
+                    a:layout_height="37sp">
+
+                <TextView
+                        a:id="@+id/ccLabel"
                         style="@style/leftAlignLabel"
                         a:layout_width="0dp"
                         a:layout_height="wrap_content"
@@ -56,20 +94,11 @@
                         a:text="@string/cc_long"/>
 
                 <EditText
-                        a:id="@+id/CCFR"
-                        style="@style/percentageInput"
+                        a:id="@+id/CCST"
+                        style="@style/currencyInput"
                         a:layout_width="0dp"
                         a:layout_height="wrap_content"
                         a:layout_weight="1"/>
-
-                <TextView
-                        a:id="@+id/CCT"
-                        style="@style/centerAlignLabel"
-                        a:layout_width="0dp"
-                        a:layout_height="wrap_content"
-                        a:layout_weight="1"
-                        a:textIsSelectable="true"/>
-
             </LinearLayout>
 
             <LinearLayout
@@ -78,6 +107,7 @@
                     a:layout_height="37sp">
 
                 <TextView
+                        a:id="@+id/bcLabel"
                         style="@style/leftAlignLabel"
                         a:layout_width="0dp"
                         a:layout_height="wrap_content"
@@ -85,19 +115,11 @@
                         a:text="@string/bc_long"/>
 
                 <EditText
-                        a:id="@+id/BCFR"
-                        style="@style/percentageInput"
+                        a:id="@+id/BCST"
+                        style="@style/currencyInput"
                         a:layout_width="0dp"
                         a:layout_height="wrap_content"
                         a:layout_weight="1"/>
-
-                <TextView
-                        a:id="@+id/BCT"
-                        style="@style/centerAlignLabel"
-                        a:layout_width="0dp"
-                        a:layout_height="wrap_content"
-                        a:layout_weight="1"
-                        a:textIsSelectable="true"/>
 
             </LinearLayout>
 
@@ -107,6 +129,7 @@
                     a:layout_height="37sp">
 
                 <TextView
+                        a:id="@+id/dcLabel"
                         style="@style/leftAlignLabel"
                         a:layout_width="0dp"
                         a:layout_height="wrap_content"
@@ -114,60 +137,8 @@
                         a:text="@string/dc_long"/>
 
                 <EditText
-                        a:id="@+id/DCFR"
-                        style="@style/currencyInput"
-                        a:layout_width="0dp"
-                        a:layout_height="wrap_content"
-                        a:layout_weight="1"/>
-
-                <TextView
-                        a:id="@+id/DCT"
-                        style="@style/centerAlignLabel"
-                        a:layout_width="0dp"
-                        a:layout_height="wrap_content"
-                        a:layout_weight="1"
-                        a:textIsSelectable="true"/>
-
-            </LinearLayout>
-
-            <LinearLayout
-                    style="@style/linearLayoutRow"
-                    a:layout_width="fill_parent"
-                    a:layout_height="37sp">
-
-                <TextView
-                        a:id="@+id/lblVendorIncPci"
-                        style="@style/rightAlignLabel"
-                        a:layout_width="0dp"
-                        a:layout_height="wrap_content"
-                        a:layout_weight="2"
-                        a:text="@string/vendor_inc_pci"/>
-
-                <EditText
-                        a:id="@+id/FIncPciRate"
-                        style="@style/currencyInput"
-                        a:layout_width="0dp"
-                        a:layout_height="wrap_content"
-                        a:layout_weight="1"/>
-
-            </LinearLayout>
-
-            <LinearLayout
-                    style="@style/linearLayoutRow"
-                    a:layout_width="fill_parent"
-                    a:layout_height="37sp">
-
-                <TextView
-                        a:id="@+id/lblVendorTerminal"
-                        style="@style/rightAlignLabel"
-                        a:layout_width="0dp"
-                        a:layout_height="wrap_content"
-                        a:layout_weight="2"
-                        a:text="@string/vendor_terminal"/>
-
-                <EditText
-                        a:id="@+id/VendorTerminal"
-                        style="@style/currencyInput"
+                        a:id="@+id/DCST"
+                        style="@style/inputValue"
                         a:layout_width="0dp"
                         a:layout_height="wrap_content"
                         a:layout_weight="1"/>

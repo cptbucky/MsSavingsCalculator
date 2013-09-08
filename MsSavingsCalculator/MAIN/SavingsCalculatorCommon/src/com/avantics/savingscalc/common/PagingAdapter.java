@@ -3,6 +3,7 @@ package com.avantics.savingscalc.common;
 import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentManager;
 import android.support.v4.app.FragmentPagerAdapter;
+
 import com.avantics.savingscalc.common.fragments.IncumbentFragment;
 import com.avantics.savingscalc.common.fragments.ProposedFragment;
 import com.avantics.savingscalc.common.fragments.SummaryFragment;

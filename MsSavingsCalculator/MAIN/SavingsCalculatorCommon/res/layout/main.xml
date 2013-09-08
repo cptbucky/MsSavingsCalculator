@@ -1,12 +1,15 @@
 <?xml version="1.0" encoding="utf-8" ?>
 
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:a="http://schemas.android.com/apk/res/android"
               xmlns:tools="http://schemas.android.com/tools"
-              android:layout_width="match_parent"
-              android:layout_height="match_parent">
-	<fragment
-			android:name="com.avantics.savingscalc.common.fragments.MobileTabbedFragment"
-			android:layout_width="match_parent"
-			android:layout_height="match_parent"
-			tools:layout="@layout/main"/>
+              a:layout_width="match_parent"
+              a:layout_height="match_parent">
+
+    <fragment
+            a:id="@+id/tabbedFrag"
+            a:name="com.avantics.savingscalc.common.fragments.MobileTabbedFragment"
+            a:layout_width="match_parent"
+            a:layout_height="match_parent"
+            tools:layout="@layout/tab_swipe_activity"/>
+
 </LinearLayout>

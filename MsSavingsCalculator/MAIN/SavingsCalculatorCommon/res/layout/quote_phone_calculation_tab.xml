@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:a="http://schemas.android.com/apk/res/android"
+            a:layout_width="match_parent"
+            a:layout_height="match_parent">
+
+    <LinearLayout
+            a:layout_width="fill_parent"
+            a:layout_height="wrap_content"
+            a:orientation="vertical">
+
+        <TextView
+                a:layout_width="wrap_content"
+                a:layout_height="wrap_content"
+                a:text="@string/client_section_header"
+                style="@style/sectionHeaderLabel"/>
+
+        <View
+                a:id="@+id/sepLine01"
+                style="@style/underliningRule"
+                a:layout_width="fill_parent"
+                a:layout_height="1dp"/>
+
+        <include
+                layout="@layout/quote_incumbent_headline"
+                a:layout_width="fill_parent"
+                a:layout_height="wrap_content"
+                a:layout_marginTop="10dp"
+                a:layout_marginLeft="20dp"/>
+
+        <TextView
+                a:layout_width="wrap_content"
+                a:layout_height="wrap_content"
+                a:text="@string/quote_calculation_section_heading"
+                a:layout_marginTop="20dp"
+                style="@style/sectionHeaderLabel"/>
+
+        <View
+                a:id="@+id/sepLine02"
+                style="@style/underliningRule"
+                a:layout_width="fill_parent"
+                a:layout_height="1dp"/>
+
+        <include
+                layout="@layout/quote_calculation"
+                a:layout_width="fill_parent"
+                a:layout_height="fill_parent"
+                a:layout_marginLeft="20dp"
+                a:layout_marginTop="10dp"/>
+
+        <!--<LinearLayout-->
+        <!--a:layout_width="fill_parent"-->
+        <!--a:layout_height="wrap_content"-->
+        <!--a:orientation="vertical"-->
+        <!--a:layout_marginLeft="20dp"-->
+        <!-->-->
+
+        <!--<LinearLayout-->
+        <!--style="@style/linearLayoutRow"-->
+        <!--a:layout_width="fill_parent"-->
+        <!--a:layout_height="37sp"-->
+        <!--a:layout_marginTop="10dp">-->
+
+        <!--<TextView-->
+        <!--a:id="@+id/ccLabel"-->
+        <!--style="@style/leftAlignLabel"-->
+        <!--a:layout_width="0dp"-->
+        <!--a:layout_height="wrap_content"-->
+        <!--a:layout_weight="1"-->
+        <!--a:text="@string/cc_calculation_row_label"/>-->
+
+        <!--<EditText-->
+        <!--a:id="@+id/CCST"-->
+        <!--style="@style/currencyInput"-->
+        <!--a:layout_width="0dp"-->
+        <!--a:layout_height="wrap_content"-->
+        <!--a:layout_weight="1"/>-->
+        <!--</LinearLayout>-->
+
+        <!--<LinearLayout-->
+        <!--style="@style/linearLayoutRow"-->
+        <!--a:layout_width="fill_parent"-->
+        <!--a:layout_height="37sp">-->
+
+        <!--<TextView-->
+        <!--a:id="@+id/bcLabel"-->
+        <!--style="@style/leftAlignLabel"-->
+        <!--a:layout_width="0dp"-->
+        <!--a:layout_height="wrap_content"-->
+        <!--a:layout_weight="1"-->
+        <!--a:text="@string/bc_calculation_row_label"/>-->
+
+        <!--<EditText-->
+        <!--a:id="@+id/BCST"-->
+        <!--style="@style/currencyInput"-->
+        <!--a:layout_width="0dp"-->
+        <!--a:layout_height="wrap_content"-->
+        <!--a:layout_weight="1"/>-->
+
+        <!--</LinearLayout>-->
+
+        <!--<LinearLayout-->
+        <!--style="@style/linearLayoutRow"-->
+        <!--a:layout_width="fill_parent"-->
+        <!--a:layout_height="37sp">-->
+
+        <!--<TextView-->
+        <!--a:id="@+id/dcLabel"-->
+        <!--style="@style/leftAlignLabel"-->
+        <!--a:layout_width="0dp"-->
+        <!--a:layout_height="wrap_content"-->
+        <!--a:layout_weight="1"-->
+        <!--a:text="@string/dc_calculation_row_label"/>-->
+
+        <!--<EditText-->
+        <!--a:id="@+id/DCST"-->
+        <!--style="@style/inputValue"-->
+        <!--a:layout_width="0dp"-->
+        <!--a:layout_height="wrap_content"-->
+        <!--a:layout_weight="1"/>-->
+        <!--</LinearLayout>-->
+
+        <!--</LinearLayout>-->
+
+    </LinearLayout>
+
+</ScrollView>

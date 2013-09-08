@@ -1,5 +1,6 @@
 package com.avantics.savingscalc.common.activities;
 
+import android.os.Build;
 import android.os.Bundle;
 import android.support.v4.app.FragmentActivity;
 import android.view.View;
@@ -26,7 +27,11 @@ public class Main extends FragmentActivity implements IBindManager {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
 
-        setContentView(R.layout.main);
+        if (Build.VERSION.SDK_INT < Build.VERSION_CODES.HONEYCOMB) {
+            setContentView(com.avantics.savingscalc.common.R.layout.standard_form);
+        } else {
+            setContentView(R.layout.main);
+        }
     }
 
     @Override

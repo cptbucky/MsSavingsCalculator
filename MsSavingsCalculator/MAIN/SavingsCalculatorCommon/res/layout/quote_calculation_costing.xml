@@ -1,0 +1,58 @@
+<RelativeLayout xmlns:a="http://schemas.android.com/apk/res/android"
+                a:id="@+id/RelativeLayout1"
+                a:layout_width="match_parent"
+                a:layout_height="wrap_content"
+                a:focusable="true"
+                a:focusableInTouchMode="true">
+
+    <LinearLayout
+            a:id="@+id/LinearLayout3"
+            a:layout_width="fill_parent"
+            a:layout_height="wrap_content"
+            a:orientation="vertical">
+
+        <TextView
+                a:id="@+id/TextView12"
+                style="@style/centerAlignLabel"
+                a:layout_width="fill_parent"
+                a:layout_height="wrap_content"
+                a:text="@string/calculated_total"/>
+
+        <TextView
+                a:id="@+id/CCT"
+                style="@style/totalLabel"
+                a:layout_width="fill_parent"
+                a:layout_height="wrap_content"
+                a:textIsSelectable="true"/>
+
+        <TextView
+                a:id="@+id/BCT"
+                style="@style/totalLabel"
+                a:layout_width="fill_parent"
+                a:layout_height="wrap_content"
+                a:textIsSelectable="true"/>
+
+        <TextView
+                a:id="@+id/DCT"
+                style="@style/totalLabel"
+                a:layout_width="fill_parent"
+                a:layout_height="wrap_content"
+                a:textIsSelectable="true"/>
+
+        <TextView
+                a:id="@+id/CSTotal"
+                style="@style/centerAlignLabel"
+                a:layout_width="fill_parent"
+                a:layout_height="wrap_content"
+                a:textIsSelectable="true"/>
+
+        <TextView
+                a:id="@+id/VendorTerminalTotal"
+                style="@style/centerAlignLabel"
+                a:layout_width="fill_parent"
+                a:layout_height="wrap_content"
+                a:textIsSelectable="true"/>
+
+    </LinearLayout>
+
+</RelativeLayout>

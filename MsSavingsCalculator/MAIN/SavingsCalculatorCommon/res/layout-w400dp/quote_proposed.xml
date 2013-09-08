@@ -6,11 +6,56 @@
 
     <LinearLayout
             a:layout_width="match_parent"
-            a:layout_height="match_parent">
+            a:layout_height="wrap_content">
 
         <LinearLayout
-                a:layout_width="match_parent"
+                a:layout_width="0dp"
                 a:layout_height="match_parent"
+                a:layout_weight="1"
+                a:orientation="vertical"
+                a:gravity="center_vertical">
+
+            <TextView
+                    a:id="@+id/lblVendorIncPci"
+                    style="@style/leftAlignLabel"
+                    a:layout_width="wrap_content"
+                    a:layout_height="wrap_content"
+                    a:text="@string/vendor_inc_pci"/>
+
+            <EditText
+                    a:id="@+id/FIncPciRate"
+                    style="@style/currencyInput"
+                    a:layout_width="match_parent"
+                    a:layout_height="wrap_content"
+                    a:layout_marginTop="10dp"/>
+
+            <TextView
+                    a:id="@+id/lblVendorTerminal"
+                    style="@style/rightAlignLabel"
+                    a:layout_width="wrap_content"
+                    a:layout_height="wrap_content"
+                    a:text="@string/vendor_terminal"
+                    a:layout_marginTop="20dp"/>
+
+            <EditText
+                    a:id="@+id/VendorTerminal"
+                    style="@style/currencyInput"
+                    a:layout_width="match_parent"
+                    a:layout_height="wrap_content"
+                    a:layout_marginTop="10dp"/>
+
+        </LinearLayout>
+
+        <View
+                style="@style/verticalRule"
+                a:layout_width="1dp"
+                a:layout_height="fill_parent"
+                a:layout_marginLeft="20dp"/>
+
+        <LinearLayout
+                a:layout_width="0dp"
+                a:layout_height="match_parent"
+                a:layout_weight="3"
                 a:orientation="vertical"
                 a:gravity="center_vertical">
 
@@ -128,49 +173,6 @@
                         a:layout_weight="1"
                         a:textIsSelectable="true"/>
 
-            </LinearLayout>
-
-            <LinearLayout
-                    style="@style/linearLayoutRow"
-                    a:layout_width="fill_parent"
-                    a:layout_height="37sp">
-
-                <TextView
-                        a:id="@+id/lblVendorIncPci"
-                        style="@style/rightAlignLabel"
-                        a:layout_width="0dp"
-                        a:layout_height="wrap_content"
-                        a:layout_weight="2"
-                        a:text="@string/vendor_inc_pci"/>
-
-                <EditText
-                        a:id="@+id/FIncPciRate"
-                        style="@style/currencyInput"
-                        a:layout_width="0dp"
-                        a:layout_height="wrap_content"
-                        a:layout_weight="1"/>
-
-            </LinearLayout>
-
-            <LinearLayout
-                    style="@style/linearLayoutRow"
-                    a:layout_width="fill_parent"
-                    a:layout_height="37sp">
-
-                <TextView
-                        a:id="@+id/lblVendorTerminal"
-                        style="@style/rightAlignLabel"
-                        a:layout_width="0dp"
-                        a:layout_height="wrap_content"
-                        a:layout_weight="2"
-                        a:text="@string/vendor_terminal"/>
-
-                <EditText
-                        a:id="@+id/VendorTerminal"
-                        style="@style/currencyInput"
-                        a:layout_width="0dp"
-                        a:layout_height="wrap_content"
-                        a:layout_weight="1"/>
             </LinearLayout>
 
         </LinearLayout>

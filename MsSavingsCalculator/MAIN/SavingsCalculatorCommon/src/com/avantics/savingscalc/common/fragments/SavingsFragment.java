@@ -70,4 +70,9 @@ public class SavingsFragment extends BindableFragment {
 
         return view;
     }
+
+    @Override
+    public void onDestroyView() {
+        super.onDestroyView();
+    }
 }
