@@ -3,8 +3,8 @@ package com.avantics.savingscalcpremium;
 import android.content.res.Resources;
 import android.util.Log;
 
-import com.avantics.savingscalc.common.Quote;
 import com.avantics.savingscalc.common.R;
+import com.avantics.savingscalc.common.entities.Quote;
 
 import java.io.File;
 import java.io.IOException;
@@ -79,13 +79,13 @@ public class ExcelExporter {
             writeCell(1, 3, resources.getString(R.string.client_statement_total));
             writeValueCell(2, 3, quote.CustomerStatementTotal.getValue());
 
-            writeCell(1, 5, resources.getString(R.string.cc_long));
+            writeCell(1, 5, resources.getString(R.string.cc_calculation_row_label));
             writeValueCell(2, 5, quote.CreditCardStatementTotal.getValue());
 
-            writeCell(1, 6, resources.getString(R.string.bc_long));
-            writeValueCell(2, 6, quote.BankCardStatementTotal.getValue());
+            writeCell(1, 6, resources.getString(R.string.bc_calculation_row_label));
+            writeValueCell(2, 6, quote.BusinessCardStatementTotal.getValue());
 
-            writeCell(1, 7, resources.getString(R.string.dc_long));
+            writeCell(1, 7, resources.getString(R.string.dc_calculation_row_label));
             writeValueCell(2, 7, quote.DebitCardStatementTotal.getValue());
             /* Incumbent */
 
@@ -96,16 +96,16 @@ public class ExcelExporter {
             writeValueCell(5, 3, quote.CreditCardRate.getValue());
 
             writeCell(4, 4, resources.getString(R.string.bc_rate_long));
-            writeValueCell(5, 4, quote.BankCardRate.getValue());
+            writeValueCell(5, 4, quote.BusinessCardRate.getValue());
 
             writeCell(4, 5, resources.getString(R.string.dc_rate_long));
             writeValueCell(5, 5, quote.DebitCardRate.getValue());
 
-            writeCell(4, 6, resources.getString(R.string.vendor_terminal));
-            writeValueCell(5, 6, quote.VendorTerminal.getValue());
+            writeCell(4, 6, resources.getString(R.string.vendor_inc_pci));
+            writeValueCell(5, 6, quote.FIncludingPciRate.getValue());
 
-            writeCell(4, 7, resources.getString(R.string.vendor_inc_pci));
-            writeValueCell(5, 7, quote.FIncludingPciRate.getValue());
+            writeCell(4, 7, resources.getString(R.string.vendor_terminal));
+            writeValueCell(5, 7, quote.VendorTerminal.getValue());
             /* Proposed */
 
             /* Summary */
@@ -116,27 +116,27 @@ public class ExcelExporter {
             writeCell(10, 3, resources.getString(R.string.vendor_statement_total));
 
             writeCell(7, 4, resources.getString(R.string.cc_short));
-            writeFormulaCell(8, 4, "C5");
-            writeFormulaCell(9, 4, "F3");
+            writeFormulaCell(8, 4, "C6");
+            writeFormulaCell(9, 4, "F4");
             writeValueCell(10, 4, quote.CreditCardTotal.getValue());
 
             writeCell(7, 5, resources.getString(R.string.bc_short));
-            writeFormulaCell(8, 5, "C6");
-            writeFormulaCell(9, 5, "F4");
-            writeValueCell(10, 5, quote.BankCardTotal.getValue());
+            writeFormulaCell(8, 5, "C7");
+            writeFormulaCell(9, 5, "F5");
+            writeValueCell(10, 5, quote.BusinessCardTotal.getValue());
 
             writeCell(7, 6, resources.getString(R.string.dc_short));
-            writeFormulaCell(8, 6, "C7");
-            writeFormulaCell(9, 6, "F5");
+            writeFormulaCell(8, 6, "C8");
+            writeFormulaCell(9, 6, "F6");
             writeValueCell(10, 6, quote.DebitCardTotal.getValue());
 
-            writeCell(8, 7, resources.getString(R.string.vendor_terminal));
-            writeFormulaCell(9, 7, "F6");
-            writeValueCell(10, 7, quote.VendorTerminalTotal.getValue());
+            writeCell(8, 7, resources.getString(R.string.vendor_inc_pci));
+            writeFormulaCell(9, 7, "F7");
+            writeValueCell(10, 7, quote.FIncludingPciTotal.getValue());
 
-            writeCell(8, 8, resources.getString(R.string.vendor_inc_pci));
-            writeFormulaCell(9, 8, "F7");
-            writeValueCell(10, 8, quote.FIncludingPciTotal.getValue());
+            writeCell(8, 8, resources.getString(R.string.vendor_terminal));
+            writeFormulaCell(9, 8, "F8");
+            writeValueCell(10, 8, quote.VendorTerminalTotal.getValue());
 
             writeCell(9, 9, "Total");
             writeFormulaCell(10, 9, "SUM(K4:K8)");

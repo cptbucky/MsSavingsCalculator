@@ -3,10 +3,12 @@ package com.avantics.savingscalc.common;
 import android.view.View;
 import android.widget.EditText;
 import android.widget.TextView;
+
 import com.avantics.common.BindableProperty;
 import com.avantics.common.Formatters;
 import com.avantics.common.IBindManager;
 import com.avantics.common.UiBindingContainer;
+import com.avantics.savingscalc.common.entities.Quote;
 
 import java.text.NumberFormat;
 import java.util.ArrayList;
@@ -36,15 +38,15 @@ public class UiBindingManager implements IBindManager {
         getUiBindingContainer((EditText) view.findViewById(R.id.CCFR), currentQuote.CreditCardRate, formatters.DECIMAL_FORMATTER);
         getUiBindingContainer((TextView) view.findViewById(R.id.CCT), currentQuote.CreditCardTotal, formatters.CURRENCY_FORMATTER);
 
-        getUiBindingContainer((EditText) view.findViewById(R.id.BCST), currentQuote.BankCardStatementTotal, formatters.CURRENCY_FORMATTER);
-        getUiBindingContainer((EditText) view.findViewById(R.id.BCFR), currentQuote.BankCardRate, formatters.DECIMAL_FORMATTER);
-        getUiBindingContainer((TextView) view.findViewById(R.id.BCT), currentQuote.BankCardTotal, formatters.CURRENCY_FORMATTER);
+        getUiBindingContainer((EditText) view.findViewById(R.id.BCST), currentQuote.BusinessCardStatementTotal, formatters.CURRENCY_FORMATTER);
+        getUiBindingContainer((EditText) view.findViewById(R.id.BCFR), currentQuote.BusinessCardRate, formatters.DECIMAL_FORMATTER);
+        getUiBindingContainer((TextView) view.findViewById(R.id.BCT), currentQuote.BusinessCardTotal, formatters.CURRENCY_FORMATTER);
 
         getUiBindingContainer((EditText) view.findViewById(R.id.DCST), currentQuote.DebitCardStatementTotal, formatters.DECIMAL_FORMATTER);
         getUiBindingContainer((EditText) view.findViewById(R.id.DCFR), currentQuote.DebitCardRate, formatters.CURRENCY_FORMATTER);
         getUiBindingContainer((TextView) view.findViewById(R.id.DCT), currentQuote.DebitCardTotal, formatters.CURRENCY_FORMATTER);
 
-        getUiBindingContainer((TextView) view.findViewById(R.id.FIncPci), currentQuote.FIncludingPciTotal, formatters.CURRENCY_FORMATTER);
+//        getUiBindingContainer((TextView) view.findViewById(R.id.FIncPci), currentQuote.FIncludingPciTotal, formatters.CURRENCY_FORMATTER);
         getUiBindingContainer((EditText) view.findViewById(R.id.FIncPciRate), currentQuote.FIncludingPciRate, formatters.CURRENCY_FORMATTER);
 
         getUiBindingContainer((EditText) view.findViewById(R.id.VendorTerminal), currentQuote.VendorTerminal, formatters.CURRENCY_FORMATTER);
@@ -106,8 +108,8 @@ public class UiBindingManager implements IBindManager {
         currentQuote.CreditCardStatementTotal.setValue(quote.CreditCardStatementTotal.getValue());
         currentQuote.CreditCardRate.setValue(quote.CreditCardRate.getValue());
 
-        currentQuote.BankCardStatementTotal.setValue(quote.BankCardStatementTotal.getValue());
-        currentQuote.BankCardRate.setValue(quote.BankCardRate.getValue());
+        currentQuote.BusinessCardStatementTotal.setValue(quote.BusinessCardStatementTotal.getValue());
+        currentQuote.BusinessCardRate.setValue(quote.BusinessCardRate.getValue());
 
         currentQuote.DebitCardStatementTotal.setValue(quote.DebitCardStatementTotal.getValue());
         currentQuote.DebitCardRate.setValue(quote.DebitCardRate.getValue());
@@ -128,8 +130,8 @@ public class UiBindingManager implements IBindManager {
         currentQuote.CreditCardStatementTotal.setValue(0.00);
         currentQuote.CreditCardRate.setValue(0.00);
 
-        currentQuote.BankCardStatementTotal.setValue(0.00);
-        currentQuote.BankCardRate.setValue(0.00);
+        currentQuote.BusinessCardStatementTotal.setValue(0.00);
+        currentQuote.BusinessCardRate.setValue(0.00);
 
         currentQuote.DebitCardStatementTotal.setValue(0.00);
         currentQuote.DebitCardRate.setValue(0.00);

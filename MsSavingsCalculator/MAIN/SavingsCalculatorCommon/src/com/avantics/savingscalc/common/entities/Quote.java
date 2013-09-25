@@ -1,4 +1,4 @@
-package com.avantics.savingscalc.common;
+package com.avantics.savingscalc.common.entities;
 
 import com.avantics.common.BindableProperty;
 import com.avantics.common.OnValueChangedEventListener;
@@ -15,9 +15,9 @@ public class Quote {
     public BindableProperty<Double> CreditCardRate;
     public BindableProperty<Double> CreditCardTotal;
 
-    public BindableProperty<Double> BankCardStatementTotal;
-    public BindableProperty<Double> BankCardRate;
-    public BindableProperty<Double> BankCardTotal;
+    public BindableProperty<Double> BusinessCardStatementTotal;
+    public BindableProperty<Double> BusinessCardRate;
+    public BindableProperty<Double> BusinessCardTotal;
 
     public BindableProperty<Double> DebitCardStatementTotal;
     public BindableProperty<Double> DebitCardRate;
@@ -80,7 +80,7 @@ public class Quote {
             public void OnValueChanged() {
                 changed = true;
 
-                double total = CreditCardTotal.getValue() + BankCardTotal.getValue() + DebitCardTotal.getValue() + FIncludingPciRate.getValue();
+                double total = CreditCardTotal.getValue() + BusinessCardTotal.getValue() + DebitCardTotal.getValue() + FIncludingPciRate.getValue();
 
                 FIncludingPciTotal.setValue(total);
             }
@@ -102,21 +102,21 @@ public class Quote {
 
         CreditCardTotal = new BindableProperty<Double>(0.00, fIncPciTotal);
 
-        OnValueChangedEventListener bankCardTotal = new OnValueChangedEventListener() {
+        OnValueChangedEventListener businessCardTotal = new OnValueChangedEventListener() {
             @Override
             public void OnValueChanged() {
                 changed = true;
 
-                double total = BankCardStatementTotal.getValue() * (BankCardRate.getValue() / 100);
+                double total = BusinessCardStatementTotal.getValue() * (BusinessCardRate.getValue() / 100);
 
-                BankCardTotal.setValue(total);
+                BusinessCardTotal.setValue(total);
             }
         };
 
-        BankCardStatementTotal = new BindableProperty<Double>(0.00, bankCardTotal);
-        BankCardRate = new BindableProperty<Double>(0.00, bankCardTotal);
+        BusinessCardStatementTotal = new BindableProperty<Double>(0.00, businessCardTotal);
+        BusinessCardRate = new BindableProperty<Double>(0.00, businessCardTotal);
 
-        BankCardTotal = new BindableProperty<Double>(0.00, fIncPciTotal);
+        BusinessCardTotal = new BindableProperty<Double>(0.00, fIncPciTotal);
 
         OnValueChangedEventListener debitCardTotal = new OnValueChangedEventListener() {
             @Override

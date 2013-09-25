@@ -26,8 +26,8 @@ public class BindableProperty<T> {
                 valueChanged.OnValueChanged();
             }
 
-            for (int i = 0; i < listeners.size(); i++) {
-                listeners.get(i).rebindValue();
+            for (UiBindingContainer listener : listeners) {
+                listener.rebindValue();
             }
         }
     }
@@ -41,6 +41,6 @@ public class BindableProperty<T> {
     }
 
     public void removeListener(UiBindingContainer container) {
-
+// probably not good practice..
     }
 }

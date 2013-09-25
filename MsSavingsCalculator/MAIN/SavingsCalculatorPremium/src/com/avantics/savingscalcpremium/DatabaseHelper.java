@@ -9,7 +9,7 @@ import android.database.sqlite.SQLiteDatabase;
 import android.database.sqlite.SQLiteOpenHelper;
 import android.util.SparseArray;
 
-import com.avantics.savingscalc.common.Quote;
+import com.avantics.savingscalc.common.entities.Quote;
 
 public class DatabaseHelper extends SQLiteOpenHelper {
 
@@ -64,8 +64,8 @@ public class DatabaseHelper extends SQLiteOpenHelper {
         cv.put(colCT, quote.CustomerTerminal.getValue());
         cv.put(colCCST, quote.CreditCardStatementTotal.getValue());
         cv.put(colCCR, quote.CreditCardRate.getValue());
-        cv.put(colBCST, quote.BankCardStatementTotal.getValue());
-        cv.put(colBCR, quote.BankCardRate.getValue());
+        cv.put(colBCST, quote.BusinessCardStatementTotal.getValue());
+        cv.put(colBCR, quote.BusinessCardRate.getValue());
         cv.put(colDCST, quote.DebitCardStatementTotal.getValue());
         cv.put(colDCR, quote.DebitCardRate.getValue());
         cv.put(colFincPCIRate, quote.FIncludingPciRate.getValue());
@@ -106,8 +106,8 @@ public class DatabaseHelper extends SQLiteOpenHelper {
             quote.CustomerTerminal.setValue(c.getDouble(3));
             quote.CreditCardStatementTotal.setValue(c.getDouble(4));
             quote.CreditCardRate.setValue(c.getDouble(5));
-            quote.BankCardStatementTotal.setValue(c.getDouble(6));
-            quote.BankCardRate.setValue(c.getDouble(7));
+            quote.BusinessCardStatementTotal.setValue(c.getDouble(6));
+            quote.BusinessCardRate.setValue(c.getDouble(7));
             quote.DebitCardStatementTotal.setValue(c.getDouble(8));
             quote.DebitCardRate.setValue(c.getDouble(9));
             quote.FIncludingPciRate.setValue(c.getDouble(10));
@@ -154,8 +154,8 @@ public class DatabaseHelper extends SQLiteOpenHelper {
         cv.put(colCT, quote.CustomerTerminal.getValue());
         cv.put(colCCST, quote.CreditCardStatementTotal.getValue());
         cv.put(colCCR, quote.CreditCardRate.getValue());
-        cv.put(colBCST, quote.BankCardStatementTotal.getValue());
-        cv.put(colBCR, quote.BankCardRate.getValue());
+        cv.put(colBCST, quote.BusinessCardStatementTotal.getValue());
+        cv.put(colBCR, quote.BusinessCardRate.getValue());
         cv.put(colDCST, quote.DebitCardStatementTotal.getValue());
         cv.put(colDCR, quote.DebitCardRate.getValue());
         cv.put(colFincPCIRate, quote.FIncludingPciRate.getValue());
