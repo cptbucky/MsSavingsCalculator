@@ -11,7 +11,7 @@
             a:layout_height="wrap_content"
             a:focusable="true"
             a:focusableInTouchMode="true"
-            a:padding="20dp"
+            a:padding="10dp"
             a:orientation="vertical">
 
         <TextView
@@ -48,7 +48,7 @@
                 a:layout_height="1dp"/>
 
         <include
-                layout="@layout/quote_calculation"
+                layout="@layout/quote_calculation_inc_costing"
                 a:id="@+id/quoteCalc"
                 a:layout_width="fill_parent"
                 a:layout_height="fill_parent"

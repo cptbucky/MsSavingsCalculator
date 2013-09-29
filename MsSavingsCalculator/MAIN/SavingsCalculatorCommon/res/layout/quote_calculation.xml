@@ -39,8 +39,7 @@
                 a:id="@+id/TextView04"
                 style="@style/calcRowLabel"
                 a:layout_height="wrap_content"
-                a:text="@string/cc_calculation_row_label"
-                a:padding="5dp"/>
+                a:text="@string/cc_calculation_row_label"/>
 
         <EditText
                 a:id="@+id/CCST"

@@ -9,7 +9,6 @@ buildscript {
 apply plugin: 'android'
 
 dependencies {
-    compile files('../../../../../../../SavingsCalculatorPremium/libs/opencsv-2.3.jar')
 }
 
 android {

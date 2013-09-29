@@ -9,10 +9,11 @@
             android:layout_height="37sp">
 
         <TextView
-                style="@style/leftAlignLabel"
+                style="@style/rightAlignLabel"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
+                android:paddingRight="5dp"
                 android:text="@string/statement_total_exc_terminal"/>
 
         <EditText
@@ -30,10 +31,11 @@
             android:layout_height="37.5dp">
 
         <TextView
-                style="@style/leftAlignLabel"
+                style="@style/rightAlignLabel"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
+                android:paddingRight="5dp"
                 android:text="@string/customer_terminal"/>
 
         <EditText
@@ -53,10 +55,11 @@
 
         <TextView
                 android:id="@+id/CSTLabel"
-                style="@style/leftAlignLabel"
+                style="@style/rightAlignLabel"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
+                android:paddingRight="5dp"
                 android:text="@string/calculated_total"/>
 
         <TextView
