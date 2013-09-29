@@ -34,7 +34,6 @@ class NumericRangeFilter implements InputFilter {
         String stringToBeReplaced = p_dest.subSequence(p_dstart, p_dend)
                 .toString();
 
-
         String newEntry = "";
 
         try {
@@ -42,8 +41,8 @@ class NumericRangeFilter implements InputFilter {
             if (!stringToBeReplaced.equals(""))
                 newEntry = newEntry.replace(stringToBeReplaced, "");
             newEntry = newEntry.concat(p_source.toString());
-        } catch (NullPointerException ex) {
-
+        } catch (NullPointerException e) {
+            e.printStackTrace();
         }
 
         double newValue = 0.00;
@@ -51,23 +50,19 @@ class NumericRangeFilter implements InputFilter {
         // get rid of extra formatting
         try {
             newValue = format.parse(newEntry).doubleValue();
-
-            // check the double is valid
-            Matcher matcher = mPattern.matcher(String.valueOf(newValue));
-            if (!matcher.matches()) {
-                return "";
+        } catch (ParseException e) {
+            try {
+                newValue = Double.parseDouble(newEntry);
+            } catch (NumberFormatException ex) {
+                ex.printStackTrace();
             }
-
-            // we are not dealing with text entry
-            return null;
-        } catch (ParseException formatE) {
-            // check the double is valid
-            Matcher matcher = mPattern.matcher(newEntry);
-            if (!matcher.matches()) {
-                return "";
-            }
-
-            return null;
         }
+
+        Matcher matcher = mPattern.matcher(String.valueOf(newValue));
+        if (!matcher.matches()) {
+            return "";
+        }
+
+        return null;
     }
 }

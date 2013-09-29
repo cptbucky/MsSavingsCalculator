@@ -4,6 +4,7 @@ import android.os.Build;
 import android.os.Bundle;
 import android.support.v4.app.FragmentActivity;
 import android.view.View;
+
 import com.avantics.common.IBindManager;
 import com.avantics.common.UiBindingContainer;
 import com.avantics.savingscalc.common.R;
@@ -16,6 +17,7 @@ import java.util.ArrayList;
  */
 public class Main extends FragmentActivity implements IBindManager {
     private static UiBindingManager binder;
+    ArrayList<UiBindingContainer> containedControls;
 
     public Main() {
         if (binder == null) {
@@ -27,15 +29,50 @@ public class Main extends FragmentActivity implements IBindManager {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
 
+        View vw = null;
+
         if (Build.VERSION.SDK_INT < Build.VERSION_CODES.HONEYCOMB) {
-            setContentView(com.avantics.savingscalc.common.R.layout.standard_form);
+            vw = getLayoutInflater().inflate(com.avantics.savingscalc.common.R.layout.standard_form, null);
         } else {
-            setContentView(R.layout.main);
+            vw = getLayoutInflater().inflate(R.layout.main, null);
         }
+
+        setContentView(vw);
+
+        containedControls = AttachToView(vw);
     }
 
     @Override
     public ArrayList<UiBindingContainer> AttachToView(View view) {
         return binder.AttachToView(view);
+    }
+
+    @Override
+    public void onResume() {
+        super.onResume();
+
+        restoreViewState();
+    }
+
+    @Override
+    public void onStop() {
+        super.onStop();
+
+        unbindView();
+    }
+
+    private void restoreViewState() {
+        // set values of all controls
+        for (int i = 0; i < containedControls.size(); i++) {
+            containedControls.get(i).rebindValue();
+        }
+    }
+
+    private void unbindView() {
+        // if any controls exist in lists of listeners ensure they are removed
+        for (int i = 0; i < containedControls.size(); i++) {
+            // this is just plain wrong.. really getting bad now..
+            containedControls.get(i).sourceProperty.removeListener(containedControls.get(i));
+        }
     }
 }

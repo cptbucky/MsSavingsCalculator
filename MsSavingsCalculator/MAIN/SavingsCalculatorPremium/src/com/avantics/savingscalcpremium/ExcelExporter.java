@@ -132,7 +132,7 @@ public class ExcelExporter {
 
             writeCell(8, 7, resources.getString(R.string.vendor_inc_pci));
             writeFormulaCell(9, 7, "F7");
-            writeValueCell(10, 7, quote.FIncludingPciTotal.getValue());
+            writeValueCell(10, 7, quote.PciDssTotal.getValue());
 
             writeCell(8, 8, resources.getString(R.string.vendor_terminal));
             writeFormulaCell(9, 8, "F8");

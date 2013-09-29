@@ -24,7 +24,7 @@ public class Quote {
     public BindableProperty<Double> DebitCardTotal;
 
     public BindableProperty<Double> FIncludingPciRate;
-    public BindableProperty<Double> FIncludingPciTotal;
+    public BindableProperty<Double> PciDssTotal;
 
     public BindableProperty<Double> VendorTerminal;
     public BindableProperty<Double> VendorTerminalTotal;
@@ -75,14 +75,14 @@ public class Quote {
 
         CustomerStatementTotal = new BindableProperty<Double>(0.00, savingsPercentage);
 
-        OnValueChangedEventListener fIncPciTotal = new OnValueChangedEventListener() {
+        OnValueChangedEventListener pciDssTotal = new OnValueChangedEventListener() {
             @Override
             public void OnValueChanged() {
                 changed = true;
 
                 double total = CreditCardTotal.getValue() + BusinessCardTotal.getValue() + DebitCardTotal.getValue() + FIncludingPciRate.getValue();
 
-                FIncludingPciTotal.setValue(total);
+                PciDssTotal.setValue(total);
             }
         };
 
@@ -100,7 +100,7 @@ public class Quote {
         CreditCardStatementTotal = new BindableProperty<Double>(0.00, creditCardTotal);
         CreditCardRate = new BindableProperty<Double>(0.00, creditCardTotal);
 
-        CreditCardTotal = new BindableProperty<Double>(0.00, fIncPciTotal);
+        CreditCardTotal = new BindableProperty<Double>(0.00, pciDssTotal);
 
         OnValueChangedEventListener businessCardTotal = new OnValueChangedEventListener() {
             @Override
@@ -116,7 +116,7 @@ public class Quote {
         BusinessCardStatementTotal = new BindableProperty<Double>(0.00, businessCardTotal);
         BusinessCardRate = new BindableProperty<Double>(0.00, businessCardTotal);
 
-        BusinessCardTotal = new BindableProperty<Double>(0.00, fIncPciTotal);
+        BusinessCardTotal = new BindableProperty<Double>(0.00, pciDssTotal);
 
         OnValueChangedEventListener debitCardTotal = new OnValueChangedEventListener() {
             @Override
@@ -132,22 +132,22 @@ public class Quote {
         DebitCardStatementTotal = new BindableProperty<Double>(0.00, debitCardTotal);
         DebitCardRate = new BindableProperty<Double>(0.00, debitCardTotal);
 
-        DebitCardTotal = new BindableProperty<Double>(0.00, fIncPciTotal);
+        DebitCardTotal = new BindableProperty<Double>(0.00, pciDssTotal);
 
-        FIncludingPciRate = new BindableProperty<Double>(0.00, fIncPciTotal);
+        FIncludingPciRate = new BindableProperty<Double>(0.00, pciDssTotal);
 
         OnValueChangedEventListener vTerminalTotal = new OnValueChangedEventListener() {
             @Override
             public void OnValueChanged() {
                 changed = true;
 
-                double total = FIncludingPciTotal.getValue() + VendorTerminal.getValue();
+                double total = PciDssTotal.getValue() + VendorTerminal.getValue();
 
                 VendorTerminalTotal.setValue(total);
             }
         };
 
-        FIncludingPciTotal = new BindableProperty<Double>(0.00, vTerminalTotal);
+        PciDssTotal = new BindableProperty<Double>(0.00, vTerminalTotal);
 
         VendorTerminal = new BindableProperty<Double>(0.00, vTerminalTotal);
         VendorTerminalTotal = new BindableProperty<Double>(0.00, savingsPercentage);

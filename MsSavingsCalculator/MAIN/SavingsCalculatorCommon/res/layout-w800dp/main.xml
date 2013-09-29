@@ -6,7 +6,7 @@
               a:layout_height="fill_parent"
               a:orientation="vertical"
               a:paddingLeft="20dp"
-              a:paddingTop="20dp"
+              a:paddingTop="10dp"
               a:paddingRight="20dp">
 
     <LinearLayout
@@ -57,7 +57,7 @@
                     style="@style/sectionHeaderLabel"/>
 
             <include
-                    layout="@layout/quote_calculation"
+                    layout="@layout/quote_calculation_inc_costing"
                     a:layout_width="fill_parent"
                     a:layout_height="fill_parent"
                     a:layout_marginLeft="20dp"

@@ -13,15 +13,32 @@ import android.os.Environment;
 import android.preference.PreferenceManager;
 import android.support.v4.app.FragmentActivity;
 import android.util.SparseArray;
-import android.view.*;
+import android.view.LayoutInflater;
+import android.view.Menu;
+import android.view.MenuItem;
+import android.view.View;
+import android.view.WindowManager;
 import android.view.inputmethod.InputMethodManager;
-import android.widget.*;
+import android.widget.AdapterView;
 import android.widget.AdapterView.OnItemClickListener;
+import android.widget.Button;
+import android.widget.EditText;
+import android.widget.LinearLayout;
+import android.widget.ListView;
+import android.widget.Toast;
+
 import com.avantics.common.IBindManager;
 import com.avantics.common.UiBindingContainer;
-import com.avantics.savingscalc.common.Quote;
 import com.avantics.savingscalc.common.UiBindingManager;
-import com.avantics.savingscalcpremium.*;
+import com.avantics.savingscalc.common.entities.Quote;
+import com.avantics.savingscalcpremium.ConfirmDialogFragment;
+import com.avantics.savingscalcpremium.ConfirmationDialogHandler;
+import com.avantics.savingscalcpremium.DatabaseHelper;
+import com.avantics.savingscalcpremium.DeleteQuoteRequestHandler;
+import com.avantics.savingscalcpremium.ExcelExporter;
+import com.avantics.savingscalcpremium.LoadListItem;
+import com.avantics.savingscalcpremium.LoadListItemAdapter;
+import com.avantics.savingscalcpremium.R;
 import com.avantics.savingscalcpremium.fragments.SettingsFragment;
 
 import java.io.File;
@@ -32,6 +49,7 @@ public class MainActivity extends FragmentActivity implements IBindManager {
     private static final String HeaderTextKey = "HEADER_TEXT";
 
     private static UiBindingManager binder;
+    ArrayList<UiBindingContainer> containedControls;
 
     private DatabaseHelper dbHelper = null;
     private SparseArray<String> availableQuoteNames;
@@ -53,13 +71,17 @@ public class MainActivity extends FragmentActivity implements IBindManager {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
 
+        View vw = null;
+
         if (Build.VERSION.SDK_INT < Build.VERSION_CODES.HONEYCOMB) {
-            setContentView(com.avantics.savingscalc.common.R.layout.standard_form);
+            vw = getLayoutInflater().inflate(com.avantics.savingscalc.common.R.layout.standard_form, null);
         } else {
-            setContentView(R.layout.premium_quote_form);
+            vw = getLayoutInflater().inflate(R.layout.premium_quote_form, null);
         }
 
-//        setContentView(R.layout.premium_quote_form);
+        setContentView(vw);
+
+        containedControls = AttachToView(vw);
 
         PreferenceManager.setDefaultValues(this, R.layout.settings, false);
 
@@ -68,6 +90,35 @@ public class MainActivity extends FragmentActivity implements IBindManager {
         if (savedInstanceState != null) {
             String savedText = savedInstanceState.getString(HeaderTextKey);
             setCurrentTitle(savedText);
+        }
+    }
+
+    @Override
+    public void onResume() {
+        super.onResume();
+
+        restoreViewState();
+    }
+
+    @Override
+    public void onStop() {
+        super.onStop();
+
+        unbindView();
+    }
+
+    private void restoreViewState() {
+        // set values of all controls
+        for (int i = 0; i < containedControls.size(); i++) {
+            containedControls.get(i).rebindValue();
+        }
+    }
+
+    private void unbindView() {
+        // if any controls exist in lists of listeners ensure they are removed
+        for (int i = 0; i < containedControls.size(); i++) {
+            // this is just plain wrong.. really getting bad now..
+            containedControls.get(i).sourceProperty.removeListener(containedControls.get(i));
         }
     }
 
@@ -151,7 +202,7 @@ public class MainActivity extends FragmentActivity implements IBindManager {
     private void sendQuote() {
         String filePath;
 
-        if (binder.currentQuote.Name.getValue().isEmpty()) {
+        if (binder.currentQuote.Name.getValue().equals("")) {
             filePath = String.format("%s/MsSavingsCalculator_Quote.xls", Environment.getExternalStorageDirectory());
         } else {
             filePath = String.format("%s/MsSavingsCalculator_Quote - %s.xls", Environment.getExternalStorageDirectory(), binder.currentQuote.Name.getValue());
@@ -244,7 +295,7 @@ public class MainActivity extends FragmentActivity implements IBindManager {
 
                             dbHelper.deleteQuote(title);
 
-                            if (binder.getSelectedQuote().Name
+                            if (binder.getSelectedQuote().Name.getValue()
                                     .equals(title)) {
                                 binder.resetQuote();
 
@@ -457,8 +508,6 @@ public class MainActivity extends FragmentActivity implements IBindManager {
     }
 
     private void setCurrentTitle(String title) {
-//        binder.name = title;
-
         setTitle(String.format("%s%s",
                 getResources().getString(R.string.app_name),
                 title.equals("") ? "" : String.format(": %s", title)));

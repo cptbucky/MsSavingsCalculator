@@ -46,8 +46,8 @@ public class UiBindingManager implements IBindManager {
         getUiBindingContainer((EditText) view.findViewById(R.id.DCFR), currentQuote.DebitCardRate, formatters.CURRENCY_FORMATTER);
         getUiBindingContainer((TextView) view.findViewById(R.id.DCT), currentQuote.DebitCardTotal, formatters.CURRENCY_FORMATTER);
 
-//        getUiBindingContainer((TextView) view.findViewById(R.id.FIncPci), currentQuote.FIncludingPciTotal, formatters.CURRENCY_FORMATTER);
         getUiBindingContainer((EditText) view.findViewById(R.id.FIncPciRate), currentQuote.FIncludingPciRate, formatters.CURRENCY_FORMATTER);
+        getUiBindingContainer((TextView) view.findViewById(R.id.PciDssTotal), currentQuote.PciDssTotal, formatters.CURRENCY_FORMATTER);
 
         getUiBindingContainer((EditText) view.findViewById(R.id.VendorTerminal), currentQuote.VendorTerminal, formatters.CURRENCY_FORMATTER);
         getUiBindingContainer((TextView) view.findViewById(R.id.VendorTerminalTotal), currentQuote.VendorTerminalTotal, formatters.CURRENCY_FORMATTER);

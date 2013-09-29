@@ -8,7 +8,11 @@
             a:layout_width="fill_parent"
             a:layout_height="wrap_content"
             a:orientation="vertical"
-            a:padding="20dp">
+            a:paddingLeft="20dp"
+            a:paddingRight="20dp"
+            a:paddingTop="10dp"
+            a:paddingBottom="10dp"
+            >
 
         <TextView
                 a:layout_width="wrap_content"
@@ -26,7 +30,7 @@
                 layout="@layout/quote_incumbent_headline"
                 a:layout_width="fill_parent"
                 a:layout_height="wrap_content"
-                a:layout_marginTop="10dp"
+                a:layout_marginTop="5dp"
                 a:layout_marginLeft="20dp"
                 a:layout_marginRight="20dp"/>
 
@@ -44,11 +48,12 @@
                 a:layout_height="1dp"/>
 
         <include
-                layout="@layout/quote_calculation"
+                layout="@layout/quote_calculation_inc_costing"
                 a:layout_width="fill_parent"
                 a:layout_height="fill_parent"
+                a:layout_marginTop="10dp"
                 a:layout_marginLeft="20dp"
-                a:layout_marginTop="10dp"/>
+                a:layout_marginRight="20dp"/>
 
         <TextView
                 a:layout_width="wrap_content"

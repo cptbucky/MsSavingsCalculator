@@ -1,28 +1,27 @@
-<RelativeLayout xmlns:a="http://schemas.android.com/apk/res/android"
-                a:id="@+id/RelativeLayout1"
-                a:layout_width="match_parent"
-                a:layout_height="wrap_content"
-                a:focusable="true"
-                a:focusableInTouchMode="true">
+<LinearLayout xmlns:a="http://schemas.android.com/apk/res/android"
+              a:id="@+id/LinearLayout3"
+              a:layout_width="wrap_content"
+              a:layout_height="wrap_content"
+              a:orientation="vertical">
+
+    <TextView
+            a:id="@+id/TextView12"
+            style="@style/centerAlignLabel"
+            a:layout_width="fill_parent"
+            a:layout_height="wrap_content"
+            a:text="@string/calculated_total"/>
 
     <LinearLayout
-            a:id="@+id/LinearLayout3"
             a:layout_width="fill_parent"
             a:layout_height="wrap_content"
             a:orientation="vertical">
-
-        <TextView
-                a:id="@+id/TextView12"
-                style="@style/centerAlignLabel"
-                a:layout_width="fill_parent"
-                a:layout_height="wrap_content"
-                a:text="@string/calculated_total"/>
 
         <TextView
                 a:id="@+id/CCT"
                 style="@style/totalLabel"
                 a:layout_width="fill_parent"
                 a:layout_height="wrap_content"
+                a:layout_marginTop="27dp"
                 a:textIsSelectable="true"/>
 
         <TextView
@@ -30,6 +29,7 @@
                 style="@style/totalLabel"
                 a:layout_width="fill_parent"
                 a:layout_height="wrap_content"
+                a:layout_marginTop="35dp"
                 a:textIsSelectable="true"/>
 
         <TextView
@@ -37,13 +37,15 @@
                 style="@style/totalLabel"
                 a:layout_width="fill_parent"
                 a:layout_height="wrap_content"
+                a:layout_marginTop="35dp"
                 a:textIsSelectable="true"/>
 
         <TextView
-                a:id="@+id/CSTotal"
+                a:id="@+id/PciDssTotal"
                 style="@style/centerAlignLabel"
                 a:layout_width="fill_parent"
                 a:layout_height="wrap_content"
+                a:layout_marginTop="35dp"
                 a:textIsSelectable="true"/>
 
         <TextView
@@ -51,8 +53,7 @@
                 style="@style/centerAlignLabel"
                 a:layout_width="fill_parent"
                 a:layout_height="wrap_content"
+                a:layout_marginTop="35dp"
                 a:textIsSelectable="true"/>
-
     </LinearLayout>
-
-</RelativeLayout>
+</LinearLayout>

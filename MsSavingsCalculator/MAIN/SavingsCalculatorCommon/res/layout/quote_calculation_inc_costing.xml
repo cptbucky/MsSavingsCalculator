@@ -28,6 +28,14 @@
                 a:layout_weight="1"
                 a:text="@string/vendor_rate"/>
 
+        <TextView
+                a:id="@+id/TextView12"
+                style="@style/centerAlignLabel"
+                a:layout_width="0dp"
+                a:layout_height="wrap_content"
+                a:layout_weight="1"
+                a:text="@string/calculated_total"/>
+
     </LinearLayout>
 
     <LinearLayout
@@ -56,6 +64,14 @@
                 a:layout_height="wrap_content"
                 a:layout_weight="1"/>
 
+        <TextView
+                a:id="@+id/CCT"
+                style="@style/totalLabel"
+                a:layout_width="0dp"
+                a:layout_height="wrap_content"
+                a:layout_weight="1"
+                a:textIsSelectable="true"/>
+
     </LinearLayout>
 
     <LinearLayout
@@ -82,6 +98,14 @@
                 a:layout_width="0dp"
                 a:layout_height="wrap_content"
                 a:layout_weight="1"/>
+
+        <TextView
+                a:id="@+id/BCT"
+                style="@style/totalLabel"
+                a:layout_width="0dp"
+                a:layout_height="wrap_content"
+                a:layout_weight="1"
+                a:textIsSelectable="true"/>
 
     </LinearLayout>
 
@@ -110,6 +134,14 @@
                 a:layout_height="wrap_content"
                 a:layout_weight="1"/>
 
+        <TextView
+                a:id="@+id/DCT"
+                style="@style/totalLabel"
+                a:layout_width="0dp"
+                a:layout_height="wrap_content"
+                a:layout_weight="1"
+                a:textIsSelectable="true"/>
+
     </LinearLayout>
 
     <LinearLayout
@@ -137,6 +169,14 @@
                 a:layout_height="wrap_content"
                 a:layout_weight="1"/>
 
+        <TextView
+                a:id="@+id/PciDssTotal"
+                style="@style/centerAlignLabel"
+                a:layout_width="0dp"
+                a:layout_height="wrap_content"
+                a:layout_weight="1"
+                a:textIsSelectable="true"/>
+
     </LinearLayout>
 
     <LinearLayout
@@ -163,6 +203,14 @@
                 a:layout_width="0dp"
                 a:layout_height="wrap_content"
                 a:layout_weight="1"/>
+
+        <TextView
+                a:id="@+id/VendorTerminalTotal"
+                style="@style/centerAlignLabel"
+                a:layout_width="0dp"
+                a:layout_height="wrap_content"
+                a:layout_weight="1"
+                a:textIsSelectable="true"/>
 
     </LinearLayout>
 </LinearLayout>
