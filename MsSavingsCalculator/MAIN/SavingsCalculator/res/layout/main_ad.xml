@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<LinearLayout xmlns:a="http://schemas.android.com/apk/res/android"
+              xmlns:tools="http://schemas.android.com/tools"
+              a:layout_width="match_parent"
+              a:layout_height="match_parent"
+              a:id="@+id/rootLayout"
+              a:orientation="vertical">
+
+    <!--<com.google.ads.AdView-->
+    <!--a:id="@+id/adView"-->
+    <!--a:layout_width="fill_parent"-->
+    <!--a:layout_height="0dp"-->
+    <!--a:layout_weight="1"-->
+    <!--ads:adUnitId="ca-app-pub-4197654900696855/6701151722"-->
+    <!--ads:adSize="BANNER"-->
+    <!--ads:testDevices="TEST_EMULATOR, 015d16897a602010"-->
+    <!--ads:loadAdOnCreate="true"/>-->
+
+    <ScrollView
+            a:layout_width="match_parent"
+            a:layout_height="wrap_content">
+
+        <fragment
+                a:id="@+id/mainAdFrag"
+                a:name="com.avantics.savingscalc.common.fragments.MobileTabbedFragment"
+                a:layout_width="match_parent"
+                a:layout_height="wrap_content"
+                tools:layout="@layout/tab_swipe_activity"/>
+
+    </ScrollView>
+
+</LinearLayout>

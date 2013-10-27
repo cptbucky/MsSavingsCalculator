@@ -45,7 +45,6 @@ import java.io.File;
 import java.util.ArrayList;
 
 public class MainActivity extends FragmentActivity implements IBindManager {
-
     private static final String HeaderTextKey = "HEADER_TEXT";
 
     private static UiBindingManager binder;
@@ -188,7 +187,7 @@ public class MainActivity extends FragmentActivity implements IBindManager {
     }
 
     private void clearFocusAndKeyboard() {
-        LinearLayout rootLayout = (LinearLayout) findViewById(R.id.fragContainer);
+        LinearLayout rootLayout = (LinearLayout) findViewById(R.id.rootLayout);
         rootLayout.requestFocus();
 
         InputMethodManager inputManager = (InputMethodManager) getSystemService(Context.INPUT_METHOD_SERVICE);
