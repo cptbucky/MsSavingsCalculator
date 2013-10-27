@@ -8,12 +8,12 @@
               a:orientation="vertical">
 
     <fragment
-            a:id="@+id/tabbedFrag"
-            a:name="com.avantics.savingscalc.common.fragments.MobileTabbedFragment"
+            a:id="@+id/quoteFragment"
+            a:name="com.avantics.savingscalc.common.fragments.QuoteFragment"
             a:layout_width="match_parent"
             a:layout_height="0dp"
             a:layout_weight="1"
-            tools:layout="@layout/tab_swipe_activity"/>
+            tools:layout="@layout/quote_form"/>
 
     <include
             layout="@layout/ad_mob_view"

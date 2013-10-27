@@ -1,5 +1,6 @@
 package com.avantics.savingscalc.activities;
 
+import android.os.Build;
 import android.os.Bundle;
 import android.support.v4.app.FragmentActivity;
 import android.view.View;
@@ -8,12 +9,10 @@ import com.avantics.common.IBindManager;
 import com.avantics.common.UiBindingContainer;
 import com.avantics.savingscalc.R;
 import com.avantics.savingscalc.common.UiBindingManager;
-import com.google.ads.AdView;
 
 import java.util.ArrayList;
 
 public class Main extends FragmentActivity implements IBindManager {
-    private AdView adView;
     private static UiBindingManager binder;
     ArrayList<UiBindingContainer> containedControls;
 
@@ -27,35 +26,17 @@ public class Main extends FragmentActivity implements IBindManager {
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
 
-        View vw = getLayoutInflater().inflate(R.layout.main_ad, null);
+        View vw;
+
+        if (Build.VERSION.SDK_INT < Build.VERSION_CODES.HONEYCOMB) {
+            vw = getLayoutInflater().inflate(R.layout.standard_form_ad, null);
+        } else {
+            vw = getLayoutInflater().inflate(R.layout.main_ad, null);
+        }
 
         setContentView(vw);
 
         containedControls = AttachToView(vw);
-
-//        AdRequest adRequest = new AdRequest();
-//        adRequest.addTestDevice(AdRequest.TEST_EMULATOR);         // Emulator
-//        adRequest.addTestDevice("015d16897a602010");                // Test Android Device
-//
-//        // Create the adView
-//        adView = new AdView(this, AdSize.BANNER, "ca-app-pub-4197654900696855/6701151722");
-//
-//        // Lookup your LinearLayout assuming it's been given
-//        LinearLayout layout = (LinearLayout)findViewById(R.id.rootLayout);
-//
-//        // Add the adView to it
-//        layout.addView(adView);
-//
-//        // Initiate a generic request to load it with an ad
-//        adView.loadAd(adRequest);
-    }
-
-    @Override
-    public void onDestroy() {
-        if (adView != null) {
-            adView.destroy();
-        }
-        super.onDestroy();
     }
 
     @Override

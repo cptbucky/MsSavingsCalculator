@@ -1,17 +1,16 @@
 <?xml version="1.0" encoding="utf-8" ?>
 
-<RelativeLayout xmlns:a="http://schemas.android.com/apk/res/android"
-                xmlns:tools="http://schemas.android.com/tools"
-                xmlns:ads="http://schemas.android.com/apk/lib/com.google.ads"
-                a:layout_width="match_parent"
-                a:layout_height="match_parent"
-                a:id="@+id/rootLayout"
-                a:orientation="vertical">
+<LinearLayout xmlns:a="http://schemas.android.com/apk/res/android"
+              xmlns:tools="http://schemas.android.com/tools"
+              a:layout_width="match_parent"
+              a:layout_height="match_parent"
+              a:id="@+id/rootLayout"
+              a:orientation="vertical">
 
     <ScrollView
             a:layout_width="match_parent"
-            a:layout_height="wrap_content"
-            a:layout_above="@+id/adView">
+            a:layout_height="0dp"
+            a:layout_weight="1">
 
         <fragment
                 a:id="@+id/mainAdFrag"
@@ -22,13 +21,7 @@
 
     </ScrollView>
 
-    <com.google.ads.AdView
-            a:id="@+id/adView"
-            a:layout_width="fill_parent"
-            a:layout_height="wrap_content"
-            ads:adUnitId="ca-app-pub-4197654900696855/6701151722"
-            ads:adSize="BANNER"
-            ads:testDevices="TEST_EMULATOR, 015d16897a602010"
-            ads:loadAdOnCreate="true"
-            a:layout_alignParentBottom="true"/>
-</RelativeLayout>
+    <include
+            layout="@layout/ad_mob_view"
+            a:layout_width="fill_parent"/>
+</LinearLayout>

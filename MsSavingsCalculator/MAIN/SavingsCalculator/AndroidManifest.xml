@@ -1,12 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
           package="com.avantics.savingscalc"
-          android:versionCode="18"
-          android:versionName="1.0.17">
+          android:versionCode="19"
+          android:versionName="1.1.0">
 
     <uses-sdk
             android:minSdkVersion="7"
-            android:targetSdkVersion="17"/>
+            android:targetSdkVersion="18"/>
+
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
 
     <application
             android:allowBackup="true"
@@ -16,8 +19,8 @@
             android:uiOptions="splitActionBarWhenNarrow"
             android:theme="@style/AppTheme">
         <activity android:name=".activities.Main">
-        <intent-filter>
-                <action android:name="android.intent.action.MAIN"/>
+            <intent-filter>
+            <action android:name="android.intent.action.MAIN"/>
                 <category android:name="android.intent.category.LAUNCHER"/>
             </intent-filter>
         </activity>
@@ -26,6 +29,4 @@
                 android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize"/>
     </application>
 
-    <uses-permission android:name="android.permission.INTERNET"/>
-    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
 </manifest>
