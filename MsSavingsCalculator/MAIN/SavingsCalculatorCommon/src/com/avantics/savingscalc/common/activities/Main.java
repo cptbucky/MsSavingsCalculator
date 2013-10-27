@@ -12,9 +12,6 @@ import com.avantics.savingscalc.common.UiBindingManager;
 
 import java.util.ArrayList;
 
-/**
- * Created by tom on 02/06/13.
- */
 public class Main extends FragmentActivity implements IBindManager {
     private static UiBindingManager binder;
     ArrayList<UiBindingContainer> containedControls;
