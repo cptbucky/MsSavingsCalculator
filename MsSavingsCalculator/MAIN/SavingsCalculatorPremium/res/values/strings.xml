@@ -27,5 +27,7 @@
     <string name="pref_key_quote">Quote</string>
     <string name="pref_quote_default">Default</string>
     <string name="pref_quote_default_summ">The default quote loaded on startup</string>
+    <string name="contact_lookup">...</string>
+    <string name="preference_contact_title">Contact Lookup</string>
 
 </resources>

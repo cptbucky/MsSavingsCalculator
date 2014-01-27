@@ -16,7 +16,9 @@ import android.preference.PreferenceFragment;
 import android.preference.PreferenceManager;
 import android.provider.ContactsContract;
 import android.util.Log;
+import android.view.View;
 
+import com.avantics.savingscalcpremium.ContactPreference;
 import com.avantics.savingscalcpremium.R;
 
 @TargetApi(Build.VERSION_CODES.HONEYCOMB)
@@ -38,7 +40,7 @@ public class SettingsFragment extends PreferenceFragment implements
 
     private EditTextPreference brandingVendorName;
 
-    private Preference shareRecipient;
+    private ContactPreference shareRecipient;
     private Preference shareCc;
     private Preference shareBcc;
 
@@ -56,9 +58,19 @@ public class SettingsFragment extends PreferenceFragment implements
         brandingVendorName = (EditTextPreference) getPreferenceScreen()
                 .findPreference(PREF_BRANDING_VENDOR_NAME);
 
-        shareRecipient = getPreferenceScreen().findPreference(PREF_SHARE_RECIPIENT);
+        shareRecipient = (ContactPreference) getPreferenceScreen().findPreference(PREF_SHARE_RECIPIENT);
 
-        shareRecipient.setOnPreferenceClickListener(getOnPreferenceClickListener(PICK_SHARE_RECIPIENT));
+        shareRecipient.setOnLookupClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(Intent.ACTION_PICK, ContactsContract.Contacts.CONTENT_URI);
+                intent.setType(ContactsContract.CommonDataKinds.Email.CONTENT_TYPE);
+
+                startActivityForResult(intent, PICK_SHARE_RECIPIENT);
+            }
+        });
+
+//        shareRecipient.setOnPreferenceClickListener(getOnPreferenceClickListener(PICK_SHARE_RECIPIENT));
 
         shareCc = getPreferenceScreen().findPreference(PREF_SHARE_CC);
 

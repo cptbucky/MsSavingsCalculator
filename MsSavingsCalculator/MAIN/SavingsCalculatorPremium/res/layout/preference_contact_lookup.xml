@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingTop="13dp">
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/contact_lookup"
+        android:id="@+id/emailLookup"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true" />
+
+    <EditText
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textEmailAddress"
+        android:ems="10"
+        android:id="@+id/emailEntry"
+        android:layout_toLeftOf="@id/emailLookup"
+        android:layout_centerVertical="true" />
+
+</RelativeLayout>

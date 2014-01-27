@@ -30,11 +30,16 @@
             android:key="pref_key_share"
             android:title="@string/pref_key_share">
 
-        <Preference
+        <!--<Preference-->
+        <!--android:key="pref_share_recipient"-->
+        <!--android:summary="@string/pref_share_recipient_summ"-->
+        <!--android:title="@string/pref_share_recipient"-->
+        <!--android:defaultValue="" />-->
+
+        <com.avantics.savingscalcpremium.ContactPreference
             android:key="pref_share_recipient"
             android:summary="@string/pref_share_recipient_summ"
-            android:title="@string/pref_share_recipient"
-            android:defaultValue="" />
+            android:title="@string/pref_share_recipient" />
 
         <Preference
             android:key="pref_share_cc"
