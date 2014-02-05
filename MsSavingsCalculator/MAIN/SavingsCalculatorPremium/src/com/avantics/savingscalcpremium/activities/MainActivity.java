@@ -255,7 +255,7 @@ public class MainActivity extends FragmentActivity implements IBindManager {
         if (availableQuoteNames.size() > 0) {
             final Dialog manageDialog = new Dialog(this);
 
-            manageDialog.setContentView(R.layout.load_dialog);
+            manageDialog.setContentView(R.layout.listview_dialog);
             manageDialog.setTitle(R.string.load_quote_dialog_title);
 
             ListView listView1;
@@ -268,7 +268,7 @@ public class MainActivity extends FragmentActivity implements IBindManager {
             }
 
             final LoadListItemAdapter adapter = new LoadListItemAdapter(this,
-                    R.layout.listview_item_row, load_items);
+                    R.layout.load_quote_row, load_items);
 
             adapter.setOnDeleteQuoteRequested(new DeleteQuoteRequestHandler() {
 

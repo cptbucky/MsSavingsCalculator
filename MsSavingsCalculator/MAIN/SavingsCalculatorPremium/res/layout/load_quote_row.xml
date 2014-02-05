@@ -3,7 +3,7 @@
     android:layout_width="fill_parent"
     android:layout_height="fill_parent"
     android:orientation="horizontal"
-    android:descendantFocusability="blocksDescendants" >
+    android:descendantFocusability="blocksDescendants">
 
     <!-- <TextView -->
     <!-- android:id="@+id/txtTitle" -->
@@ -19,7 +19,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:padding="10sp" />
-    
+
     <ImageButton
         android:id="@+id/deleteQuote"
         android:focusableInTouchMode="true"
@@ -29,9 +29,9 @@
         android:contentDescription="@string/load_quote_dialog_row_remove"
         android:src="@drawable/content_remove"
         android:padding="10sp"
-        style="@style/listViewImageButton"/>
+        style="@style/listViewImageButton" />
 
-	<!--android:background="?android:selectableItemBackground"-->
+    <!--android:background="?android:selectableItemBackground"-->
 
     <!-- <TextView -->
     <!-- android:id="@+id/txtTitle" -->

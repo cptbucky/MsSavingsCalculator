@@ -29,5 +29,6 @@
     <string name="pref_quote_default_summ">The default quote loaded on startup</string>
     <string name="contact_lookup">...</string>
     <string name="preference_contact_title">Contact Lookup</string>
+    <string name="choose_email_heading">Please choose address?</string>
 
 </resources>

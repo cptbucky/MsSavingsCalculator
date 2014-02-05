@@ -2,6 +2,7 @@ package com.avantics.savingscalcpremium.fragments;
 
 import android.annotation.TargetApi;
 import android.app.Activity;
+import android.app.Dialog;
 import android.content.ContentResolver;
 import android.content.Intent;
 import android.content.SharedPreferences;
@@ -11,15 +12,20 @@ import android.net.Uri;
 import android.os.Build;
 import android.os.Bundle;
 import android.preference.EditTextPreference;
-import android.preference.Preference;
 import android.preference.PreferenceFragment;
 import android.preference.PreferenceManager;
 import android.provider.ContactsContract;
 import android.util.Log;
 import android.view.View;
+import android.widget.AdapterView;
+import android.widget.ListView;
 
+import com.avantics.savingscalcpremium.ChooseEmailItemAdapter;
 import com.avantics.savingscalcpremium.ContactPreference;
+import com.avantics.savingscalcpremium.LoadListItem;
 import com.avantics.savingscalcpremium.R;
+
+import java.util.ArrayList;
 
 @TargetApi(Build.VERSION_CODES.HONEYCOMB)
 public class SettingsFragment extends PreferenceFragment implements
@@ -41,8 +47,8 @@ public class SettingsFragment extends PreferenceFragment implements
     private EditTextPreference brandingVendorName;
 
     private ContactPreference shareRecipient;
-    private Preference shareCc;
-    private Preference shareBcc;
+    private ContactPreference shareCc;
+    private ContactPreference shareBcc;
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
@@ -60,57 +66,46 @@ public class SettingsFragment extends PreferenceFragment implements
 
         shareRecipient = (ContactPreference) getPreferenceScreen().findPreference(PREF_SHARE_RECIPIENT);
 
-        shareRecipient.setOnLookupClickListener(new View.OnClickListener() {
+        shareRecipient.setOnLookupClickListener(getOnLookupClickListener(PICK_SHARE_RECIPIENT));
+
+        shareCc = (ContactPreference) getPreferenceScreen().findPreference(PREF_SHARE_CC);
+
+        shareCc.setOnLookupClickListener(getOnLookupClickListener(PICK_CC));
+
+        shareBcc = (ContactPreference) getPreferenceScreen().findPreference(PREF_SHARE_BCC);
+
+        shareBcc.setOnLookupClickListener(getOnLookupClickListener(PICK_BCC));
+    }
+
+    private View.OnClickListener getOnLookupClickListener(final int prefKey) {
+        return new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(Intent.ACTION_PICK, ContactsContract.Contacts.CONTENT_URI);
-                intent.setType(ContactsContract.CommonDataKinds.Email.CONTENT_TYPE);
 
-                startActivityForResult(intent, PICK_SHARE_RECIPIENT);
-            }
-        });
-
-//        shareRecipient.setOnPreferenceClickListener(getOnPreferenceClickListener(PICK_SHARE_RECIPIENT));
-
-        shareCc = getPreferenceScreen().findPreference(PREF_SHARE_CC);
-
-        shareCc.setOnPreferenceClickListener(getOnPreferenceClickListener(PICK_CC));
-
-        shareBcc = getPreferenceScreen().findPreference(PREF_SHARE_BCC);
-
-        shareBcc.setOnPreferenceClickListener(getOnPreferenceClickListener(PICK_BCC));
-    }
-
-    private Preference.OnPreferenceClickListener getOnPreferenceClickListener(final int pickShareRecipient) {
-        return new Preference.OnPreferenceClickListener() {
-            @Override
-            public boolean onPreferenceClick(Preference preference) {
-                Intent intent = new Intent(Intent.ACTION_PICK, ContactsContract.Contacts.CONTENT_URI);
-                intent.setType(ContactsContract.CommonDataKinds.Email.CONTENT_TYPE);
-
-                startActivityForResult(intent, pickShareRecipient);
-
-                return true;
+                startActivityForResult(intent, prefKey);
             }
         };
     }
 
+//    private Preference.OnPreferenceClickListener getOnPreferenceClickListener(final int pickShareRecipient) {
+//        return new Preference.OnPreferenceClickListener() {
+//            @Override
+//            public boolean onPreferenceClick(Preference preference) {
+//                Intent intent = new Intent(Intent.ACTION_PICK, ContactsContract.Contacts.CONTENT_URI);
+//                intent.setType(ContactsContract.CommonDataKinds.Email.CONTENT_TYPE);
+//
+//                startActivityForResult(intent, pickShareRecipient);
+//
+//                return true;
+//            }
+//        };
+//    }
+
     @Override
     public void onActivityResult(int requestCode, int resultCode, Intent data) {
         if (resultCode == Activity.RESULT_OK) {
-            String email = GetEmail(data);
-
-            switch (requestCode) {
-                case PICK_SHARE_RECIPIENT:
-                    SetSharedRecipient(email, shareRecipient, PREF_SHARE_RECIPIENT);
-                    break;
-                case PICK_BCC:
-                    SetSharedRecipient(email, shareBcc, PREF_SHARE_BCC);
-                    break;
-                case PICK_CC:
-                    SetSharedRecipient(email, shareCc, PREF_SHARE_CC);
-                    break;
-            }
+            setEmailFromContact(data, requestCode);
         } else {
             Log.w(TAG, "Warning: activity result not ok");
         }
@@ -118,7 +113,7 @@ public class SettingsFragment extends PreferenceFragment implements
         super.onActivityResult(requestCode, resultCode, data);
     }
 
-    private String GetEmail(Intent data) {
+    private void setEmailFromContact(Intent data, int requestCode) {
         Uri result = data.getData();
         Log.i(TAG, "Got a result: " + result.toString());
 
@@ -126,31 +121,121 @@ public class SettingsFragment extends PreferenceFragment implements
         String id = result.getLastPathSegment();
 
         final ContentResolver cr = getActivity().getContentResolver();
-        final Cursor cursor = cr.query(ContactsContract.CommonDataKinds.Email.CONTENT_URI, null,
-                ContactsContract.CommonDataKinds.Email._ID + "=" + id, null, null);
 
-        int nameId = cursor.getColumnIndex(ContactsContract.Contacts.DISPLAY_NAME);
-        int emailIdx = cursor.getColumnIndex(ContactsContract.CommonDataKinds.Email.DATA);
+        Cursor emailCur = cr.query(
+                ContactsContract.CommonDataKinds.Email.CONTENT_URI,
+                null,
+                ContactsContract.CommonDataKinds.Email.CONTACT_ID + " = ?",
+                new String[]{id}, null);
 
-        // let's just get the first email
-        if (cursor.moveToFirst()) {
-            String email = cursor.getString(emailIdx);
-            String name = cursor.getString(nameId);
+        if (emailCur.getCount() > 1) {
+            pickWhichEmailAddress(emailCur, requestCode);
+        } else if (emailCur.moveToFirst()) {
+            String email = emailCur.getString(
+                    emailCur.getColumnIndex(ContactsContract.CommonDataKinds.Email.DATA));
 
-            Log.v(TAG, "Got email: " + email);
-
-            return email;
+            setEmailPreference(requestCode, email);
         } else {
-            Log.w(TAG, "No results");
+            setEmailPreference(requestCode, "");
         }
 
-        return "";
+        emailCur.close();
     }
 
-    private void SetSharedRecipient(String email, Preference pref, String prefKey) {
-        pref.getEditor().putString(prefKey, email).commit();
-        pref.setSummary(sPreferences.getString(prefKey, ""));
+    private void pickWhichEmailAddress(Cursor emailCur, final int requestCode) {
+        final String[] email = {""};
+        final ArrayList<LoadListItem> emails = new ArrayList<LoadListItem>();
+
+        while (emailCur.moveToNext()) {
+            // This would allow you get several email addresses
+            // if the email addresses were stored in an array
+            emails.add(new LoadListItem(emailCur.getString(
+                    emailCur.getColumnIndex(ContactsContract.CommonDataKinds.Email.DATA))));
+        }
+
+        if (emails.size() > 0) {
+            final Dialog manageDialog = new Dialog(getActivity());
+
+            manageDialog.setContentView(R.layout.listview_dialog);
+            manageDialog.setTitle(R.string.choose_email_heading);
+
+            ListView listView1;
+
+            final ChooseEmailItemAdapter adapter = new ChooseEmailItemAdapter(getActivity(),
+                    R.layout.choose_item_row, emails);
+
+            listView1 = (ListView) manageDialog.findViewById(R.id.listView1);
+
+            listView1.setAdapter(adapter);
+
+            listView1.setOnItemClickListener(new AdapterView.OnItemClickListener() {
+                @Override
+                public void onItemClick(AdapterView<?> arg0, View arg1,
+                                        int arg2, long arg3) {
+                    email[0] = emails.get(arg2).title;
+
+                    setEmailPreference(requestCode, email[0]);
+
+                    manageDialog.dismiss();
+                }
+            });
+
+            manageDialog.show();
+        }
     }
+
+    private void setEmailPreference(int requestCode, String email) {
+        switch (requestCode) {
+            case PICK_SHARE_RECIPIENT:
+                shareRecipient.UpdateEntry(email);
+
+                break;
+            case PICK_BCC:
+                shareBcc.UpdateEntry(email);
+
+                break;
+            case PICK_CC:
+                shareCc.UpdateEntry(email);
+
+                break;
+        }
+    }
+
+
+//    private String GetEmail(Intent data) {
+//        Uri result = data.getData();
+//        Log.i(TAG, "Got a result: " + result.toString());
+//
+//        // get the contact id from the Uri
+//        String id = result.getLastPathSegment();
+//
+//        final ContentResolver cr = getActivity().getContentResolver();
+//        final Cursor cursor = cr.query(ContactsContract.CommonDataKinds.Email.CONTENT_URI, null,
+//                ContactsContract.CommonDataKinds.Email._ID + "=" + id, null, null);
+//
+//        int nameId = cursor.getColumnIndex(ContactsContract.Contacts.DISPLAY_NAME);
+//        int emailIdx = cursor.getColumnIndex(ContactsContract.CommonDataKinds.Email.DATA);
+//
+//        // let's just get the first email
+//        if (cursor.moveToFirst()) {
+//            String email = cursor.getString(emailIdx);
+//            String name = cursor.getString(nameId);
+//
+//            Log.v(TAG, "Got email: " + email);
+//
+//            return email;
+//        } else {
+//            Log.w(TAG, "No results");
+//        }
+//
+//        return "";
+//    }
+
+//    private void SetSharedRecipient(String email, Preference pref, String prefKey) {
+//        pref.getEditor().putString(prefKey, email).commit();
+//
+//        pref.setSummary(sPreferences.getString(prefKey, ""));
+//    }
 
     @Override
     public void onSharedPreferenceChanged(SharedPreferences sharedPreferences, String key) {
