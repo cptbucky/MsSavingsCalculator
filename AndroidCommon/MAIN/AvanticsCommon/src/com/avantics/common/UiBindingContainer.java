@@ -8,13 +8,12 @@ import java.text.NumberFormat;
 import java.text.ParseException;
 
 public class UiBindingContainer<T> {
-    //    private final CalculateInterface calcInterface;
+
     public TextView Ctrl = null;
     public BindableProperty<T> sourceProperty;
     private NumberFormat formatter = null;
-    private TextWatcher watcher = null;
 
-    public UiBindingContainer(TextView wrappedEditor, NumberFormat format, BindableProperty property) {
+    public UiBindingContainer(TextView wrappedEditor, NumberFormat format, BindableProperty<T> property) {
         Ctrl = wrappedEditor;
         formatter = format;
         sourceProperty = property;
@@ -38,7 +37,9 @@ public class UiBindingContainer<T> {
     public Double getDoubleValue() {
         Double extractedValue;
 
-        String currentText = Ctrl.getText().toString();
+        CharSequence currentVal = Ctrl.getText();
+
+        String currentText = currentVal == null ? "" : currentVal.toString();
 
         // hate this code..
         try {
@@ -62,18 +63,6 @@ public class UiBindingContainer<T> {
             Ctrl.setText(formatter.format(value));
         }
 
-    }
-
-    public void suspendChangeNotification() {
-        if (watcher != null) {
-            Ctrl.removeTextChangedListener(watcher);
-        }
-    }
-
-    public void resumeChangeNotification() {
-        if (watcher != null) {
-            Ctrl.addTextChangedListener(watcher);
-        }
     }
 
     public void updateProperty() {

@@ -50,7 +50,7 @@ public class MainActivity extends FragmentActivity implements IBindManager {
     private static UiBindingManager binder;
     ArrayList<UiBindingContainer> containedControls;
 
-    private DatabaseHelper dbHelper = null;
+    private DatabaseHelper dbHelper;
     private SparseArray<String> availableQuoteNames;
 
     private Menu appMenu;
@@ -59,6 +59,8 @@ public class MainActivity extends FragmentActivity implements IBindManager {
         if (binder == null) {
             binder = new UiBindingManager();
         }
+
+        dbHelper = null;
     }
 
     @Override
@@ -70,7 +72,7 @@ public class MainActivity extends FragmentActivity implements IBindManager {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
 
-        View vw = null;
+        View vw;
 
         if (Build.VERSION.SDK_INT < Build.VERSION_CODES.HONEYCOMB) {
             vw = getLayoutInflater().inflate(com.avantics.savingscalc.common.R.layout.standard_form, null);
@@ -108,16 +110,16 @@ public class MainActivity extends FragmentActivity implements IBindManager {
 
     private void restoreViewState() {
         // set values of all controls
-        for (int i = 0; i < containedControls.size(); i++) {
-            containedControls.get(i).rebindValue();
+        for (UiBindingContainer containedControl : containedControls) {
+            containedControl.rebindValue();
         }
     }
 
     private void unbindView() {
         // if any controls exist in lists of listeners ensure they are removed
-        for (int i = 0; i < containedControls.size(); i++) {
+        for (UiBindingContainer containedControl : containedControls) {
             // this is just plain wrong.. really getting bad now..
-            containedControls.get(i).sourceProperty.removeListener(containedControls.get(i));
+            containedControl.sourceProperty.removeListener(containedControl);
         }
     }
 
@@ -176,6 +178,7 @@ public class MainActivity extends FragmentActivity implements IBindManager {
     @Override
     protected void onSaveInstanceState(Bundle outState) {
         super.onSaveInstanceState(outState);
+
         outState.putString(HeaderTextKey, binder.currentQuote.Name.getValue());
     }
 
@@ -183,6 +186,7 @@ public class MainActivity extends FragmentActivity implements IBindManager {
         boolean saveCount = dbHelper.getAvailableQuoteNames().size() > 0;
 
         MenuItem item = appMenu.findItem(R.id.action_load);
+
         item.setVisible(saveCount);
     }
 

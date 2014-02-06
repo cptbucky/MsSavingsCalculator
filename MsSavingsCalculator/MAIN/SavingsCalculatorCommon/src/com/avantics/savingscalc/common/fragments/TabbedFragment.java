@@ -1,23 +1,25 @@
 package com.avantics.savingscalc.common.fragments;
 
+import android.annotation.TargetApi;
 import android.app.ActionBar;
 import android.app.Activity;
+import android.os.Build;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
 import android.support.v4.view.ViewPager;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+
 import com.avantics.savingscalc.common.PagingAdapter;
 import com.avantics.savingscalc.common.R;
-import com.avantics.savingscalc.common.ViewPagerCustom;
 
 /**
  * Created by tom on 02/06/13.
  */
 public class TabbedFragment extends Fragment {
     PagingAdapter mVCollectionPageAdapter;
-    ViewPagerCustom mViewPager;
+    ViewPager mViewPager;
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
@@ -36,6 +38,7 @@ public class TabbedFragment extends Fragment {
         setupABar();
     }
 
+    @TargetApi(Build.VERSION_CODES.HONEYCOMB)
     private void setupABar() {
         final Activity currentActivity = getActivity();
 
@@ -74,7 +77,7 @@ public class TabbedFragment extends Fragment {
 
         // the page adapter contains all the fragment registrations
         mVCollectionPageAdapter = new PagingAdapter(getActivity().getSupportFragmentManager());
-        mViewPager = (ViewPagerCustom) view.findViewById(R.id.pager);
+        mViewPager = (ViewPager) view.findViewById(R.id.pager);
 
         // set the contents of the ViewPager
         mViewPager.setAdapter(mVCollectionPageAdapter);
@@ -82,6 +85,7 @@ public class TabbedFragment extends Fragment {
         // add a on page change listener to change the actionBar's selected tab # (fragment will then be changed by actionBar's code)
         // the change listener is called on swiping
         mViewPager.setOnPageChangeListener(new ViewPager.SimpleOnPageChangeListener() {
+            @TargetApi(Build.VERSION_CODES.HONEYCOMB)
             @Override
             public void onPageSelected(int pos) {
                 currentActivity.getActionBar().setSelectedNavigationItem(pos);
