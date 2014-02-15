@@ -14,7 +14,7 @@
     <application
         android:allowBackup="true"
         android:label="@string/app_name"
-        android:icon="@drawable/ic_action_bar"
+        android:icon="@drawable/ic_launcher"
         android:logo="@drawable/ic_action_bar"
         android:uiOptions="splitActionBarWhenNarrow"
         android:theme="@style/AppTheme">
