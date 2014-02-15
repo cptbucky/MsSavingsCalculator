@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/AndroidCommon/MAIN/AvanticsCommon/AvanticsCommon.iml" filepath="$PROJECT_DIR$/AndroidCommon/MAIN/AvanticsCommon/AvanticsCommon.iml" />
+      <module fileurl="file://$PROJECT_DIR$/MsSavingsCalculator/MAIN/SavingsCalculator/SavingsCalculator.iml" filepath="$PROJECT_DIR$/MsSavingsCalculator/MAIN/SavingsCalculator/SavingsCalculator.iml" />
+      <module fileurl="file://$PROJECT_DIR$/MsSavingsCalculator/MAIN/SavingsCalculatorCommon/SavingsCalculatorCommon.iml" filepath="$PROJECT_DIR$/MsSavingsCalculator/MAIN/SavingsCalculatorCommon/SavingsCalculatorCommon.iml" />
+      <module fileurl="file://$PROJECT_DIR$/MsSavingsCalculator/MAIN/SavingsCalculatorPremium/SavingsCalculatorPremium.iml" filepath="$PROJECT_DIR$/MsSavingsCalculator/MAIN/SavingsCalculatorPremium/SavingsCalculatorPremium.iml" />
+    </modules>
+  </component>
+</project>
+
