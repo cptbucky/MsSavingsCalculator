@@ -7,7 +7,8 @@
               a:orientation="vertical"
               a:paddingLeft="20dp"
               a:paddingTop="10dp"
-              a:paddingRight="20dp">
+              a:paddingRight="20dp"
+    a:id="@+id/rootLayout">
 
     <LinearLayout
             a:layout_width="fill_parent"

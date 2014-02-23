@@ -11,7 +11,8 @@
             a:paddingLeft="20dp"
             a:paddingRight="20dp"
             a:paddingTop="10dp"
-            a:paddingBottom="10dp">
+            a:paddingBottom="10dp"
+        a:id="@+id/rootLayout">
 
         <TextView
                 a:layout_width="wrap_content"

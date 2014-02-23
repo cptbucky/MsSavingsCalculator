@@ -1,12 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AndroidLayoutPreviewToolWindow">
+    <option name="state">
+      <GlobalState />
+    </option>
+  </component>
   <component name="AndroidLayouts">
     <shared>
       <config />
     </shared>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="28d66fe5-6fb9-4f51-84e0-1678c1215cb6" name="Default" comment="" />
+    <list default="true" id="28d66fe5-6fb9-4f51-84e0-1678c1215cb6" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/MsSavingsCalculator/MAIN/SavingsCalculator/AndroidManifest.xml" afterPath="$PROJECT_DIR$/MsSavingsCalculator/MAIN/SavingsCalculator/AndroidManifest.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/MsSavingsCalculator/MAIN/SavingsCalculatorPremium/AndroidManifest.xml" afterPath="$PROJECT_DIR$/MsSavingsCalculator/MAIN/SavingsCalculatorPremium/AndroidManifest.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/MsSavingsCalculator/MAIN/SavingsCalculatorCommon/res/layout-w600dp/main.xml" afterPath="$PROJECT_DIR$/MsSavingsCalculator/MAIN/SavingsCalculatorCommon/res/layout-w600dp/main.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/MsSavingsCalculator/MAIN/SavingsCalculatorCommon/res/layout-w800dp/main.xml" afterPath="$PROJECT_DIR$/MsSavingsCalculator/MAIN/SavingsCalculatorCommon/res/layout-w800dp/main.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+    </list>
     <ignored path="MsSavingsCalculator.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -69,19 +81,19 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="Main.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/MsSavingsCalculator/MAIN/SavingsCalculator/src/com/avantics/savingscalc/activities/Main.java">
+      <file leaf-file-name="build.gradle" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/MsSavingsCalculator/MAIN/SavingsCalculatorCommon/build.gradle">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="14" column="13" selection-start="395" selection-end="395" vertical-scroll-proportion="0.0" vertical-offset="210" max-vertical-offset="1200">
+            <state line="19" column="27" selection-start="330" selection-end="330" vertical-scroll-proportion="-11.4" vertical-offset="0" max-vertical-offset="615">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MainActivity.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/MsSavingsCalculator/MAIN/SavingsCalculatorPremium/src/com/avantics/savingscalcpremium/activities/MainActivity.java">
+      <file leaf-file-name="AndroidManifest.xml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/MsSavingsCalculator/MAIN/SavingsCalculator/AndroidManifest.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="244" column="49" selection-start="8192" selection-end="8192" vertical-scroll-proportion="0.0" vertical-offset="3660" max-vertical-offset="7860">
+            <state line="4" column="30" selection-start="206" selection-end="206" vertical-scroll-proportion="-2.4" vertical-offset="0" max-vertical-offset="555">
               <folding />
             </state>
           </provider>
@@ -90,35 +102,8 @@
       <file leaf-file-name="AndroidManifest.xml" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/MsSavingsCalculator/MAIN/SavingsCalculatorPremium/AndroidManifest.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="3" column="27" selection-start="181" selection-end="181" vertical-scroll-proportion="0.027552674" vertical-offset="28" max-vertical-offset="675">
-              <folding>
-                <element signature="e#616#634#0" expanded="true" />
-                <element signature="e#919#937#0" expanded="true" />
-                <element signature="e#1317#1337#0" expanded="true" />
-                <element signature="e#1448#1468#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="AndroidManifest.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/MsSavingsCalculator/MAIN/SavingsCalculatorCommon/AndroidManifest.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="15" column="11" selection-start="467" selection-end="467" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="315">
-              <folding>
-                <element signature="e#372#390#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="AndroidManifest.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/MsSavingsCalculator/MAIN/SavingsCalculator/AndroidManifest.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="3" column="27" selection-start="174" selection-end="174" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="555">
-              <folding>
-                <element signature="e#521#539#0" expanded="true" />
-              </folding>
+            <state line="39" column="11" selection-start="1501" selection-end="1501" vertical-scroll-proportion="0.68421054" vertical-offset="0" max-vertical-offset="855">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -131,14 +116,24 @@
     </FindUsagesManager>
   </component>
   <component name="GenerateSignedApkSettings">
-    <option name="KEY_STORE_PATH" value="$PROJECT_DIR$/savingscalc.keystore" />
+    <option name="KEY_STORE_PATH" value="$USER_HOME$/Ubuntu One/savingscalc.keystore" />
     <option name="KEY_ALIAS" value="savings_calc_store" />
     <option name="REMEMBER_PASSWORDS" value="true" />
+  </component>
+  <component name="Git.Settings">
+    <option name="PREVIOUS_COMMIT_AUTHORS">
+      <list>
+        <option value="cptbucky" />
+      </list>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
         <option value="$PROJECT_DIR$/MsSavingsCalculator/MAIN/SavingsCalculatorCommon/AndroidManifest.xml" />
+        <option value="$PROJECT_DIR$/MsSavingsCalculator/MAIN/SavingsCalculatorCommon/res/layout-w600dp/main.xml" />
+        <option value="$PROJECT_DIR$/MsSavingsCalculator/MAIN/SavingsCalculatorCommon/res/layout-w800dp/main.xml" />
         <option value="$PROJECT_DIR$/MsSavingsCalculator/MAIN/SavingsCalculator/AndroidManifest.xml" />
         <option value="$PROJECT_DIR$/MsSavingsCalculator/MAIN/SavingsCalculatorPremium/AndroidManifest.xml" />
       </list>
@@ -149,7 +144,7 @@
     <option name="width" value="1680" />
     <option name="height" value="1024" />
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
     <OptionsSetting value="true" id="Remove" />
     <OptionsSetting value="true" id="Checkout" />
@@ -184,6 +179,16 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MsSavingsCalculator" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SavingsCalculatorPremium" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
       <pane id="PackagesPane" />
@@ -196,7 +201,7 @@
     <property name="MemberChooser.sorted" value="false" />
     <property name="MemberChooser.showClasses" value="true" />
     <property name="MemberChooser.copyJavadoc" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/savingscalc.keystore" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Ubuntu One/savingscalc.keystore" />
     <property name="recentsLimit" value="5" />
     <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.15" />
@@ -205,13 +210,28 @@
     <property name="Repository.Attach.Sources" value="false" />
     <property name="FullScreen" value="false" />
     <property name="ExportedModule" value="SavingsCalculatorPremium" />
-    <property name="ExportedApkPath" value="$USER_HOME$/Ubuntu One/dev/MsSavingsCalculator/sales calc releases/SavingsCalculatorPremium_1.0.14.apk" />
+    <property name="ExportedApkPath" value="$USER_HOME$/Ubuntu One/dev/MsSavingsCalculator/sales calc releases/SavingsCalculatorPremium_1.0.16.apk" />
     <property name="AndroidRunProguardForReleaseBuild" value="false" />
     <property name="LayoutCode.rearrangeEntriesXML" value="false" />
+    <property name="restartRequiresConfirmation" value="true" />
+    <property name="ANDROID_EXTENDED_DEVICE_CHOOSER_SERIALS" value="emulator-5556" />
+    <property name="ANDROID_EXTENDED_DEVICE_CHOOSER_AVD" value="AVD_for_Nexus_10_by_Google" />
+    <property name="options.lastSelected" value="reference.settingsdialog.project.gant" />
+    <property name="options.splitter.main.proportions" value="0.3" />
+    <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="options.searchVisible" value="true" />
+    <property name="full.screen.before.presentation.mode" value="false" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/MsSavingsCalculator/MAIN/SavingsCalculatorCommon/res/drawable-hdpi" />
+      <recent name="$PROJECT_DIR$/MsSavingsCalculator/MAIN/SavingsCalculatorCommon/res/drawable-xxhdpi" />
+      <recent name="$PROJECT_DIR$/MsSavingsCalculator/MAIN/SavingsCalculatorCommon/res/drawable-xhdpi" />
+      <recent name="$PROJECT_DIR$/MsSavingsCalculator/MAIN/SavingsCalculatorCommon/res/drawable-mdpi" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/MsSavingsCalculator/MAIN/SavingsCalculatorCommon/res/drawable-hdpi" />
+      <recent name="$PROJECT_DIR$/MsSavingsCalculator/MAIN/SavingsCalculatorCommon/res/drawable" />
     </key>
   </component>
   <component name="RunManager" selected="Android Application.SavingsCalculator">
@@ -233,6 +253,7 @@
       <option name="NETWORK_LATENCY" value="none" />
       <option name="CLEAR_LOGCAT" value="false" />
       <option name="SHOW_LOGCAT_AUTOMATICALLY" value="true" />
+      <option name="FILTER_LOGCAT_AUTOMATICALLY" value="true" />
       <method />
     </configuration>
     <configuration default="true" type="Remote" factoryName="Remote">
@@ -241,6 +262,19 @@
       <option name="SHMEM_ADDRESS" value="javadebug" />
       <option name="HOST" value="localhost" />
       <option name="PORT" value="5005" />
+      <method />
+    </configuration>
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <module name="" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="HTML_FILE_NAME" />
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <option name="VM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
       <method />
     </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
@@ -268,19 +302,6 @@
       <envs />
       <properties />
       <listeners />
-      <method />
-    </configuration>
-    <configuration default="true" type="Applet" factoryName="Applet">
-      <module name="" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="HTML_FILE_NAME" />
-      <option name="HTML_USED" value="false" />
-      <option name="WIDTH" value="400" />
-      <option name="HEIGHT" value="300" />
-      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
-      <option name="VM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
       <method />
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
@@ -334,6 +355,7 @@
       <option name="NETWORK_LATENCY" value="none" />
       <option name="CLEAR_LOGCAT" value="false" />
       <option name="SHOW_LOGCAT_AUTOMATICALLY" value="true" />
+      <option name="FILTER_LOGCAT_AUTOMATICALLY" value="true" />
       <method />
     </configuration>
     <configuration default="false" name="SavingsCalculator" type="AndroidRunConfigurationType" factoryName="Android Application">
@@ -342,7 +364,7 @@
       <option name="MODE" value="default_activity" />
       <option name="DEPLOY" value="true" />
       <option name="ARTIFACT_NAME" value="" />
-      <option name="TARGET_SELECTION_MODE" value="EMULATOR" />
+      <option name="TARGET_SELECTION_MODE" value="SHOW_DIALOG" />
       <option name="USE_LAST_SELECTED_DEVICE" value="false" />
       <option name="PREFERRED_AVD" value="" />
       <option name="USE_COMMAND_LINE" value="true" />
@@ -353,6 +375,7 @@
       <option name="NETWORK_LATENCY" value="none" />
       <option name="CLEAR_LOGCAT" value="false" />
       <option name="SHOW_LOGCAT_AUTOMATICALLY" value="true" />
+      <option name="FILTER_LOGCAT_AUTOMATICALLY" value="true" />
       <RunnerSettings RunnerId="AndroidDebugRunner" />
       <ConfigurationWrapper RunnerId="AndroidDebugRunner" />
       <method />
@@ -363,7 +386,7 @@
       <option name="MODE" value="default_activity" />
       <option name="DEPLOY" value="true" />
       <option name="ARTIFACT_NAME" value="" />
-      <option name="TARGET_SELECTION_MODE" value="EMULATOR" />
+      <option name="TARGET_SELECTION_MODE" value="SHOW_DIALOG" />
       <option name="USE_LAST_SELECTED_DEVICE" value="false" />
       <option name="PREFERRED_AVD" value="" />
       <option name="USE_COMMAND_LINE" value="true" />
@@ -374,6 +397,7 @@
       <option name="NETWORK_LATENCY" value="none" />
       <option name="CLEAR_LOGCAT" value="false" />
       <option name="SHOW_LOGCAT_AUTOMATICALLY" value="true" />
+      <option name="FILTER_LOGCAT_AUTOMATICALLY" value="true" />
       <RunnerSettings RunnerId="AndroidDebugRunner" />
       <ConfigurationWrapper RunnerId="AndroidDebugRunner" />
       <method />
@@ -419,38 +443,78 @@
       <created>1392073910473</created>
       <updated>1392073910473</updated>
     </task>
+    <task id="LOCAL-00001" summary="icon fix&#10;&#10;">
+      <created>1392556924381</created>
+      <updated>1392556924381</updated>
+    </task>
+    <task id="LOCAL-00002" summary="icon fix&#10;&#10;">
+      <created>1392556974790</created>
+      <updated>1392556974790</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="22" width="1680" height="1024" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32819384" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3289183" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.28807947" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3246951" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Android" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32929516" sideWeight="0.5" order="14" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.28744492" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32819384" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32819384" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Gradle Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.28744492" sideWeight="0.5" order="13" side_tool="true" content_ui="tabs" />
+      <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3246951" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Android" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33920705" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24973376" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.21733822" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24236874" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32967034" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3289183" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
+    <layout-to-restore>
+      <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32819384" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32819384" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32819384" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Gradle Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.28744492" sideWeight="0.5" order="14" side_tool="true" content_ui="tabs" />
+      <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24908425" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32929516" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32967034" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3289183" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.28744492" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3246951" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Android" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33920705" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24973376" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+    </layout-to-restore>
   </component>
   <component name="Vcs.Log.UiProperties">
     <option name="RECENTLY_FILTERED_USER_GROUPS">
@@ -464,126 +528,216 @@
     <option name="myTodoPanelSettings">
       <TodoPanelSettings />
     </option>
+    <MESSAGE value="icon fix&#10;&#10;" />
+    <option name="LAST_COMMIT_MESSAGE" value="icon fix&#10;&#10;" />
+    <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/MsSavingsCalculator/MAIN/SavingsCalculator/src/com/avantics/savingscalc/activities/Main.java">
+    <entry file="file://$PROJECT_DIR$/MsSavingsCalculator/MAIN/SavingsCalculatorPremium/AndroidManifest.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="13" selection-start="395" selection-end="395" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1200">
+        <state line="21" column="8" selection-start="829" selection-end="829" vertical-scroll-proportion="0.0" vertical-offset="315" max-vertical-offset="675">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/MsSavingsCalculator/MAIN/SavingsCalculatorPremium/src/com/avantics/savingscalcpremium/activities/MainActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="244" column="49" selection-start="8192" selection-end="8192" vertical-scroll-proportion="0.0" vertical-offset="3660" max-vertical-offset="7860">
+        <state line="451" column="29" selection-start="16489" selection-end="16489" vertical-scroll-proportion="0.0" vertical-offset="6765" max-vertical-offset="7860" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MsSavingsCalculator/MAIN/SavingsCalculatorCommon/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="19" column="27" selection-start="330" selection-end="330" vertical-scroll-proportion="0.0" vertical-offset="285" max-vertical-offset="615">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MsSavingsCalculator/MAIN/SavingsCalculatorCommon/res/layout-w600dp/main.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="30" selection-start="552" selection-end="552" vertical-scroll-proportion="0.0" vertical-offset="210" max-vertical-offset="1425">
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MsSavingsCalculator/MAIN/SavingsCalculatorCommon/res/layout-w800dp/main.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="26" selection-start="426" selection-end="426" vertical-scroll-proportion="0.0" vertical-offset="150" max-vertical-offset="1350">
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MsSavingsCalculator/MAIN/SavingsCalculatorCommon/res/layout/main.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="15" selection-start="272" selection-end="294" vertical-scroll-proportion="0.0" vertical-offset="90" max-vertical-offset="315">
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MsSavingsCalculator/MAIN/SavingsCalculator/AndroidManifest.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3" column="28" selection-start="175" selection-end="175" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="555">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/MsSavingsCalculator/MAIN/SavingsCalculatorPremium/AndroidManifest.xml">
       <provider selected="true" editor-type-id="text-editor">
+        <state line="21" column="8" selection-start="829" selection-end="829" vertical-scroll-proportion="0.0" vertical-offset="315" max-vertical-offset="675">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MsSavingsCalculator/MAIN/SavingsCalculator/src/com/avantics/savingscalc/activities/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="13" selection-start="395" selection-end="395" vertical-scroll-proportion="0.0" vertical-offset="210" max-vertical-offset="1200" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MsSavingsCalculator/MAIN/SavingsCalculatorPremium/src/com/avantics/savingscalcpremium/activities/MainActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="244" column="49" selection-start="8192" selection-end="8192" vertical-scroll-proportion="0.0" vertical-offset="3660" max-vertical-offset="7860" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MsSavingsCalculator/MAIN/SavingsCalculatorPremium/AndroidManifest.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="30" column="19" selection-start="1214" selection-end="1214" vertical-scroll-proportion="0.0" vertical-offset="450" max-vertical-offset="675">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MsSavingsCalculator/MAIN/SavingsCalculatorCommon/AndroidManifest.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="15" column="11" selection-start="467" selection-end="467" vertical-scroll-proportion="0.0" vertical-offset="225" max-vertical-offset="315">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MsSavingsCalculator/MAIN/SavingsCalculator/AndroidManifest.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="16" column="43" selection-start="583" selection-end="583" vertical-scroll-proportion="0.0" vertical-offset="240" max-vertical-offset="555">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MsSavingsCalculator/MAIN/SavingsCalculator/src/com/avantics/savingscalc/activities/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="13" selection-start="395" selection-end="395" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1200" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MsSavingsCalculator/MAIN/SavingsCalculatorPremium/src/com/avantics/savingscalcpremium/activities/MainActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="244" column="49" selection-start="8192" selection-end="8192" vertical-scroll-proportion="0.0" vertical-offset="3660" max-vertical-offset="7860" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MsSavingsCalculator/MAIN/SavingsCalculatorPremium/AndroidManifest.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3" column="27" selection-start="181" selection-end="181" vertical-scroll-proportion="0.0" vertical-offset="28" max-vertical-offset="675">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MsSavingsCalculator/MAIN/SavingsCalculatorCommon/AndroidManifest.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="15" column="11" selection-start="467" selection-end="467" vertical-scroll-proportion="0.0" vertical-offset="225" max-vertical-offset="315">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MsSavingsCalculator/MAIN/SavingsCalculator/AndroidManifest.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3" column="27" selection-start="174" selection-end="174" vertical-scroll-proportion="0.0" vertical-offset="45" max-vertical-offset="555">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MsSavingsCalculator/MAIN/SavingsCalculator/src/com/avantics/savingscalc/activities/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="13" selection-start="395" selection-end="395" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1200" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MsSavingsCalculator/MAIN/SavingsCalculatorPremium/src/com/avantics/savingscalcpremium/activities/MainActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="244" column="49" selection-start="8192" selection-end="8192" vertical-scroll-proportion="0.0" vertical-offset="3660" max-vertical-offset="7860" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MsSavingsCalculator/MAIN/SavingsCalculatorPremium/AndroidManifest.xml">
+      <provider selected="true" editor-type-id="text-editor">
         <state line="26" column="0" selection-start="1041" selection-end="1041" vertical-scroll-proportion="0.0" vertical-offset="390" max-vertical-offset="660">
-          <folding>
-            <element signature="e#616#634#0" expanded="true" />
-            <element signature="e#919#937#0" expanded="true" />
-            <element signature="e#1317#1337#0" expanded="true" />
-            <element signature="e#1448#1468#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/MsSavingsCalculator/MAIN/SavingsCalculator/AndroidManifest.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state line="25" column="19" selection-start="1040" selection-end="1040" vertical-scroll-proportion="0.0" vertical-offset="375" max-vertical-offset="555">
-          <folding>
-            <element signature="e#521#539#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/MsSavingsCalculator/MAIN/SavingsCalculator/src/com/avantics/savingscalc/activities/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="13" selection-start="395" selection-end="395" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1200">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/MsSavingsCalculator/MAIN/SavingsCalculatorPremium/src/com/avantics/savingscalcpremium/activities/MainActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="188" column="0" selection-start="5811" selection-end="5811" vertical-scroll-proportion="0.0" vertical-offset="2820" max-vertical-offset="7230">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/MsSavingsCalculator/MAIN/SavingsCalculator/src/com/avantics/savingscalc/activities/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="13" selection-start="395" selection-end="395" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1200">
-          <folding />
-        </state>
+        <state line="14" column="13" selection-start="395" selection-end="395" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1200" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/MsSavingsCalculator/MAIN/SavingsCalculatorPremium/src/com/avantics/savingscalcpremium/activities/MainActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="188" column="0" selection-start="5811" selection-end="5811" vertical-scroll-proportion="0.0" vertical-offset="2820" max-vertical-offset="7230">
-          <folding />
-        </state>
+        <state line="188" column="0" selection-start="5811" selection-end="5811" vertical-scroll-proportion="0.0" vertical-offset="2820" max-vertical-offset="7230" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/MsSavingsCalculator/MAIN/SavingsCalculator/src/com/avantics/savingscalc/activities/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="13" selection-start="395" selection-end="395" vertical-scroll-proportion="0.0" vertical-offset="210" max-vertical-offset="1200">
-          <folding />
-        </state>
+        <state line="14" column="13" selection-start="395" selection-end="395" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1200" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/MsSavingsCalculator/MAIN/SavingsCalculatorPremium/src/com/avantics/savingscalcpremium/activities/MainActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="188" column="0" selection-start="5811" selection-end="5811" vertical-scroll-proportion="0.0" vertical-offset="2820" max-vertical-offset="7230">
-          <folding />
-        </state>
+        <state line="188" column="0" selection-start="5811" selection-end="5811" vertical-scroll-proportion="0.0" vertical-offset="2820" max-vertical-offset="7230" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/MsSavingsCalculator/MAIN/SavingsCalculator/src/com/avantics/savingscalc/activities/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="13" selection-start="395" selection-end="395" vertical-scroll-proportion="0.0" vertical-offset="210" max-vertical-offset="1200">
-          <folding />
-        </state>
+        <state line="14" column="13" selection-start="395" selection-end="395" vertical-scroll-proportion="0.0" vertical-offset="210" max-vertical-offset="1200" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/MsSavingsCalculator/MAIN/SavingsCalculatorPremium/src/com/avantics/savingscalcpremium/activities/MainActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="188" column="0" selection-start="5811" selection-end="5811" vertical-scroll-proportion="0.0" vertical-offset="2820" max-vertical-offset="7230">
-          <folding />
-        </state>
+        <state line="188" column="0" selection-start="5811" selection-end="5811" vertical-scroll-proportion="0.0" vertical-offset="2820" max-vertical-offset="7230" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/MsSavingsCalculator/MAIN/SavingsCalculator/src/com/avantics/savingscalc/activities/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="13" selection-start="395" selection-end="395" vertical-scroll-proportion="0.0" vertical-offset="210" max-vertical-offset="1200">
-          <folding />
-        </state>
+        <state line="14" column="13" selection-start="395" selection-end="395" vertical-scroll-proportion="0.0" vertical-offset="210" max-vertical-offset="1200" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/MsSavingsCalculator/MAIN/SavingsCalculatorPremium/src/com/avantics/savingscalcpremium/activities/MainActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="46" column="13" selection-start="1733" selection-end="1733" vertical-scroll-proportion="0.0" vertical-offset="690" max-vertical-offset="7230">
-          <folding />
-        </state>
+        <state line="188" column="0" selection-start="5811" selection-end="5811" vertical-scroll-proportion="0.0" vertical-offset="2820" max-vertical-offset="7230" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MsSavingsCalculator/MAIN/SavingsCalculator/src/com/avantics/savingscalc/activities/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="13" selection-start="395" selection-end="395" vertical-scroll-proportion="0.0" vertical-offset="210" max-vertical-offset="1200" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MsSavingsCalculator/MAIN/SavingsCalculatorPremium/src/com/avantics/savingscalcpremium/activities/MainActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="46" column="13" selection-start="1733" selection-end="1733" vertical-scroll-proportion="0.0" vertical-offset="690" max-vertical-offset="7230" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/MsSavingsCalculator/MAIN/SavingsCalculatorPremium/build.gradle">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="615" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/MsSavingsCalculator/MAIN/SavingsCalculator/src/com/avantics/savingscalc/activities/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="13" selection-start="395" selection-end="395" vertical-scroll-proportion="0.0" vertical-offset="420" max-vertical-offset="1050">
-          <folding />
-        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/MsSavingsCalculator/MAIN/SavingsCalculator/settings.gradle">
@@ -596,45 +750,114 @@
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="630" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/MsSavingsCalculator/MAIN/SavingsCalculatorPremium/src/com/avantics/savingscalcpremium/activities/MainActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="244" column="49" selection-start="8192" selection-end="8192" vertical-scroll-proportion="0.0" vertical-offset="2820" max-vertical-offset="6690">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/MsSavingsCalculator/MAIN/SavingsCalculatorCommon/res/drawable-mdpi/ic_action_bar.png">
       <provider selected="true" editor-type-id="images">
         <state />
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/MsSavingsCalculator/MAIN/SavingsCalculator/src/com/avantics/savingscalc/activities/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="13" selection-start="395" selection-end="395" vertical-scroll-proportion="-0.26086956" vertical-offset="210" max-vertical-offset="1050" />
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/MsSavingsCalculator/MAIN/SavingsCalculatorCommon/AndroidManifest.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="11" selection-start="467" selection-end="467" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="315">
-          <folding>
-            <element signature="e#372#390#0" expanded="true" />
-          </folding>
+        <state line="15" column="11" selection-start="467" selection-end="467" vertical-scroll-proportion="0.39130434" vertical-offset="0" max-vertical-offset="575">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MsSavingsCalculator/MAIN/SavingsCalculatorCommon/res/drawable-xxhdpi/ic_launcher.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MsSavingsCalculator/MAIN/SavingsCalculatorCommon/res/drawable-xhdpi/ic_launcher.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MsSavingsCalculator/MAIN/SavingsCalculatorCommon/res/drawable-hdpi/ic_launcher.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MsSavingsCalculator/MAIN/SavingsCalculatorCommon/res/drawable-mdpi/ic_launcher.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MsSavingsCalculator/MAIN/SavingsCalculatorCommon/res/layout-w600dp/quote_summary.xml">
+      <provider editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1920">
+          <folding />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="android-designer">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MsSavingsCalculator/MAIN/SavingsCalculatorCommon/res/layout/tab_swipe_activity.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="592" />
+      </provider>
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MsSavingsCalculator/MAIN/SavingsCalculatorCommon/res/layout/main.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="15" selection-start="272" selection-end="294" vertical-scroll-proportion="0.15873016" vertical-offset="0" max-vertical-offset="567">
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MsSavingsCalculator/MAIN/SavingsCalculatorCommon/res/layout-w600dp/main.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="30" selection-start="552" selection-end="552" vertical-scroll-proportion="0.0" vertical-offset="210" max-vertical-offset="1425">
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MsSavingsCalculator/MAIN/SavingsCalculatorCommon/res/layout-w800dp/main.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="26" selection-start="426" selection-end="426" vertical-scroll-proportion="0.0" vertical-offset="150" max-vertical-offset="1350">
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MsSavingsCalculator/MAIN/SavingsCalculatorPremium/src/com/avantics/savingscalcpremium/activities/MainActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="451" column="29" selection-start="16489" selection-end="16489" vertical-scroll-proportion="0.0" vertical-offset="6765" max-vertical-offset="7860" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MsSavingsCalculator/MAIN/SavingsCalculatorCommon/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="19" column="27" selection-start="330" selection-end="330" vertical-scroll-proportion="-11.4" vertical-offset="0" max-vertical-offset="615">
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/MsSavingsCalculator/MAIN/SavingsCalculator/AndroidManifest.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="27" selection-start="174" selection-end="174" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="555">
-          <folding>
-            <element signature="e#521#539#0" expanded="true" />
-          </folding>
+        <state line="4" column="30" selection-start="206" selection-end="206" vertical-scroll-proportion="-2.4" vertical-offset="0" max-vertical-offset="555">
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/MsSavingsCalculator/MAIN/SavingsCalculatorPremium/AndroidManifest.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="27" selection-start="181" selection-end="181" vertical-scroll-proportion="0.027552674" vertical-offset="28" max-vertical-offset="675">
-          <folding>
-            <element signature="e#616#634#0" expanded="true" />
-            <element signature="e#919#937#0" expanded="true" />
-            <element signature="e#1317#1337#0" expanded="true" />
-            <element signature="e#1448#1468#0" expanded="true" />
-          </folding>
+        <state line="39" column="11" selection-start="1501" selection-end="1501" vertical-scroll-proportion="0.68421054" vertical-offset="0" max-vertical-offset="855">
+          <folding />
         </state>
       </provider>
     </entry>
