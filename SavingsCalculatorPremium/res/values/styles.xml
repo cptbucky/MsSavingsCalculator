@@ -23,8 +23,4 @@
     <!--<item name="android:textSize">22sp</item>-->
     <!--</style>-->
 
-    <style name="listViewImageButton" parent="@android:style/Widget.ImageButton">
-        <!--<item name="android:background">@drawable/your_own_graphic</item>-->
-    </style>
-
 </resources>

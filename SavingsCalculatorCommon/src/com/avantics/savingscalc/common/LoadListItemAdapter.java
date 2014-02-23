@@ -1,4 +1,4 @@
-package com.avantics.savingscalcpremium;
+package com.avantics.savingscalc.common;
 
 import android.app.Activity;
 import android.content.Context;

@@ -52,11 +52,6 @@ public class ContactPreference extends DialogPreference {
         _entry.setText(mValue);
     }
 
-//    @Override
-//    protected Object onGetDefaultValue(TypedArray a, int index) {
-//        return(a.getString(index));
-//    }
-
     @Override
     protected void onSetInitialValue(boolean restoreValue, Object defaultValue) {
         super.onSetInitialValue(restoreValue, defaultValue);

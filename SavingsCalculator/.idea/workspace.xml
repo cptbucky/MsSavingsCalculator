@@ -37,18 +37,70 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="550ea73c-e9f8-4e55-9604-35df0b659151" name="Default" comment="styling updates">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SavingsCalculatorPremium/.idea/gradle.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SavingsCalculatorPremium/settings.gradle" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SavingsCalculatorPremium/.idea/libraries/support_v4_18_0_0.xml" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../SavingsCalculatorPremium/.idea/libraries/android_support_v4.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../SavingsCalculatorPremium/.idea/libraries/libs.xml" afterPath="" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SavingsCalculatorPremium/src/com/avantics/savingscalcpremium/activities/Main.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SavingsCalculatorCommon/src/com/avantics/savingscalc/common/activities/SettingsActivity.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SavingsCalculatorCommon/src/com/avantics/savingscalc/common/fragments/SettingsFragment.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SavingsCalculatorCommon/src/com/avantics/savingscalc/common/activities/SupportSettingsActivity.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SavingsCalculatorCommon/res/menu/main.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SavingsCalculatorCommon/res/layout/settings.xml" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../SavingsCalculatorPremium/.idea/libraries/jxl.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../SavingsCalculatorPremium/.idea/libraries/support_v4_18_0_0.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../SavingsCalculatorPremium/res/layout/premium_quote_form.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../SavingsCalculatorPremium/src/com/avantics/savingscalcpremium/fragments/PremiumQuoteFragment.java" afterPath="" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../SavingsCalculatorPremium/res/drawable-hdpi/action_search.png" afterPath="$PROJECT_DIR$/../SavingsCalculatorCommon/res/drawable-hdpi/action_search.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../SavingsCalculatorPremium/res/drawable-hdpi/av_replay.png" afterPath="$PROJECT_DIR$/../SavingsCalculatorCommon/res/drawable-hdpi/av_replay.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../SavingsCalculatorPremium/res/drawable-hdpi/content_new.png" afterPath="$PROJECT_DIR$/../SavingsCalculatorCommon/res/drawable-hdpi/content_new.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../SavingsCalculatorPremium/res/drawable-hdpi/content_remove.png" afterPath="$PROJECT_DIR$/../SavingsCalculatorCommon/res/drawable-hdpi/content_remove.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../SavingsCalculatorPremium/res/drawable-hdpi/content_save.png" afterPath="$PROJECT_DIR$/../SavingsCalculatorCommon/res/drawable-hdpi/content_save.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../SavingsCalculatorPremium/res/drawable-mdpi/action_search.png" afterPath="$PROJECT_DIR$/../SavingsCalculatorCommon/res/drawable-mdpi/action_search.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../SavingsCalculatorPremium/res/drawable-mdpi/av_replay.png" afterPath="$PROJECT_DIR$/../SavingsCalculatorCommon/res/drawable-mdpi/av_replay.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../SavingsCalculatorPremium/res/drawable-mdpi/content_new.png" afterPath="$PROJECT_DIR$/../SavingsCalculatorCommon/res/drawable-mdpi/content_new.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../SavingsCalculatorPremium/res/drawable-mdpi/content_remove.png" afterPath="$PROJECT_DIR$/../SavingsCalculatorCommon/res/drawable-mdpi/content_remove.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../SavingsCalculatorPremium/res/drawable-mdpi/content_save.png" afterPath="$PROJECT_DIR$/../SavingsCalculatorCommon/res/drawable-mdpi/content_save.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../SavingsCalculatorPremium/res/drawable-xhdpi/action_search.png" afterPath="$PROJECT_DIR$/../SavingsCalculatorCommon/res/drawable-xhdpi/action_search.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../SavingsCalculatorPremium/res/drawable-xhdpi/av_replay.png" afterPath="$PROJECT_DIR$/../SavingsCalculatorCommon/res/drawable-xhdpi/av_replay.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../SavingsCalculatorPremium/res/drawable-xhdpi/content_new.png" afterPath="$PROJECT_DIR$/../SavingsCalculatorCommon/res/drawable-xhdpi/content_new.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../SavingsCalculatorPremium/res/drawable-xhdpi/content_remove.png" afterPath="$PROJECT_DIR$/../SavingsCalculatorCommon/res/drawable-xhdpi/content_remove.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../SavingsCalculatorPremium/res/drawable-xhdpi/content_save.png" afterPath="$PROJECT_DIR$/../SavingsCalculatorCommon/res/drawable-xhdpi/content_save.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../SavingsCalculatorPremium/res/layout/listview_dialog.xml" afterPath="$PROJECT_DIR$/../SavingsCalculatorCommon/res/layout/listview_dialog.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../SavingsCalculatorPremium/res/layout/load_quote_row.xml" afterPath="$PROJECT_DIR$/../SavingsCalculatorCommon/res/layout/load_quote_row.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../SavingsCalculatorPremium/res/layout/save_quote_view.xml" afterPath="$PROJECT_DIR$/../SavingsCalculatorCommon/res/layout/save_quote_view.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../SavingsCalculatorPremium/src/com/avantics/savingscalcpremium/ConfirmDialogFragment.java" afterPath="$PROJECT_DIR$/../SavingsCalculatorCommon/src/com/avantics/savingscalc/common/ConfirmDialogFragment.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../SavingsCalculatorPremium/src/com/avantics/savingscalcpremium/ConfirmationDialogHandler.java" afterPath="$PROJECT_DIR$/../SavingsCalculatorCommon/src/com/avantics/savingscalc/common/ConfirmationDialogHandler.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../SavingsCalculatorPremium/src/com/avantics/savingscalcpremium/DatabaseHelper.java" afterPath="$PROJECT_DIR$/../SavingsCalculatorCommon/src/com/avantics/savingscalc/common/DatabaseHelper.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../SavingsCalculatorPremium/src/com/avantics/savingscalcpremium/DeleteQuoteRequestHandler.java" afterPath="$PROJECT_DIR$/../SavingsCalculatorCommon/src/com/avantics/savingscalc/common/DeleteQuoteRequestHandler.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../SavingsCalculatorPremium/src/com/avantics/savingscalcpremium/LoadListItem.java" afterPath="$PROJECT_DIR$/../SavingsCalculatorCommon/src/com/avantics/savingscalc/common/LoadListItem.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../SavingsCalculatorPremium/src/com/avantics/savingscalcpremium/LoadListItemAdapter.java" afterPath="$PROJECT_DIR$/../SavingsCalculatorCommon/src/com/avantics/savingscalc/common/LoadListItemAdapter.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../SavingsCalculatorPremium/src/com/avantics/savingscalcpremium/activities/MainActivity.java" afterPath="$PROJECT_DIR$/../SavingsCalculatorCommon/src/com/avantics/savingscalc/common/activities/MainActivity.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/pre-dexed/debug/classes-230ac5911c2214749a327466665147bb0455aa08.jar" afterPath="$PROJECT_DIR$/build/pre-dexed/debug/classes-230ac5911c2214749a327466665147bb0455aa08.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/pre-dexed/debug/classes-575de6ae3292e2524a85aeacfd3751dabd0457c9.jar" afterPath="$PROJECT_DIR$/build/pre-dexed/debug/classes-575de6ae3292e2524a85aeacfd3751dabd0457c9.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/exploded-bundles/SavingsCalculatorAvanticsCommonUnspecified.aar/classes.jar" afterPath="$PROJECT_DIR$/build/exploded-bundles/SavingsCalculatorAvanticsCommonUnspecified.aar/classes.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/exploded-bundles/SavingsCalculatorSavingsCalculatorCommonUnspecified.aar/classes.jar" afterPath="$PROJECT_DIR$/build/exploded-bundles/SavingsCalculatorSavingsCalculatorCommonUnspecified.aar/classes.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../SavingsCalculatorCommon/build/exploded-bundles/SavingsCalculatorAvanticsCommonUnspecified.aar/classes.jar" afterPath="$PROJECT_DIR$/../SavingsCalculatorCommon/build/exploded-bundles/SavingsCalculatorAvanticsCommonUnspecified.aar/classes.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../SavingsCalculatorPremium/AndroidManifest.xml" afterPath="$PROJECT_DIR$/../SavingsCalculatorPremium/AndroidManifest.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../AvanticsCommon/AvanticsCommon.iml" afterPath="$PROJECT_DIR$/../AvanticsCommon/AvanticsCommon.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../SavingsCalculatorPremium/src/com/avantics/savingscalcpremium/ChooseEmailItemAdapter.java" afterPath="$PROJECT_DIR$/../SavingsCalculatorPremium/src/com/avantics/savingscalcpremium/ChooseEmailItemAdapter.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../SavingsCalculatorPremium/src/com/avantics/savingscalcpremium/ContactPreference.java" afterPath="$PROJECT_DIR$/../SavingsCalculatorPremium/src/com/avantics/savingscalcpremium/ContactPreference.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../SavingsCalculatorCommon/src/com/avantics/savingscalc/common/fragments/QuoteFragment.java" afterPath="$PROJECT_DIR$/../SavingsCalculatorCommon/src/com/avantics/savingscalc/common/fragments/QuoteFragment.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/source/r/debug/com/avantics/common/R.java" afterPath="$PROJECT_DIR$/build/source/r/debug/com/avantics/common/R.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/source/r/debug/com/avantics/savingscalc/R.java" afterPath="$PROJECT_DIR$/build/source/r/debug/com/avantics/savingscalc/R.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/source/r/debug/com/avantics/savingscalc/common/R.java" afterPath="$PROJECT_DIR$/build/source/r/debug/com/avantics/savingscalc/common/R.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../SavingsCalculatorCommon/build/source/r/debug/com/avantics/savingscalc/common/R.java" afterPath="$PROJECT_DIR$/../SavingsCalculatorCommon/build/source/r/debug/com/avantics/savingscalc/common/R.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../SavingsCalculatorCommon/build/source/r/release/com/avantics/savingscalc/common/R.java" afterPath="$PROJECT_DIR$/../SavingsCalculatorCommon/build/source/r/release/com/avantics/savingscalc/common/R.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/exploded-bundles/SavingsCalculatorSavingsCalculatorCommonUnspecified.aar/R.txt" afterPath="$PROJECT_DIR$/build/exploded-bundles/SavingsCalculatorSavingsCalculatorCommonUnspecified.aar/R.txt" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../SavingsCalculatorCommon/SavingsCalculatorCommon.iml" afterPath="$PROJECT_DIR$/../SavingsCalculatorCommon/SavingsCalculatorCommon.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../SavingsCalculatorPremium/SavingsCalculatorPremium.iml" afterPath="$PROJECT_DIR$/../SavingsCalculatorPremium/SavingsCalculatorPremium.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../SavingsCalculatorPremium/src/com/avantics/savingscalcpremium/fragments/SettingsFragment.java" afterPath="$PROJECT_DIR$/../SavingsCalculatorPremium/src/com/avantics/savingscalcpremium/fragments/SettingsFragment.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../SavingsCalculatorPremium/build.gradle" afterPath="$PROJECT_DIR$/../SavingsCalculatorPremium/build.gradle" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../SavingsCalculatorPremium/res/menu/main.xml" afterPath="$PROJECT_DIR$/../SavingsCalculatorPremium/res/menu/main.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../SavingsCalculatorPremium/.idea/misc.xml" afterPath="$PROJECT_DIR$/../SavingsCalculatorPremium/.idea/misc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../SavingsCalculatorPremium/.idea/modules.xml" afterPath="$PROJECT_DIR$/../SavingsCalculatorPremium/.idea/modules.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../SavingsCalculatorPremium/project.properties" afterPath="$PROJECT_DIR$/../SavingsCalculatorPremium/project.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../SavingsCalculatorPremium/.idea/vcs.xml" afterPath="$PROJECT_DIR$/../SavingsCalculatorPremium/.idea/vcs.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../SavingsCalculatorCommon/res/layout/quote_form.xml" afterPath="$PROJECT_DIR$/../SavingsCalculatorCommon/res/layout/quote_form.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../SavingsCalculatorPremium/res/layout/settings.xml" afterPath="$PROJECT_DIR$/../SavingsCalculatorPremium/res/layout/settings.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../SavingsCalculatorCommon/res/values/strings.xml" afterPath="$PROJECT_DIR$/../SavingsCalculatorCommon/res/values/strings.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../SavingsCalculatorPremium/res/values/strings.xml" afterPath="$PROJECT_DIR$/../SavingsCalculatorPremium/res/values/strings.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../SavingsCalculatorCommon/res/values/styles.xml" afterPath="$PROJECT_DIR$/../SavingsCalculatorCommon/res/values/styles.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../SavingsCalculatorPremium/res/values/styles.xml" afterPath="$PROJECT_DIR$/../SavingsCalculatorPremium/res/values/styles.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/exploded-bundles/SavingsCalculatorSavingsCalculatorCommonUnspecified.aar/res/values/values.xml" afterPath="$PROJECT_DIR$/build/exploded-bundles/SavingsCalculatorSavingsCalculatorCommonUnspecified.aar/res/values/values.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../SavingsCalculatorPremium/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../SavingsCalculatorPremium/.idea/workspace.xml" />
     </list>
     <ignored path="SavingsCalculator.iws" />
@@ -120,13 +172,13 @@
     <leaf>
       <file leaf-file-name="main.xml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../SavingsCalculatorCommon/res/layout/main.xml">
+          <provider selected="true" editor-type-id="android-designer">
+            <state />
+          </provider>
           <provider editor-type-id="text-editor">
             <state line="0" column="0" selection-start="0" selection-end="587" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="315">
               <folding />
             </state>
-          </provider>
-          <provider selected="true" editor-type-id="android-designer">
-            <state />
           </provider>
         </entry>
       </file>
@@ -139,19 +191,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AndroidManifest.xml" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="AndroidManifest.xml" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/AndroidManifest.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="20" column="28" selection-start="889" selection-end="889" vertical-scroll-proportion="-12.0" vertical-offset="0" max-vertical-offset="495">
-              <folding />
+            <state line="25" column="18" selection-start="1124" selection-end="1124" vertical-scroll-proportion="0.42613637" vertical-offset="0" max-vertical-offset="880">
+              <folding>
+                <element signature="e#431#449#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="build.gradle" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="build.gradle" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/build.gradle">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="11" column="6" selection-start="186" selection-end="285" vertical-scroll-proportion="0.2956989" vertical-offset="0" max-vertical-offset="645">
+            <state line="11" column="6" selection-start="186" selection-end="285" vertical-scroll-proportion="0.0" vertical-offset="165" max-vertical-offset="645">
               <folding />
             </state>
           </provider>
@@ -160,7 +214,7 @@
       <file leaf-file-name="build.gradle" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../SavingsCalculatorCommon/build.gradle">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="12" column="38" selection-start="284" selection-end="284" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="645">
+            <state line="12" column="38" selection-start="284" selection-end="284" vertical-scroll-proportion="0.0" vertical-offset="180" max-vertical-offset="645">
               <folding />
             </state>
           </provider>
@@ -169,7 +223,7 @@
       <file leaf-file-name="settings.gradle" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/settings.gradle">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="4" column="14" selection-start="177" selection-end="177" vertical-scroll-proportion="-2.4" vertical-offset="0" max-vertical-offset="150">
+            <state line="4" column="56" selection-start="219" selection-end="219" vertical-scroll-proportion="0.0" vertical-offset="60" max-vertical-offset="150">
               <folding />
             </state>
           </provider>
@@ -1560,7 +1614,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="PackagesPane">
         <subPane>
           <PATH>
@@ -1583,8 +1636,37 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SavingsCalculator" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SavingsCalculator" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SavingsCalculator" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SavingsCalculator" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="activities" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -1965,10 +2047,10 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.51762116" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32915717" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Gradle Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3270925" sideWeight="0.5" order="9" side_tool="true" content_ui="tabs" />
+      <window_info id="Gradle Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3270925" sideWeight="0.5" order="9" side_tool="true" content_ui="tabs" />
       <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32378855" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Android" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3270925" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Android" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3270925" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32967034" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32946634" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24940805" sideWeight="0.6714976" order="1" side_tool="false" content_ui="tabs" />
@@ -2021,13 +2103,107 @@
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/../SavingsCalculatorCommon/res/layout/main.xml">
+      <provider selected="true" editor-type-id="android-designer">
+        <state />
+      </provider>
       <provider editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="587" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="315">
           <folding />
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../SavingsCalculatorCommon/src/com/avantics/savingscalc/common/fragments/TabbedFragment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="29" selection-start="228" selection-end="228" vertical-scroll-proportion="0.0" vertical-offset="105" max-vertical-offset="1530">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AndroidManifest.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="25" column="18" selection-start="1124" selection-end="1124" vertical-scroll-proportion="0.0" vertical-offset="375" max-vertical-offset="495">
+          <folding>
+            <element signature="e#431#449#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="6" selection-start="186" selection-end="285" vertical-scroll-proportion="0.0" vertical-offset="165" max-vertical-offset="645">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../SavingsCalculatorCommon/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="38" selection-start="284" selection-end="284" vertical-scroll-proportion="0.0" vertical-offset="180" max-vertical-offset="645">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/settings.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="56" selection-start="219" selection-end="219" vertical-scroll-proportion="0.0" vertical-offset="60" max-vertical-offset="150">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../SavingsCalculatorCommon/res/layout/main.xml">
       <provider selected="true" editor-type-id="android-designer">
         <state />
+      </provider>
+      <provider editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="587" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="315">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../SavingsCalculatorCommon/src/com/avantics/savingscalc/common/fragments/TabbedFragment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="29" selection-start="228" selection-end="228" vertical-scroll-proportion="0.0" vertical-offset="105" max-vertical-offset="1530">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AndroidManifest.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="20" column="28" selection-start="889" selection-end="889" vertical-scroll-proportion="0.0" vertical-offset="300" max-vertical-offset="495">
+          <folding>
+            <element signature="e#431#449#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="6" selection-start="186" selection-end="285" vertical-scroll-proportion="0.0" vertical-offset="165" max-vertical-offset="645">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../SavingsCalculatorCommon/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="38" selection-start="284" selection-end="284" vertical-scroll-proportion="0.0" vertical-offset="180" max-vertical-offset="645">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/settings.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="56" selection-start="219" selection-end="219" vertical-scroll-proportion="0.0" vertical-offset="60" max-vertical-offset="150">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../SavingsCalculatorCommon/res/layout/main.xml">
+      <provider selected="true" editor-type-id="android-designer">
+        <state />
+      </provider>
+      <provider editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="587" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="315">
+          <folding />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/../SavingsCalculatorCommon/src/com/avantics/savingscalc/common/fragments/TabbedFragment.java">
@@ -2040,7 +2216,9 @@
     <entry file="file://$PROJECT_DIR$/AndroidManifest.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state line="19" column="72" selection-start="856" selection-end="856" vertical-scroll-proportion="0.0" vertical-offset="285" max-vertical-offset="495">
-          <folding />
+          <folding>
+            <element signature="e#431#449#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -2059,67 +2237,67 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/../SavingsCalculatorCommon/res/layout/main.xml">
+      <provider selected="true" editor-type-id="android-designer">
+        <state />
+      </provider>
       <provider editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="587" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="315">
           <folding />
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../SavingsCalculatorCommon/res/layout/main.xml">
       <provider selected="true" editor-type-id="android-designer">
         <state />
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../SavingsCalculatorCommon/res/layout/main.xml">
       <provider editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="315">
           <folding />
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../SavingsCalculatorCommon/res/layout/main.xml">
       <provider selected="true" editor-type-id="android-designer">
         <state />
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../SavingsCalculatorCommon/res/layout/main.xml">
       <provider editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="587" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="315">
           <folding />
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../SavingsCalculatorCommon/res/layout/main.xml">
       <provider selected="true" editor-type-id="android-designer">
         <state />
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../SavingsCalculatorCommon/res/layout/main.xml">
       <provider editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="587" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="315">
           <folding />
         </state>
-      </provider>
-      <provider selected="true" editor-type-id="android-designer">
-        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/../SavingsCalculatorCommon/res/layout/quote_calculation_inc_costing.xml">
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-3.5767837" vertical-offset="2958" max-vertical-offset="3808" />
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../SavingsCalculatorCommon/res/layout/quote_form.xml">
       <provider editor-type-id="android-designer">
         <state />
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../SavingsCalculatorCommon/res/layout/quote_form.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1445" />
       </provider>
-      <provider editor-type-id="android-designer">
-        <state />
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/res/layout-w600dp/main_ad.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="45" selection-start="216" selection-end="216" vertical-scroll-proportion="0.17894737" vertical-offset="0" max-vertical-offset="561" />
-      </provider>
       <provider editor-type-id="android-designer">
         <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="45" selection-start="216" selection-end="216" vertical-scroll-proportion="0.17894737" vertical-offset="0" max-vertical-offset="561" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/../SavingsCalculatorCommon/src/com/avantics/savingscalc/common/fragments/MobileTabbedFragment.java">
@@ -2128,19 +2306,19 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/res/layout/standard_form_ad.xml">
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
       <provider selected="true" editor-type-id="text-editor">
         <state line="10" column="36" selection-start="386" selection-end="386" vertical-scroll-proportion="0.3736842" vertical-offset="28" max-vertical-offset="476" />
       </provider>
-      <provider editor-type-id="android-designer">
-        <state />
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/../SavingsCalculatorCommon/res/layout/standard_form.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="42" selection-start="362" selection-end="375" vertical-scroll-proportion="0.35789475" vertical-offset="0" max-vertical-offset="380" />
-      </provider>
       <provider editor-type-id="android-designer">
         <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="42" selection-start="362" selection-end="375" vertical-scroll-proportion="0.35789475" vertical-offset="0" max-vertical-offset="380" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/../SavingsCalculatorCommon/AndroidManifest.xml">
@@ -2161,11 +2339,11 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/res/layout/main_ad.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="13" selection-start="349" selection-end="349" vertical-scroll-proportion="0.0" vertical-offset="136" max-vertical-offset="476" />
-      </provider>
       <provider editor-type-id="android-designer">
         <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="13" selection-start="349" selection-end="349" vertical-scroll-proportion="0.0" vertical-offset="136" max-vertical-offset="476" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/avantics/savingscalc/activities/Main.java">
@@ -2174,13 +2352,13 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/../SavingsCalculatorCommon/res/layout/main.xml">
+      <provider selected="true" editor-type-id="android-designer">
+        <state />
+      </provider>
       <provider editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="587" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="398">
           <folding />
         </state>
-      </provider>
-      <provider selected="true" editor-type-id="android-designer">
-        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/../SavingsCalculatorCommon/src/com/avantics/savingscalc/common/PagingAdapter.java">
@@ -2209,24 +2387,26 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/AndroidManifest.xml">
+    <entry file="file://$PROJECT_DIR$/build.gradle">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="28" selection-start="889" selection-end="889" vertical-scroll-proportion="-12.0" vertical-offset="0" max-vertical-offset="495">
+        <state line="11" column="6" selection-start="186" selection-end="285" vertical-scroll-proportion="0.0" vertical-offset="165" max-vertical-offset="645">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/settings.gradle">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="14" selection-start="177" selection-end="177" vertical-scroll-proportion="-2.4" vertical-offset="0" max-vertical-offset="150">
+        <state line="4" column="56" selection-start="219" selection-end="219" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="150">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/build.gradle">
+    <entry file="file://$PROJECT_DIR$/AndroidManifest.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="6" selection-start="186" selection-end="285" vertical-scroll-proportion="0.2956989" vertical-offset="0" max-vertical-offset="645">
-          <folding />
+        <state line="25" column="18" selection-start="1124" selection-end="1124" vertical-scroll-proportion="0.42613637" vertical-offset="0" max-vertical-offset="880">
+          <folding>
+            <element signature="e#431#449#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

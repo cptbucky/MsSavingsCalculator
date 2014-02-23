@@ -70,6 +70,31 @@
     <dataSet config="main" >
         <source path="/Users/tom/Dev/MsSavingsCalculator/SavingsCalculatorCommon/res" >
             <file
+                name="action_search"
+                path="/Users/tom/Dev/MsSavingsCalculator/SavingsCalculatorCommon/res/drawable-hdpi/action_search.png"
+                qualifiers="hdpi"
+                type="drawable" />
+            <file
+                name="av_replay"
+                path="/Users/tom/Dev/MsSavingsCalculator/SavingsCalculatorCommon/res/drawable-hdpi/av_replay.png"
+                qualifiers="hdpi"
+                type="drawable" />
+            <file
+                name="content_new"
+                path="/Users/tom/Dev/MsSavingsCalculator/SavingsCalculatorCommon/res/drawable-hdpi/content_new.png"
+                qualifiers="hdpi"
+                type="drawable" />
+            <file
+                name="content_remove"
+                path="/Users/tom/Dev/MsSavingsCalculator/SavingsCalculatorCommon/res/drawable-hdpi/content_remove.png"
+                qualifiers="hdpi"
+                type="drawable" />
+            <file
+                name="content_save"
+                path="/Users/tom/Dev/MsSavingsCalculator/SavingsCalculatorCommon/res/drawable-hdpi/content_save.png"
+                qualifiers="hdpi"
+                type="drawable" />
+            <file
                 name="ic_action_bar"
                 path="/Users/tom/Dev/MsSavingsCalculator/SavingsCalculatorCommon/res/drawable-hdpi/ic_action_bar.png"
                 qualifiers="hdpi"
@@ -80,6 +105,31 @@
                 qualifiers="hdpi"
                 type="drawable" />
             <file
+                name="action_search"
+                path="/Users/tom/Dev/MsSavingsCalculator/SavingsCalculatorCommon/res/drawable-mdpi/action_search.png"
+                qualifiers="mdpi"
+                type="drawable" />
+            <file
+                name="av_replay"
+                path="/Users/tom/Dev/MsSavingsCalculator/SavingsCalculatorCommon/res/drawable-mdpi/av_replay.png"
+                qualifiers="mdpi"
+                type="drawable" />
+            <file
+                name="content_new"
+                path="/Users/tom/Dev/MsSavingsCalculator/SavingsCalculatorCommon/res/drawable-mdpi/content_new.png"
+                qualifiers="mdpi"
+                type="drawable" />
+            <file
+                name="content_remove"
+                path="/Users/tom/Dev/MsSavingsCalculator/SavingsCalculatorCommon/res/drawable-mdpi/content_remove.png"
+                qualifiers="mdpi"
+                type="drawable" />
+            <file
+                name="content_save"
+                path="/Users/tom/Dev/MsSavingsCalculator/SavingsCalculatorCommon/res/drawable-mdpi/content_save.png"
+                qualifiers="mdpi"
+                type="drawable" />
+            <file
                 name="ic_action_bar"
                 path="/Users/tom/Dev/MsSavingsCalculator/SavingsCalculatorCommon/res/drawable-mdpi/ic_action_bar.png"
                 qualifiers="mdpi"
@@ -88,6 +138,31 @@
                 name="ic_launcher"
                 path="/Users/tom/Dev/MsSavingsCalculator/SavingsCalculatorCommon/res/drawable-mdpi/ic_launcher.png"
                 qualifiers="mdpi"
+                type="drawable" />
+            <file
+                name="action_search"
+                path="/Users/tom/Dev/MsSavingsCalculator/SavingsCalculatorCommon/res/drawable-xhdpi/action_search.png"
+                qualifiers="xhdpi"
+                type="drawable" />
+            <file
+                name="av_replay"
+                path="/Users/tom/Dev/MsSavingsCalculator/SavingsCalculatorCommon/res/drawable-xhdpi/av_replay.png"
+                qualifiers="xhdpi"
+                type="drawable" />
+            <file
+                name="content_new"
+                path="/Users/tom/Dev/MsSavingsCalculator/SavingsCalculatorCommon/res/drawable-xhdpi/content_new.png"
+                qualifiers="xhdpi"
+                type="drawable" />
+            <file
+                name="content_remove"
+                path="/Users/tom/Dev/MsSavingsCalculator/SavingsCalculatorCommon/res/drawable-xhdpi/content_remove.png"
+                qualifiers="xhdpi"
+                type="drawable" />
+            <file
+                name="content_save"
+                path="/Users/tom/Dev/MsSavingsCalculator/SavingsCalculatorCommon/res/drawable-xhdpi/content_save.png"
+                qualifiers="xhdpi"
                 type="drawable" />
             <file
                 name="ic_action_bar"
@@ -109,6 +184,16 @@
                 path="/Users/tom/Dev/MsSavingsCalculator/SavingsCalculatorCommon/res/drawable-xxhdpi/ic_launcher.png"
                 qualifiers="xxhdpi"
                 type="drawable" />
+            <file
+                name="listview_dialog"
+                path="/Users/tom/Dev/MsSavingsCalculator/SavingsCalculatorCommon/res/layout/listview_dialog.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="load_quote_row"
+                path="/Users/tom/Dev/MsSavingsCalculator/SavingsCalculatorCommon/res/layout/load_quote_row.xml"
+                qualifiers=""
+                type="layout" />
             <file
                 name="main"
                 path="/Users/tom/Dev/MsSavingsCalculator/SavingsCalculatorCommon/res/layout/main.xml"
@@ -165,6 +250,16 @@
                 qualifiers=""
                 type="layout" />
             <file
+                name="save_quote_view"
+                path="/Users/tom/Dev/MsSavingsCalculator/SavingsCalculatorCommon/res/layout/save_quote_view.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="settings"
+                path="/Users/tom/Dev/MsSavingsCalculator/SavingsCalculatorCommon/res/layout/settings.xml"
+                qualifiers=""
+                type="layout" />
+            <file
                 name="standard_form"
                 path="/Users/tom/Dev/MsSavingsCalculator/SavingsCalculatorCommon/res/layout/standard_form.xml"
                 qualifiers=""
@@ -215,6 +310,11 @@
                 qualifiers="w800dp"
                 type="layout" />
             <file
+                name="main"
+                path="/Users/tom/Dev/MsSavingsCalculator/SavingsCalculatorCommon/res/menu/main.xml"
+                qualifiers=""
+                type="menu" />
+            <file
                 path="/Users/tom/Dev/MsSavingsCalculator/SavingsCalculatorCommon/res/values/color.xml"
                 qualifiers="" >
                 <color name="primary" >#501278
@@ -233,6 +333,8 @@
                 qualifiers="" >
                 <string name="customer_terminal" >Client Terminal
                 </string>
+                <string name="pref_branding_heading" >Heading
+                </string>
                 <string name="cc_rate_long" >Credit Card Rate
                 </string>
                 <string name="client_statement_total" >Client Total
@@ -245,71 +347,103 @@
                 </string>
                 <string name="dc_short" >DC
                 </string>
-                <string name="bc_short" >BC
-                </string>
-                <string name="cc_total" >CC Total
-                </string>
                 <string name="statement_total" >Statement Total
-                </string>
-                <string name="dc_rate_long" >Debit Card Rate
                 </string>
                 <string name="dc_rate" >DC Rate
                 </string>
-                <string name="saving_percentage" >Saving
+                <string name="dc_rate_long" >Debit Card Rate
                 </string>
-                <string name="summary_section_header" >Summary
+                <string name="saving_percentage" >Saving
                 </string>
                 <string name="bc_long" >Business Card
                 </string>
-                <string name="incumbent_cost" >Incumbent Cost
+                <string name="summary_section_header" >Summary
+                </string>
+                <string name="pref_branding_vendor_name" >Vendor
                 </string>
                 <string name="savings_section_header" >Saving
                 </string>
-                <string name="cc_short" >CC
+                <string name="incumbent_cost" >Incumbent Cost
                 </string>
                 <string name="dc_long" >Debit Card
                 </string>
-                <string name="bc_calculation_row_label" >BC
-                </string>
                 <string name="bc_rate_long" >Business Card Rate
+                </string>
+                <string name="load_quote_dialog_title" >Restore saved quote?
                 </string>
                 <string name="vendor_terminal" >Vendor Terminal
                 </string>
                 <string name="calculated_total" >Cost
                 </string>
-                <string name="savings_month" >1 Month
-                </string>
-                <string name="client_section_header" >Client
+                <string name="pref_branding_icon_summ" >A branded icon to display in the heading bar
                 </string>
                 <string name="cc_calculation_row_label" >CC
                 </string>
-                <string name="proposed_rate" >Proposed Rates
-                </string>
-                <string name="vendor_section_header" >Vendor
-                </string>
-                <string name="bc_total" >BC Total
+                <string name="client_section_header" >Client
                 </string>
                 <string name="statement_total_exc_terminal" >Total ex. Terminal
                 </string>
                 <string name="saving_year" >1 Year
                 </string>
-                <string name="vendor_rate" >Vendor Rate
-                </string>
-                <string name="cc_long" >Credit Card
+                <string name="pref_key_branding" >Branding
                 </string>
                 <string name="quote_calculation_section_heading" >Calculation
                 </string>
                 <string name="vendor_statement_total" >Vendor Total
                 </string>
+                <string name="action_reset" >Reset
+                </string>
                 <string name="saving_overall" >Overall
                 </string>
-                <string name="dc_total" >DC Total
+                <string name="action_save" >Save
+                </string>
+                <string name="pref_branding_icon" >Icon
+                </string>
+                <string name="pref_branding_heading_summ" >Heading text to display as default
+                </string>
+                <string name="action_settings" >Settings
+                </string>
+                <string name="pref_key_quote" >Quote
+                </string>
+                <string name="load_quote_dialog_row_remove" >Remove Quote
+                </string>
+                <string name="bc_short" >BC
+                </string>
+                <string name="cc_total" >CC Total
+                </string>
+                <string name="cc_short" >CC
+                </string>
+                <string name="bc_calculation_row_label" >BC
+                </string>
+                <string name="pref_title" >Settings
+                </string>
+                <string name="savings_month" >1 Month
+                </string>
+                <string name="pref_branding_vendor_name_summ" >Name displayed on quote screen
+                </string>
+                <string name="bc_total" >BC Total
+                </string>
+                <string name="vendor_section_header" >Vendor
+                </string>
+                <string name="proposed_rate" >Proposed Rates
+                </string>
+                <string name="pref_quote_default_summ" >The default quote loaded on startup
+                </string>
+                <string name="pref_quote_default" >Default
+                </string>
+                <string name="vendor_rate" >Vendor Rate
+                </string>
+                <string name="cc_long" >Credit Card
                 </string>
                 <string name="app_name" >MS Savings Calculator
+                </string>
+                <string name="dc_total" >DC Total
                 </string>
                 <string name="bc_rate" >BC Rate
                 </string>
                 <string name="cc_rate" >CC Rate
+                </string>
+                <string name="action_load" >Load
                 </string>
             </file>
             <file
@@ -434,6 +568,13 @@ left
                     <item name="android:textSize">
 22sp
                     </item>
+                </style>
+
+                <style
+                    name="listViewImageButton"
+                    parent="@android:style/Widget.ImageButton" >
+
+                    <!-- <item name="android:background">@drawable/your_own_graphic</item> -->
                 </style>
 
                 <style

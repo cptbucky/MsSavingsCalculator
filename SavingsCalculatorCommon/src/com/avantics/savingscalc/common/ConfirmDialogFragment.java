@@ -1,4 +1,4 @@
-package com.avantics.savingscalcpremium;
+package com.avantics.savingscalc.common;
 
 import android.app.AlertDialog;
 import android.app.Dialog;
@@ -6,6 +6,8 @@ import android.content.DialogInterface;
 import android.content.DialogInterface.OnClickListener;
 import android.os.Bundle;
 import android.support.v4.app.DialogFragment;
+
+import com.avantics.savingscalc.common.ConfirmationDialogHandler;
 
 import java.util.ArrayList;
 

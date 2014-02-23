@@ -1,6 +1,4 @@
-package com.avantics.savingscalcpremium;
-
-//import java.util.HashMap;
+package com.avantics.savingscalc.common;
 
 import android.content.ContentValues;
 import android.content.Context;

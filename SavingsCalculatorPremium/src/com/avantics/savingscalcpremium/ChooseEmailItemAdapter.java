@@ -8,6 +8,8 @@ import android.view.ViewGroup;
 import android.widget.ArrayAdapter;
 import android.widget.TextView;
 
+import com.avantics.savingscalc.common.*;
+
 import java.util.ArrayList;
 
 public class ChooseEmailItemAdapter extends ArrayAdapter<LoadListItem> {
@@ -37,7 +39,7 @@ public class ChooseEmailItemAdapter extends ArrayAdapter<LoadListItem> {
 
             holder = new ChooseEmailItemHolder();
 
-            holder.txtTitle = (TextView) row.findViewById(R.id.txtTitle);
+            holder.txtTitle = (TextView) row.findViewById(com.avantics.savingscalc.common.R.id.txtTitle);
 
             row.setTag(holder);
         } else {

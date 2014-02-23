@@ -109,4 +109,8 @@
         <item name="android:layout_marginRight">200dp</item>
     </style>
 
+    <style name="listViewImageButton" parent="@android:style/Widget.ImageButton">
+        <!--<item name="android:background">@drawable/your_own_graphic</item>-->
+    </style>
+
 </resources>

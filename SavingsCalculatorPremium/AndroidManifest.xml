@@ -4,10 +4,6 @@
     android:versionCode="17"
     android:versionName="1.0.16">
 
-    <uses-sdk
-        android:minSdkVersion="7"
-        android:targetSdkVersion="12" />
-
     <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
     <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
     <uses-permission android:name="android.permission.READ_CONTACTS" />
@@ -19,8 +15,9 @@
         android:logo="@drawable/ic_action_bar"
         android:uiOptions="splitActionBarWhenNarrow"
         android:theme="@style/AppTheme">
+
         <activity
-            android:name=".activities.MainActivity"
+            android:name=".activities.Main"
             android:label="@string/app_name"
             android:windowSoftInputMode="stateHidden">
             <intent-filter>
@@ -29,12 +26,15 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
         <activity
             android:name=".activities.SettingsActivity"
             android:label="@string/pref_title" />
+
         <activity
             android:name=".activities.SupportSettingsActivity"
             android:label="@string/pref_title" />
+
     </application>
 
 </manifest>
