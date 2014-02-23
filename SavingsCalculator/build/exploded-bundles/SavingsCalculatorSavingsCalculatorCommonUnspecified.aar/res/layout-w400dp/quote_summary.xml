@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:a="http://schemas.android.com/apk/res/android"
+            xmlns:tools="http://schemas.android.com/tools"
+            a:layout_width="match_parent"
+            a:layout_height="match_parent"
+            a:fillViewport="true">
+
+    <LinearLayout
+            a:layout_width="match_parent"
+            a:layout_height="wrap_content"
+            a:orientation="horizontal"
+            a:isScrollContainer="true">
+
+        <LinearLayout
+                a:layout_height="match_parent"
+                a:layout_width="0dp"
+                a:layout_weight="1"
+                a:orientation="vertical"
+                a:gravity="center_vertical">
+
+            <TextView
+                    a:id="@+id/CSTLabel"
+                    style="@style/leftAlignLabel"
+                    a:layout_width="wrap_content"
+                    a:layout_height="wrap_content"
+                    a:text="@string/client_statement_total"/>
+
+            <TextView
+                    a:id="@+id/CSTotal"
+                    style="@style/centerAlignLabel"
+                    a:layout_width="match_parent"
+                    a:layout_height="wrap_content"
+                    a:textIsSelectable="true"
+                    a:layout_marginTop="10dp"/>
+
+            <TextView
+                    a:id="@+id/lblVendorTotal"
+                    style="@style/leftAlignLabel"
+                    a:layout_width="wrap_content"
+                    a:layout_height="wrap_content"
+                    a:text="@string/vendor_statement_total"
+                    a:layout_marginTop="20dp"/>
+
+            <TextView
+                    a:id="@+id/VendorTerminalTotal"
+                    style="@style/centerAlignLabel"
+                    a:layout_width="match_parent"
+                    a:layout_height="wrap_content"
+                    a:textIsSelectable="true"
+                    a:layout_marginTop="10dp"/>
+
+        </LinearLayout>
+
+        <View
+                style="@style/verticalRule"
+                a:layout_width="1dp"
+                a:layout_height="fill_parent"
+                a:layout_marginLeft="20dp"/>
+
+        <fragment
+                a:name="com.avantics.savingscalc.common.fragments.SavingsFragment"
+                a:layout_width="0dp"
+                a:layout_height="fill_parent"
+                a:layout_weight="3"
+                tools:layout="@layout/quote_savings"/>
+
+    </LinearLayout>
+
+</ScrollView>
+<!-- From: file:/Users/tom/Dev/MsSavingsCalculator/SavingsCalculatorCommon/res/layout-w400dp/quote_summary.xml -->

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<LinearLayout xmlns:a="http://schemas.android.com/apk/res/android"
+              xmlns:tools="http://schemas.android.com/tools"
+              a:layout_width="match_parent"
+              a:layout_height="match_parent"
+              a:id="@+id/rootLayout">
+
+    <fragment
+            a:id="@+id/tabbedFrag"
+            a:name="com.avantics.savingscalc.common.fragments.MobileTabbedFragment"
+            a:layout_width="match_parent"
+            a:layout_height="match_parent"
+            tools:layout="@layout/tab_swipe_activity"/>
+</LinearLayout>
+<!-- From: file:/Users/tom/Dev/MsSavingsCalculator/SavingsCalculatorCommon/res/layout/main.xml --><!-- From: file:/Users/tom/Dev/MsSavingsCalculator/SavingsCalculator/build/exploded-bundles/SavingsCalculatorSavingsCalculatorCommonUnspecified.aar/res/layout/main.xml -->

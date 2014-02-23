@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:a="http://schemas.android.com/apk/res/android"
+    a:layout_width="match_parent"
+    a:layout_height="match_parent"
+    a:orientation="vertical"
+    a:fillViewport="true">
+
+    <LinearLayout
+        style="@style/linearLayoutRow"
+        a:layout_width="fill_parent"
+        a:layout_height="37sp"
+        a:layout_marginTop="0dp">
+
+        <TextView
+            a:id="@+id/ccLabel"
+            style="@style/leftAlignLabel"
+            a:layout_width="0dp"
+            a:layout_height="wrap_content"
+            a:layout_weight="1"
+            a:text="@string/cc_long" />
+
+        <EditText
+            a:id="@+id/CCST"
+            style="@style/currencyInput"
+            a:layout_width="0dp"
+            a:layout_height="wrap_content"
+            a:layout_weight="1" />
+    </LinearLayout>
+
+    <LinearLayout
+        style="@style/linearLayoutRow"
+        a:layout_width="fill_parent"
+        a:layout_height="37sp">
+
+        <TextView
+            a:id="@+id/bcLabel"
+            style="@style/leftAlignLabel"
+            a:layout_width="0dp"
+            a:layout_height="wrap_content"
+            a:layout_weight="1"
+            a:text="@string/bc_long" />
+
+        <EditText
+            a:id="@+id/BCST"
+            style="@style/currencyInput"
+            a:layout_width="0dp"
+            a:layout_height="wrap_content"
+            a:layout_weight="1" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        style="@style/linearLayoutRow"
+        a:layout_width="fill_parent"
+        a:layout_height="37sp">
+
+        <TextView
+            a:id="@+id/dcLabel"
+            style="@style/leftAlignLabel"
+            a:layout_width="0dp"
+            a:layout_height="wrap_content"
+            a:layout_weight="1"
+            a:text="@string/dc_long" />
+
+        <EditText
+            a:id="@+id/DCST"
+            style="@style/inputValue"
+            a:layout_width="0dp"
+            a:layout_height="wrap_content"
+            a:layout_weight="1" />
+    </LinearLayout>
+
+    <LinearLayout
+        style="@style/linearLayoutRow"
+        a:layout_width="fill_parent"
+        a:layout_height="37sp">
+
+        <TextView
+            style="@style/leftAlignLabel"
+            a:layout_width="0dp"
+            a:layout_height="wrap_content"
+            a:layout_weight="1"
+            a:text="@string/statement_total_exc_terminal" />
+
+        <EditText
+            a:id="@+id/CSTotalExcTerminal"
+            style="@style/currencyInput"
+            a:layout_width="0dp"
+            a:layout_height="wrap_content"
+            a:layout_weight="1" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        style="@style/linearLayoutRow"
+        a:layout_width="fill_parent"
+        a:layout_height="37sp">
+
+        <TextView
+            style="@style/leftAlignLabel"
+            a:layout_width="0dp"
+            a:layout_height="wrap_content"
+            a:layout_weight="1"
+            a:text="@string/customer_terminal" />
+
+        <EditText
+            a:id="@+id/CSTerminal"
+            style="@style/currencyInput"
+            a:layout_width="0dp"
+            a:layout_height="wrap_content"
+            a:layout_weight="1" />
+
+    </LinearLayout>
+
+</LinearLayout><!-- From: file:/Users/tom/Dev/MsSavingsCalculator/SavingsCalculatorCommon/res/layout/quote_incumbent.xml --><!-- From: file:/Users/tom/Dev/MsSavingsCalculator/SavingsCalculator/build/exploded-bundles/SavingsCalculatorSavingsCalculatorCommonUnspecified.aar/res/layout/quote_incumbent.xml -->

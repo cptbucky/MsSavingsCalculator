@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger>
+
+    <dataSet config="main" >
+        <source path="/Users/tom/Dev/MsSavingsCalculator/SavingsCalculatorCommon/assets" />
+    </dataSet>
+    <dataSet config="debug" >
+        <source path="/Users/tom/Dev/MsSavingsCalculator/SavingsCalculatorCommon/src/debug/assets" />
+    </dataSet>
+
+</merger>

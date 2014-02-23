@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:a="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    a:layout_width="match_parent"
+    a:layout_height="match_parent"
+    a:orientation="vertical">
+
+    <LinearLayout
+        style="@style/linearLayoutRow"
+        a:layout_width="fill_parent"
+        a:layout_height="37sp"
+        a:layout_marginTop="0dp">
+
+        <TextView
+            a:id="@+id/lblVendorTotal"
+            style="@style/leftAlignLabel"
+            a:layout_width="0dp"
+            a:layout_height="wrap_content"
+            a:layout_weight="1"
+            a:text="@string/vendor_statement_total" />
+
+        <TextView
+            a:id="@+id/VendorTerminalTotal"
+            style="@style/centerAlignLabel"
+            a:layout_width="0dp"
+            a:layout_height="wrap_content"
+            a:layout_weight="1"
+            a:textIsSelectable="true" />
+    </LinearLayout>
+
+    <LinearLayout
+        style="@style/linearLayoutRow"
+        a:layout_width="fill_parent"
+        a:layout_height="37sp">
+
+        <TextView
+            a:id="@+id/CSTLabel"
+            style="@style/leftAlignLabel"
+            a:layout_width="0dp"
+            a:layout_height="wrap_content"
+            a:layout_weight="1"
+            a:text="@string/client_statement_total" />
+
+        <TextView
+            a:id="@+id/CSTotal"
+            style="@style/centerAlignLabel"
+            a:layout_width="0dp"
+            a:layout_height="wrap_content"
+            a:layout_weight="1"
+            a:textIsSelectable="true" />
+    </LinearLayout>
+
+    <View
+        style="@style/horizontalRule"
+        a:layout_width="fill_parent"
+        a:layout_height="1dp" />
+
+    <fragment
+        a:name="com.avantics.savingscalc.common.fragments.SavingsFragment"
+        a:layout_width="match_parent"
+        a:layout_height="0dp"
+        a:layout_weight="1"
+        tools:layout="@layout/quote_savings" />
+
+</LinearLayout>
+<!-- From: file:/Users/tom/Dev/MsSavingsCalculator/SavingsCalculatorCommon/res/layout/quote_summary.xml -->

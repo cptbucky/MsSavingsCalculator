@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<LinearLayout xmlns:a="http://schemas.android.com/apk/res/android"
+              xmlns:tools="http://schemas.android.com/tools"
+              a:layout_width="match_parent"
+              a:layout_height="match_parent"
+              a:id="@+id/rootLayout"
+              a:orientation="vertical">
+
+    <ScrollView
+            a:layout_width="match_parent"
+            a:layout_height="0dp"
+            a:layout_weight="1">
+
+        <fragment
+                a:id="@+id/mainAdFrag"
+                a:name="com.avantics.savingscalc.common.fragments.MainFragment"
+                a:layout_width="match_parent"
+                a:layout_height="wrap_content"
+                tools:layout="@layout/main"/>
+
+    </ScrollView>
+
+    <include
+            layout="@layout/ad_mob_view"
+            a:layout_width="fill_parent"/>
+</LinearLayout>
+<!-- From: file:/Users/tom/Dev/MsSavingsCalculator/SavingsCalculator/res/layout-w600dp/main_ad.xml -->

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<android.support.v4.view.ViewPager xmlns:a="http://schemas.android.com/apk/res/android"
+    a:id="@+id/pager"
+    a:layout_width="match_parent"
+    a:layout_height="match_parent"
+    a:padding="20dp" />
+
+<!-- From: file:/Users/tom/Dev/MsSavingsCalculator/SavingsCalculatorCommon/res/layout/tab_swipe_activity.xml -->

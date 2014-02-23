@@ -1,0 +1,219 @@
+<LinearLayout xmlns:a="http://schemas.android.com/apk/res/android"
+              a:layout_width="wrap_content"
+              a:layout_height="wrap_content"
+              a:orientation="vertical">
+
+    <LinearLayout
+            a:layout_width="fill_parent"
+            a:layout_height="wrap_content">
+
+        <TextView
+                a:id="@+id/spacer1"
+                style="@style/calcRowLabel"
+                a:layout_height="wrap_content"/>
+
+        <TextView
+                a:id="@+id/TextView14"
+                style="@style/centerAlignLabel"
+                a:layout_width="0dp"
+                a:layout_height="wrap_content"
+                a:layout_weight="1"
+                a:text="@string/statement_total"/>
+
+        <TextView
+                a:id="@+id/lblVendorRate"
+                style="@style/centerAlignLabel"
+                a:layout_width="0dp"
+                a:layout_height="wrap_content"
+                a:layout_weight="1"
+                a:text="@string/vendor_rate"/>
+
+        <TextView
+                a:id="@+id/TextView12"
+                style="@style/centerAlignLabel"
+                a:layout_width="0dp"
+                a:layout_height="wrap_content"
+                a:layout_weight="1"
+                a:text="@string/calculated_total"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+            style="@style/linearLayoutRow"
+            a:layout_width="fill_parent"
+            a:layout_height="wrap_content"
+            a:layout_marginTop="5dp">
+
+        <TextView
+                a:id="@+id/TextView04"
+                style="@style/calcRowLabel"
+                a:layout_height="wrap_content"
+                a:text="@string/cc_calculation_row_label"/>
+
+        <EditText
+                a:id="@+id/CCST"
+                style="@style/currencyInput"
+                a:layout_width="0dp"
+                a:layout_height="wrap_content"
+                a:layout_weight="1"/>
+
+        <EditText
+                a:id="@+id/CCFR"
+                style="@style/percentageInput"
+                a:layout_width="0dp"
+                a:layout_height="wrap_content"
+                a:layout_weight="1"/>
+
+        <TextView
+                a:id="@+id/CCT"
+                style="@style/totalLabel"
+                a:layout_width="0dp"
+                a:layout_height="wrap_content"
+                a:layout_weight="1"
+                a:textIsSelectable="true"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+            style="@style/linearLayoutRow"
+            a:layout_width="fill_parent"
+            a:layout_height="wrap_content">
+
+        <TextView
+                a:id="@+id/TextView03"
+                style="@style/calcRowLabel"
+                a:layout_height="wrap_content"
+                a:text="@string/bc_calculation_row_label"/>
+
+        <EditText
+                a:id="@+id/BCST"
+                style="@style/currencyInput"
+                a:layout_width="0dp"
+                a:layout_height="wrap_content"
+                a:layout_weight="1"/>
+
+        <EditText
+                a:id="@+id/BCFR"
+                style="@style/percentageInput"
+                a:layout_width="0dp"
+                a:layout_height="wrap_content"
+                a:layout_weight="1"/>
+
+        <TextView
+                a:id="@+id/BCT"
+                style="@style/totalLabel"
+                a:layout_width="0dp"
+                a:layout_height="wrap_content"
+                a:layout_weight="1"
+                a:textIsSelectable="true"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+            style="@style/linearLayoutRow"
+            a:layout_width="fill_parent"
+            a:layout_height="wrap_content">
+
+        <TextView
+                a:id="@+id/textView1"
+                style="@style/calcRowLabel"
+                a:layout_height="wrap_content"
+                a:text="@string/dc_calculation_row_label"/>
+
+        <EditText
+                a:id="@+id/DCST"
+                style="@style/inputValue"
+                a:layout_width="0dp"
+                a:layout_height="wrap_content"
+                a:layout_weight="1"/>
+
+        <EditText
+                a:id="@+id/DCFR"
+                style="@style/currencyInput"
+                a:layout_width="0dp"
+                a:layout_height="wrap_content"
+                a:layout_weight="1"/>
+
+        <TextView
+                a:id="@+id/DCT"
+                style="@style/totalLabel"
+                a:layout_width="0dp"
+                a:layout_height="wrap_content"
+                a:layout_weight="1"
+                a:textIsSelectable="true"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+            style="@style/linearLayoutRow"
+            a:layout_width="fill_parent"
+            a:layout_height="wrap_content">
+
+        <TextView
+                a:id="@+id/spacer2"
+                style="@style/calcRowLabel"
+                a:layout_height="wrap_content"/>
+
+        <TextView
+                a:id="@+id/lblVendorIncPci"
+                style="@style/rightAlignLabel"
+                a:layout_width="0dp"
+                a:layout_height="wrap_content"
+                a:layout_weight="1"
+                a:paddingRight="5dp"
+                a:text="@string/vendor_inc_pci"/>
+
+        <EditText
+                a:id="@+id/FIncPciRate"
+                style="@style/currencyInput"
+                a:layout_width="0dp"
+                a:layout_height="wrap_content"
+                a:layout_weight="1"/>
+
+        <TextView
+                a:id="@+id/PciDssTotal"
+                style="@style/centerAlignLabel"
+                a:layout_width="0dp"
+                a:layout_height="wrap_content"
+                a:layout_weight="1"
+                a:textIsSelectable="true"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+            style="@style/linearLayoutRow"
+            a:layout_width="fill_parent"
+            a:layout_height="wrap_content">
+
+        <TextView
+                a:id="@+id/spacer3"
+                style="@style/calcRowLabel"
+                a:layout_height="wrap_content"/>
+
+        <TextView
+                a:id="@+id/lblVendorTerminal"
+                style="@style/rightAlignLabel"
+                a:layout_width="0dp"
+                a:layout_height="wrap_content"
+                a:layout_weight="1"
+                a:paddingRight="5dp"
+                a:text="@string/vendor_terminal"/>
+
+        <EditText
+                a:id="@+id/VendorTerminal"
+                style="@style/currencyInput"
+                a:layout_width="0dp"
+                a:layout_height="wrap_content"
+                a:layout_weight="1"/>
+
+        <TextView
+                a:id="@+id/VendorTerminalTotal"
+                style="@style/centerAlignLabel"
+                a:layout_width="0dp"
+                a:layout_height="wrap_content"
+                a:layout_weight="1"
+                a:textIsSelectable="true"/>
+
+    </LinearLayout>
+</LinearLayout>
+<!-- From: file:/Users/tom/Dev/MsSavingsCalculator/SavingsCalculatorCommon/res/layout/quote_calculation_inc_costing.xml --><!-- From: file:/Users/tom/Dev/MsSavingsCalculator/SavingsCalculator/build/exploded-bundles/SavingsCalculatorSavingsCalculatorCommonUnspecified.aar/res/layout/quote_calculation_inc_costing.xml -->
