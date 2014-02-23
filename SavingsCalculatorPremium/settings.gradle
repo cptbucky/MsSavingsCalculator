@@ -1,0 +1,5 @@
+include ':SavingsCalculatorCommon'
+project(':SavingsCalculatorCommon').projectDir = new File(settingsDir, '../SavingsCalculatorCommon')
+
+include ':AvanticsCommon'
+project(':AvanticsCommon').projectDir = new File(settingsDir, '../AvanticsCommon')

@@ -37,8 +37,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="550ea73c-e9f8-4e55-9604-35df0b659151" name="Default" comment="styling updates">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../.gitignore" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SavingsCalculator.iml" afterPath="$PROJECT_DIR$/SavingsCalculator.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SavingsCalculatorPremium/.idea/gradle.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SavingsCalculatorPremium/settings.gradle" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SavingsCalculatorPremium/.idea/libraries/support_v4_18_0_0.xml" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../SavingsCalculatorPremium/.idea/libraries/android_support_v4.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../SavingsCalculatorPremium/.idea/libraries/libs.xml" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../AvanticsCommon/AvanticsCommon.iml" afterPath="$PROJECT_DIR$/../AvanticsCommon/AvanticsCommon.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../SavingsCalculatorCommon/SavingsCalculatorCommon.iml" afterPath="$PROJECT_DIR$/../SavingsCalculatorCommon/SavingsCalculatorCommon.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../SavingsCalculatorPremium/build.gradle" afterPath="$PROJECT_DIR$/../SavingsCalculatorPremium/build.gradle" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../SavingsCalculatorPremium/.idea/misc.xml" afterPath="$PROJECT_DIR$/../SavingsCalculatorPremium/.idea/misc.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../SavingsCalculatorPremium/.idea/modules.xml" afterPath="$PROJECT_DIR$/../SavingsCalculatorPremium/.idea/modules.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../SavingsCalculatorPremium/project.properties" afterPath="$PROJECT_DIR$/../SavingsCalculatorPremium/project.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../SavingsCalculatorPremium/.idea/vcs.xml" afterPath="$PROJECT_DIR$/../SavingsCalculatorPremium/.idea/vcs.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../SavingsCalculatorPremium/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../SavingsCalculatorPremium/.idea/workspace.xml" />
     </list>
     <ignored path="SavingsCalculator.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -128,19 +139,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AndroidManifest.xml" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="AndroidManifest.xml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/AndroidManifest.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="19" column="72" selection-start="856" selection-end="856" vertical-scroll-proportion="0.48885077" vertical-offset="0" max-vertical-offset="583">
+            <state line="20" column="28" selection-start="889" selection-end="889" vertical-scroll-proportion="-12.0" vertical-offset="0" max-vertical-offset="495">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="build.gradle" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="build.gradle" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/build.gradle">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="15" column="9" selection-start="298" selection-end="298" vertical-scroll-proportion="0.0" vertical-offset="35" max-vertical-offset="645">
+            <state line="11" column="6" selection-start="186" selection-end="285" vertical-scroll-proportion="0.2956989" vertical-offset="0" max-vertical-offset="645">
               <folding />
             </state>
           </provider>
@@ -158,7 +169,7 @@
       <file leaf-file-name="settings.gradle" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/settings.gradle">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="4" column="82" selection-start="245" selection-end="245" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="150">
+            <state line="4" column="14" selection-start="177" selection-end="177" vertical-scroll-proportion="-2.4" vertical-offset="0" max-vertical-offset="150">
               <folding />
             </state>
           </provider>
@@ -1571,16 +1582,6 @@
               <option name="myItemId" value="SavingsCalculator" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="External Libraries" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="SavingsCalculator" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
@@ -2201,13 +2202,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="9" selection-start="298" selection-end="298" vertical-scroll-proportion="0.0" vertical-offset="35" max-vertical-offset="645">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../SavingsCalculatorCommon/build.gradle">
       <provider selected="true" editor-type-id="text-editor">
         <state line="12" column="38" selection-start="284" selection-end="284" vertical-scroll-proportion="0.0" vertical-offset="180" max-vertical-offset="645">
@@ -2215,16 +2209,23 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/settings.gradle">
+    <entry file="file://$PROJECT_DIR$/AndroidManifest.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="82" selection-start="245" selection-end="245" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="150">
+        <state line="20" column="28" selection-start="889" selection-end="889" vertical-scroll-proportion="-12.0" vertical-offset="0" max-vertical-offset="495">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/AndroidManifest.xml">
+    <entry file="file://$PROJECT_DIR$/settings.gradle">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="72" selection-start="856" selection-end="856" vertical-scroll-proportion="0.48885077" vertical-offset="0" max-vertical-offset="583">
+        <state line="4" column="14" selection-start="177" selection-end="177" vertical-scroll-proportion="-2.4" vertical-offset="0" max-vertical-offset="150">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="6" selection-start="186" selection-end="285" vertical-scroll-proportion="0.2956989" vertical-offset="0" max-vertical-offset="645">
           <folding />
         </state>
       </provider>
