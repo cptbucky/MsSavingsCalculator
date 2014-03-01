@@ -200,11 +200,6 @@
                 qualifiers=""
                 type="layout" />
             <file
-                name="premium_quote_form"
-                path="/Users/tom/Dev/MsSavingsCalculator/SavingsCalculatorCommon/res/layout/premium_quote_form.xml"
-                qualifiers=""
-                type="layout" />
-            <file
                 name="quote_calculation"
                 path="/Users/tom/Dev/MsSavingsCalculator/SavingsCalculatorCommon/res/layout/quote_calculation.xml"
                 qualifiers=""

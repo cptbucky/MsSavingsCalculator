@@ -7,7 +7,7 @@
 
     <fragment
         android:id="@+id/quoteFragment"
-        android:name="com.avantics.savingscalc.common.fragments.PremiumQuoteFragment"
+        android:name="com.avantics.savingscalc.common.fragments.QuoteFragment"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         tools:layout="@layout/tab_swipe_activity"/>
