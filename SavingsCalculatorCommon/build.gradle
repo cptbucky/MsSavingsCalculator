@@ -18,7 +18,7 @@ android {
     buildToolsVersion "19.0.2"
 
     defaultConfig {
-        minSdkVersion 11
+        minSdkVersion 7
         targetSdkVersion 17
     }
     sourceSets {

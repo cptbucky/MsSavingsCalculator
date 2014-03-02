@@ -5,7 +5,14 @@
       <GradleProjectSettings>
         <option name="distributionType" value="LOCAL" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="gradleHome" value="/usr/local/Cellar/gradle/1.10" />
+        <option name="gradleHome" value="/usr/local/Cellar/gradle/1.10/libexec" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$/../AvanticsCommon" />
+            <option value="$PROJECT_DIR$" />
+            <option value="$PROJECT_DIR$/../SavingsCalculatorCommon" />
+          </set>
+        </option>
       </GradleProjectSettings>
     </option>
   </component>

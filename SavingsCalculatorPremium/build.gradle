@@ -3,7 +3,7 @@ buildscript {
         mavenCentral()
     }
     dependencies {
-        classpath 'com.android.tools.build:gradle:0.7.+'
+        classpath 'com.android.tools.build:gradle:0.8.+'
     }
 }
 apply plugin: 'android'
@@ -15,10 +15,10 @@ dependencies {
 
 android {
     compileSdkVersion 17
-    buildToolsVersion "17"
+    buildToolsVersion "19.0.2"
 
     defaultConfig {
-        minSdkVersion 11
+        minSdkVersion 7
         targetSdkVersion 17
     }
 
@@ -36,9 +36,33 @@ android {
         instrumentTest.setRoot('tests')
     }
 
-//    signingConfigs {
-//        debug {
-//            storeFile file('/Users/tom/Ubuntu One/savingscalc.keystore')
-//        }
-//    }
+    final Console console = System.console();
+    if (console != null) {
+
+        // Building from console
+        signingConfigs {
+            release {
+                storeFile file(console.readLine("Enter keystore path: "))
+                storePassword console.readLine("Enter keystore password: ")
+                keyAlias console.readLine("Enter alias key: ")
+                keyPassword console.readLine("Enter key password: ")
+            }
+        }
+
+    } else {
+
+        // Building from IDE's "Run" button
+        signingConfigs {
+            release {
+
+            }
+        }
+
+    }
+
+    buildTypes {
+        release {
+            signingConfig signingConfigs.release
+        }
+    }
 }

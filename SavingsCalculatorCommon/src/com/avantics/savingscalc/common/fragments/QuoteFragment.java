@@ -1,7 +1,9 @@
 package com.avantics.savingscalc.common.fragments;
 
+import android.annotation.TargetApi;
 import android.app.ActionBar;
 import android.content.SharedPreferences;
+import android.os.Build;
 import android.os.Bundle;
 import android.preference.PreferenceManager;
 import android.support.v4.app.Fragment;
@@ -9,6 +11,7 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.TextView;
+
 import com.avantics.savingscalc.common.R;
 
 public class QuoteFragment extends Fragment {
@@ -70,18 +73,22 @@ public class QuoteFragment extends Fragment {
         return vendorName.equals("") ? "Vendor" : vendorName; // wrong way to do it, should be on the prefs
     }
 
+    @TargetApi(Build.VERSION_CODES.HONEYCOMB)
     @Override
     public void onActivityCreated(Bundle savedInstanceState) {
         super.onActivityCreated(savedInstanceState);
 
-        String vendorName = getVendorString();
+        if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.HONEYCOMB) {
 
-        final ActionBar aBar = getActivity().getActionBar();
+            String vendorName = getVendorString();
 
-        if (aBar.getTabCount() > 0) {
-            ActionBar.Tab proposedTab = aBar.getTabAt(1);
+            final ActionBar aBar = getActivity().getActionBar();
 
-            proposedTab.setText(vendorName);
+            if (aBar.getTabCount() > 0) {
+                ActionBar.Tab proposedTab = aBar.getTabAt(1);
+
+                proposedTab.setText(vendorName);
+            }
         }
     }
 

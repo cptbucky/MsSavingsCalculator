@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <string name="app_name">MS Savings Calculator</string>
+    <string name="app_name">MSSC</string>
     <string name="action_send">Send</string>
     <string name="pref_key_share">Sharing</string>
     <string name="pref_share_recipient">Recipient</string>

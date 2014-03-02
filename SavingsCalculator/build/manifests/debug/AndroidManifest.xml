@@ -1,6 +1,6 @@
 <!-- From: file:/Users/tom/Dev/MsSavingsCalculator/SavingsCalculator/AndroidManifest.xml -->
 <manifest xmlns:android="http://schemas.android.com/apk/res/android" android:versionCode="24" android:versionName="1.2.0" package="com.avantics.savingscalc">
-    <uses-sdk android:minSdkVersion="11" android:targetSdkVersion="17"/>
+    <uses-sdk android:minSdkVersion="7" android:targetSdkVersion="17"/>
 
     <uses-permission android:name="android.permission.INTERNET"/>
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
