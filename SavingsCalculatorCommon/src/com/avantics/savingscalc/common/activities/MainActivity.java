@@ -67,13 +67,7 @@ public abstract class MainActivity extends FragmentActivity implements IBindMana
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
 
-        View vw;
-
-        if (Build.VERSION.SDK_INT < Build.VERSION_CODES.HONEYCOMB) {
-            vw = getLayoutInflater().inflate(com.avantics.savingscalc.common.R.layout.standard_form, null);
-        } else {
-            vw = getLayoutInflater().inflate(R.layout.quote_form, null);
-        }
+        View vw = getView();
 
         setContentView(vw);
 
@@ -88,6 +82,8 @@ public abstract class MainActivity extends FragmentActivity implements IBindMana
             setCurrentTitle(savedText);
         }
     }
+
+    protected abstract View getView();
 
     @Override
     public void onResume() {

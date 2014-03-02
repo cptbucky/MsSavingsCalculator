@@ -1,25 +1,25 @@
 <?xml version="1.0" encoding="utf-8"?>
 <merger>
 
-    <dataSet config="SavingsCalculatorPremiumAvanticsCommonUnspecified.aar" >
-        <source path="/Users/tom/Dev/MsSavingsCalculator/SavingsCalculatorCommon/build/exploded-bundles/SavingsCalculatorPremiumAvanticsCommonUnspecified.aar/res" >
+    <dataSet config="SavingsCalculatorAvanticsCommonUnspecified.aar" >
+        <source path="/Users/tom/Dev/MsSavingsCalculator/SavingsCalculatorCommon/build/exploded-bundles/SavingsCalculatorAvanticsCommonUnspecified.aar/res" >
             <file
                 name="ic_launcher"
-                path="/Users/tom/Dev/MsSavingsCalculator/SavingsCalculatorCommon/build/exploded-bundles/SavingsCalculatorPremiumAvanticsCommonUnspecified.aar/res/drawable-hdpi/ic_launcher.png"
+                path="/Users/tom/Dev/MsSavingsCalculator/SavingsCalculatorCommon/build/exploded-bundles/SavingsCalculatorAvanticsCommonUnspecified.aar/res/drawable-hdpi/ic_launcher.png"
                 qualifiers="hdpi"
                 type="drawable" />
             <file
                 name="ic_launcher"
-                path="/Users/tom/Dev/MsSavingsCalculator/SavingsCalculatorCommon/build/exploded-bundles/SavingsCalculatorPremiumAvanticsCommonUnspecified.aar/res/drawable-mdpi/ic_launcher.png"
+                path="/Users/tom/Dev/MsSavingsCalculator/SavingsCalculatorCommon/build/exploded-bundles/SavingsCalculatorAvanticsCommonUnspecified.aar/res/drawable-mdpi/ic_launcher.png"
                 qualifiers="mdpi"
                 type="drawable" />
             <file
                 name="ic_launcher"
-                path="/Users/tom/Dev/MsSavingsCalculator/SavingsCalculatorCommon/build/exploded-bundles/SavingsCalculatorPremiumAvanticsCommonUnspecified.aar/res/drawable-xhdpi/ic_launcher.png"
+                path="/Users/tom/Dev/MsSavingsCalculator/SavingsCalculatorCommon/build/exploded-bundles/SavingsCalculatorAvanticsCommonUnspecified.aar/res/drawable-xhdpi/ic_launcher.png"
                 qualifiers="xhdpi"
                 type="drawable" />
             <file
-                path="/Users/tom/Dev/MsSavingsCalculator/SavingsCalculatorCommon/build/exploded-bundles/SavingsCalculatorPremiumAvanticsCommonUnspecified.aar/res/values/values.xml"
+                path="/Users/tom/Dev/MsSavingsCalculator/SavingsCalculatorCommon/build/exploded-bundles/SavingsCalculatorAvanticsCommonUnspecified.aar/res/values/values.xml"
                 qualifiers="" >
 
                 <style
@@ -44,7 +44,7 @@
                 </style>
             </file>
             <file
-                path="/Users/tom/Dev/MsSavingsCalculator/SavingsCalculatorCommon/build/exploded-bundles/SavingsCalculatorPremiumAvanticsCommonUnspecified.aar/res/values-v11/values.xml"
+                path="/Users/tom/Dev/MsSavingsCalculator/SavingsCalculatorCommon/build/exploded-bundles/SavingsCalculatorAvanticsCommonUnspecified.aar/res/values-v11/values.xml"
                 qualifiers="v11" >
 
                 <style
@@ -55,7 +55,7 @@
                 </style>
             </file>
             <file
-                path="/Users/tom/Dev/MsSavingsCalculator/SavingsCalculatorCommon/build/exploded-bundles/SavingsCalculatorPremiumAvanticsCommonUnspecified.aar/res/values-v14/values.xml"
+                path="/Users/tom/Dev/MsSavingsCalculator/SavingsCalculatorCommon/build/exploded-bundles/SavingsCalculatorAvanticsCommonUnspecified.aar/res/values-v14/values.xml"
                 qualifiers="v14" >
 
                 <style
@@ -308,6 +308,21 @@
                 name="quote_summary"
                 path="/Users/tom/Dev/MsSavingsCalculator/SavingsCalculatorCommon/res/layout-w800dp/quote_summary.xml"
                 qualifiers="w800dp"
+                type="layout" />
+            <file
+                name="main"
+                path="/Users/tom/Dev/MsSavingsCalculator/SavingsCalculatorCommon/res/layout-xlarge/main.xml"
+                qualifiers="xlarge"
+                type="layout" />
+            <file
+                name="quote_savings"
+                path="/Users/tom/Dev/MsSavingsCalculator/SavingsCalculatorCommon/res/layout-xlarge/quote_savings.xml"
+                qualifiers="xlarge"
+                type="layout" />
+            <file
+                name="quote_summary"
+                path="/Users/tom/Dev/MsSavingsCalculator/SavingsCalculatorCommon/res/layout-xlarge/quote_summary.xml"
+                qualifiers="xlarge"
                 type="layout" />
             <file
                 name="main"
@@ -740,6 +755,7 @@ left
             </file>
         </source>
         <source path="/Users/tom/Dev/MsSavingsCalculator/SavingsCalculatorCommon/build/res/rs/release" />
+        <source path="/Users/tom/Dev/MsSavingsCalculator/SavingsCalculatorCommon/build/res/generated/release" />
     </dataSet>
     <dataSet config="release" >
         <source path="/Users/tom/Dev/MsSavingsCalculator/SavingsCalculatorCommon/src/release/res" />

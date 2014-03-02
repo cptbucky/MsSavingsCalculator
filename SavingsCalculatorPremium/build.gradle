@@ -35,4 +35,10 @@ android {
 
         instrumentTest.setRoot('tests')
     }
+
+//    signingConfigs {
+//        debug {
+//            storeFile file('/Users/tom/Ubuntu One/savingscalc.keystore')
+//        }
+//    }
 }

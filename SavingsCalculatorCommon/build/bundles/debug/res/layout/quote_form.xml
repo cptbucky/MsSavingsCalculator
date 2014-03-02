@@ -1,80 +1,15 @@
-<ScrollView xmlns:a="http://schemas.android.com/apk/res/android"
-            xmlns:tools="http://schemas.android.com/tools"
-            a:id="@+id/ScrollView1"
-            a:layout_width="match_parent"
-            a:layout_height="match_parent"
-            a:layout_gravity="fill_vertical|fill_horizontal">
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/fragContainer">
 
-    <LinearLayout
-            a:id="@+id/RelativeLayout1"
-            a:layout_width="match_parent"
-            a:layout_height="wrap_content"
-            a:focusable="true"
-            a:focusableInTouchMode="true"
-            a:padding="10dp"
-            a:orientation="vertical">
+    <fragment
+        android:id="@+id/quoteFragment"
+        android:name="com.avantics.savingscalc.common.fragments.QuoteFragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:layout="@layout/tab_swipe_activity"/>
 
-        <TextView
-                a:layout_width="wrap_content"
-                a:layout_height="wrap_content"
-                a:text="@string/client_section_header"
-                style="@style/sectionHeaderLabel"/>
-
-        <View
-                a:id="@+id/sepLine01"
-                style="@style/underliningRule"
-                a:layout_width="fill_parent"
-                a:layout_height="1dp"/>
-
-        <include
-                layout="@layout/quote_incumbent_headline"
-                a:id="@+id/incumbentHeadline"
-                a:layout_width="fill_parent"
-                a:layout_height="wrap_content"
-                a:layout_marginLeft="20dp"
-                a:layout_marginTop="10dp"/>
-
-        <TextView
-                a:layout_width="wrap_content"
-                a:layout_height="wrap_content"
-                a:text="@string/quote_calculation_section_heading"
-                style="@style/sectionHeaderLabel"
-                a:layout_marginTop="20dp"/>
-
-        <View
-                a:id="@+id/sepLine02"
-                style="@style/underliningRule"
-                a:layout_width="fill_parent"
-                a:layout_height="1dp"/>
-
-        <include
-                layout="@layout/quote_calculation_inc_costing"
-                a:id="@+id/quoteCalc"
-                a:layout_width="fill_parent"
-                a:layout_height="fill_parent"
-                a:layout_marginLeft="20dp"
-                a:layout_marginTop="15dp"/>
-
-        <TextView
-                a:layout_width="wrap_content"
-                a:layout_height="wrap_content"
-                a:text="@string/savings_section_header"
-                style="@style/sectionHeaderLabel"
-                a:layout_marginTop="20dp"/>
-
-        <View
-                a:id="@+id/sepLine03"
-                style="@style/underliningRule"
-                a:layout_width="fill_parent"
-                a:layout_height="1dp"/>
-
-        <fragment
-                a:id="@+id/savingsFrag"
-                a:name="com.avantics.savingscalc.common.fragments.SavingsFragment"
-                a:layout_width="match_parent"
-                a:layout_height="fill_parent"
-                tools:layout="@layout/quote_savings"/>
-
-    </LinearLayout>
-
-</ScrollView><!-- From: file:/Users/tom/Dev/MsSavingsCalculator/SavingsCalculatorCommon/res/layout/quote_form.xml -->
+</LinearLayout><!-- From: file:/Users/tom/Dev/MsSavingsCalculator/SavingsCalculatorCommon/res/layout/quote_form.xml -->

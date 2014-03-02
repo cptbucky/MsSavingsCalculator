@@ -1,31 +1,16 @@
 package com.avantics.savingscalc.activities;
 
 import android.os.Build;
-import android.os.Bundle;
-import android.support.v4.app.FragmentActivity;
+import android.view.Menu;
 import android.view.View;
 
-import com.avantics.common.IBindManager;
-import com.avantics.common.UiBindingContainer;
 import com.avantics.savingscalc.R;
-import com.avantics.savingscalc.common.UiBindingManager;
+import com.avantics.savingscalc.common.activities.MainActivity;
 
-import java.util.ArrayList;
-
-public class Main extends FragmentActivity implements IBindManager {
-    private static UiBindingManager binder;
-    ArrayList<UiBindingContainer> containedControls;
-
-    public Main() {
-        if (binder == null) {
-            binder = new UiBindingManager();
-        }
-    }
+public class Main extends MainActivity {
 
     @Override
-    public void onCreate(Bundle savedInstanceState) {
-        super.onCreate(savedInstanceState);
-
+    protected View getView(){
         View vw;
 
         if (Build.VERSION.SDK_INT < Build.VERSION_CODES.HONEYCOMB) {
@@ -34,42 +19,25 @@ public class Main extends FragmentActivity implements IBindManager {
             vw = getLayoutInflater().inflate(R.layout.main_ad, null);
         }
 
-        setContentView(vw);
-
-        containedControls = AttachToView(vw);
+        return vw;
     }
 
     @Override
-    public ArrayList<UiBindingContainer> AttachToView(View view) {
-        return binder.AttachToView(view);
+    public boolean onCreateOptionsMenu(Menu menu) {
+        // Inflate the menu; this adds items to the action bar if it is present.
+        getMenuInflater().inflate(R.menu.main, menu);
+
+        appMenu = menu;
+
+        setLoadVisibility();
+
+        return true;
     }
 
     @Override
-    public void onResume() {
-        super.onResume();
-
-        restoreViewState();
-    }
-
-    @Override
-    public void onStop() {
-        super.onStop();
-
-        unbindView();
-    }
-
-    private void restoreViewState() {
-        // set values of all controls
-        for (int i = 0; i < containedControls.size(); i++) {
-            containedControls.get(i).rebindValue();
-        }
-    }
-
-    private void unbindView() {
-        // if any controls exist in lists of listeners ensure they are removed
-        for (int i = 0; i < containedControls.size(); i++) {
-            // this is just plain wrong.. really getting bad now..
-            containedControls.get(i).sourceProperty.removeListener(containedControls.get(i));
-        }
+    protected void setCurrentTitle(String title) {
+        setTitle(String.format("%s%s",
+                getResources().getString(R.string.app_name),
+                title.equals("") ? "" : String.format(": %s", title)));
     }
 }

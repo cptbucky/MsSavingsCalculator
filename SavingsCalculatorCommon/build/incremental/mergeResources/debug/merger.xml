@@ -311,6 +311,21 @@
                 type="layout" />
             <file
                 name="main"
+                path="/Users/tom/Dev/MsSavingsCalculator/SavingsCalculatorCommon/res/layout-xlarge/main.xml"
+                qualifiers="xlarge"
+                type="layout" />
+            <file
+                name="quote_savings"
+                path="/Users/tom/Dev/MsSavingsCalculator/SavingsCalculatorCommon/res/layout-xlarge/quote_savings.xml"
+                qualifiers="xlarge"
+                type="layout" />
+            <file
+                name="quote_summary"
+                path="/Users/tom/Dev/MsSavingsCalculator/SavingsCalculatorCommon/res/layout-xlarge/quote_summary.xml"
+                qualifiers="xlarge"
+                type="layout" />
+            <file
+                name="main"
                 path="/Users/tom/Dev/MsSavingsCalculator/SavingsCalculatorCommon/res/menu/main.xml"
                 qualifiers=""
                 type="menu" />
@@ -740,6 +755,7 @@ left
             </file>
         </source>
         <source path="/Users/tom/Dev/MsSavingsCalculator/SavingsCalculatorCommon/build/res/rs/debug" />
+        <source path="/Users/tom/Dev/MsSavingsCalculator/SavingsCalculatorCommon/build/res/generated/debug" />
     </dataSet>
     <dataSet config="debug" >
         <source path="/Users/tom/Dev/MsSavingsCalculator/SavingsCalculatorCommon/src/debug/res" />

@@ -48,13 +48,26 @@ import java.util.ArrayList;
 public class Main extends MainActivity {
 
     @Override
+    protected View getView(){
+        View vw;
+
+        if (Build.VERSION.SDK_INT < Build.VERSION_CODES.HONEYCOMB) {
+            vw = getLayoutInflater().inflate(com.avantics.savingscalc.common.R.layout.standard_form, null);
+        } else {
+            vw = getLayoutInflater().inflate(com.avantics.savingscalc.common.R.layout.quote_form, null);
+        }
+
+        return vw;
+    }
+
+    @Override
     public boolean onCreateOptionsMenu(Menu menu) {
         // Inflate the menu; this adds items to the action bar if it is present.
         getMenuInflater().inflate(R.menu.main, menu);
 
-        appMenu = menu;
+        super.appMenu = menu;
 
-        setLoadVisibility();
+        super.setLoadVisibility();
 
         return true;
     }
@@ -72,6 +85,13 @@ public class Main extends MainActivity {
             default:
                 return super.onOptionsItemSelected(item);
         }
+    }
+
+    @Override
+    protected void setCurrentTitle(String title) {
+        setTitle(String.format("%s%s",
+                getResources().getString(R.string.app_name),
+                title.equals("") ? "" : String.format(": %s", title)));
     }
 
     private void sendQuote() {
@@ -123,21 +143,5 @@ public class Main extends MainActivity {
             // "There are no email clients installed.",
             // Toast.LENGTH_SHORT).show();
         }
-    }
-
-    public void setSelectedQuote(int which) {
-        String quoteName = availableQuoteNames.valueAt(which);
-        Quote requestedQuote = dbHelper.getQuote(quoteName);
-
-        binder.setSelectedQuote(requestedQuote);
-
-        setCurrentTitle(quoteName);
-    }
-
-    @Override
-    protected void setCurrentTitle(String title) {
-        setTitle(String.format("%s%s",
-                getResources().getString(R.string.app_name),
-                title.equals("") ? "" : String.format(": %s", title)));
     }
 }

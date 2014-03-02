@@ -70,6 +70,31 @@
     <dataSet config="SavingsCalculatorSavingsCalculatorCommonUnspecified.aar" >
         <source path="/Users/tom/Dev/MsSavingsCalculator/SavingsCalculator/build/exploded-bundles/SavingsCalculatorSavingsCalculatorCommonUnspecified.aar/res" >
             <file
+                name="action_search"
+                path="/Users/tom/Dev/MsSavingsCalculator/SavingsCalculator/build/exploded-bundles/SavingsCalculatorSavingsCalculatorCommonUnspecified.aar/res/drawable-hdpi/action_search.png"
+                qualifiers="hdpi"
+                type="drawable" />
+            <file
+                name="av_replay"
+                path="/Users/tom/Dev/MsSavingsCalculator/SavingsCalculator/build/exploded-bundles/SavingsCalculatorSavingsCalculatorCommonUnspecified.aar/res/drawable-hdpi/av_replay.png"
+                qualifiers="hdpi"
+                type="drawable" />
+            <file
+                name="content_new"
+                path="/Users/tom/Dev/MsSavingsCalculator/SavingsCalculator/build/exploded-bundles/SavingsCalculatorSavingsCalculatorCommonUnspecified.aar/res/drawable-hdpi/content_new.png"
+                qualifiers="hdpi"
+                type="drawable" />
+            <file
+                name="content_remove"
+                path="/Users/tom/Dev/MsSavingsCalculator/SavingsCalculator/build/exploded-bundles/SavingsCalculatorSavingsCalculatorCommonUnspecified.aar/res/drawable-hdpi/content_remove.png"
+                qualifiers="hdpi"
+                type="drawable" />
+            <file
+                name="content_save"
+                path="/Users/tom/Dev/MsSavingsCalculator/SavingsCalculator/build/exploded-bundles/SavingsCalculatorSavingsCalculatorCommonUnspecified.aar/res/drawable-hdpi/content_save.png"
+                qualifiers="hdpi"
+                type="drawable" />
+            <file
                 name="ic_action_bar"
                 path="/Users/tom/Dev/MsSavingsCalculator/SavingsCalculator/build/exploded-bundles/SavingsCalculatorSavingsCalculatorCommonUnspecified.aar/res/drawable-hdpi/ic_action_bar.png"
                 qualifiers="hdpi"
@@ -80,6 +105,31 @@
                 qualifiers="hdpi"
                 type="drawable" />
             <file
+                name="action_search"
+                path="/Users/tom/Dev/MsSavingsCalculator/SavingsCalculator/build/exploded-bundles/SavingsCalculatorSavingsCalculatorCommonUnspecified.aar/res/drawable-mdpi/action_search.png"
+                qualifiers="mdpi"
+                type="drawable" />
+            <file
+                name="av_replay"
+                path="/Users/tom/Dev/MsSavingsCalculator/SavingsCalculator/build/exploded-bundles/SavingsCalculatorSavingsCalculatorCommonUnspecified.aar/res/drawable-mdpi/av_replay.png"
+                qualifiers="mdpi"
+                type="drawable" />
+            <file
+                name="content_new"
+                path="/Users/tom/Dev/MsSavingsCalculator/SavingsCalculator/build/exploded-bundles/SavingsCalculatorSavingsCalculatorCommonUnspecified.aar/res/drawable-mdpi/content_new.png"
+                qualifiers="mdpi"
+                type="drawable" />
+            <file
+                name="content_remove"
+                path="/Users/tom/Dev/MsSavingsCalculator/SavingsCalculator/build/exploded-bundles/SavingsCalculatorSavingsCalculatorCommonUnspecified.aar/res/drawable-mdpi/content_remove.png"
+                qualifiers="mdpi"
+                type="drawable" />
+            <file
+                name="content_save"
+                path="/Users/tom/Dev/MsSavingsCalculator/SavingsCalculator/build/exploded-bundles/SavingsCalculatorSavingsCalculatorCommonUnspecified.aar/res/drawable-mdpi/content_save.png"
+                qualifiers="mdpi"
+                type="drawable" />
+            <file
                 name="ic_action_bar"
                 path="/Users/tom/Dev/MsSavingsCalculator/SavingsCalculator/build/exploded-bundles/SavingsCalculatorSavingsCalculatorCommonUnspecified.aar/res/drawable-mdpi/ic_action_bar.png"
                 qualifiers="mdpi"
@@ -88,6 +138,31 @@
                 name="ic_launcher"
                 path="/Users/tom/Dev/MsSavingsCalculator/SavingsCalculator/build/exploded-bundles/SavingsCalculatorSavingsCalculatorCommonUnspecified.aar/res/drawable-mdpi/ic_launcher.png"
                 qualifiers="mdpi"
+                type="drawable" />
+            <file
+                name="action_search"
+                path="/Users/tom/Dev/MsSavingsCalculator/SavingsCalculator/build/exploded-bundles/SavingsCalculatorSavingsCalculatorCommonUnspecified.aar/res/drawable-xhdpi/action_search.png"
+                qualifiers="xhdpi"
+                type="drawable" />
+            <file
+                name="av_replay"
+                path="/Users/tom/Dev/MsSavingsCalculator/SavingsCalculator/build/exploded-bundles/SavingsCalculatorSavingsCalculatorCommonUnspecified.aar/res/drawable-xhdpi/av_replay.png"
+                qualifiers="xhdpi"
+                type="drawable" />
+            <file
+                name="content_new"
+                path="/Users/tom/Dev/MsSavingsCalculator/SavingsCalculator/build/exploded-bundles/SavingsCalculatorSavingsCalculatorCommonUnspecified.aar/res/drawable-xhdpi/content_new.png"
+                qualifiers="xhdpi"
+                type="drawable" />
+            <file
+                name="content_remove"
+                path="/Users/tom/Dev/MsSavingsCalculator/SavingsCalculator/build/exploded-bundles/SavingsCalculatorSavingsCalculatorCommonUnspecified.aar/res/drawable-xhdpi/content_remove.png"
+                qualifiers="xhdpi"
+                type="drawable" />
+            <file
+                name="content_save"
+                path="/Users/tom/Dev/MsSavingsCalculator/SavingsCalculator/build/exploded-bundles/SavingsCalculatorSavingsCalculatorCommonUnspecified.aar/res/drawable-xhdpi/content_save.png"
+                qualifiers="xhdpi"
                 type="drawable" />
             <file
                 name="ic_action_bar"
@@ -110,8 +185,23 @@
                 qualifiers="xxhdpi"
                 type="drawable" />
             <file
+                name="listview_dialog"
+                path="/Users/tom/Dev/MsSavingsCalculator/SavingsCalculator/build/exploded-bundles/SavingsCalculatorSavingsCalculatorCommonUnspecified.aar/res/layout/listview_dialog.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="load_quote_row"
+                path="/Users/tom/Dev/MsSavingsCalculator/SavingsCalculator/build/exploded-bundles/SavingsCalculatorSavingsCalculatorCommonUnspecified.aar/res/layout/load_quote_row.xml"
+                qualifiers=""
+                type="layout" />
+            <file
                 name="main"
                 path="/Users/tom/Dev/MsSavingsCalculator/SavingsCalculator/build/exploded-bundles/SavingsCalculatorSavingsCalculatorCommonUnspecified.aar/res/layout/main.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="premium_quote_form"
+                path="/Users/tom/Dev/MsSavingsCalculator/SavingsCalculator/build/exploded-bundles/SavingsCalculatorSavingsCalculatorCommonUnspecified.aar/res/layout/premium_quote_form.xml"
                 qualifiers=""
                 type="layout" />
             <file
@@ -165,6 +255,16 @@
                 qualifiers=""
                 type="layout" />
             <file
+                name="save_quote_view"
+                path="/Users/tom/Dev/MsSavingsCalculator/SavingsCalculator/build/exploded-bundles/SavingsCalculatorSavingsCalculatorCommonUnspecified.aar/res/layout/save_quote_view.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="settings"
+                path="/Users/tom/Dev/MsSavingsCalculator/SavingsCalculator/build/exploded-bundles/SavingsCalculatorSavingsCalculatorCommonUnspecified.aar/res/layout/settings.xml"
+                qualifiers=""
+                type="layout" />
+            <file
                 name="standard_form"
                 path="/Users/tom/Dev/MsSavingsCalculator/SavingsCalculator/build/exploded-bundles/SavingsCalculatorSavingsCalculatorCommonUnspecified.aar/res/layout/standard_form.xml"
                 qualifiers=""
@@ -214,6 +314,26 @@
                 path="/Users/tom/Dev/MsSavingsCalculator/SavingsCalculator/build/exploded-bundles/SavingsCalculatorSavingsCalculatorCommonUnspecified.aar/res/layout-w800dp/quote_summary.xml"
                 qualifiers="w800dp"
                 type="layout" />
+            <file
+                name="main"
+                path="/Users/tom/Dev/MsSavingsCalculator/SavingsCalculator/build/exploded-bundles/SavingsCalculatorSavingsCalculatorCommonUnspecified.aar/res/layout-xlarge/main.xml"
+                qualifiers="xlarge"
+                type="layout" />
+            <file
+                name="quote_savings"
+                path="/Users/tom/Dev/MsSavingsCalculator/SavingsCalculator/build/exploded-bundles/SavingsCalculatorSavingsCalculatorCommonUnspecified.aar/res/layout-xlarge/quote_savings.xml"
+                qualifiers="xlarge"
+                type="layout" />
+            <file
+                name="quote_summary"
+                path="/Users/tom/Dev/MsSavingsCalculator/SavingsCalculator/build/exploded-bundles/SavingsCalculatorSavingsCalculatorCommonUnspecified.aar/res/layout-xlarge/quote_summary.xml"
+                qualifiers="xlarge"
+                type="layout" />
+            <file
+                name="main"
+                path="/Users/tom/Dev/MsSavingsCalculator/SavingsCalculator/build/exploded-bundles/SavingsCalculatorSavingsCalculatorCommonUnspecified.aar/res/menu/main.xml"
+                qualifiers=""
+                type="menu" />
             <file
                 path="/Users/tom/Dev/MsSavingsCalculator/SavingsCalculator/build/exploded-bundles/SavingsCalculatorSavingsCalculatorCommonUnspecified.aar/res/values/values.xml"
                 qualifiers="" >
@@ -277,11 +397,9 @@ left
 
                 <string name="statement_total" >Statement Total
                 </string>
-                <string name="dc_rate_long" >Debit Card Rate
-                </string>
                 <string name="dc_rate" >DC Rate
                 </string>
-                <string name="saving_percentage" >Saving
+                <string name="dc_rate_long" >Debit Card Rate
                 </string>
 
                 <style
@@ -298,13 +416,15 @@ left|center_vertical
                     </item>
                 </style>
 
-                <string name="bc_long" >Business Card
+                <string name="saving_percentage" >Saving
                 </string>
                 <string name="summary_section_header" >Summary
                 </string>
-                <string name="incumbent_cost" >Incumbent Cost
+                <string name="bc_long" >Business Card
                 </string>
                 <string name="savings_section_header" >Saving
+                </string>
+                <string name="incumbent_cost" >Incumbent Cost
                 </string>
                 <string name="pref_branding_vendor_name" >Vendor
                 </string>
@@ -314,6 +434,17 @@ left|center_vertical
                 </string>
                 <string name="load_quote_dialog_title" >Restore saved quote?
                 </string>
+
+                <style
+                    name="valueLabel"
+                    parent="@style/standardLayout" >
+
+                    <!-- <item name="android:padding">5dp</item> -->
+                    <item name="android:gravity">
+center_vertical
+                    </item>
+                    <!-- <item name="android:text">0.00</item> -->
+                </style>
 
                 <style
                     name="horizontalRule"
@@ -327,17 +458,6 @@ left|center_vertical
                     <item name="android:layout_marginLeft">
 0dp
                     </item>
-                </style>
-
-                <style
-                    name="valueLabel"
-                    parent="@style/standardLayout" >
-
-                    <!-- <item name="android:padding">5dp</item> -->
-                    <item name="android:gravity">
-center_vertical
-                    </item>
-                    <!-- <item name="android:text">0.00</item> -->
                 </style>
 
                 <string name="vendor_terminal" >Vendor Terminal
@@ -393,9 +513,6 @@ center_vertical
                     -->
                 </style>
 
-                <string name="action_save" >Save
-                </string>
-
                 <style
                     name="inputValue"
                     parent="@style/standardLayout" >
@@ -413,6 +530,8 @@ true
                     </item>
                 </style>
 
+                <string name="action_save" >Save
+                </string>
                 <string name="pref_branding_icon" >Icon
                 </string>
 
@@ -426,8 +545,6 @@ center|center_vertical
 
                 <string name="pref_branding_heading_summ" >Heading text to display as default
                 </string>
-                <string name="action_settings" >Settings
-                </string>
 
                 <style name="linearLayoutRow" >
                     <item name="android:gravity">
@@ -437,6 +554,9 @@ center_vertical
 20dp
                     </item>
                 </style>
+
+                <string name="action_settings" >Settings
+                </string>
 
                 <style
                     name="rightAlignLabel"
@@ -504,15 +624,15 @@ sans
 
                 <string name="savings_month" >1 Month
                 </string>
+                <string name="vendor_section_header" >Vendor
+                </string>
                 <string name="bc_total" >BC Total
                 </string>
-                <string name="proposed_rate" >Proposed Rates
-                </string>
-                <string name="vendor_section_header" >Vendor
+                <string name="pref_branding_vendor_name_summ" >Name displayed on quote screen
                 </string>
                 <string name="pref_quote_default_summ" >The default quote loaded on startup
                 </string>
-                <string name="pref_branding_vendor_name_summ" >Name displayed on quote screen
+                <string name="proposed_rate" >Proposed Rates
                 </string>
                 <string name="pref_quote_default" >Default
                 </string>
@@ -641,111 +761,6 @@ left
                 <string name="cc_calculation_row_label" >CC Turnover
                 </string>
             </file>
-            <file
-                name="action_search"
-                path="/Users/tom/Dev/MsSavingsCalculator/SavingsCalculator/build/exploded-bundles/SavingsCalculatorSavingsCalculatorCommonUnspecified.aar/res/drawable-hdpi/action_search.png"
-                qualifiers="hdpi"
-                type="drawable" />
-            <file
-                name="content_save"
-                path="/Users/tom/Dev/MsSavingsCalculator/SavingsCalculator/build/exploded-bundles/SavingsCalculatorSavingsCalculatorCommonUnspecified.aar/res/drawable-mdpi/content_save.png"
-                qualifiers="mdpi"
-                type="drawable" />
-            <file
-                name="content_new"
-                path="/Users/tom/Dev/MsSavingsCalculator/SavingsCalculator/build/exploded-bundles/SavingsCalculatorSavingsCalculatorCommonUnspecified.aar/res/drawable-hdpi/content_new.png"
-                qualifiers="hdpi"
-                type="drawable" />
-            <file
-                name="av_replay"
-                path="/Users/tom/Dev/MsSavingsCalculator/SavingsCalculator/build/exploded-bundles/SavingsCalculatorSavingsCalculatorCommonUnspecified.aar/res/drawable-mdpi/av_replay.png"
-                qualifiers="mdpi"
-                type="drawable" />
-            <file
-                name="content_new"
-                path="/Users/tom/Dev/MsSavingsCalculator/SavingsCalculator/build/exploded-bundles/SavingsCalculatorSavingsCalculatorCommonUnspecified.aar/res/drawable-mdpi/content_new.png"
-                qualifiers="mdpi"
-                type="drawable" />
-            <file
-                name="content_save"
-                path="/Users/tom/Dev/MsSavingsCalculator/SavingsCalculator/build/exploded-bundles/SavingsCalculatorSavingsCalculatorCommonUnspecified.aar/res/drawable-xhdpi/content_save.png"
-                qualifiers="xhdpi"
-                type="drawable" />
-            <file
-                name="av_replay"
-                path="/Users/tom/Dev/MsSavingsCalculator/SavingsCalculator/build/exploded-bundles/SavingsCalculatorSavingsCalculatorCommonUnspecified.aar/res/drawable-hdpi/av_replay.png"
-                qualifiers="hdpi"
-                type="drawable" />
-            <file
-                name="main"
-                path="/Users/tom/Dev/MsSavingsCalculator/SavingsCalculator/build/exploded-bundles/SavingsCalculatorSavingsCalculatorCommonUnspecified.aar/res/menu/main.xml"
-                qualifiers=""
-                type="menu" />
-            <file
-                name="save_quote_view"
-                path="/Users/tom/Dev/MsSavingsCalculator/SavingsCalculator/build/exploded-bundles/SavingsCalculatorSavingsCalculatorCommonUnspecified.aar/res/layout/save_quote_view.xml"
-                qualifiers=""
-                type="layout" />
-            <file
-                name="content_remove"
-                path="/Users/tom/Dev/MsSavingsCalculator/SavingsCalculator/build/exploded-bundles/SavingsCalculatorSavingsCalculatorCommonUnspecified.aar/res/drawable-hdpi/content_remove.png"
-                qualifiers="hdpi"
-                type="drawable" />
-            <file
-                name="av_replay"
-                path="/Users/tom/Dev/MsSavingsCalculator/SavingsCalculator/build/exploded-bundles/SavingsCalculatorSavingsCalculatorCommonUnspecified.aar/res/drawable-xhdpi/av_replay.png"
-                qualifiers="xhdpi"
-                type="drawable" />
-            <file
-                name="listview_dialog"
-                path="/Users/tom/Dev/MsSavingsCalculator/SavingsCalculator/build/exploded-bundles/SavingsCalculatorSavingsCalculatorCommonUnspecified.aar/res/layout/listview_dialog.xml"
-                qualifiers=""
-                type="layout" />
-            <file
-                name="load_quote_row"
-                path="/Users/tom/Dev/MsSavingsCalculator/SavingsCalculator/build/exploded-bundles/SavingsCalculatorSavingsCalculatorCommonUnspecified.aar/res/layout/load_quote_row.xml"
-                qualifiers=""
-                type="layout" />
-            <file
-                name="premium_quote_form"
-                path="/Users/tom/Dev/MsSavingsCalculator/SavingsCalculator/build/exploded-bundles/SavingsCalculatorSavingsCalculatorCommonUnspecified.aar/res/layout/premium_quote_form.xml"
-                qualifiers=""
-                type="layout" />
-            <file
-                name="action_search"
-                path="/Users/tom/Dev/MsSavingsCalculator/SavingsCalculator/build/exploded-bundles/SavingsCalculatorSavingsCalculatorCommonUnspecified.aar/res/drawable-mdpi/action_search.png"
-                qualifiers="mdpi"
-                type="drawable" />
-            <file
-                name="content_save"
-                path="/Users/tom/Dev/MsSavingsCalculator/SavingsCalculator/build/exploded-bundles/SavingsCalculatorSavingsCalculatorCommonUnspecified.aar/res/drawable-hdpi/content_save.png"
-                qualifiers="hdpi"
-                type="drawable" />
-            <file
-                name="content_new"
-                path="/Users/tom/Dev/MsSavingsCalculator/SavingsCalculator/build/exploded-bundles/SavingsCalculatorSavingsCalculatorCommonUnspecified.aar/res/drawable-xhdpi/content_new.png"
-                qualifiers="xhdpi"
-                type="drawable" />
-            <file
-                name="content_remove"
-                path="/Users/tom/Dev/MsSavingsCalculator/SavingsCalculator/build/exploded-bundles/SavingsCalculatorSavingsCalculatorCommonUnspecified.aar/res/drawable-xhdpi/content_remove.png"
-                qualifiers="xhdpi"
-                type="drawable" />
-            <file
-                name="content_remove"
-                path="/Users/tom/Dev/MsSavingsCalculator/SavingsCalculator/build/exploded-bundles/SavingsCalculatorSavingsCalculatorCommonUnspecified.aar/res/drawable-mdpi/content_remove.png"
-                qualifiers="mdpi"
-                type="drawable" />
-            <file
-                name="settings"
-                path="/Users/tom/Dev/MsSavingsCalculator/SavingsCalculator/build/exploded-bundles/SavingsCalculatorSavingsCalculatorCommonUnspecified.aar/res/layout/settings.xml"
-                qualifiers=""
-                type="layout" />
-            <file
-                name="action_search"
-                path="/Users/tom/Dev/MsSavingsCalculator/SavingsCalculator/build/exploded-bundles/SavingsCalculatorSavingsCalculatorCommonUnspecified.aar/res/drawable-xhdpi/action_search.png"
-                qualifiers="xhdpi"
-                type="drawable" />
         </source>
     </dataSet>
     <dataSet config="main" >
@@ -781,7 +796,7 @@ left
             <file
                 path="/Users/tom/Dev/MsSavingsCalculator/SavingsCalculator/res/values/strings.xml"
                 qualifiers="" >
-                <string name="app_name" >MS Savings Calculator FREE
+                <string name="app_name" >MSSC FREE
                 </string>
             </file>
             <file
@@ -834,8 +849,15 @@ left
                     <!-- API 14 theme customizations can go here. -->
                 </style>
             </file>
+            <file
+                path="/Users/tom/Dev/MsSavingsCalculator/SavingsCalculator/res/values-w400dp/strings.xml"
+                qualifiers="w400dp" >
+                <string name="app_name" >MS Savings Calculator FREE
+                </string>
+            </file>
         </source>
         <source path="/Users/tom/Dev/MsSavingsCalculator/SavingsCalculator/build/res/rs/debug" />
+        <source path="/Users/tom/Dev/MsSavingsCalculator/SavingsCalculator/build/res/generated/debug" />
     </dataSet>
     <dataSet config="debug" >
         <source path="/Users/tom/Dev/MsSavingsCalculator/SavingsCalculator/src/debug/res" />

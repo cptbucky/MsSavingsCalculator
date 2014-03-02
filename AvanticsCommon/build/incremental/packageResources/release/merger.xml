@@ -70,6 +70,7 @@
             </file>
         </source>
         <source path="/Users/tom/Dev/MsSavingsCalculator/AvanticsCommon/build/res/rs/release" />
+        <source path="/Users/tom/Dev/MsSavingsCalculator/AvanticsCommon/build/res/generated/release" />
     </dataSet>
     <dataSet config="release" >
         <source path="/Users/tom/Dev/MsSavingsCalculator/AvanticsCommon/src/release/res" />

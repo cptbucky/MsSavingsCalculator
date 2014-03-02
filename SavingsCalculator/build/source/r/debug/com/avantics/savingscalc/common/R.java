@@ -72,20 +72,20 @@ public final class R {
 		public static final int quoteFragment = 0x7f09000e;
 		public static final int rootLayout = 0x7f090004;
 		public static final int savingPercentageContainer = 0x7f090036;
-		public static final int savingsFrag = 0x7f090009;
+		public static final int savingsFrag = 0x7f09000b;
 		public static final int savingsPercentage = 0x7f090037;
-		public static final int sepLine01 = 0x7f090006;
-		public static final int sepLine02 = 0x7f090007;
-		public static final int sepLine03 = 0x7f090008;
+		public static final int sepLine01 = 0x7f090008;
+		public static final int sepLine02 = 0x7f090009;
+		public static final int sepLine03 = 0x7f09000a;
 		public static final int spacer1 = 0x7f09000f;
 		public static final int spacer2 = 0x7f09001b;
 		public static final int spacer3 = 0x7f09001e;
 		public static final int tabbedFrag = 0x7f090005;
-		public static final int textView = 0x7f09000a;
+		public static final int textView = 0x7f090006;
 		public static final int textView1 = 0x7f090018;
 		public static final int txtQuoteName = 0x7f09003a;
 		public static final int txtTitle = 0x7f090002;
-		public static final int vendorHeaderLabel = 0x7f09000b;
+		public static final int vendorHeaderLabel = 0x7f090007;
 	}
 	public static final class layout {
 		public static final int listview_dialog = 0x7f030001;
