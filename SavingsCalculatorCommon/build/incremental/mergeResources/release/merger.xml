@@ -1,25 +1,25 @@
 <?xml version="1.0" encoding="utf-8"?>
 <merger>
 
-    <dataSet config="SavingsCalculatorPremiumAvanticsCommonUnspecified.aar" >
-        <source path="/Users/tom/Dev/MsSavingsCalculator/SavingsCalculatorCommon/build/exploded-bundles/SavingsCalculatorPremiumAvanticsCommonUnspecified.aar/res" >
+    <dataSet config="SavingsCalculatorAvanticsCommonUnspecified.aar" >
+        <source path="/Users/tom/Dev/MsSavingsCalculator/SavingsCalculatorCommon/build/exploded-bundles/SavingsCalculatorAvanticsCommonUnspecified.aar/res" >
             <file
                 name="ic_launcher"
-                path="/Users/tom/Dev/MsSavingsCalculator/SavingsCalculatorCommon/build/exploded-bundles/SavingsCalculatorPremiumAvanticsCommonUnspecified.aar/res/drawable-hdpi/ic_launcher.png"
+                path="/Users/tom/Dev/MsSavingsCalculator/SavingsCalculatorCommon/build/exploded-bundles/SavingsCalculatorAvanticsCommonUnspecified.aar/res/drawable-hdpi/ic_launcher.png"
                 qualifiers="hdpi"
                 type="drawable" />
             <file
                 name="ic_launcher"
-                path="/Users/tom/Dev/MsSavingsCalculator/SavingsCalculatorCommon/build/exploded-bundles/SavingsCalculatorPremiumAvanticsCommonUnspecified.aar/res/drawable-mdpi/ic_launcher.png"
+                path="/Users/tom/Dev/MsSavingsCalculator/SavingsCalculatorCommon/build/exploded-bundles/SavingsCalculatorAvanticsCommonUnspecified.aar/res/drawable-mdpi/ic_launcher.png"
                 qualifiers="mdpi"
                 type="drawable" />
             <file
                 name="ic_launcher"
-                path="/Users/tom/Dev/MsSavingsCalculator/SavingsCalculatorCommon/build/exploded-bundles/SavingsCalculatorPremiumAvanticsCommonUnspecified.aar/res/drawable-xhdpi/ic_launcher.png"
+                path="/Users/tom/Dev/MsSavingsCalculator/SavingsCalculatorCommon/build/exploded-bundles/SavingsCalculatorAvanticsCommonUnspecified.aar/res/drawable-xhdpi/ic_launcher.png"
                 qualifiers="xhdpi"
                 type="drawable" />
             <file
-                path="/Users/tom/Dev/MsSavingsCalculator/SavingsCalculatorCommon/build/exploded-bundles/SavingsCalculatorPremiumAvanticsCommonUnspecified.aar/res/values/values.xml"
+                path="/Users/tom/Dev/MsSavingsCalculator/SavingsCalculatorCommon/build/exploded-bundles/SavingsCalculatorAvanticsCommonUnspecified.aar/res/values/values.xml"
                 qualifiers="" >
 
                 <style
@@ -44,7 +44,7 @@
                 </style>
             </file>
             <file
-                path="/Users/tom/Dev/MsSavingsCalculator/SavingsCalculatorCommon/build/exploded-bundles/SavingsCalculatorPremiumAvanticsCommonUnspecified.aar/res/values-v11/values.xml"
+                path="/Users/tom/Dev/MsSavingsCalculator/SavingsCalculatorCommon/build/exploded-bundles/SavingsCalculatorAvanticsCommonUnspecified.aar/res/values-v11/values.xml"
                 qualifiers="v11" >
 
                 <style
@@ -55,7 +55,7 @@
                 </style>
             </file>
             <file
-                path="/Users/tom/Dev/MsSavingsCalculator/SavingsCalculatorCommon/build/exploded-bundles/SavingsCalculatorPremiumAvanticsCommonUnspecified.aar/res/values-v14/values.xml"
+                path="/Users/tom/Dev/MsSavingsCalculator/SavingsCalculatorCommon/build/exploded-bundles/SavingsCalculatorAvanticsCommonUnspecified.aar/res/values-v14/values.xml"
                 qualifiers="v14" >
 
                 <style
@@ -336,14 +336,6 @@
                 </color>
             </file>
             <file
-                path="/Users/tom/Dev/MsSavingsCalculator/SavingsCalculatorCommon/res/values/dimens.xml"
-                qualifiers="" >
-                <dimen name="activity_horizontal_margin" >16dp
-                </dimen>
-                <dimen name="activity_vertical_margin" >16dp
-                </dimen>
-            </file>
-            <file
                 path="/Users/tom/Dev/MsSavingsCalculator/SavingsCalculatorCommon/res/values/strings.xml"
                 qualifiers="" >
                 <string name="customer_terminal" >Client Terminal
@@ -504,6 +496,17 @@ center_vertical
                     parent="@style/valueLabel" >
                     <item name="android:gravity">
 right|center_vertical
+                    </item>
+                </style>
+
+                <style
+                    name="normalSavingLabel"
+                    parent="@style/valueLabel" >
+                    <item name="android:gravity">
+center|center_vertical
+                    </item>
+                    <item name="android:textSize">
+14sp
                     </item>
                 </style>
 

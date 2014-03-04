@@ -5,11 +5,6 @@
     <eat-comment />
 
     <color name="primary">#501278</color>
-    <!-- From: file:/Users/tom/Dev/MsSavingsCalculator/SavingsCalculatorCommon/res/values/dimens.xml -->
-    <eat-comment />
-
-    <dimen name="activity_horizontal_margin">16dp</dimen>
-    <dimen name="activity_vertical_margin">16dp</dimen>
     <!-- From: file:/Users/tom/Dev/MsSavingsCalculator/SavingsCalculatorCommon/res/values/strings.xml -->
     <eat-comment />
 

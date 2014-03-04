@@ -202,16 +202,17 @@ public final class R {
          */
         public static final int listViewImageButton=0x7f07000a;
         public static final int listViewItemLabel=0x7f07000b;
-        public static final int percentageInput=0x7f07000c;
-        public static final int rightAlignLabel=0x7f07000d;
-        public static final int ruleSeparator=0x7f07000e;
-        public static final int sectionHeaderLabel=0x7f07000f;
-        public static final int standardLayout=0x7f070010;
-        public static final int totalLabel=0x7f070011;
-        public static final int underliningRule=0x7f070012;
+        public static final int normalSavingLabel=0x7f07000c;
+        public static final int percentageInput=0x7f07000d;
+        public static final int rightAlignLabel=0x7f07000e;
+        public static final int ruleSeparator=0x7f07000f;
+        public static final int sectionHeaderLabel=0x7f070010;
+        public static final int standardLayout=0x7f070011;
+        public static final int totalLabel=0x7f070012;
+        public static final int underliningRule=0x7f070013;
         /**  <item name="android:text">0.00</item> 
          */
-        public static final int valueLabel=0x7f070013;
-        public static final int verticalRule=0x7f070014;
+        public static final int valueLabel=0x7f070014;
+        public static final int verticalRule=0x7f070015;
     }
 }

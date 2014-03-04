@@ -270,14 +270,6 @@
                 </color>
             </file>
             <file
-                path="/Users/tom/Dev/MsSavingsCalculator/SavingsCalculatorCommon/res/values/dimens.xml"
-                qualifiers="" >
-                <dimen name="activity_horizontal_margin" >16dp
-                </dimen>
-                <dimen name="activity_vertical_margin" >16dp
-                </dimen>
-            </file>
-            <file
                 path="/Users/tom/Dev/MsSavingsCalculator/SavingsCalculatorCommon/res/values/strings.xml"
                 qualifiers="" >
                 <string name="customer_terminal" >Client Terminal
@@ -304,15 +296,15 @@
                 </string>
                 <string name="saving_percentage" >Saving
                 </string>
-                <string name="bc_long" >Business Card
-                </string>
                 <string name="summary_section_header" >Summary
                 </string>
-                <string name="pref_branding_vendor_name" >Vendor
+                <string name="bc_long" >Business Card
+                </string>
+                <string name="incumbent_cost" >Incumbent Cost
                 </string>
                 <string name="savings_section_header" >Saving
                 </string>
-                <string name="incumbent_cost" >Incumbent Cost
+                <string name="pref_branding_vendor_name" >Vendor
                 </string>
                 <string name="dc_long" >Debit Card
                 </string>
@@ -326,9 +318,9 @@
                 </string>
                 <string name="pref_branding_icon_summ" >A branded icon to display in the heading bar
                 </string>
-                <string name="cc_calculation_row_label" >CC
-                </string>
                 <string name="client_section_header" >Client
+                </string>
+                <string name="cc_calculation_row_label" >CC
                 </string>
                 <string name="statement_total_exc_terminal" >Total ex. Terminal
                 </string>
@@ -384,9 +376,9 @@
                 </string>
                 <string name="cc_long" >Credit Card
                 </string>
-                <string name="app_name" >MS Savings Calculator
-                </string>
                 <string name="dc_total" >DC Total
+                </string>
+                <string name="app_name" >MS Savings Calculator
                 </string>
                 <string name="bc_rate" >BC Rate
                 </string>
@@ -438,6 +430,17 @@ center_vertical
                     parent="@style/valueLabel" >
                     <item name="android:gravity">
 right|center_vertical
+                    </item>
+                </style>
+
+                <style
+                    name="normalSavingLabel"
+                    parent="@style/valueLabel" >
+                    <item name="android:gravity">
+center|center_vertical
+                    </item>
+                    <item name="android:textSize">
+14sp
                     </item>
                 </style>
 
@@ -538,14 +541,6 @@ left
                 </style>
 
                 <style
-                    name="leftAlignLabel"
-                    parent="@style/valueLabel" >
-                    <item name="android:gravity">
-left|center_vertical
-                    </item>
-                </style>
-
-                <style
                     name="inputValue"
                     parent="@style/standardLayout" >
                     <item name="android:gravity">
@@ -559,6 +554,14 @@ numberDecimal
                     </item>
                     <item name="android:selectAllOnFocus">
 true
+                    </item>
+                </style>
+
+                <style
+                    name="leftAlignLabel"
+                    parent="@style/valueLabel" >
+                    <item name="android:gravity">
+left|center_vertical
                     </item>
                 </style>
 
@@ -589,12 +592,6 @@ center|center_vertical
                     parent="@style/inputValue" >
                 </style>
 
-                <style name="ruleSeparator" >
-                    <item name="android:background">
-@color/primary
-                    </item>
-                </style>
-
                 <style
                     name="AppTheme"
                     parent="AppBaseTheme" >
@@ -605,6 +602,12 @@ sans
                     </item>
                     <item name="android:textSize">
 14sp
+                    </item>
+                </style>
+
+                <style name="ruleSeparator" >
+                    <item name="android:background">
+@color/primary
                     </item>
                 </style>
             </file>

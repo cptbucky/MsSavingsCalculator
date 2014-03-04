@@ -35,35 +35,35 @@ public class SavingsFragment extends BindableFragment {
         oneMonthContainer.setOnClickListener(new View.OnClickListener() {
             public void onClick(View view) {
                 oneMonthValue.setTextAppearance(getActivity().getApplicationContext(), R.style.highlightedSavingLabel);
-                oneYearValue.setTextAppearance(getActivity().getApplicationContext(), R.style.centerAlignLabel);
-                fourYearsValue.setTextAppearance(getActivity().getApplicationContext(), R.style.centerAlignLabel);
-                percentageValue.setTextAppearance(getActivity().getApplicationContext(), R.style.centerAlignLabel);
+                oneYearValue.setTextAppearance(getActivity().getApplicationContext(), R.style.normalSavingLabel);
+                fourYearsValue.setTextAppearance(getActivity().getApplicationContext(), R.style.normalSavingLabel);
+                percentageValue.setTextAppearance(getActivity().getApplicationContext(), R.style.normalSavingLabel);
             }
         });
 
         oneYearContainer.setOnClickListener(new View.OnClickListener() {
             public void onClick(View view) {
-                oneMonthValue.setTextAppearance(getActivity().getApplicationContext(), R.style.centerAlignLabel);
+                oneMonthValue.setTextAppearance(getActivity().getApplicationContext(), R.style.normalSavingLabel);
                 oneYearValue.setTextAppearance(getActivity().getApplicationContext(), R.style.highlightedSavingLabel);
-                fourYearsValue.setTextAppearance(getActivity().getApplicationContext(), R.style.centerAlignLabel);
-                percentageValue.setTextAppearance(getActivity().getApplicationContext(), R.style.centerAlignLabel);
+                fourYearsValue.setTextAppearance(getActivity().getApplicationContext(), R.style.normalSavingLabel);
+                percentageValue.setTextAppearance(getActivity().getApplicationContext(), R.style.normalSavingLabel);
             }
         });
 
         fourYearsContainer.setOnClickListener(new View.OnClickListener() {
             public void onClick(View view) {
-                oneMonthValue.setTextAppearance(getActivity().getApplicationContext(), R.style.centerAlignLabel);
-                oneYearValue.setTextAppearance(getActivity().getApplicationContext(), R.style.centerAlignLabel);
+                oneMonthValue.setTextAppearance(getActivity().getApplicationContext(), R.style.normalSavingLabel);
+                oneYearValue.setTextAppearance(getActivity().getApplicationContext(), R.style.normalSavingLabel);
                 fourYearsValue.setTextAppearance(getActivity().getApplicationContext(), R.style.highlightedSavingLabel);
-                percentageValue.setTextAppearance(getActivity().getApplicationContext(), R.style.centerAlignLabel);
+                percentageValue.setTextAppearance(getActivity().getApplicationContext(), R.style.normalSavingLabel);
             }
         });
 
         percentageContainer.setOnClickListener(new View.OnClickListener() {
             public void onClick(View view) {
-                oneMonthValue.setTextAppearance(getActivity().getApplicationContext(), R.style.centerAlignLabel);
-                oneYearValue.setTextAppearance(getActivity().getApplicationContext(), R.style.centerAlignLabel);
-                fourYearsValue.setTextAppearance(getActivity().getApplicationContext(), R.style.centerAlignLabel);
+                oneMonthValue.setTextAppearance(getActivity().getApplicationContext(), R.style.normalSavingLabel);
+                oneYearValue.setTextAppearance(getActivity().getApplicationContext(), R.style.normalSavingLabel);
+                fourYearsValue.setTextAppearance(getActivity().getApplicationContext(), R.style.normalSavingLabel);
                 percentageValue.setTextAppearance(getActivity().getApplicationContext(), R.style.highlightedSavingLabel);
             }
         });

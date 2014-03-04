@@ -25,10 +25,9 @@
 
             <TextView
                     android:id="@+id/Savings1Month"
-                    style="@style/centerAlignLabel"
+                    style="@style/normalSavingLabel"
                     android:layout_width="fill_parent"
                     android:layout_height="wrap_content"
-                    android:textIsSelectable="true"
                     android:gravity="center_horizontal"
                     android:text="0.00"
                     android:duplicateParentState="true"/>
@@ -54,10 +53,9 @@
 
             <TextView
                     android:id="@+id/Savings1Year"
-                    style="@style/centerAlignLabel"
+                    style="@style/normalSavingLabel"
                     android:layout_width="fill_parent"
                     android:layout_height="wrap_content"
-                    android:textIsSelectable="true"
                     android:gravity="center_horizontal"
                     android:text="0.00"
                     android:duplicateParentState="true"/>
@@ -91,10 +89,9 @@
 
             <TextView
                     android:id="@+id/Savings4Years"
-                    style="@style/centerAlignLabel"
+                    style="@style/normalSavingLabel"
                     android:layout_width="fill_parent"
                     android:layout_height="wrap_content"
-                    android:textIsSelectable="true"
                     android:gravity="center_horizontal"
                     android:text="0.00"
                     android:duplicateParentState="true"/>

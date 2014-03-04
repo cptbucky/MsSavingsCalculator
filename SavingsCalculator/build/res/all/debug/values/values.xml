@@ -142,6 +142,11 @@
         <item name="android:textSize">22sp</item>
     </style>
 
+    <style name="normalSavingLabel" parent="@style/valueLabel">
+        <item name="android:gravity">center|center_vertical</item>
+        <item name="android:textSize">14sp</item>
+    </style>
+
     <style name="percentageInput" parent="@style/inputValue" />
 
     <style name="rightAlignLabel" parent="@style/valueLabel">

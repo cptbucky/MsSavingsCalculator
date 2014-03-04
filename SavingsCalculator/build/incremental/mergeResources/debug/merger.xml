@@ -359,9 +359,6 @@ center|center_vertical
                 <string name="saving_4years" >4 Years
                 </string>
 
-                <dimen name="activity_vertical_margin" >16dp
-                </dimen>
-
                 <style
                     name="verticalRule"
                     parent="ruleSeparator" >
@@ -397,9 +394,11 @@ left
 
                 <string name="statement_total" >Statement Total
                 </string>
+                <string name="dc_rate_long" >Debit Card Rate
+                </string>
                 <string name="dc_rate" >DC Rate
                 </string>
-                <string name="dc_rate_long" >Debit Card Rate
+                <string name="saving_percentage" >Saving
                 </string>
 
                 <style
@@ -416,17 +415,15 @@ left|center_vertical
                     </item>
                 </style>
 
-                <string name="saving_percentage" >Saving
+                <string name="bc_long" >Business Card
                 </string>
                 <string name="summary_section_header" >Summary
                 </string>
-                <string name="bc_long" >Business Card
-                </string>
-                <string name="savings_section_header" >Saving
+                <string name="pref_branding_vendor_name" >Vendor
                 </string>
                 <string name="incumbent_cost" >Incumbent Cost
                 </string>
-                <string name="pref_branding_vendor_name" >Vendor
+                <string name="savings_section_header" >Saving
                 </string>
                 <string name="dc_long" >Debit Card
                 </string>
@@ -566,9 +563,6 @@ right|center_vertical
                     </item>
                 </style>
 
-                <dimen name="activity_horizontal_margin" >16dp
-                </dimen>
-
                 <string name="pref_key_quote" >Quote
                 </string>
                 <string name="load_quote_dialog_row_remove" >Remove Quote
@@ -589,13 +583,13 @@ left
                 </string>
                 <string name="cc_total" >CC Total
                 </string>
+                <string name="cc_short" >CC
+                </string>
 
                 <style
                     name="currencyInput"
                     parent="@style/inputValue" />
 
-                <string name="cc_short" >CC
-                </string>
                 <string name="bc_calculation_row_label" >BC
                 </string>
 
@@ -619,20 +613,32 @@ sans
                 </color>
 
                 <style
-                    name="standardLayout"
-                    parent="AppTheme" />
+                    name="normalSavingLabel"
+                    parent="@style/valueLabel" >
+                    <item name="android:gravity">
+center|center_vertical
+                    </item>
+                    <item name="android:textSize">
+14sp
+                    </item>
+                </style>
 
                 <string name="savings_month" >1 Month
                 </string>
-                <string name="vendor_section_header" >Vendor
-                </string>
-                <string name="bc_total" >BC Total
-                </string>
-                <string name="pref_branding_vendor_name_summ" >Name displayed on quote screen
+
+                <style
+                    name="standardLayout"
+                    parent="AppTheme" />
+
+                <string name="proposed_rate" >Proposed Rates
                 </string>
                 <string name="pref_quote_default_summ" >The default quote loaded on startup
                 </string>
-                <string name="proposed_rate" >Proposed Rates
+                <string name="pref_branding_vendor_name_summ" >Name displayed on quote screen
+                </string>
+                <string name="bc_total" >BC Total
+                </string>
+                <string name="vendor_section_header" >Vendor
                 </string>
                 <string name="pref_quote_default" >Default
                 </string>
@@ -659,6 +665,11 @@ center_horizontal|center_vertical
                     <!-- <item name="android:background">@drawable/your_own_graphic</item> -->
                 </style>
 
+                <string name="dc_total" >DC Total
+                </string>
+                <string name="app_name" >MS Savings Calculator
+                </string>
+
                 <style
                     name="leftAlignLabel"
                     parent="@style/valueLabel" >
@@ -667,13 +678,11 @@ left|center_vertical
                     </item>
                 </style>
 
-                <string name="app_name" >MS Savings Calculator
-                </string>
-                <string name="dc_total" >DC Total
-                </string>
                 <string name="bc_rate" >BC Rate
                 </string>
                 <string name="cc_rate" >CC Rate
+                </string>
+                <string name="action_load" >Load
                 </string>
 
                 <style name="ruleSeparator" >
@@ -681,9 +690,6 @@ left|center_vertical
 @color/primary
                     </item>
                 </style>
-
-                <string name="action_load" >Load
-                </string>
             </file>
             <file
                 path="/Users/tom/Dev/MsSavingsCalculator/SavingsCalculator/build/exploded-bundles/SavingsCalculatorSavingsCalculatorCommonUnspecified.aar/res/values-v11/values.xml"
