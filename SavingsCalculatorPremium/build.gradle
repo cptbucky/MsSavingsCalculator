@@ -3,14 +3,13 @@ buildscript {
         mavenCentral()
     }
     dependencies {
-        classpath 'com.android.tools.build:gradle:0.8.+'
+        classpath 'com.android.tools.build:gradle:0.9+'
     }
 }
 apply plugin: 'android'
 
 dependencies {
     compile project(':SavingsCalculatorCommon')
-    compile fileTree(dir: 'libs', include: '*.jar')
 }
 
 android {
@@ -49,20 +48,10 @@ android {
             }
         }
 
-    } else {
-
-        // Building from IDE's "Run" button
-        signingConfigs {
+        buildTypes {
             release {
-
+                signingConfig signingConfigs.release
             }
-        }
-
-    }
-
-    buildTypes {
-        release {
-            signingConfig signingConfigs.release
         }
     }
 }

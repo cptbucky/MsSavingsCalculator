@@ -1,7 +1,6 @@
 package com.avantics.savingscalc.activities;
 
 import android.os.Build;
-import android.view.Menu;
 import android.view.View;
 
 import com.avantics.savingscalc.R;
@@ -20,18 +19,6 @@ public class Main extends MainActivity {
         }
 
         return vw;
-    }
-
-    @Override
-    public boolean onCreateOptionsMenu(Menu menu) {
-        // Inflate the menu; this adds items to the action bar if it is present.
-        getMenuInflater().inflate(R.menu.main, menu);
-
-        appMenu = menu;
-
-        setLoadVisibility();
-
-        return true;
     }
 
     @Override

@@ -2,16 +2,5 @@
 <resources>
 
     <string name="app_name">MSSC</string>
-    <string name="action_send">Send</string>
-    <string name="pref_key_share">Sharing</string>
-    <string name="pref_share_recipient">Recipient</string>
-    <string name="pref_share_recipient_summ">The default recipient for shared Quotes</string>
-    <string name="pref_share_cc">Copy (cc)</string>
-    <string name="pref_share_cc_summ">The default cc for shared Quotes</string>
-    <string name="pref_share_bcc">Blind Copy (bcc)</string>
-    <string name="pref_share_bcc_summ">The default bcc for shared Quotes</string>
-    <string name="contact_lookup">...</string>
-    <string name="preference_contact_title">Contact Lookup</string>
-    <string name="choose_email_heading">Please choose address?</string>
 
 </resources>

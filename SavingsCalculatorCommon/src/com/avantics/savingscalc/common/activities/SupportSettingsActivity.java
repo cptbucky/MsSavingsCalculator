@@ -12,10 +12,16 @@ public class SupportSettingsActivity extends PreferenceActivity implements
         SharedPreferences.OnSharedPreferenceChangeListener {
 
     public static final String PREF_BRANDING_VENDOR_NAME = "pref_branding_vendor_name";
+    public static final String PREF_SHARE_RECIPIENT = "pref_share_recipient";
+    public static final String PREF_SHARE_CC = "pref_share_cc";
+    public static final String PREF_SHARE_BCC = "pref_share_bcc";
 
     private SharedPreferences sPreferences;
 
     private EditTextPreference brandingVendorName;
+    private EditTextPreference shareRecipient;
+    private EditTextPreference shareCc;
+    private EditTextPreference shareBcc;
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
@@ -30,13 +36,28 @@ public class SupportSettingsActivity extends PreferenceActivity implements
         // grab the setting preference items
         brandingVendorName = (EditTextPreference) getPreferenceScreen()
                 .findPreference(PREF_BRANDING_VENDOR_NAME);
+
+        shareRecipient = (EditTextPreference) getPreferenceScreen()
+                .findPreference(PREF_SHARE_RECIPIENT);
+
+        shareCc = (EditTextPreference) getPreferenceScreen().findPreference(
+                PREF_SHARE_CC);
+
+        shareBcc = (EditTextPreference) getPreferenceScreen().findPreference(
+                PREF_SHARE_BCC);
     }
 
     @Override
     public void onSharedPreferenceChanged(SharedPreferences sharedPreferences,
                                           String key) {
-        if (key.equals(PREF_BRANDING_VENDOR_NAME)) {
+        if (key.equals(PREF_SHARE_RECIPIENT)) {
+            shareRecipient.setSummary(sharedPreferences.getString(key, ""));
+        } else if (key.equals(PREF_BRANDING_VENDOR_NAME)) {
             brandingVendorName.setSummary(sharedPreferences.getString(key, ""));
+        } else if (key.equals(PREF_SHARE_CC)) {
+            shareCc.setSummary(sharedPreferences.getString(key, ""));
+        } else if (key.equals(PREF_SHARE_BCC)) {
+            shareBcc.setSummary(sharedPreferences.getString(key, ""));
         }
     }
 
@@ -49,6 +70,21 @@ public class SupportSettingsActivity extends PreferenceActivity implements
                 "").equals("") ? getResources().getText(
                 R.string.pref_branding_vendor_name_summ) : sPreferences.getString(
                 PREF_BRANDING_VENDOR_NAME, ""));
+
+        shareRecipient.setSummary(sPreferences.getString(PREF_SHARE_RECIPIENT,
+                "").equals("") ? getResources().getText(
+                R.string.pref_share_recipient_summ) : sPreferences.getString(
+                PREF_SHARE_RECIPIENT, ""));
+
+        shareCc.setSummary(sPreferences.getString(PREF_SHARE_CC,
+                "").equals("") ? getResources().getText(
+                R.string.pref_share_cc_summ) : sPreferences.getString(
+                PREF_SHARE_CC, ""));
+
+        shareBcc.setSummary(sPreferences.getString(PREF_SHARE_BCC,
+                "").equals("") ? getResources().getText(
+                R.string.pref_share_bcc_summ) : sPreferences.getString(
+                PREF_SHARE_BCC, ""));
 
         // register for changes
         getPreferenceScreen().getSharedPreferences()

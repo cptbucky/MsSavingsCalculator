@@ -3,7 +3,7 @@ buildscript {
         mavenCentral()
     }
     dependencies {
-        classpath 'com.android.tools.build:gradle:0.8+'
+        classpath 'com.android.tools.build:gradle:0.9+'
     }
 }
 apply plugin: 'android-library'
@@ -11,6 +11,7 @@ apply plugin: 'android-library'
 dependencies {
     compile "com.android.support:support-v4:18.0.+"
     compile project(':AvanticsCommon')
+    compile fileTree(dir: 'libs', include: '*.jar')
 }
 
 android {

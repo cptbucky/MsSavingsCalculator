@@ -1,7 +1,7 @@
 <component name="libraryTable">
   <library name="jxl">
     <CLASSES>
-      <root url="jar://$PROJECT_DIR$/../SavingsCalculatorCommon/libs/jxl.jar!/" />
+      <root url="jar://$PROJECT_DIR$/build/exploded-aar/SavingsCalculator/SavingsCalculatorCommon/unspecified/libs/jxl.jar!/" />
     </CLASSES>
     <JAVADOC />
     <SOURCES />

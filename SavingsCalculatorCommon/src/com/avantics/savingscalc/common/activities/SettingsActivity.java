@@ -13,16 +13,16 @@ public class SettingsActivity extends PreferenceActivity  {
     @TargetApi(Build.VERSION_CODES.HONEYCOMB)
     @Override
     protected void onCreate(Bundle savedInstanceState) {
-		super.onCreate(savedInstanceState);
+        super.onCreate(savedInstanceState);
 
         // enable app icon as clickable
         ActionBar actionBar = getActionBar();
         actionBar.setDisplayHomeAsUpEnabled(true);
 
         // Display the fragment as the main content.
-		getFragmentManager().beginTransaction()
-				.replace(android.R.id.content, new SettingsFragment()).commit();
-	}
+        getFragmentManager().beginTransaction()
+                .replace(android.R.id.content, new SettingsFragment()).commit();
+    }
 
     public boolean onOptionsItemSelected(MenuItem item) {
         finish();
