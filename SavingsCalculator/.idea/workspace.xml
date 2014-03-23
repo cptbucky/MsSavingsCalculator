@@ -46,181 +46,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="550ea73c-e9f8-4e55-9604-35df0b659151" name="Default" comment="styling updates">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/values-sw600dp/dimens.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/values-sw720dp-land/dimens.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/values-v11/styles.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/values-v14/styles.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/values/dimens.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/values/styles.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../SavingsCalculatorCommon/classes/production/AvanticsCommon/com/avantics/common/AmountOnFocusChangeListener.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../SavingsCalculatorCommon/classes/production/AvanticsCommon/com/avantics/common/BuildConfig.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../SavingsCalculatorCommon/classes/production/AvanticsCommon/com/avantics/common/CalcWatcher.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../SavingsCalculatorCommon/classes/production/AvanticsCommon/com/avantics/common/CalculateInterface.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../SavingsCalculatorCommon/classes/production/AvanticsCommon/com/avantics/common/Formatters.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../SavingsCalculatorCommon/classes/production/AvanticsCommon/com/avantics/common/Helper.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../SavingsCalculatorCommon/classes/production/AvanticsCommon/com/avantics/common/NumericRangeFilter.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../SavingsCalculatorCommon/classes/production/AvanticsCommon/com/avantics/common/R$attr.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../SavingsCalculatorCommon/classes/production/AvanticsCommon/com/avantics/common/R$drawable.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../SavingsCalculatorCommon/classes/production/AvanticsCommon/com/avantics/common/R$string.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../SavingsCalculatorCommon/classes/production/AvanticsCommon/com/avantics/common/R$style.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../SavingsCalculatorCommon/classes/production/AvanticsCommon/com/avantics/common/R.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../SavingsCalculatorCommon/classes/production/AvanticsCommon/com/avantics/common/UiBindingContainer.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../SavingsCalculatorCommon/classes/production/SavingsCalculator/com/avantics/common/BuildConfig.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../SavingsCalculatorCommon/classes/production/SavingsCalculator/com/avantics/common/R$attr.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../SavingsCalculatorCommon/classes/production/SavingsCalculator/com/avantics/common/R$dimen.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../SavingsCalculatorCommon/classes/production/SavingsCalculator/com/avantics/common/R$drawable.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../SavingsCalculatorCommon/classes/production/SavingsCalculator/com/avantics/common/R$id.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../SavingsCalculatorCommon/classes/production/SavingsCalculator/com/avantics/common/R$layout.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../SavingsCalculatorCommon/classes/production/SavingsCalculator/com/avantics/common/R$string.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../SavingsCalculatorCommon/classes/production/SavingsCalculator/com/avantics/common/R$style.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../SavingsCalculatorCommon/classes/production/SavingsCalculator/com/avantics/common/R.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../SavingsCalculatorCommon/classes/production/SavingsCalculator/com/avantics/savingscalc/BuildConfig.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../SavingsCalculatorCommon/classes/production/SavingsCalculator/com/avantics/savingscalc/R$attr.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../SavingsCalculatorCommon/classes/production/SavingsCalculator/com/avantics/savingscalc/R$dimen.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../SavingsCalculatorCommon/classes/production/SavingsCalculator/com/avantics/savingscalc/R$drawable.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../SavingsCalculatorCommon/classes/production/SavingsCalculator/com/avantics/savingscalc/R$id.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../SavingsCalculatorCommon/classes/production/SavingsCalculator/com/avantics/savingscalc/R$layout.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../SavingsCalculatorCommon/classes/production/SavingsCalculator/com/avantics/savingscalc/R$string.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../SavingsCalculatorCommon/classes/production/SavingsCalculator/com/avantics/savingscalc/R$style.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../SavingsCalculatorCommon/classes/production/SavingsCalculator/com/avantics/savingscalc/R.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../SavingsCalculatorCommon/classes/production/SavingsCalculator/com/avantics/savingscalc/StandardActivity.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../SavingsCalculatorCommon/classes/production/SavingsCalculator/com/avantics/savingscalc/common/BuildConfig.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../SavingsCalculatorCommon/classes/production/SavingsCalculator/com/avantics/savingscalc/common/R$attr.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../SavingsCalculatorCommon/classes/production/SavingsCalculator/com/avantics/savingscalc/common/R$dimen.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../SavingsCalculatorCommon/classes/production/SavingsCalculator/com/avantics/savingscalc/common/R$drawable.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../SavingsCalculatorCommon/classes/production/SavingsCalculator/com/avantics/savingscalc/common/R$id.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../SavingsCalculatorCommon/classes/production/SavingsCalculator/com/avantics/savingscalc/common/R$layout.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../SavingsCalculatorCommon/classes/production/SavingsCalculator/com/avantics/savingscalc/common/R$string.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../SavingsCalculatorCommon/classes/production/SavingsCalculator/com/avantics/savingscalc/common/R$style.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../SavingsCalculatorCommon/classes/production/SavingsCalculator/com/avantics/savingscalc/common/R.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../SavingsCalculatorCommon/classes/production/SavingsCalculatorCommon/com/avantics/common/BuildConfig.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../SavingsCalculatorCommon/classes/production/SavingsCalculatorCommon/com/avantics/common/R$attr.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../SavingsCalculatorCommon/classes/production/SavingsCalculatorCommon/com/avantics/common/R$dimen.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../SavingsCalculatorCommon/classes/production/SavingsCalculatorCommon/com/avantics/common/R$drawable.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../SavingsCalculatorCommon/classes/production/SavingsCalculatorCommon/com/avantics/common/R$id.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../SavingsCalculatorCommon/classes/production/SavingsCalculatorCommon/com/avantics/common/R$layout.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../SavingsCalculatorCommon/classes/production/SavingsCalculatorCommon/com/avantics/common/R$string.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../SavingsCalculatorCommon/classes/production/SavingsCalculatorCommon/com/avantics/common/R$style.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../SavingsCalculatorCommon/classes/production/SavingsCalculatorCommon/com/avantics/common/R.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../SavingsCalculatorCommon/classes/production/SavingsCalculatorCommon/com/avantics/savingscalc/common/BuildConfig.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../SavingsCalculatorCommon/classes/production/SavingsCalculatorCommon/com/avantics/savingscalc/common/IActivity.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../SavingsCalculatorCommon/classes/production/SavingsCalculatorCommon/com/avantics/savingscalc/common/Quote.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../SavingsCalculatorCommon/classes/production/SavingsCalculatorCommon/com/avantics/savingscalc/common/R$attr.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../SavingsCalculatorCommon/classes/production/SavingsCalculatorCommon/com/avantics/savingscalc/common/R$dimen.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../SavingsCalculatorCommon/classes/production/SavingsCalculatorCommon/com/avantics/savingscalc/common/R$drawable.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../SavingsCalculatorCommon/classes/production/SavingsCalculatorCommon/com/avantics/savingscalc/common/R$id.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../SavingsCalculatorCommon/classes/production/SavingsCalculatorCommon/com/avantics/savingscalc/common/R$layout.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../SavingsCalculatorCommon/classes/production/SavingsCalculatorCommon/com/avantics/savingscalc/common/R$string.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../SavingsCalculatorCommon/classes/production/SavingsCalculatorCommon/com/avantics/savingscalc/common/R$style.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../SavingsCalculatorCommon/classes/production/SavingsCalculatorCommon/com/avantics/savingscalc/common/R.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../SavingsCalculatorCommon/classes/production/SavingsCalculatorCommon/com/avantics/savingscalc/common/UiBindingManager.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../SavingsCalculatorCommon/classes/production/SavingsCalculatorCommon/com/avantics/savingscalc/common/fragments/IncumbentFragment.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../SavingsCalculatorCommon/classes/production/SavingsCalculatorCommon/com/avantics/savingscalc/common/fragments/ProposedFragment.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../SavingsCalculatorCommon/classes/production/SavingsCalculatorCommon/com/avantics/savingscalc/common/fragments/QuoteFragment$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../SavingsCalculatorCommon/classes/production/SavingsCalculatorCommon/com/avantics/savingscalc/common/fragments/QuoteFragment$2.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../SavingsCalculatorCommon/classes/production/SavingsCalculatorCommon/com/avantics/savingscalc/common/fragments/QuoteFragment$3.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../SavingsCalculatorCommon/classes/production/SavingsCalculatorCommon/com/avantics/savingscalc/common/fragments/QuoteFragment$4.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../SavingsCalculatorCommon/classes/production/SavingsCalculatorCommon/com/avantics/savingscalc/common/fragments/QuoteFragment$5.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../SavingsCalculatorCommon/classes/production/SavingsCalculatorCommon/com/avantics/savingscalc/common/fragments/QuoteFragment$6.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../SavingsCalculatorCommon/classes/production/SavingsCalculatorCommon/com/avantics/savingscalc/common/fragments/QuoteFragment$7.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../SavingsCalculatorCommon/classes/production/SavingsCalculatorCommon/com/avantics/savingscalc/common/fragments/QuoteFragment$8.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../SavingsCalculatorCommon/classes/production/SavingsCalculatorCommon/com/avantics/savingscalc/common/fragments/QuoteFragment.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../SavingsCalculatorCommon/classes/production/SavingsCalculatorCommon/com/avantics/savingscalc/common/fragments/SummaryFragment.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../SavingsCalculatorCommon/classes/production/SavingsCalculatorPremium/com/avantics/common/BuildConfig.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../SavingsCalculatorCommon/classes/production/SavingsCalculatorPremium/com/avantics/common/R$attr.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../SavingsCalculatorCommon/classes/production/SavingsCalculatorPremium/com/avantics/common/R$dimen.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../SavingsCalculatorCommon/classes/production/SavingsCalculatorPremium/com/avantics/common/R$drawable.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../SavingsCalculatorCommon/classes/production/SavingsCalculatorPremium/com/avantics/common/R$id.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../SavingsCalculatorCommon/classes/production/SavingsCalculatorPremium/com/avantics/common/R$layout.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../SavingsCalculatorCommon/classes/production/SavingsCalculatorPremium/com/avantics/common/R$menu.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../SavingsCalculatorCommon/classes/production/SavingsCalculatorPremium/com/avantics/common/R$string.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../SavingsCalculatorCommon/classes/production/SavingsCalculatorPremium/com/avantics/common/R$style.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../SavingsCalculatorCommon/classes/production/SavingsCalculatorPremium/com/avantics/common/R.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../SavingsCalculatorCommon/classes/production/SavingsCalculatorPremium/com/avantics/savingscalc/common/BuildConfig.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../SavingsCalculatorCommon/classes/production/SavingsCalculatorPremium/com/avantics/savingscalc/common/R$attr.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../SavingsCalculatorCommon/classes/production/SavingsCalculatorPremium/com/avantics/savingscalc/common/R$dimen.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../SavingsCalculatorCommon/classes/production/SavingsCalculatorPremium/com/avantics/savingscalc/common/R$drawable.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../SavingsCalculatorCommon/classes/production/SavingsCalculatorPremium/com/avantics/savingscalc/common/R$id.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../SavingsCalculatorCommon/classes/production/SavingsCalculatorPremium/com/avantics/savingscalc/common/R$layout.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../SavingsCalculatorCommon/classes/production/SavingsCalculatorPremium/com/avantics/savingscalc/common/R$menu.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../SavingsCalculatorCommon/classes/production/SavingsCalculatorPremium/com/avantics/savingscalc/common/R$string.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../SavingsCalculatorCommon/classes/production/SavingsCalculatorPremium/com/avantics/savingscalc/common/R$style.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../SavingsCalculatorCommon/classes/production/SavingsCalculatorPremium/com/avantics/savingscalc/common/R.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../SavingsCalculatorCommon/classes/production/SavingsCalculatorPremium/com/avantics/savingscalcpremium/BuildConfig.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../SavingsCalculatorCommon/classes/production/SavingsCalculatorPremium/com/avantics/savingscalcpremium/ConfirmDialogFragment$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../SavingsCalculatorCommon/classes/production/SavingsCalculatorPremium/com/avantics/savingscalcpremium/ConfirmDialogFragment$2.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../SavingsCalculatorCommon/classes/production/SavingsCalculatorPremium/com/avantics/savingscalcpremium/ConfirmDialogFragment.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../SavingsCalculatorCommon/classes/production/SavingsCalculatorPremium/com/avantics/savingscalcpremium/ConfirmationDialogHandler.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../SavingsCalculatorCommon/classes/production/SavingsCalculatorPremium/com/avantics/savingscalcpremium/DatabaseHelper.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../SavingsCalculatorCommon/classes/production/SavingsCalculatorPremium/com/avantics/savingscalcpremium/DeleteQuoteRequestHandler.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../SavingsCalculatorCommon/classes/production/SavingsCalculatorPremium/com/avantics/savingscalcpremium/ExcelExporter.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../SavingsCalculatorCommon/classes/production/SavingsCalculatorPremium/com/avantics/savingscalcpremium/LoadListItem.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../SavingsCalculatorCommon/classes/production/SavingsCalculatorPremium/com/avantics/savingscalcpremium/LoadListItemAdapter$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../SavingsCalculatorCommon/classes/production/SavingsCalculatorPremium/com/avantics/savingscalcpremium/LoadListItemAdapter$LoadListItemHolder.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../SavingsCalculatorCommon/classes/production/SavingsCalculatorPremium/com/avantics/savingscalcpremium/LoadListItemAdapter.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../SavingsCalculatorCommon/classes/production/SavingsCalculatorPremium/com/avantics/savingscalcpremium/LoadQuoteDialogFragment$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../SavingsCalculatorCommon/classes/production/SavingsCalculatorPremium/com/avantics/savingscalcpremium/LoadQuoteDialogFragment.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../SavingsCalculatorCommon/classes/production/SavingsCalculatorPremium/com/avantics/savingscalcpremium/R$attr.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../SavingsCalculatorCommon/classes/production/SavingsCalculatorPremium/com/avantics/savingscalcpremium/R$dimen.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../SavingsCalculatorCommon/classes/production/SavingsCalculatorPremium/com/avantics/savingscalcpremium/R$drawable.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../SavingsCalculatorCommon/classes/production/SavingsCalculatorPremium/com/avantics/savingscalcpremium/R$id.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../SavingsCalculatorCommon/classes/production/SavingsCalculatorPremium/com/avantics/savingscalcpremium/R$layout.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../SavingsCalculatorCommon/classes/production/SavingsCalculatorPremium/com/avantics/savingscalcpremium/R$menu.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../SavingsCalculatorCommon/classes/production/SavingsCalculatorPremium/com/avantics/savingscalcpremium/R$string.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../SavingsCalculatorCommon/classes/production/SavingsCalculatorPremium/com/avantics/savingscalcpremium/R$style.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../SavingsCalculatorCommon/classes/production/SavingsCalculatorPremium/com/avantics/savingscalcpremium/R.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../SavingsCalculatorCommon/classes/production/SavingsCalculatorPremium/com/avantics/savingscalcpremium/activities/SettingsActivity.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../SavingsCalculatorCommon/classes/production/SavingsCalculatorPremium/com/avantics/savingscalcpremium/fragments/PremiumQuoteFragment.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../SavingsCalculatorCommon/classes/production/SavingsCalculatorPremium/com/avantics/savingscalcpremium/fragments/SettingsFragment.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../SavingsCalculatorCommon/gen/com/avantics/savingscalc/common/BuildConfig.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../SavingsCalculatorCommon/gen/com/avantics/savingscalc/common/Manifest.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../SavingsCalculatorCommon/gen/com/avantics/savingscalc/common/R.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../SavingsCalculatorCommon/savingscalcommon.iml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../SavingsCalculatorPremium/res/drawable-hdpi/social_send_now.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../SavingsCalculatorPremium/res/drawable-mdpi/social_send_now.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../SavingsCalculatorPremium/res/drawable-xhdpi/social_send_now.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../SavingsCalculatorPremium/res/menu/main.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../SavingsCalculatorPremium/res/values-sw600dp/dimens.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../SavingsCalculatorPremium/res/values-sw720dp-land/dimens.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../SavingsCalculatorPremium/res/values-v11/styles.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../SavingsCalculatorPremium/res/values-v14/styles.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../SavingsCalculatorPremium/res/values/styles.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../SavingsCalculatorPremium/src/com/avantics/savingscalcpremium/activities/SettingsActivity.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../SavingsCalculatorPremium/src/com/avantics/savingscalcpremium/activities/SupportSettingsActivity.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../SavingsCalculatorPremium/src/com/avantics/savingscalcpremium/fragments/SettingsFragment.java" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/res/values-w400dp/strings.xml" afterPath="$PROJECT_DIR$/res/values-w600dp/strings.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/../SavingsCalculatorPremium/libs/jxl.jar" afterPath="$PROJECT_DIR$/../SavingsCalculatorCommon/libs/jxl.jar" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/../SavingsCalculatorPremium/res/drawable-hdpi/social_share.png" afterPath="$PROJECT_DIR$/../SavingsCalculatorCommon/res/drawable-hdpi/social_share.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/../SavingsCalculatorPremium/res/drawable-mdpi/social_share.png" afterPath="$PROJECT_DIR$/../SavingsCalculatorCommon/res/drawable-mdpi/social_share.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/../SavingsCalculatorPremium/res/drawable-xhdpi/social_share.png" afterPath="$PROJECT_DIR$/../SavingsCalculatorCommon/res/drawable-xhdpi/social_share.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/../SavingsCalculatorPremium/res/layout/choose_item_row.xml" afterPath="$PROJECT_DIR$/../SavingsCalculatorCommon/res/layout/choose_item_row.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/../SavingsCalculatorPremium/res/layout/preference_contact_lookup.xml" afterPath="$PROJECT_DIR$/../SavingsCalculatorCommon/res/layout/preference_contact_lookup.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/../SavingsCalculatorPremium/res/layout/settings.xml" afterPath="$PROJECT_DIR$/../SavingsCalculatorCommon/res/layout/settings.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/../SavingsCalculatorPremium/res/values-w400dp/strings.xml" afterPath="$PROJECT_DIR$/../SavingsCalculatorPremium/res/values-w600dp/strings.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/../SavingsCalculatorPremium/src/com/avantics/savingscalcpremium/ChooseEmailItemAdapter.java" afterPath="$PROJECT_DIR$/../SavingsCalculatorCommon/src/com/avantics/savingscalc/common/ChooseEmailItemAdapter.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/../SavingsCalculatorPremium/src/com/avantics/savingscalcpremium/ContactPreference.java" afterPath="$PROJECT_DIR$/../SavingsCalculatorCommon/src/com/avantics/savingscalc/common/ContactPreference.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/../SavingsCalculatorPremium/src/com/avantics/savingscalcpremium/ExcelExporter.java" afterPath="$PROJECT_DIR$/../SavingsCalculatorCommon/src/com/avantics/savingscalc/common/ExcelExporter.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SavingsCalculatorCommon/src/com/avantics/savingscalc/common/email/EmailDispatcher.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SavingsCalculatorCommon/src/com/avantics/savingscalc/common/email/ExcelQuoteSource.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SavingsCalculatorCommon/src/com/avantics/savingscalc/common/email/IAttachmentSource.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SavingsCalculatorCommon/src/com/avantics/savingscalc/common/email/IEmailDispatcher.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AndroidManifest.xml" afterPath="$PROJECT_DIR$/AndroidManifest.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../SavingsCalculatorPremium/AndroidManifest.xml" afterPath="$PROJECT_DIR$/../SavingsCalculatorPremium/AndroidManifest.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../AvanticsCommon/AvanticsCommon.iml" afterPath="$PROJECT_DIR$/../AvanticsCommon/AvanticsCommon.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/avantics/savingscalc/activities/Main.java" afterPath="$PROJECT_DIR$/src/com/avantics/savingscalc/activities/Main.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../SavingsCalculatorPremium/src/com/avantics/savingscalcpremium/activities/Main.java" afterPath="$PROJECT_DIR$/../SavingsCalculatorPremium/src/com/avantics/savingscalcpremium/activities/Main.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../SavingsCalculatorCommon/src/com/avantics/savingscalc/common/activities/MainActivity.java" afterPath="$PROJECT_DIR$/../SavingsCalculatorCommon/src/com/avantics/savingscalc/common/activities/MainActivity.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SavingsCalculator.iml" afterPath="$PROJECT_DIR$/SavingsCalculator.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../SavingsCalculatorCommon/SavingsCalculatorCommon.iml" afterPath="$PROJECT_DIR$/../SavingsCalculatorCommon/SavingsCalculatorCommon.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../SavingsCalculatorPremium/SavingsCalculatorPremium.iml" afterPath="$PROJECT_DIR$/../SavingsCalculatorPremium/SavingsCalculatorPremium.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../SavingsCalculatorCommon/src/com/avantics/savingscalc/common/activities/SettingsActivity.java" afterPath="$PROJECT_DIR$/../SavingsCalculatorCommon/src/com/avantics/savingscalc/common/activities/SettingsActivity.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../SavingsCalculatorCommon/src/com/avantics/savingscalc/common/fragments/SettingsFragment.java" afterPath="$PROJECT_DIR$/../SavingsCalculatorCommon/src/com/avantics/savingscalc/common/fragments/SettingsFragment.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../SavingsCalculatorCommon/src/com/avantics/savingscalc/common/activities/SupportSettingsActivity.java" afterPath="$PROJECT_DIR$/../SavingsCalculatorCommon/src/com/avantics/savingscalc/common/activities/SupportSettingsActivity.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../AvanticsCommon/build.gradle" afterPath="$PROJECT_DIR$/../AvanticsCommon/build.gradle" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build.gradle" afterPath="$PROJECT_DIR$/build.gradle" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../SavingsCalculatorCommon/build.gradle" afterPath="$PROJECT_DIR$/../SavingsCalculatorCommon/build.gradle" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../SavingsCalculatorPremium/build.gradle" afterPath="$PROJECT_DIR$/../SavingsCalculatorPremium/build.gradle" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../SavingsCalculatorPremium/.idea/libraries/jxl.xml" afterPath="$PROJECT_DIR$/../SavingsCalculatorPremium/.idea/libraries/jxl.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../SavingsCalculatorCommon/res/menu/main.xml" afterPath="$PROJECT_DIR$/../SavingsCalculatorCommon/res/menu/main.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../SavingsCalculatorPremium/.idea/copyright/profiles_settings.xml" afterPath="$PROJECT_DIR$/../SavingsCalculatorPremium/.idea/copyright/profiles_settings.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../SavingsCalculatorCommon/res/values/strings.xml" afterPath="$PROJECT_DIR$/../SavingsCalculatorCommon/res/values/strings.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../SavingsCalculatorPremium/res/values/strings.xml" afterPath="$PROJECT_DIR$/../SavingsCalculatorPremium/res/values/strings.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../SavingsCalculatorPremium/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../SavingsCalculatorPremium/.idea/workspace.xml" />
     </list>
     <ignored path="SavingsCalculator.iws" />
@@ -281,6 +114,7 @@
       </breakpoint>
     </breakpoint_any>
     <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
+    <line_breakpoints default_suspend_policy="SuspendAll" default_condition_enabled="true" />
     <breakpoint_rules />
     <ui_properties />
   </component>
@@ -293,101 +127,71 @@
       <file leaf-file-name="MainActivity.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../SavingsCalculatorCommon/src/com/avantics/savingscalc/common/activities/MainActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-0.0" vertical-offset="2310" max-vertical-offset="7740">
-              <caret line="154" column="0" selection-start="4553" selection-end="4553" />
-              <folding>
-                <element signature="e#6078#6079#0" expanded="false" />
-                <element signature="e#6113#6114#0" expanded="false" />
-              </folding>
+            <state vertical-scroll-proportion="0.0" vertical-offset="7035" max-vertical-offset="7170">
+              <caret line="469" column="0" selection-start="16422" selection-end="16422" />
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="build.gradle" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="build.gradle" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/build.gradle">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="960">
-              <caret line="56" column="5" selection-start="1388" selection-end="1388" />
+            <state vertical-scroll-proportion="0.42613637" vertical-offset="0" max-vertical-offset="1065">
+              <caret line="25" column="14" selection-start="465" selection-end="465" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AndroidManifest.xml" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="settings.gradle" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/settings.gradle">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="150">
+              <caret line="0" column="0" selection-start="0" selection-end="135" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="main_ad.xml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/res/layout/main_ad.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-1.1111112" vertical-offset="0" max-vertical-offset="420">
+              <caret line="2" column="7" selection-start="48" selection-end="48" />
+              <folding />
+            </state>
+          </provider>
+          <provider editor-type-id="android-designer">
+            <state />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AndroidManifest.xml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/AndroidManifest.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.051635113" vertical-offset="30" max-vertical-offset="645">
-              <caret line="4" column="30" selection-start="206" selection-end="206" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="390" max-vertical-offset="705">
+              <caret line="26" column="19" selection-start="1144" selection-end="1144" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="styles.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../AvanticsCommon/res/values/styles.xml">
+      <file leaf-file-name="EmailDispatcher.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../SavingsCalculatorCommon/src/com/avantics/savingscalc/common/email/EmailDispatcher.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="375">
-              <caret line="0" column="0" selection-start="0" selection-end="0" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="164" max-vertical-offset="900">
+              <caret line="23" column="0" selection-start="656" selection-end="656" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="styles.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../AvanticsCommon/res/values-v11/styles.xml">
+      <file leaf-file-name="ExcelQuoteSource.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../SavingsCalculatorCommon/src/com/avantics/savingscalc/common/email/ExcelQuoteSource.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="240">
-              <caret line="0" column="0" selection-start="0" selection-end="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="styles.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../AvanticsCommon/res/values-v14/styles.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="255">
-              <caret line="0" column="0" selection-start="0" selection-end="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="strings.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/res/values-w600dp/strings.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="75" max-vertical-offset="165">
-              <caret line="5" column="12" selection-start="129" selection-end="129" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="lint.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lint.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="30" max-vertical-offset="120">
-              <caret line="2" column="7" selection-start="53" selection-end="53" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ExcelExporter.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../SavingsCalculatorCommon/src/com/avantics/savingscalc/common/ExcelExporter.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="900" max-vertical-offset="4680">
-              <caret line="60" column="0" selection-start="2036" selection-end="2036" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="strings.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/res/values/strings.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="45" max-vertical-offset="165">
-              <caret line="3" column="32" selection-start="84" selection-end="84" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="72" max-vertical-offset="615">
+              <caret line="32" column="23" selection-start="1067" selection-end="1067" />
               <folding />
             </state>
           </provider>
@@ -1611,7 +1415,7 @@
     </option>
     <option name="modificationStamps">
       <map>
-        <entry key="$PROJECT_DIR$" value="5576429300000" />
+        <entry key="$PROJECT_DIR$" value="5576532074000" />
       </map>
     </option>
     <option name="projectBuildClasspath">
@@ -1626,36 +1430,36 @@
                       <ExternalModuleBuildClasspathPojo>
                         <option name="entries">
                           <list>
-                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.tools.build/gradle/0.9.0/ea9da6d56751eb1b742bd2e491598b312e5bfd0f/gradle-0.9.0.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.tools.build/gradle/0.9.1/3dbb5b32b1e1557f4595927ba34a1cf6938f332f/gradle-0.9.1.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.google.guava/guava/15.0/ed727a8d9f247e2050281cb083f1c77b09dcb5cd/guava-15.0.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.tools/common/22.7.1/dd2b172974806bfdd83284bcdb1f344df2f77e50/common-22.7.1.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.tools.build/builder-model/0.9.1/3e99da779a14e53818c3c65866485631c713d501/builder-model-0.9.1.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.squareup/javawriter/2.2.1/d6dac1da0b24ab9ea9a6b5d49c2586d85f17e597/javawriter-2.2.1.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/net.sf.kxml/kxml2/2.3.0/ccbc77a5fd907ef863c29f3596c6f54ffa4e9442/kxml2-2.3.0.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.tools.ddms/ddmlib/22.7.1/4c17535840ab2640d47f25ffc8194141d5f4d624/ddmlib-22.7.1.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.tools.build/builder-test-api/0.9.1/fba410b2ad7f7042abb44f11a2db0613405e286c/builder-test-api-0.9.1.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.httpcomponents/httpcore/4.1/33fc26c02f8043ab0ede19eadc8c9885386b255c/httpcore-4.1.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/commons-logging/commons-logging/1.1.1/5043bfebc3db072ed80fbd362e7caf00e885d8ae/commons-logging-1.1.1.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/commons-codec/commons-codec/1.4/4216af16d38465bbab0f3dff8efa14204f7a399a/commons-codec-1.4.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.httpcomponents/httpclient/4.1.1/3d1d918f32709e33ba7ddb2c4e8d1c543ebe713e/httpclient-4.1.1.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.httpcomponents/httpmime/4.1/9ba2dcdf94ce35c8a8e9bff242db0618ca932e92/httpmime-4.1.jar" />
-                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.google.guava/guava/15.0/ed727a8d9f247e2050281cb083f1c77b09dcb5cd/guava-15.0.jar" />
-                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.tools/common/22.7.0/b58414163169320682431ce16822345ee46b300c/common-22.7.0.jar" />
-                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/net.sf.kxml/kxml2/2.3.0/ccbc77a5fd907ef863c29f3596c6f54ffa4e9442/kxml2-2.3.0.jar" />
-                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.tools.layoutlib/layoutlib-api/22.7.0/7f12dcc1cd5541743d6009a5fb1cab2577da52b1/layoutlib-api-22.7.0.jar" />
-                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.tools/dvlib/22.7.0/aa5205b1cd1da94bb17ff1d8c9e582a87b7dd6d7/dvlib-22.7.0.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.tools/dvlib/22.7.1/baf4e3bc68d04ecf1d5249e5e444eb0392a88508/dvlib-22.7.1.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.tools.layoutlib/layoutlib-api/22.7.1/e839ec6302b50473c3df7bcf5a7779c7925cc6f8/layoutlib-api-22.7.1.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.commons/commons-compress/1.0/995ae384a0b1e2c66269e6bc5198db8561fb45a2/commons-compress-1.0.jar" />
-                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.tools/sdklib/22.7.0/9c446bec0bad3341c2519b68148dfd89804d4fda/sdklib-22.7.0.jar" />
-                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.tools/sdk-common/22.7.0/c7a21ff9cc49baae34988a5f4a7aafc521c04e83/sdk-common-22.7.0.jar" />
-                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.tools.build/manifest-merger/22.7.0/c871c3ca77a4b61b06d028a33289c21b9fc36764/manifest-merger-22.7.0.jar" />
-                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.tools.ddms/ddmlib/22.7.0/9d56101b42f1184b55d4c7166e1d13bfe6d1592d/ddmlib-22.7.0.jar" />
-                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.squareup/javawriter/2.2.1/d6dac1da0b24ab9ea9a6b5d49c2586d85f17e597/javawriter-2.2.1.jar" />
-                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.tools.build/builder-test-api/0.9.0/9fce59f3741d61133ee95bcd352cc8ee2be2aa6a/builder-test-api-0.9.0.jar" />
-                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.tools.build/builder-model/0.9.0/d62494d730dc558c461083a6f70b21c2f3c11bc7/builder-model-0.9.0.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.tools/sdklib/22.7.1/4df489b14a457fd5b3c25ce3245362e3d6989666/sdklib-22.7.1.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.tools.build/manifest-merger/22.7.1/73724990f6f0269e10e8de38f1bbd3c0d291ac8/manifest-merger-22.7.1.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.bouncycastle/bcprov-jdk15on/1.48/960dea7c9181ba0b17e8bab0c06a43f0a5f04e65/bcprov-jdk15on-1.48.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.bouncycastle/bcpkix-jdk15on/1.48/28b7614b908a47844bb27e3c94b45b6893656265/bcpkix-jdk15on-1.48.jar" />
-                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.tools.build/builder/0.9.0/528c29a6feff3b066363e6be07206eefc7020511/builder-0.9.0.jar" />
-                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.eclipse.jdt.core.compiler/ecj/4.2.2/d9fd79499c664bccaf24dbe04be417de6c6af64a/ecj-4.2.2.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.tools/sdk-common/22.7.1/acd675f93c6fb2fe3e7bc3eab33d90dc4723e82f/sdk-common-22.7.1.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.tools.build/builder/0.9.1/c2f212fa9be0fd6fb981f484a638ebf372057263/builder-0.9.1.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.ow2.asm/asm/4.0/659add6efc75a4715d738e73f07505246edf4d66/asm-4.0.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.tools.external.lombok/lombok-ast/0.2.2/57e560b535ceaa14fb6f15422d74594acd6c5b64/lombok-ast-0.2.2.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.ow2.asm/asm-tree/4.0/67bd266cd17adcee486b76952ece4cc85fe248b8/asm-tree-4.0.jar" />
-                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.tools.lint/lint-api/22.7.0/2d87f384743c5cf28d88df78e89f695867c3926e/lint-api-22.7.0.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.tools.lint/lint-api/22.7.1/cececc216c86a565b97c3016d654e74445f5fdea/lint-api-22.7.1.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.ow2.asm/asm-analysis/4.0/1c45d52b6f6c638db13cf3ac12adeb56b254cdd7/asm-analysis-4.0.jar" />
-                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.tools.lint/lint-checks/22.7.0/f57c2075d59fa99944ba2e7ff9239d49fdb013e3/lint-checks-22.7.0.jar" />
-                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.tools.lint/lint/22.7.0/4ed955d40d0478015bec12e969d23bb0ac6875e3/lint-22.7.0.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.tools.lint/lint-checks/22.7.1/168936cf9772b59cd13b4dc8839ffb0f04c5d4c5/lint-checks-22.7.1.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.eclipse.jdt.core.compiler/ecj/4.2.2/d9fd79499c664bccaf24dbe04be417de6c6af64a/ecj-4.2.2.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.tools.lint/lint/22.7.1/910e7358d3152c7cb957fea2abc60bfa553ab0d5/lint-22.7.1.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/net.sf.proguard/proguard-base/4.10/46e891272ae0338af3f5de5e14d8d2641edefc2c/proguard-base-4.10.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/net.sf.proguard/proguard-gradle/4.10/edad1b6af1c08c54a58fb39da9fa48e03bc6678d/proguard-gradle-4.10.jar" />
                           </list>
@@ -1669,36 +1473,36 @@
                       <ExternalModuleBuildClasspathPojo>
                         <option name="entries">
                           <list>
-                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.tools.build/gradle/0.9.0/ea9da6d56751eb1b742bd2e491598b312e5bfd0f/gradle-0.9.0.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.tools.build/gradle/0.9.1/3dbb5b32b1e1557f4595927ba34a1cf6938f332f/gradle-0.9.1.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.google.guava/guava/15.0/ed727a8d9f247e2050281cb083f1c77b09dcb5cd/guava-15.0.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.tools/common/22.7.1/dd2b172974806bfdd83284bcdb1f344df2f77e50/common-22.7.1.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.tools.build/builder-model/0.9.1/3e99da779a14e53818c3c65866485631c713d501/builder-model-0.9.1.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.squareup/javawriter/2.2.1/d6dac1da0b24ab9ea9a6b5d49c2586d85f17e597/javawriter-2.2.1.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/net.sf.kxml/kxml2/2.3.0/ccbc77a5fd907ef863c29f3596c6f54ffa4e9442/kxml2-2.3.0.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.tools.ddms/ddmlib/22.7.1/4c17535840ab2640d47f25ffc8194141d5f4d624/ddmlib-22.7.1.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.tools.build/builder-test-api/0.9.1/fba410b2ad7f7042abb44f11a2db0613405e286c/builder-test-api-0.9.1.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.httpcomponents/httpcore/4.1/33fc26c02f8043ab0ede19eadc8c9885386b255c/httpcore-4.1.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/commons-logging/commons-logging/1.1.1/5043bfebc3db072ed80fbd362e7caf00e885d8ae/commons-logging-1.1.1.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/commons-codec/commons-codec/1.4/4216af16d38465bbab0f3dff8efa14204f7a399a/commons-codec-1.4.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.httpcomponents/httpclient/4.1.1/3d1d918f32709e33ba7ddb2c4e8d1c543ebe713e/httpclient-4.1.1.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.httpcomponents/httpmime/4.1/9ba2dcdf94ce35c8a8e9bff242db0618ca932e92/httpmime-4.1.jar" />
-                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.google.guava/guava/15.0/ed727a8d9f247e2050281cb083f1c77b09dcb5cd/guava-15.0.jar" />
-                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.tools/common/22.7.0/b58414163169320682431ce16822345ee46b300c/common-22.7.0.jar" />
-                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/net.sf.kxml/kxml2/2.3.0/ccbc77a5fd907ef863c29f3596c6f54ffa4e9442/kxml2-2.3.0.jar" />
-                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.tools.layoutlib/layoutlib-api/22.7.0/7f12dcc1cd5541743d6009a5fb1cab2577da52b1/layoutlib-api-22.7.0.jar" />
-                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.tools/dvlib/22.7.0/aa5205b1cd1da94bb17ff1d8c9e582a87b7dd6d7/dvlib-22.7.0.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.tools/dvlib/22.7.1/baf4e3bc68d04ecf1d5249e5e444eb0392a88508/dvlib-22.7.1.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.tools.layoutlib/layoutlib-api/22.7.1/e839ec6302b50473c3df7bcf5a7779c7925cc6f8/layoutlib-api-22.7.1.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.commons/commons-compress/1.0/995ae384a0b1e2c66269e6bc5198db8561fb45a2/commons-compress-1.0.jar" />
-                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.tools/sdklib/22.7.0/9c446bec0bad3341c2519b68148dfd89804d4fda/sdklib-22.7.0.jar" />
-                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.tools/sdk-common/22.7.0/c7a21ff9cc49baae34988a5f4a7aafc521c04e83/sdk-common-22.7.0.jar" />
-                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.tools.build/manifest-merger/22.7.0/c871c3ca77a4b61b06d028a33289c21b9fc36764/manifest-merger-22.7.0.jar" />
-                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.tools.ddms/ddmlib/22.7.0/9d56101b42f1184b55d4c7166e1d13bfe6d1592d/ddmlib-22.7.0.jar" />
-                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.squareup/javawriter/2.2.1/d6dac1da0b24ab9ea9a6b5d49c2586d85f17e597/javawriter-2.2.1.jar" />
-                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.tools.build/builder-test-api/0.9.0/9fce59f3741d61133ee95bcd352cc8ee2be2aa6a/builder-test-api-0.9.0.jar" />
-                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.tools.build/builder-model/0.9.0/d62494d730dc558c461083a6f70b21c2f3c11bc7/builder-model-0.9.0.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.tools/sdklib/22.7.1/4df489b14a457fd5b3c25ce3245362e3d6989666/sdklib-22.7.1.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.tools.build/manifest-merger/22.7.1/73724990f6f0269e10e8de38f1bbd3c0d291ac8/manifest-merger-22.7.1.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.bouncycastle/bcprov-jdk15on/1.48/960dea7c9181ba0b17e8bab0c06a43f0a5f04e65/bcprov-jdk15on-1.48.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.bouncycastle/bcpkix-jdk15on/1.48/28b7614b908a47844bb27e3c94b45b6893656265/bcpkix-jdk15on-1.48.jar" />
-                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.tools.build/builder/0.9.0/528c29a6feff3b066363e6be07206eefc7020511/builder-0.9.0.jar" />
-                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.eclipse.jdt.core.compiler/ecj/4.2.2/d9fd79499c664bccaf24dbe04be417de6c6af64a/ecj-4.2.2.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.tools/sdk-common/22.7.1/acd675f93c6fb2fe3e7bc3eab33d90dc4723e82f/sdk-common-22.7.1.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.tools.build/builder/0.9.1/c2f212fa9be0fd6fb981f484a638ebf372057263/builder-0.9.1.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.ow2.asm/asm/4.0/659add6efc75a4715d738e73f07505246edf4d66/asm-4.0.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.tools.external.lombok/lombok-ast/0.2.2/57e560b535ceaa14fb6f15422d74594acd6c5b64/lombok-ast-0.2.2.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.ow2.asm/asm-tree/4.0/67bd266cd17adcee486b76952ece4cc85fe248b8/asm-tree-4.0.jar" />
-                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.tools.lint/lint-api/22.7.0/2d87f384743c5cf28d88df78e89f695867c3926e/lint-api-22.7.0.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.tools.lint/lint-api/22.7.1/cececc216c86a565b97c3016d654e74445f5fdea/lint-api-22.7.1.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.ow2.asm/asm-analysis/4.0/1c45d52b6f6c638db13cf3ac12adeb56b254cdd7/asm-analysis-4.0.jar" />
-                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.tools.lint/lint-checks/22.7.0/f57c2075d59fa99944ba2e7ff9239d49fdb013e3/lint-checks-22.7.0.jar" />
-                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.tools.lint/lint/22.7.0/4ed955d40d0478015bec12e969d23bb0ac6875e3/lint-22.7.0.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.tools.lint/lint-checks/22.7.1/168936cf9772b59cd13b4dc8839ffb0f04c5d4c5/lint-checks-22.7.1.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.eclipse.jdt.core.compiler/ecj/4.2.2/d9fd79499c664bccaf24dbe04be417de6c6af64a/ecj-4.2.2.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.tools.lint/lint/22.7.1/910e7358d3152c7cb957fea2abc60bfa553ab0d5/lint-22.7.1.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/net.sf.proguard/proguard-base/4.10/46e891272ae0338af3f5de5e14d8d2641edefc2c/proguard-base-4.10.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/net.sf.proguard/proguard-gradle/4.10/edad1b6af1c08c54a58fb39da9fa48e03bc6678d/proguard-gradle-4.10.jar" />
                           </list>
@@ -1754,36 +1558,36 @@
                       <ExternalModuleBuildClasspathPojo>
                         <option name="entries">
                           <list>
-                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.tools.build/gradle/0.9.0/ea9da6d56751eb1b742bd2e491598b312e5bfd0f/gradle-0.9.0.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.tools.build/gradle/0.9.1/3dbb5b32b1e1557f4595927ba34a1cf6938f332f/gradle-0.9.1.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.google.guava/guava/15.0/ed727a8d9f247e2050281cb083f1c77b09dcb5cd/guava-15.0.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.tools/common/22.7.1/dd2b172974806bfdd83284bcdb1f344df2f77e50/common-22.7.1.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.tools.build/builder-model/0.9.1/3e99da779a14e53818c3c65866485631c713d501/builder-model-0.9.1.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.squareup/javawriter/2.2.1/d6dac1da0b24ab9ea9a6b5d49c2586d85f17e597/javawriter-2.2.1.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/net.sf.kxml/kxml2/2.3.0/ccbc77a5fd907ef863c29f3596c6f54ffa4e9442/kxml2-2.3.0.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.tools.ddms/ddmlib/22.7.1/4c17535840ab2640d47f25ffc8194141d5f4d624/ddmlib-22.7.1.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.tools.build/builder-test-api/0.9.1/fba410b2ad7f7042abb44f11a2db0613405e286c/builder-test-api-0.9.1.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.httpcomponents/httpcore/4.1/33fc26c02f8043ab0ede19eadc8c9885386b255c/httpcore-4.1.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/commons-logging/commons-logging/1.1.1/5043bfebc3db072ed80fbd362e7caf00e885d8ae/commons-logging-1.1.1.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/commons-codec/commons-codec/1.4/4216af16d38465bbab0f3dff8efa14204f7a399a/commons-codec-1.4.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.httpcomponents/httpclient/4.1.1/3d1d918f32709e33ba7ddb2c4e8d1c543ebe713e/httpclient-4.1.1.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.httpcomponents/httpmime/4.1/9ba2dcdf94ce35c8a8e9bff242db0618ca932e92/httpmime-4.1.jar" />
-                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.google.guava/guava/15.0/ed727a8d9f247e2050281cb083f1c77b09dcb5cd/guava-15.0.jar" />
-                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.tools/common/22.7.0/b58414163169320682431ce16822345ee46b300c/common-22.7.0.jar" />
-                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/net.sf.kxml/kxml2/2.3.0/ccbc77a5fd907ef863c29f3596c6f54ffa4e9442/kxml2-2.3.0.jar" />
-                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.tools.layoutlib/layoutlib-api/22.7.0/7f12dcc1cd5541743d6009a5fb1cab2577da52b1/layoutlib-api-22.7.0.jar" />
-                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.tools/dvlib/22.7.0/aa5205b1cd1da94bb17ff1d8c9e582a87b7dd6d7/dvlib-22.7.0.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.tools/dvlib/22.7.1/baf4e3bc68d04ecf1d5249e5e444eb0392a88508/dvlib-22.7.1.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.tools.layoutlib/layoutlib-api/22.7.1/e839ec6302b50473c3df7bcf5a7779c7925cc6f8/layoutlib-api-22.7.1.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.commons/commons-compress/1.0/995ae384a0b1e2c66269e6bc5198db8561fb45a2/commons-compress-1.0.jar" />
-                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.tools/sdklib/22.7.0/9c446bec0bad3341c2519b68148dfd89804d4fda/sdklib-22.7.0.jar" />
-                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.tools/sdk-common/22.7.0/c7a21ff9cc49baae34988a5f4a7aafc521c04e83/sdk-common-22.7.0.jar" />
-                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.tools.build/manifest-merger/22.7.0/c871c3ca77a4b61b06d028a33289c21b9fc36764/manifest-merger-22.7.0.jar" />
-                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.tools.ddms/ddmlib/22.7.0/9d56101b42f1184b55d4c7166e1d13bfe6d1592d/ddmlib-22.7.0.jar" />
-                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.squareup/javawriter/2.2.1/d6dac1da0b24ab9ea9a6b5d49c2586d85f17e597/javawriter-2.2.1.jar" />
-                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.tools.build/builder-test-api/0.9.0/9fce59f3741d61133ee95bcd352cc8ee2be2aa6a/builder-test-api-0.9.0.jar" />
-                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.tools.build/builder-model/0.9.0/d62494d730dc558c461083a6f70b21c2f3c11bc7/builder-model-0.9.0.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.tools/sdklib/22.7.1/4df489b14a457fd5b3c25ce3245362e3d6989666/sdklib-22.7.1.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.tools.build/manifest-merger/22.7.1/73724990f6f0269e10e8de38f1bbd3c0d291ac8/manifest-merger-22.7.1.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.bouncycastle/bcprov-jdk15on/1.48/960dea7c9181ba0b17e8bab0c06a43f0a5f04e65/bcprov-jdk15on-1.48.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.bouncycastle/bcpkix-jdk15on/1.48/28b7614b908a47844bb27e3c94b45b6893656265/bcpkix-jdk15on-1.48.jar" />
-                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.tools.build/builder/0.9.0/528c29a6feff3b066363e6be07206eefc7020511/builder-0.9.0.jar" />
-                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.eclipse.jdt.core.compiler/ecj/4.2.2/d9fd79499c664bccaf24dbe04be417de6c6af64a/ecj-4.2.2.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.tools/sdk-common/22.7.1/acd675f93c6fb2fe3e7bc3eab33d90dc4723e82f/sdk-common-22.7.1.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.tools.build/builder/0.9.1/c2f212fa9be0fd6fb981f484a638ebf372057263/builder-0.9.1.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.ow2.asm/asm/4.0/659add6efc75a4715d738e73f07505246edf4d66/asm-4.0.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.tools.external.lombok/lombok-ast/0.2.2/57e560b535ceaa14fb6f15422d74594acd6c5b64/lombok-ast-0.2.2.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.ow2.asm/asm-tree/4.0/67bd266cd17adcee486b76952ece4cc85fe248b8/asm-tree-4.0.jar" />
-                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.tools.lint/lint-api/22.7.0/2d87f384743c5cf28d88df78e89f695867c3926e/lint-api-22.7.0.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.tools.lint/lint-api/22.7.1/cececc216c86a565b97c3016d654e74445f5fdea/lint-api-22.7.1.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.ow2.asm/asm-analysis/4.0/1c45d52b6f6c638db13cf3ac12adeb56b254cdd7/asm-analysis-4.0.jar" />
-                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.tools.lint/lint-checks/22.7.0/f57c2075d59fa99944ba2e7ff9239d49fdb013e3/lint-checks-22.7.0.jar" />
-                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.tools.lint/lint/22.7.0/4ed955d40d0478015bec12e969d23bb0ac6875e3/lint-22.7.0.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.tools.lint/lint-checks/22.7.1/168936cf9772b59cd13b4dc8839ffb0f04c5d4c5/lint-checks-22.7.1.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.eclipse.jdt.core.compiler/ecj/4.2.2/d9fd79499c664bccaf24dbe04be417de6c6af64a/ecj-4.2.2.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.tools.lint/lint/22.7.1/910e7358d3152c7cb957fea2abc60bfa553ab0d5/lint-22.7.1.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/net.sf.proguard/proguard-base/4.10/46e891272ae0338af3f5de5e14d8d2641edefc2c/proguard-base-4.10.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/net.sf.proguard/proguard-gradle/4.10/edad1b6af1c08c54a58fb39da9fa48e03bc6678d/proguard-gradle-4.10.jar" />
                           </list>
@@ -1878,9 +1682,17 @@
         <option value="$PROJECT_DIR$/../SavingsCalculatorCommon/src/com/avantics/savingscalc/common/fragments/SavingsFragment.java" />
         <option value="$PROJECT_DIR$/../SavingsCalculatorCommon/res/layout/quote_savings.xml" />
         <option value="$PROJECT_DIR$/src/com/avantics/savingscalc/activities/Main.java" />
+        <option value="$PROJECT_DIR$/../SavingsCalculatorCommon/AndroidManifest.xml" />
+        <option value="$PROJECT_DIR$/../SavingsCalculatorCommon/src/com/avantics/savingscalc/common/FileSource.java" />
+        <option value="$PROJECT_DIR$/../SavingsCalculatorCommon/src/com/avantics/savingscalc/common/IAttachmentSource.java" />
+        <option value="$PROJECT_DIR$/../SavingsCalculatorCommon/src/com/avantics/savingscalc/common/email/FileSource.java" />
+        <option value="$PROJECT_DIR$/../SavingsCalculatorCommon/src/com/avantics/savingscalc/common/IEmailDispatcher.java" />
+        <option value="$PROJECT_DIR$/../SavingsCalculatorCommon/src/com/avantics/savingscalc/common/email/IEmailDispatcher.java" />
+        <option value="$PROJECT_DIR$/../SavingsCalculatorCommon/src/com/avantics/savingscalc/common/email/EmailDispatcher.java" />
         <option value="$PROJECT_DIR$/../SavingsCalculatorCommon/src/com/avantics/savingscalc/common/activities/MainActivity.java" />
-        <option value="$PROJECT_DIR$/build.gradle" />
+        <option value="$PROJECT_DIR$/../SavingsCalculatorCommon/src/com/avantics/savingscalc/common/email/ExcelQuoteSource.java" />
         <option value="$PROJECT_DIR$/AndroidManifest.xml" />
+        <option value="$PROJECT_DIR$/build.gradle" />
       </list>
     </option>
   </component>
@@ -1940,7 +1752,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="PackagesPane">
         <subPane>
           <PATH>
@@ -1955,8 +1766,19 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SavingsCalculator" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="External Libraries" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
+            </PATH_ELEMENT>
+          </PATH>
           <PATH>
             <PATH_ELEMENT>
               <option name="myItemId" value="SavingsCalculator" />
@@ -1991,7 +1813,7 @@
     <property name="ExportedApkPath" value="$USER_HOME$/Ubuntu One/dev/MsSavingsCalculator/sales calc releases/SavingsCalculator_1.2.0.apk" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder0" value="0" />
     <property name="ExportedModule" value="SavingsCalculator" />
-    <property name="last_opened_file_path" value="$USER_HOME$/Ubuntu One/savingscalc.keystore" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../ERM_Native/Erm.Application" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth2" value="232" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth3" value="911" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth3" value="910" />
@@ -2013,12 +1835,13 @@
     <property name="options.lastSelected" value="project.propVCSSupport.Mappings" />
     <property name="AndroidLayoutSelectedEditor" value="text-editor" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="ANDROID_EXTENDED_DEVICE_CHOOSER_SERIALS" value="emulator-5554" />
+    <property name="ANDROID_EXTENDED_DEVICE_CHOOSER_SERIALS" value="00502d4d5bd249c5" />
     <property name="MemberChooser.copyJavadoc" value="false" />
     <property name="AndroidRunProguardForReleaseBuild" value="false" />
     <property name="restartRequiresConfirmation" value="true" />
     <property name="options.searchVisible" value="true" />
     <property name="OverrideImplement.overriding.sorted" value="false" />
+    <property name="last_directory_selection" value="$PROJECT_DIR$/../SavingsCalculatorCommon/src/com/avantics/savingscalc/common" />
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
@@ -2032,11 +1855,14 @@
       <recent name="$PROJECT_DIR$/../SavingsCalculatorCommon/res/layout-w800dp" />
       <recent name="$PROJECT_DIR$/../SavingsCalculatorCommon/res/layout-w600dp" />
     </key>
-    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
-      <recent name="com.avantics.common" />
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.avantics.savingscalc.common" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/../SavingsCalculatorCommon/res/layout" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.avantics.common" />
     </key>
   </component>
   <component name="RunManager" selected="Android Application.Device">
@@ -2341,10 +2167,11 @@
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24704957" sideWeight="0.616" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32954547" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25255704" sideWeight="0.616" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32852808" sideWeight="0.6" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32929516" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.51762116" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32929516" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32929516" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.37114537" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.37114537" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32915717" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3270925" sideWeight="0.5" order="9" side_tool="true" content_ui="tabs" />
@@ -2357,13 +2184,12 @@
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32905984" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.1916972" sideWeight="0.6714976" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.1916972" sideWeight="0.6714976" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32929516" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24962063" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32928678" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32852808" sideWeight="0.6" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.50660795" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Module Dependencies" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32905984" sideWeight="0.67053366" order="8" side_tool="false" content_ui="tabs" />
@@ -2402,37 +2228,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/AndroidManifest.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="300" max-vertical-offset="495">
-          <caret line="20" column="28" selection-start="889" selection-end="889" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="165" max-vertical-offset="645">
-          <caret line="11" column="6" selection-start="186" selection-end="285" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../SavingsCalculatorCommon/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="180" max-vertical-offset="645">
-          <caret line="12" column="38" selection-start="284" selection-end="284" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/settings.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="60" max-vertical-offset="150">
-          <caret line="4" column="56" selection-start="219" selection-end="219" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../SavingsCalculatorCommon/res/layout/main.xml">
       <provider selected="true" editor-type-id="android-designer">
         <state />
@@ -2561,14 +2356,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../SavingsCalculatorCommon/AndroidManifest.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.67160493" vertical-offset="0" max-vertical-offset="405">
-          <caret line="16" column="0" selection-start="555" selection-end="555" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../SavingsCalculatorCommon/project.properties">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="391">
@@ -2580,16 +2367,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="408">
           <caret line="10" column="32" selection-start="473" selection-end="473" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/res/layout/main_ad.xml">
-      <provider editor-type-id="android-designer">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="136" max-vertical-offset="476">
-          <caret line="9" column="13" selection-start="349" selection-end="349" />
         </state>
       </provider>
     </entry>
@@ -2648,13 +2425,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/settings.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="150">
-          <caret line="4" column="56" selection-start="219" selection-end="219" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../SavingsCalculatorCommon/src/com/avantics/savingscalc/common/fragments/MainFragment.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.103270225" vertical-offset="0" max-vertical-offset="581">
@@ -2699,7 +2469,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="536" max-vertical-offset="1065">
           <caret line="0" column="0" selection-start="0" selection-end="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2707,7 +2476,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="540" max-vertical-offset="1890">
           <caret line="61" column="34" selection-start="2286" selection-end="2303" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2725,7 +2493,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="1576" max-vertical-offset="2175">
           <caret line="121" column="56" selection-start="4897" selection-end="4897" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2733,7 +2500,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="525">
           <caret line="9" column="0" selection-start="239" selection-end="239" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2741,7 +2507,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="586">
           <caret line="0" column="0" selection-start="0" selection-end="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2749,7 +2514,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="586">
           <caret line="0" column="0" selection-start="0" selection-end="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2757,7 +2521,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="586">
           <caret line="0" column="0" selection-start="0" selection-end="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2765,7 +2528,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="586">
           <caret line="0" column="0" selection-start="0" selection-end="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2773,7 +2535,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="165">
           <caret line="3" column="32" selection-start="84" selection-end="84" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2781,7 +2542,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="75" max-vertical-offset="165">
           <caret line="5" column="12" selection-start="129" selection-end="129" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2797,33 +2557,86 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="434" max-vertical-offset="4350">
           <caret line="60" column="0" selection-start="2036" selection-end="2036" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../SavingsCalculatorCommon/AndroidManifest.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.110497236" vertical-offset="0" max-vertical-offset="543">
+          <caret line="4" column="0" selection-start="192" selection-end="192" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../SavingsCalculatorCommon/src/com/avantics/savingscalc/common/email/IAttachmentSource.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="543">
+          <caret line="0" column="45" selection-start="45" selection-end="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../SavingsCalculatorCommon/src/com/avantics/savingscalc/common/email/IEmailDispatcher.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="30" max-vertical-offset="255">
+          <caret line="8" column="26" selection-start="183" selection-end="183" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../SavingsCalculatorCommon/src/com/avantics/savingscalc/common/email/ExcelQuoteSource.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="72" max-vertical-offset="615">
+          <caret line="32" column="23" selection-start="1067" selection-end="1067" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../SavingsCalculatorCommon/src/com/avantics/savingscalc/common/email/EmailDispatcher.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="164" max-vertical-offset="900">
+          <caret line="23" column="0" selection-start="656" selection-end="656" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/../SavingsCalculatorCommon/src/com/avantics/savingscalc/common/activities/MainActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="2310" max-vertical-offset="7740">
-          <caret line="154" column="0" selection-start="4553" selection-end="4553" />
-          <folding>
-            <element signature="e#6078#6079#0" expanded="false" />
-            <element signature="e#6113#6114#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="960">
-          <caret line="56" column="5" selection-start="1388" selection-end="1388" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="1302" max-vertical-offset="1845">
+          <caret line="469" column="0" selection-start="16422" selection-end="16422" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/AndroidManifest.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.051635113" vertical-offset="30" max-vertical-offset="645">
-          <caret line="4" column="30" selection-start="206" selection-end="206" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="390" max-vertical-offset="705">
+          <caret line="26" column="19" selection-start="1144" selection-end="1144" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/layout/main_ad.xml">
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-1.1111112" vertical-offset="0" max-vertical-offset="420">
+          <caret line="2" column="7" selection-start="48" selection-end="48" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/settings.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="880">
+          <caret line="0" column="0" selection-start="0" selection-end="135" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.42613637" vertical-offset="0" max-vertical-offset="1065">
+          <caret line="25" column="14" selection-start="465" selection-end="465" />
           <folding />
         </state>
       </provider>

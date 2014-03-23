@@ -46,6 +46,13 @@ android {
                 storePassword console.readLine("Enter keystore password: ")
                 keyAlias console.readLine("Enter alias key: ")
                 keyPassword console.readLine("Enter key password: ")
+/*
+                storeFile file(console.readLine("Enter keystore path: "))
+                storePassword "$storePassword"
+                keyAlias "$keyAlias"
+                keyPassword "$keyPassword"
+*/
+
             }
         }
 
