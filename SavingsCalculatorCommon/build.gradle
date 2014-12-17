@@ -3,20 +3,20 @@ buildscript {
         mavenCentral()
     }
     dependencies {
-        classpath 'com.android.tools.build:gradle:0.9+'
+        classpath 'com.android.tools.build:gradle:0.12.2'
     }
 }
-apply plugin: 'android-library'
+apply plugin: 'com.android.library'
 
 dependencies {
-    compile "com.android.support:support-v4:18.0.+"
+    compile "com.android.support:support-v4:21.0.3"
     compile project(':AvanticsCommon')
     compile fileTree(dir: 'libs', include: '*.jar')
 }
 
 android {
     compileSdkVersion 17
-    buildToolsVersion "19.0.2"
+    buildToolsVersion "19.1.0"
 
     defaultConfig {
         minSdkVersion 7

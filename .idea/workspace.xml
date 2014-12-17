@@ -12,601 +12,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="28d66fe5-6fb9-4f51-84e0-1678c1215cb6" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MsSavingsCalculator/.tf/0/1f64cf00-4932-4cbe-b146-af18b08e09d8.gz" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MsSavingsCalculator/.tf/0/76884730-dd9c-4153-bf58-bd2a66b11f36.gz" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MsSavingsCalculator/.tf/0/8e6e8e00-dee5-4484-b234-afcedfa9b270.gz" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MsSavingsCalculator/.tf/0/a095ba30-e69a-49c3-a7b3-85d4571696c9.gz" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MsSavingsCalculator/.tf/1/0e814281-0831-4a99-9948-5185d7fd0d32.gz" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MsSavingsCalculator/.tf/1/1c9f2181-24b9-45f6-a7ac-f16780ff9c57.gz" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MsSavingsCalculator/.tf/1/474799e1-c8fe-4f9f-a142-a1c5ddb83014.gz" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MsSavingsCalculator/.tf/1/7e0d51d1-6911-46f5-8b5e-ef444410fa29.gz" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MsSavingsCalculator/.tf/1/7f8ba171-80ca-46db-8536-cf80fd282402.gz" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MsSavingsCalculator/.tf/1/f785efe1-3ddc-4c38-831b-53858453d68a.gz" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MsSavingsCalculator/.tf/10/07c037ba-83cd-48bc-9b6a-36e459a21933.gz" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MsSavingsCalculator/.tf/10/55bea84a-1daf-4401-bf0b-a1d83bbea734.gz" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MsSavingsCalculator/.tf/10/7f05230a-18bc-4b5c-851c-64851a63578c.gz" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MsSavingsCalculator/.tf/10/e472188a-1c02-4987-9869-e4fd2a1cb584.gz" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MsSavingsCalculator/.tf/11/0d86b7db-59a5-41bb-a068-8e2bf0a5e4c2.gz" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MsSavingsCalculator/.tf/11/2352716b-be32-4ae9-a1bc-2718ef847cbe.gz" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MsSavingsCalculator/.tf/11/259f001b-4c49-40fa-8795-957ab6d288f5.gz" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MsSavingsCalculator/.tf/11/7f45dccb-bad0-4fa8-acc9-cbde8ecece73.gz" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MsSavingsCalculator/.tf/11/a3a9d09b-abe6-479f-b527-4330869907d7.gz" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MsSavingsCalculator/.tf/11/bdbf471b-8ec0-4c1c-aac4-0d57d859f01d.gz" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MsSavingsCalculator/.tf/11/c11f2fbb-99ea-4570-b896-cb95a1196acc.gz" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MsSavingsCalculator/.tf/11/e220294b-1e4e-4b2f-b6e8-bdfa4e946ae0.gz" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MsSavingsCalculator/.tf/11/f35b6c0b-f957-498f-95c4-8a7a92925365.gz" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MsSavingsCalculator/.tf/12/02a201dc-ef61-4d69-8ef6-989c5a11baa6.gz" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MsSavingsCalculator/.tf/12/14b07b8c-05d1-40c9-a41e-e5430f6ee491.gz" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MsSavingsCalculator/.tf/12/3dd1d39c-4ec2-4663-95eb-71d9b1f3e790.gz" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MsSavingsCalculator/.tf/12/933f7bfc-3181-427d-975e-f8dee4ced26d.gz" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MsSavingsCalculator/.tf/12/a365575c-a571-4db4-966b-27627a92d4e1.gz" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MsSavingsCalculator/.tf/12/c0afd8ac-617b-4941-8702-9263a6d78806.gz" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MsSavingsCalculator/.tf/12/d9f78bfc-a9c9-4b20-8cfc-9e835297b55c.gz" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MsSavingsCalculator/.tf/12/e34caa1c-a887-444f-bdd9-ed0901314851.gz" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MsSavingsCalculator/.tf/12/e6a5d0fc-c07d-4b06-8655-9bcaf4749624.gz" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MsSavingsCalculator/.tf/12/e7262d8c-8e7d-435a-ae52-c437e925fb67.gz" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MsSavingsCalculator/.tf/12/e744695c-844b-43d2-a517-54501087930e.gz" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MsSavingsCalculator/.tf/12/fa1fe87c-d640-4c9e-8066-f160d6e4153b.gz" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MsSavingsCalculator/.tf/13/0f7d7e9d-ae4b-44d0-943a-fe3c7de7bc96.gz" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MsSavingsCalculator/.tf/13/304efd5d-0d43-4a00-a8d2-2665c0d511b1.gz" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MsSavingsCalculator/.tf/13/5f92841d-8174-4db9-ae9a-f08e0d48be78.gz" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MsSavingsCalculator/.tf/13/76b98a6d-41aa-4742-bfdd-264c61bbb7ef.gz" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MsSavingsCalculator/.tf/13/9330b49d-54a6-4c23-8dcd-72145936fa5f.gz" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MsSavingsCalculator/.tf/13/a7704e8d-1e8a-48b2-b911-241fdeaff7de.gz" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MsSavingsCalculator/.tf/13/dc1b3ffd-dc0c-4b2b-962e-0c054a8489a7.gz" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MsSavingsCalculator/.tf/13/e6641efd-24f0-4ef9-a343-8e6b08968f4e.gz" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MsSavingsCalculator/.tf/14/2ff49d6e-6fc1-4cb4-a27c-c2076c21e438.gz" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MsSavingsCalculator/.tf/14/321136fe-f734-42c2-80de-510aed4521c9.gz" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MsSavingsCalculator/.tf/14/715a2a3e-7414-4230-a33d-8b78f5fd3ea3.gz" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MsSavingsCalculator/.tf/14/c93c103e-9dff-4d9d-926f-fc93d811f710.gz" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MsSavingsCalculator/.tf/14/ccd364de-0229-4701-888c-cd8286be20f4.gz" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MsSavingsCalculator/.tf/14/cd980b3e-ba64-49d8-8f39-1e78d1f32bec.gz" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MsSavingsCalculator/.tf/15/0dc5234f-66fe-41fa-ba9f-67823f45a172.gz" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MsSavingsCalculator/.tf/15/14cbb01f-dbbc-4045-9284-a03234096e63.gz" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MsSavingsCalculator/.tf/15/159552af-18d6-4602-b0f9-3ebd872895ad.gz" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MsSavingsCalculator/.tf/15/15f99e0f-1e50-4ac2-8c2d-5b62f9141b81.gz" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MsSavingsCalculator/.tf/15/1e62b7df-4e5e-46c8-add1-0d055f503325.gz" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MsSavingsCalculator/.tf/15/238f6caf-6c39-46ad-84b6-799cfa7dde3d.gz" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MsSavingsCalculator/.tf/15/3d53016f-3da3-4abc-9587-57a9c334fd7d.gz" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MsSavingsCalculator/.tf/15/3fdea7df-ce67-4484-995a-660648eea25d.gz" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MsSavingsCalculator/.tf/15/5d9639cf-534a-46bf-bd9f-45b63768af85.gz" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MsSavingsCalculator/.tf/15/a5b3a32f-e27b-4a8a-b7f8-9f94eec8b582.gz" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MsSavingsCalculator/.tf/15/b290c73f-b201-4694-a0b1-427d8a1d3666.gz" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MsSavingsCalculator/.tf/15/d48c229f-15a7-422c-86bc-5103fca54179.gz" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MsSavingsCalculator/.tf/2/28a059f2-0301-47e5-a08b-d36fc6b769b2.gz" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MsSavingsCalculator/.tf/2/35e4f302-7db9-4e48-9810-24fe776db185.gz" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MsSavingsCalculator/.tf/2/3bb2b962-e4f9-4f63-a41b-62b90b2f5e69.gz" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MsSavingsCalculator/.tf/2/4bd67bc2-47eb-4479-8f48-66de5210a52e.gz" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MsSavingsCalculator/.tf/2/58df0752-bdf3-4bce-8dc2-fa93a6bb5393.gz" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MsSavingsCalculator/.tf/2/5dced842-77e6-4c0b-a4d3-0877e726dc40.gz" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MsSavingsCalculator/.tf/2/75a83de2-bacd-446c-a5c5-0a3611a62339.gz" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MsSavingsCalculator/.tf/2/836fe742-8cc8-4bbc-83d5-a73166c2ee60.gz" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MsSavingsCalculator/.tf/2/8622f672-bf0b-4738-a034-f0f6db25d323.gz" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MsSavingsCalculator/.tf/2/b84f8cd2-5bf1-4254-894b-02df09db82b3.gz" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MsSavingsCalculator/.tf/2/b9f0d042-63a7-43e4-bea1-f9c8453e374e.gz" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MsSavingsCalculator/.tf/2/ccf3d6c2-59fb-432a-bfd5-0433e706372d.gz" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MsSavingsCalculator/.tf/3/04647733-d02c-4237-986b-828beae56c74.gz" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MsSavingsCalculator/.tf/3/171a8e23-3d34-4940-97fc-f322a081f637.gz" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MsSavingsCalculator/.tf/3/1849b9c3-83f8-4037-877c-1e4395501398.gz" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MsSavingsCalculator/.tf/3/61eaece3-b36e-485b-b191-85f42e39402c.gz" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MsSavingsCalculator/.tf/3/8ed3af43-6991-42f8-a6c9-c24ffc531c17.gz" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MsSavingsCalculator/.tf/3/abba7313-0cea-44a9-ae3c-4b3cf488214b.gz" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MsSavingsCalculator/.tf/3/ca745c03-46d0-49a0-8ce1-6ecd46fcf1d3.gz" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MsSavingsCalculator/.tf/4/09653954-0a35-43f4-9954-8cc8e56c1ace.gz" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MsSavingsCalculator/.tf/4/09a81c64-286d-4ed3-9caf-9d5b1d6b76fe.gz" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MsSavingsCalculator/.tf/4/1ca27f14-1e98-4571-8467-1f3321d19af4.gz" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MsSavingsCalculator/.tf/4/3f2b0674-58bf-4536-aece-97478c58d554.gz" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MsSavingsCalculator/.tf/4/3fed7244-a8c8-405e-a13d-e3db19dd57f3.gz" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MsSavingsCalculator/.tf/4/4a8f2d44-092d-48e7-b7c1-5be7780eaa96.gz" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MsSavingsCalculator/.tf/4/aff46944-b63e-48cd-912f-005ebf8b9916.gz" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MsSavingsCalculator/.tf/4/b08de664-af80-482b-9c78-cde0a0b972ff.gz" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MsSavingsCalculator/.tf/4/b4f9a084-47df-461d-b87e-2aaebc004206.gz" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MsSavingsCalculator/.tf/4/e724fcc4-f909-45de-8c5a-669870f9d4e6.gz" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MsSavingsCalculator/.tf/4/f21cc1b4-2ed1-4455-ac67-d2c2bae86585.gz" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MsSavingsCalculator/.tf/4/fc689554-7cda-432a-b547-7725b39bce6e.gz" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MsSavingsCalculator/.tf/5/1d385465-a887-4910-8b74-4e4a6a43670c.gz" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MsSavingsCalculator/.tf/5/5a43dd35-bcbf-4ad3-99dd-d7fdae01363f.gz" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MsSavingsCalculator/.tf/5/8ea86425-69d5-478f-879b-16d92aa8c0da.gz" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MsSavingsCalculator/.tf/5/8fdc9785-2e8a-402f-b5d5-dc2f2c32a06d.gz" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MsSavingsCalculator/.tf/5/b8b14745-b4a3-4bff-be09-98f5fd18c8b9.gz" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MsSavingsCalculator/.tf/5/dba85935-f7cb-44db-bcc2-ddb047c78764.gz" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MsSavingsCalculator/.tf/5/dc57f575-54e8-49e4-99a3-4f04359ee13d.gz" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MsSavingsCalculator/.tf/6/2dfa8126-3aa3-478d-8a84-179b62e5d58c.gz" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MsSavingsCalculator/.tf/6/3e946bd6-4d1c-42b2-a89a-d974fa4e1ff7.gz" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MsSavingsCalculator/.tf/6/5b2b1bc6-beb0-48ac-9b09-b7941eb4ccaa.gz" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MsSavingsCalculator/.tf/6/848684e6-81c6-4297-8ee2-4489f364f844.gz" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MsSavingsCalculator/.tf/6/a1c49ee6-05ca-4d1b-b086-05657cb5f54e.gz" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MsSavingsCalculator/.tf/6/be7afeb6-1c0c-4f44-856b-374f93eeb141.gz" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MsSavingsCalculator/.tf/6/f8abdd26-a5e4-4e53-80ad-cecadf895a91.gz" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MsSavingsCalculator/.tf/6/ff2a75f6-cc51-45a9-81d1-e681f2306916.gz" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MsSavingsCalculator/.tf/7/17974767-036e-4990-a7a0-0af6f1f45ad9.gz" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MsSavingsCalculator/.tf/7/185017d7-0ceb-4d2b-b84a-725d5f01b867.gz" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MsSavingsCalculator/.tf/7/3713d767-6507-4d44-9da1-aedbc6dcc582.gz" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MsSavingsCalculator/.tf/7/468468b7-df3b-4df2-a1de-d3c11d3c5661.gz" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MsSavingsCalculator/.tf/7/51c4e687-cc7c-49a5-b1c3-434c04275a3c.gz" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MsSavingsCalculator/.tf/7/65ce4c07-7a51-4bc1-ae1a-5d1bc99ab5da.gz" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MsSavingsCalculator/.tf/7/7ce43fd7-6dc8-4b08-9f33-4c5deafe88a3.gz" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MsSavingsCalculator/.tf/7/e0c02537-2827-46b2-bfe9-1cf404fbd32c.gz" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MsSavingsCalculator/.tf/7/e5197d67-1364-4720-b9e5-bf92ad52380c.gz" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MsSavingsCalculator/.tf/8/035fab28-1a54-485a-8527-24564bfe8333.gz" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MsSavingsCalculator/.tf/8/10257a38-23b7-48f0-b21b-2762cf7f8182.gz" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MsSavingsCalculator/.tf/8/27e1d9b8-6f7d-4abe-a705-201e19b212f2.gz" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MsSavingsCalculator/.tf/8/354681d8-becc-4d0d-92cb-f11456828874.gz" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MsSavingsCalculator/.tf/8/685e45e8-bb26-4538-ac81-a3572b541814.gz" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MsSavingsCalculator/.tf/8/790c8108-26b6-4c39-b46d-fd7a642a8220.gz" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MsSavingsCalculator/.tf/8/aee145e8-8bd3-4809-bc62-a413ba551b67.gz" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MsSavingsCalculator/.tf/8/b4d48468-fbbf-430c-8251-8fc9bc00738c.gz" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MsSavingsCalculator/.tf/8/c3806838-d502-4b27-b915-6861a5386c0d.gz" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MsSavingsCalculator/.tf/8/d5578438-3aa1-455b-8fe1-b290e4063e8d.gz" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MsSavingsCalculator/.tf/9/095791e9-5997-4fb8-8f51-9a732f03c275.gz" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MsSavingsCalculator/.tf/9/15f3b5b9-fffd-4047-9153-266e7f01eb5b.gz" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MsSavingsCalculator/.tf/9/3c218549-337c-497c-8de6-0e8254986b11.gz" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MsSavingsCalculator/.tf/9/47cb1df9-f400-4d72-847a-f8310f16fa57.gz" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MsSavingsCalculator/.tf/9/6f5c28b9-84a2-4c43-89cb-3f95072fe740.gz" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MsSavingsCalculator/.tf/9/a7ba3469-6001-40a8-8716-05bec3501bbc.gz" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MsSavingsCalculator/.tf/9/cb6e4239-bd5d-43ba-8e54-6808f08104c7.gz" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MsSavingsCalculator/.tf/9/e7917c99-553e-4706-9d86-7e224e1d27d5.gz" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MsSavingsCalculator/.tf/localversion.lock" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MsSavingsCalculator/.tf/localversion.tf1" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MsSavingsCalculator/.tf/pendingchanges.lock" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MsSavingsCalculator/.tf/pendingchanges.tf1" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MsSavingsCalculator/.tf/properties.tf1" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MsSavingsCalculator/SavingsCalculator/.classpath" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MsSavingsCalculator/SavingsCalculator/.idea/.name" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MsSavingsCalculator/SavingsCalculator/.idea/compiler.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MsSavingsCalculator/SavingsCalculator/.idea/copyright/profiles_settings.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MsSavingsCalculator/SavingsCalculator/.idea/dictionaries/Tom.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MsSavingsCalculator/SavingsCalculator/.idea/encodings.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MsSavingsCalculator/SavingsCalculator/.idea/gradle.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MsSavingsCalculator/SavingsCalculator/.idea/libraries/android_support_v4.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MsSavingsCalculator/SavingsCalculator/.idea/misc.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MsSavingsCalculator/SavingsCalculator/.idea/modules.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MsSavingsCalculator/SavingsCalculator/.idea/scopes/scope_settings.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MsSavingsCalculator/SavingsCalculator/.idea/vcs.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MsSavingsCalculator/SavingsCalculator/.idea/workspace.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MsSavingsCalculator/SavingsCalculator/.project" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MsSavingsCalculator/SavingsCalculator/.settings/org.eclipse.jdt.core.prefs" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MsSavingsCalculator/SavingsCalculator/.settings/org.eclipse.jdt.ui.prefs" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MsSavingsCalculator/SavingsCalculator/.settings/org.eclipse.ltk.core.refactoring.prefs" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MsSavingsCalculator/SavingsCalculator/AndroidManifest.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MsSavingsCalculator/SavingsCalculator/SavingsCalculator.iml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MsSavingsCalculator/SavingsCalculator/build.gradle" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MsSavingsCalculator/SavingsCalculator/gen/com/avantics/savingscalc/BuildConfig.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MsSavingsCalculator/SavingsCalculator/gen/com/avantics/savingscalc/Manifest.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MsSavingsCalculator/SavingsCalculator/gen/com/avantics/savingscalc/R.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MsSavingsCalculator/SavingsCalculator/libs/GoogleAdMobAdsSdk.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MsSavingsCalculator/SavingsCalculator/lint.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MsSavingsCalculator/SavingsCalculator/local.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MsSavingsCalculator/SavingsCalculator/proguard-project.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MsSavingsCalculator/SavingsCalculator/project.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MsSavingsCalculator/SavingsCalculator/res/layout-w600dp/main_ad.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MsSavingsCalculator/SavingsCalculator/res/layout/ad_mob_view.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MsSavingsCalculator/SavingsCalculator/res/layout/main_ad.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MsSavingsCalculator/SavingsCalculator/res/layout/standard_form_ad.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MsSavingsCalculator/SavingsCalculator/res/values-sw600dp/dimens.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MsSavingsCalculator/SavingsCalculator/res/values-sw720dp-land/dimens.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MsSavingsCalculator/SavingsCalculator/res/values-v11/styles.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MsSavingsCalculator/SavingsCalculator/res/values-v14/styles.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MsSavingsCalculator/SavingsCalculator/res/values/dimens.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MsSavingsCalculator/SavingsCalculator/res/values/strings.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MsSavingsCalculator/SavingsCalculator/res/values/styles.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MsSavingsCalculator/SavingsCalculator/settings.gradle" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MsSavingsCalculator/SavingsCalculator/src/com/avantics/savingscalc/activities/Main.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MsSavingsCalculator/SavingsCalculatorCommon/.classpath" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MsSavingsCalculator/SavingsCalculatorCommon/.idea/.name" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MsSavingsCalculator/SavingsCalculatorCommon/.idea/compiler.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MsSavingsCalculator/SavingsCalculatorCommon/.idea/copyright/profiles_settings.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MsSavingsCalculator/SavingsCalculatorCommon/.idea/encodings.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MsSavingsCalculator/SavingsCalculatorCommon/.idea/gradle.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MsSavingsCalculator/SavingsCalculatorCommon/.idea/libraries/android_support_v41.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MsSavingsCalculator/SavingsCalculatorCommon/.idea/libraries/jxl.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MsSavingsCalculator/SavingsCalculatorCommon/.idea/misc.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MsSavingsCalculator/SavingsCalculatorCommon/.idea/modules.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MsSavingsCalculator/SavingsCalculatorCommon/.idea/scopes/scope_settings.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MsSavingsCalculator/SavingsCalculatorCommon/.idea/vcs.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MsSavingsCalculator/SavingsCalculatorCommon/.idea/workspace.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MsSavingsCalculator/SavingsCalculatorCommon/.project" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MsSavingsCalculator/SavingsCalculatorCommon/.settings/org.eclipse.jdt.core.prefs" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MsSavingsCalculator/SavingsCalculatorCommon/AndroidManifest.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MsSavingsCalculator/SavingsCalculatorCommon/SavingsCalculatorCommon.iml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MsSavingsCalculator/SavingsCalculatorCommon/build.gradle" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MsSavingsCalculator/SavingsCalculatorCommon/classes/production/AvanticsCommon/com/avantics/common/AmountOnFocusChangeListener.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MsSavingsCalculator/SavingsCalculatorCommon/classes/production/AvanticsCommon/com/avantics/common/BuildConfig.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MsSavingsCalculator/SavingsCalculatorCommon/classes/production/AvanticsCommon/com/avantics/common/CalcWatcher.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MsSavingsCalculator/SavingsCalculatorCommon/classes/production/AvanticsCommon/com/avantics/common/CalculateInterface.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MsSavingsCalculator/SavingsCalculatorCommon/classes/production/AvanticsCommon/com/avantics/common/Formatters.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MsSavingsCalculator/SavingsCalculatorCommon/classes/production/AvanticsCommon/com/avantics/common/Helper.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MsSavingsCalculator/SavingsCalculatorCommon/classes/production/AvanticsCommon/com/avantics/common/NumericRangeFilter.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MsSavingsCalculator/SavingsCalculatorCommon/classes/production/AvanticsCommon/com/avantics/common/R$attr.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MsSavingsCalculator/SavingsCalculatorCommon/classes/production/AvanticsCommon/com/avantics/common/R$drawable.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MsSavingsCalculator/SavingsCalculatorCommon/classes/production/AvanticsCommon/com/avantics/common/R$string.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MsSavingsCalculator/SavingsCalculatorCommon/classes/production/AvanticsCommon/com/avantics/common/R$style.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MsSavingsCalculator/SavingsCalculatorCommon/classes/production/AvanticsCommon/com/avantics/common/R.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MsSavingsCalculator/SavingsCalculatorCommon/classes/production/AvanticsCommon/com/avantics/common/UiBindingContainer.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MsSavingsCalculator/SavingsCalculatorCommon/classes/production/SavingsCalculator/SavingsCalculator.apk" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MsSavingsCalculator/SavingsCalculatorCommon/classes/production/SavingsCalculator/SavingsCalculator.unaligned.apk" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MsSavingsCalculator/SavingsCalculatorCommon/classes/production/SavingsCalculator/com/avantics/common/BuildConfig.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MsSavingsCalculator/SavingsCalculatorCommon/classes/production/SavingsCalculator/com/avantics/common/R$attr.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MsSavingsCalculator/SavingsCalculatorCommon/classes/production/SavingsCalculator/com/avantics/common/R$dimen.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MsSavingsCalculator/SavingsCalculatorCommon/classes/production/SavingsCalculator/com/avantics/common/R$drawable.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MsSavingsCalculator/SavingsCalculatorCommon/classes/production/SavingsCalculator/com/avantics/common/R$id.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MsSavingsCalculator/SavingsCalculatorCommon/classes/production/SavingsCalculator/com/avantics/common/R$layout.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MsSavingsCalculator/SavingsCalculatorCommon/classes/production/SavingsCalculator/com/avantics/common/R$string.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MsSavingsCalculator/SavingsCalculatorCommon/classes/production/SavingsCalculator/com/avantics/common/R$style.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MsSavingsCalculator/SavingsCalculatorCommon/classes/production/SavingsCalculator/com/avantics/common/R.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MsSavingsCalculator/SavingsCalculatorCommon/classes/production/SavingsCalculator/com/avantics/savingscalc/BuildConfig.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MsSavingsCalculator/SavingsCalculatorCommon/classes/production/SavingsCalculator/com/avantics/savingscalc/R$attr.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MsSavingsCalculator/SavingsCalculatorCommon/classes/production/SavingsCalculator/com/avantics/savingscalc/R$dimen.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MsSavingsCalculator/SavingsCalculatorCommon/classes/production/SavingsCalculator/com/avantics/savingscalc/R$drawable.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MsSavingsCalculator/SavingsCalculatorCommon/classes/production/SavingsCalculator/com/avantics/savingscalc/R$id.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MsSavingsCalculator/SavingsCalculatorCommon/classes/production/SavingsCalculator/com/avantics/savingscalc/R$layout.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MsSavingsCalculator/SavingsCalculatorCommon/classes/production/SavingsCalculator/com/avantics/savingscalc/R$string.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MsSavingsCalculator/SavingsCalculatorCommon/classes/production/SavingsCalculator/com/avantics/savingscalc/R$style.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MsSavingsCalculator/SavingsCalculatorCommon/classes/production/SavingsCalculator/com/avantics/savingscalc/R.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MsSavingsCalculator/SavingsCalculatorCommon/classes/production/SavingsCalculator/com/avantics/savingscalc/StandardActivity.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MsSavingsCalculator/SavingsCalculatorCommon/classes/production/SavingsCalculator/com/avantics/savingscalc/common/BuildConfig.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MsSavingsCalculator/SavingsCalculatorCommon/classes/production/SavingsCalculator/com/avantics/savingscalc/common/R$attr.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MsSavingsCalculator/SavingsCalculatorCommon/classes/production/SavingsCalculator/com/avantics/savingscalc/common/R$dimen.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MsSavingsCalculator/SavingsCalculatorCommon/classes/production/SavingsCalculator/com/avantics/savingscalc/common/R$drawable.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MsSavingsCalculator/SavingsCalculatorCommon/classes/production/SavingsCalculator/com/avantics/savingscalc/common/R$id.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MsSavingsCalculator/SavingsCalculatorCommon/classes/production/SavingsCalculator/com/avantics/savingscalc/common/R$layout.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MsSavingsCalculator/SavingsCalculatorCommon/classes/production/SavingsCalculator/com/avantics/savingscalc/common/R$string.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MsSavingsCalculator/SavingsCalculatorCommon/classes/production/SavingsCalculator/com/avantics/savingscalc/common/R$style.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MsSavingsCalculator/SavingsCalculatorCommon/classes/production/SavingsCalculator/com/avantics/savingscalc/common/R.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MsSavingsCalculator/SavingsCalculatorCommon/classes/production/SavingsCalculatorCommon/com/avantics/common/BuildConfig.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MsSavingsCalculator/SavingsCalculatorCommon/classes/production/SavingsCalculatorCommon/com/avantics/common/R$attr.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MsSavingsCalculator/SavingsCalculatorCommon/classes/production/SavingsCalculatorCommon/com/avantics/common/R$dimen.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MsSavingsCalculator/SavingsCalculatorCommon/classes/production/SavingsCalculatorCommon/com/avantics/common/R$drawable.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MsSavingsCalculator/SavingsCalculatorCommon/classes/production/SavingsCalculatorCommon/com/avantics/common/R$id.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MsSavingsCalculator/SavingsCalculatorCommon/classes/production/SavingsCalculatorCommon/com/avantics/common/R$layout.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MsSavingsCalculator/SavingsCalculatorCommon/classes/production/SavingsCalculatorCommon/com/avantics/common/R$string.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MsSavingsCalculator/SavingsCalculatorCommon/classes/production/SavingsCalculatorCommon/com/avantics/common/R$style.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MsSavingsCalculator/SavingsCalculatorCommon/classes/production/SavingsCalculatorCommon/com/avantics/common/R.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MsSavingsCalculator/SavingsCalculatorCommon/classes/production/SavingsCalculatorCommon/com/avantics/savingscalc/common/BuildConfig.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MsSavingsCalculator/SavingsCalculatorCommon/classes/production/SavingsCalculatorCommon/com/avantics/savingscalc/common/IActivity.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MsSavingsCalculator/SavingsCalculatorCommon/classes/production/SavingsCalculatorCommon/com/avantics/savingscalc/common/Quote.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MsSavingsCalculator/SavingsCalculatorCommon/classes/production/SavingsCalculatorCommon/com/avantics/savingscalc/common/R$attr.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MsSavingsCalculator/SavingsCalculatorCommon/classes/production/SavingsCalculatorCommon/com/avantics/savingscalc/common/R$dimen.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MsSavingsCalculator/SavingsCalculatorCommon/classes/production/SavingsCalculatorCommon/com/avantics/savingscalc/common/R$drawable.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MsSavingsCalculator/SavingsCalculatorCommon/classes/production/SavingsCalculatorCommon/com/avantics/savingscalc/common/R$id.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MsSavingsCalculator/SavingsCalculatorCommon/classes/production/SavingsCalculatorCommon/com/avantics/savingscalc/common/R$layout.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MsSavingsCalculator/SavingsCalculatorCommon/classes/production/SavingsCalculatorCommon/com/avantics/savingscalc/common/R$string.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MsSavingsCalculator/SavingsCalculatorCommon/classes/production/SavingsCalculatorCommon/com/avantics/savingscalc/common/R$style.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MsSavingsCalculator/SavingsCalculatorCommon/classes/production/SavingsCalculatorCommon/com/avantics/savingscalc/common/R.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MsSavingsCalculator/SavingsCalculatorCommon/classes/production/SavingsCalculatorCommon/com/avantics/savingscalc/common/UiBindingManager.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MsSavingsCalculator/SavingsCalculatorCommon/classes/production/SavingsCalculatorCommon/com/avantics/savingscalc/common/fragments/IncumbentFragment.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MsSavingsCalculator/SavingsCalculatorCommon/classes/production/SavingsCalculatorCommon/com/avantics/savingscalc/common/fragments/ProposedFragment.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MsSavingsCalculator/SavingsCalculatorCommon/classes/production/SavingsCalculatorCommon/com/avantics/savingscalc/common/fragments/QuoteFragment$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MsSavingsCalculator/SavingsCalculatorCommon/classes/production/SavingsCalculatorCommon/com/avantics/savingscalc/common/fragments/QuoteFragment$2.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MsSavingsCalculator/SavingsCalculatorCommon/classes/production/SavingsCalculatorCommon/com/avantics/savingscalc/common/fragments/QuoteFragment$3.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MsSavingsCalculator/SavingsCalculatorCommon/classes/production/SavingsCalculatorCommon/com/avantics/savingscalc/common/fragments/QuoteFragment$4.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MsSavingsCalculator/SavingsCalculatorCommon/classes/production/SavingsCalculatorCommon/com/avantics/savingscalc/common/fragments/QuoteFragment$5.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MsSavingsCalculator/SavingsCalculatorCommon/classes/production/SavingsCalculatorCommon/com/avantics/savingscalc/common/fragments/QuoteFragment$6.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MsSavingsCalculator/SavingsCalculatorCommon/classes/production/SavingsCalculatorCommon/com/avantics/savingscalc/common/fragments/QuoteFragment$7.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MsSavingsCalculator/SavingsCalculatorCommon/classes/production/SavingsCalculatorCommon/com/avantics/savingscalc/common/fragments/QuoteFragment$8.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MsSavingsCalculator/SavingsCalculatorCommon/classes/production/SavingsCalculatorCommon/com/avantics/savingscalc/common/fragments/QuoteFragment.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MsSavingsCalculator/SavingsCalculatorCommon/classes/production/SavingsCalculatorCommon/com/avantics/savingscalc/common/fragments/SummaryFragment.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MsSavingsCalculator/SavingsCalculatorCommon/classes/production/SavingsCalculatorPremium/SavingsCalculatorPremium.apk" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MsSavingsCalculator/SavingsCalculatorCommon/classes/production/SavingsCalculatorPremium/SavingsCalculatorPremium.unaligned.apk" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MsSavingsCalculator/SavingsCalculatorCommon/classes/production/SavingsCalculatorPremium/com/avantics/common/BuildConfig.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MsSavingsCalculator/SavingsCalculatorCommon/classes/production/SavingsCalculatorPremium/com/avantics/common/R$attr.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MsSavingsCalculator/SavingsCalculatorCommon/classes/production/SavingsCalculatorPremium/com/avantics/common/R$dimen.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MsSavingsCalculator/SavingsCalculatorCommon/classes/production/SavingsCalculatorPremium/com/avantics/common/R$drawable.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MsSavingsCalculator/SavingsCalculatorCommon/classes/production/SavingsCalculatorPremium/com/avantics/common/R$id.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MsSavingsCalculator/SavingsCalculatorCommon/classes/production/SavingsCalculatorPremium/com/avantics/common/R$layout.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MsSavingsCalculator/SavingsCalculatorCommon/classes/production/SavingsCalculatorPremium/com/avantics/common/R$menu.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MsSavingsCalculator/SavingsCalculatorCommon/classes/production/SavingsCalculatorPremium/com/avantics/common/R$string.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MsSavingsCalculator/SavingsCalculatorCommon/classes/production/SavingsCalculatorPremium/com/avantics/common/R$style.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MsSavingsCalculator/SavingsCalculatorCommon/classes/production/SavingsCalculatorPremium/com/avantics/common/R.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MsSavingsCalculator/SavingsCalculatorCommon/classes/production/SavingsCalculatorPremium/com/avantics/savingscalc/common/BuildConfig.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MsSavingsCalculator/SavingsCalculatorCommon/classes/production/SavingsCalculatorPremium/com/avantics/savingscalc/common/R$attr.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MsSavingsCalculator/SavingsCalculatorCommon/classes/production/SavingsCalculatorPremium/com/avantics/savingscalc/common/R$dimen.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MsSavingsCalculator/SavingsCalculatorCommon/classes/production/SavingsCalculatorPremium/com/avantics/savingscalc/common/R$drawable.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MsSavingsCalculator/SavingsCalculatorCommon/classes/production/SavingsCalculatorPremium/com/avantics/savingscalc/common/R$id.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MsSavingsCalculator/SavingsCalculatorCommon/classes/production/SavingsCalculatorPremium/com/avantics/savingscalc/common/R$layout.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MsSavingsCalculator/SavingsCalculatorCommon/classes/production/SavingsCalculatorPremium/com/avantics/savingscalc/common/R$menu.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MsSavingsCalculator/SavingsCalculatorCommon/classes/production/SavingsCalculatorPremium/com/avantics/savingscalc/common/R$string.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MsSavingsCalculator/SavingsCalculatorCommon/classes/production/SavingsCalculatorPremium/com/avantics/savingscalc/common/R$style.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MsSavingsCalculator/SavingsCalculatorCommon/classes/production/SavingsCalculatorPremium/com/avantics/savingscalc/common/R.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MsSavingsCalculator/SavingsCalculatorCommon/classes/production/SavingsCalculatorPremium/com/avantics/savingscalcpremium/BuildConfig.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MsSavingsCalculator/SavingsCalculatorCommon/classes/production/SavingsCalculatorPremium/com/avantics/savingscalcpremium/ConfirmDialogFragment$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MsSavingsCalculator/SavingsCalculatorCommon/classes/production/SavingsCalculatorPremium/com/avantics/savingscalcpremium/ConfirmDialogFragment$2.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MsSavingsCalculator/SavingsCalculatorCommon/classes/production/SavingsCalculatorPremium/com/avantics/savingscalcpremium/ConfirmDialogFragment.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MsSavingsCalculator/SavingsCalculatorCommon/classes/production/SavingsCalculatorPremium/com/avantics/savingscalcpremium/ConfirmationDialogHandler.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MsSavingsCalculator/SavingsCalculatorCommon/classes/production/SavingsCalculatorPremium/com/avantics/savingscalcpremium/DatabaseHelper.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MsSavingsCalculator/SavingsCalculatorCommon/classes/production/SavingsCalculatorPremium/com/avantics/savingscalcpremium/DeleteQuoteRequestHandler.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MsSavingsCalculator/SavingsCalculatorCommon/classes/production/SavingsCalculatorPremium/com/avantics/savingscalcpremium/ExcelExporter.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MsSavingsCalculator/SavingsCalculatorCommon/classes/production/SavingsCalculatorPremium/com/avantics/savingscalcpremium/LoadListItem.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MsSavingsCalculator/SavingsCalculatorCommon/classes/production/SavingsCalculatorPremium/com/avantics/savingscalcpremium/LoadListItemAdapter$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MsSavingsCalculator/SavingsCalculatorCommon/classes/production/SavingsCalculatorPremium/com/avantics/savingscalcpremium/LoadListItemAdapter$LoadListItemHolder.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MsSavingsCalculator/SavingsCalculatorCommon/classes/production/SavingsCalculatorPremium/com/avantics/savingscalcpremium/LoadListItemAdapter.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MsSavingsCalculator/SavingsCalculatorCommon/classes/production/SavingsCalculatorPremium/com/avantics/savingscalcpremium/LoadQuoteDialogFragment$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MsSavingsCalculator/SavingsCalculatorCommon/classes/production/SavingsCalculatorPremium/com/avantics/savingscalcpremium/LoadQuoteDialogFragment.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MsSavingsCalculator/SavingsCalculatorCommon/classes/production/SavingsCalculatorPremium/com/avantics/savingscalcpremium/R$attr.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MsSavingsCalculator/SavingsCalculatorCommon/classes/production/SavingsCalculatorPremium/com/avantics/savingscalcpremium/R$dimen.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MsSavingsCalculator/SavingsCalculatorCommon/classes/production/SavingsCalculatorPremium/com/avantics/savingscalcpremium/R$drawable.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MsSavingsCalculator/SavingsCalculatorCommon/classes/production/SavingsCalculatorPremium/com/avantics/savingscalcpremium/R$id.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MsSavingsCalculator/SavingsCalculatorCommon/classes/production/SavingsCalculatorPremium/com/avantics/savingscalcpremium/R$layout.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MsSavingsCalculator/SavingsCalculatorCommon/classes/production/SavingsCalculatorPremium/com/avantics/savingscalcpremium/R$menu.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MsSavingsCalculator/SavingsCalculatorCommon/classes/production/SavingsCalculatorPremium/com/avantics/savingscalcpremium/R$string.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MsSavingsCalculator/SavingsCalculatorCommon/classes/production/SavingsCalculatorPremium/com/avantics/savingscalcpremium/R$style.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MsSavingsCalculator/SavingsCalculatorCommon/classes/production/SavingsCalculatorPremium/com/avantics/savingscalcpremium/R.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MsSavingsCalculator/SavingsCalculatorCommon/classes/production/SavingsCalculatorPremium/com/avantics/savingscalcpremium/activities/SettingsActivity.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MsSavingsCalculator/SavingsCalculatorCommon/classes/production/SavingsCalculatorPremium/com/avantics/savingscalcpremium/fragments/PremiumQuoteFragment.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MsSavingsCalculator/SavingsCalculatorCommon/classes/production/SavingsCalculatorPremium/com/avantics/savingscalcpremium/fragments/SettingsFragment.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MsSavingsCalculator/SavingsCalculatorCommon/gen/com/avantics/savingscalc/common/BuildConfig.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MsSavingsCalculator/SavingsCalculatorCommon/gen/com/avantics/savingscalc/common/Manifest.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MsSavingsCalculator/SavingsCalculatorCommon/gen/com/avantics/savingscalc/common/R.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MsSavingsCalculator/SavingsCalculatorCommon/proguard-project.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MsSavingsCalculator/SavingsCalculatorCommon/project.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MsSavingsCalculator/SavingsCalculatorCommon/res/drawable-hdpi/ic_action_bar.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MsSavingsCalculator/SavingsCalculatorCommon/res/drawable-hdpi/ic_launcher.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MsSavingsCalculator/SavingsCalculatorCommon/res/drawable-mdpi/ic_action_bar.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MsSavingsCalculator/SavingsCalculatorCommon/res/drawable-mdpi/ic_launcher.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MsSavingsCalculator/SavingsCalculatorCommon/res/drawable-xhdpi/ic_action_bar.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MsSavingsCalculator/SavingsCalculatorCommon/res/drawable-xhdpi/ic_launcher.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MsSavingsCalculator/SavingsCalculatorCommon/res/drawable-xxhdpi/ic_action_bar.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MsSavingsCalculator/SavingsCalculatorCommon/res/drawable-xxhdpi/ic_launcher.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MsSavingsCalculator/SavingsCalculatorCommon/res/layout-w400dp/quote_incumbent.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MsSavingsCalculator/SavingsCalculatorCommon/res/layout-w400dp/quote_proposed.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MsSavingsCalculator/SavingsCalculatorCommon/res/layout-w400dp/quote_summary.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MsSavingsCalculator/SavingsCalculatorCommon/res/layout-w600dp/main.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MsSavingsCalculator/SavingsCalculatorCommon/res/layout-w600dp/quote_summary.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MsSavingsCalculator/SavingsCalculatorCommon/res/layout-w800dp/main.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MsSavingsCalculator/SavingsCalculatorCommon/res/layout-w800dp/quote_savings.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MsSavingsCalculator/SavingsCalculatorCommon/res/layout-w800dp/quote_summary.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MsSavingsCalculator/SavingsCalculatorCommon/res/layout/main.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MsSavingsCalculator/SavingsCalculatorCommon/res/layout/quote_calculation.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MsSavingsCalculator/SavingsCalculatorCommon/res/layout/quote_calculation_costing.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MsSavingsCalculator/SavingsCalculatorCommon/res/layout/quote_calculation_inc_costing.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MsSavingsCalculator/SavingsCalculatorCommon/res/layout/quote_form.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MsSavingsCalculator/SavingsCalculatorCommon/res/layout/quote_incumbent.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MsSavingsCalculator/SavingsCalculatorCommon/res/layout/quote_incumbent_headline.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MsSavingsCalculator/SavingsCalculatorCommon/res/layout/quote_phone_calculation_tab.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MsSavingsCalculator/SavingsCalculatorCommon/res/layout/quote_proposed.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MsSavingsCalculator/SavingsCalculatorCommon/res/layout/quote_savings.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MsSavingsCalculator/SavingsCalculatorCommon/res/layout/quote_summary.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MsSavingsCalculator/SavingsCalculatorCommon/res/layout/standard_form.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MsSavingsCalculator/SavingsCalculatorCommon/res/layout/tab_swipe_activity.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MsSavingsCalculator/SavingsCalculatorCommon/res/values-v11/styles.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MsSavingsCalculator/SavingsCalculatorCommon/res/values-v14/styles.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MsSavingsCalculator/SavingsCalculatorCommon/res/values-w600dp/strings.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MsSavingsCalculator/SavingsCalculatorCommon/res/values-w600dp/styles.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MsSavingsCalculator/SavingsCalculatorCommon/res/values-w800dp/strings.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MsSavingsCalculator/SavingsCalculatorCommon/res/values-w800dp/styles.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MsSavingsCalculator/SavingsCalculatorCommon/res/values/color.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MsSavingsCalculator/SavingsCalculatorCommon/res/values/dimens.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MsSavingsCalculator/SavingsCalculatorCommon/res/values/strings.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MsSavingsCalculator/SavingsCalculatorCommon/res/values/styles.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MsSavingsCalculator/SavingsCalculatorCommon/src/com/avantics/savingscalc/common/PagingAdapter.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MsSavingsCalculator/SavingsCalculatorCommon/src/com/avantics/savingscalc/common/UiBindingManager.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MsSavingsCalculator/SavingsCalculatorCommon/src/com/avantics/savingscalc/common/ViewPagerCustom.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MsSavingsCalculator/SavingsCalculatorCommon/src/com/avantics/savingscalc/common/entities/Quote.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MsSavingsCalculator/SavingsCalculatorCommon/src/com/avantics/savingscalc/common/fragments/BindableFragment.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MsSavingsCalculator/SavingsCalculatorCommon/src/com/avantics/savingscalc/common/fragments/CalculationFragment.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MsSavingsCalculator/SavingsCalculatorCommon/src/com/avantics/savingscalc/common/fragments/IncumbentFragment.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MsSavingsCalculator/SavingsCalculatorCommon/src/com/avantics/savingscalc/common/fragments/IncumbentHeadlineFragment.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MsSavingsCalculator/SavingsCalculatorCommon/src/com/avantics/savingscalc/common/fragments/MainFragment.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MsSavingsCalculator/SavingsCalculatorCommon/src/com/avantics/savingscalc/common/fragments/MobileTabbedFragment.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MsSavingsCalculator/SavingsCalculatorCommon/src/com/avantics/savingscalc/common/fragments/ProposedFragment.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MsSavingsCalculator/SavingsCalculatorCommon/src/com/avantics/savingscalc/common/fragments/QuoteFragment.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MsSavingsCalculator/SavingsCalculatorCommon/src/com/avantics/savingscalc/common/fragments/SavingsFragment.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MsSavingsCalculator/SavingsCalculatorCommon/src/com/avantics/savingscalc/common/fragments/SummaryFragment.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MsSavingsCalculator/SavingsCalculatorCommon/src/com/avantics/savingscalc/common/fragments/TabbedFragment.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MsSavingsCalculator/SavingsCalculatorPremium/.classpath" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MsSavingsCalculator/SavingsCalculatorPremium/.idea/.name" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MsSavingsCalculator/SavingsCalculatorPremium/.idea/compiler.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MsSavingsCalculator/SavingsCalculatorPremium/.idea/copyright/profiles_settings.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MsSavingsCalculator/SavingsCalculatorPremium/.idea/dictionaries/tom.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MsSavingsCalculator/SavingsCalculatorPremium/.idea/encodings.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MsSavingsCalculator/SavingsCalculatorPremium/.idea/libraries/android_support_v4.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MsSavingsCalculator/SavingsCalculatorPremium/.idea/libraries/libs.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MsSavingsCalculator/SavingsCalculatorPremium/.idea/misc.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MsSavingsCalculator/SavingsCalculatorPremium/.idea/modules.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MsSavingsCalculator/SavingsCalculatorPremium/.idea/scopes/scope_settings.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MsSavingsCalculator/SavingsCalculatorPremium/.idea/vcs.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MsSavingsCalculator/SavingsCalculatorPremium/.idea/workspace.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MsSavingsCalculator/SavingsCalculatorPremium/.project" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MsSavingsCalculator/SavingsCalculatorPremium/.settings/org.eclipse.jdt.core.prefs" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MsSavingsCalculator/SavingsCalculatorPremium/.settings/org.eclipse.ltk.core.refactoring.prefs" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MsSavingsCalculator/SavingsCalculatorPremium/AndroidManifest.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MsSavingsCalculator/SavingsCalculatorPremium/SavingsCalculatorPremium.iml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MsSavingsCalculator/SavingsCalculatorPremium/bin/classes/com/avantics/savingscalcpremium/ConfirmDialogFragment$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MsSavingsCalculator/SavingsCalculatorPremium/bin/classes/com/avantics/savingscalcpremium/ConfirmDialogFragment$2.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MsSavingsCalculator/SavingsCalculatorPremium/bin/classes/com/avantics/savingscalcpremium/ConfirmDialogFragment.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MsSavingsCalculator/SavingsCalculatorPremium/bin/classes/com/avantics/savingscalcpremium/ConfirmationDialogHandler.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MsSavingsCalculator/SavingsCalculatorPremium/bin/classes/com/avantics/savingscalcpremium/DatabaseHelper.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MsSavingsCalculator/SavingsCalculatorPremium/bin/classes/com/avantics/savingscalcpremium/DeleteQuoteRequestHandler.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MsSavingsCalculator/SavingsCalculatorPremium/bin/classes/com/avantics/savingscalcpremium/ExcelExporter.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MsSavingsCalculator/SavingsCalculatorPremium/bin/classes/com/avantics/savingscalcpremium/LoadListItem.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MsSavingsCalculator/SavingsCalculatorPremium/bin/classes/com/avantics/savingscalcpremium/LoadListItemAdapter$LoadListItemHolder.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MsSavingsCalculator/SavingsCalculatorPremium/bin/classes/com/avantics/savingscalcpremium/LoadListItemAdapter.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MsSavingsCalculator/SavingsCalculatorPremium/bin/classes/com/avantics/savingscalcpremium/LoadQuoteDialogFragment.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MsSavingsCalculator/SavingsCalculatorPremium/bin/classes/com/avantics/savingscalcpremium/activities/MainActivity.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MsSavingsCalculator/SavingsCalculatorPremium/bin/classes/com/avantics/savingscalcpremium/activities/SettingsActivity.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MsSavingsCalculator/SavingsCalculatorPremium/bin/classes/com/avantics/savingscalcpremium/fragments/PremiumQuoteFragment.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MsSavingsCalculator/SavingsCalculatorPremium/bin/classes/com/avantics/savingscalcpremium/fragments/SettingsFragment.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MsSavingsCalculator/SavingsCalculatorPremium/build.gradle" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MsSavingsCalculator/SavingsCalculatorPremium/gen/com/avantics/savingscalcpremium/BuildConfig.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MsSavingsCalculator/SavingsCalculatorPremium/gen/com/avantics/savingscalcpremium/Manifest.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MsSavingsCalculator/SavingsCalculatorPremium/gen/com/avantics/savingscalcpremium/R.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MsSavingsCalculator/SavingsCalculatorPremium/libs/jxl.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MsSavingsCalculator/SavingsCalculatorPremium/out/production/AvanticsCommon/com/avantics/common/AmountOnFocusChangeListener.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MsSavingsCalculator/SavingsCalculatorPremium/out/production/AvanticsCommon/com/avantics/common/BuildConfig.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MsSavingsCalculator/SavingsCalculatorPremium/out/production/AvanticsCommon/com/avantics/common/CalcWatcher.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MsSavingsCalculator/SavingsCalculatorPremium/out/production/AvanticsCommon/com/avantics/common/CalculateInterface.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MsSavingsCalculator/SavingsCalculatorPremium/out/production/AvanticsCommon/com/avantics/common/Formatters.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MsSavingsCalculator/SavingsCalculatorPremium/out/production/AvanticsCommon/com/avantics/common/Helper.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MsSavingsCalculator/SavingsCalculatorPremium/out/production/AvanticsCommon/com/avantics/common/NumericRangeFilter.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MsSavingsCalculator/SavingsCalculatorPremium/out/production/AvanticsCommon/com/avantics/common/R$attr.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MsSavingsCalculator/SavingsCalculatorPremium/out/production/AvanticsCommon/com/avantics/common/R$drawable.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MsSavingsCalculator/SavingsCalculatorPremium/out/production/AvanticsCommon/com/avantics/common/R$string.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MsSavingsCalculator/SavingsCalculatorPremium/out/production/AvanticsCommon/com/avantics/common/R$style.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MsSavingsCalculator/SavingsCalculatorPremium/out/production/AvanticsCommon/com/avantics/common/R.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MsSavingsCalculator/SavingsCalculatorPremium/out/production/AvanticsCommon/com/avantics/common/UiBindingContainer.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MsSavingsCalculator/SavingsCalculatorPremium/out/production/SavingsCalculator/SavingsCalculator.apk" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MsSavingsCalculator/SavingsCalculatorPremium/out/production/SavingsCalculator/SavingsCalculator.unaligned.apk" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MsSavingsCalculator/SavingsCalculatorPremium/out/production/SavingsCalculator/com/avantics/common/BuildConfig.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MsSavingsCalculator/SavingsCalculatorPremium/out/production/SavingsCalculator/com/avantics/common/R$attr.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MsSavingsCalculator/SavingsCalculatorPremium/out/production/SavingsCalculator/com/avantics/common/R$dimen.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MsSavingsCalculator/SavingsCalculatorPremium/out/production/SavingsCalculator/com/avantics/common/R$drawable.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MsSavingsCalculator/SavingsCalculatorPremium/out/production/SavingsCalculator/com/avantics/common/R$id.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MsSavingsCalculator/SavingsCalculatorPremium/out/production/SavingsCalculator/com/avantics/common/R$layout.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MsSavingsCalculator/SavingsCalculatorPremium/out/production/SavingsCalculator/com/avantics/common/R$string.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MsSavingsCalculator/SavingsCalculatorPremium/out/production/SavingsCalculator/com/avantics/common/R$style.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MsSavingsCalculator/SavingsCalculatorPremium/out/production/SavingsCalculator/com/avantics/common/R.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MsSavingsCalculator/SavingsCalculatorPremium/out/production/SavingsCalculator/com/avantics/savingscalc/BuildConfig.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MsSavingsCalculator/SavingsCalculatorPremium/out/production/SavingsCalculator/com/avantics/savingscalc/MainActivity$TabFactory.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MsSavingsCalculator/SavingsCalculatorPremium/out/production/SavingsCalculator/com/avantics/savingscalc/MainActivity$TabInfo.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MsSavingsCalculator/SavingsCalculatorPremium/out/production/SavingsCalculator/com/avantics/savingscalc/MainActivity.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MsSavingsCalculator/SavingsCalculatorPremium/out/production/SavingsCalculator/com/avantics/savingscalc/R$attr.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MsSavingsCalculator/SavingsCalculatorPremium/out/production/SavingsCalculator/com/avantics/savingscalc/R$dimen.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MsSavingsCalculator/SavingsCalculatorPremium/out/production/SavingsCalculator/com/avantics/savingscalc/R$drawable.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MsSavingsCalculator/SavingsCalculatorPremium/out/production/SavingsCalculator/com/avantics/savingscalc/R$id.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MsSavingsCalculator/SavingsCalculatorPremium/out/production/SavingsCalculator/com/avantics/savingscalc/R$layout.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MsSavingsCalculator/SavingsCalculatorPremium/out/production/SavingsCalculator/com/avantics/savingscalc/R$string.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MsSavingsCalculator/SavingsCalculatorPremium/out/production/SavingsCalculator/com/avantics/savingscalc/R$style.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MsSavingsCalculator/SavingsCalculatorPremium/out/production/SavingsCalculator/com/avantics/savingscalc/R.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MsSavingsCalculator/SavingsCalculatorPremium/out/production/SavingsCalculator/com/avantics/savingscalc/StandardActivity.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MsSavingsCalculator/SavingsCalculatorPremium/out/production/SavingsCalculator/com/avantics/savingscalc/common/BuildConfig.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MsSavingsCalculator/SavingsCalculatorPremium/out/production/SavingsCalculator/com/avantics/savingscalc/common/R$attr.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MsSavingsCalculator/SavingsCalculatorPremium/out/production/SavingsCalculator/com/avantics/savingscalc/common/R$dimen.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MsSavingsCalculator/SavingsCalculatorPremium/out/production/SavingsCalculator/com/avantics/savingscalc/common/R$drawable.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MsSavingsCalculator/SavingsCalculatorPremium/out/production/SavingsCalculator/com/avantics/savingscalc/common/R$id.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MsSavingsCalculator/SavingsCalculatorPremium/out/production/SavingsCalculator/com/avantics/savingscalc/common/R$layout.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MsSavingsCalculator/SavingsCalculatorPremium/out/production/SavingsCalculator/com/avantics/savingscalc/common/R$string.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MsSavingsCalculator/SavingsCalculatorPremium/out/production/SavingsCalculator/com/avantics/savingscalc/common/R$style.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MsSavingsCalculator/SavingsCalculatorPremium/out/production/SavingsCalculator/com/avantics/savingscalc/common/R.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MsSavingsCalculator/SavingsCalculatorPremium/out/production/SavingsCalculatorCommon/com/avantics/common/BuildConfig.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MsSavingsCalculator/SavingsCalculatorPremium/out/production/SavingsCalculatorCommon/com/avantics/common/R$attr.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MsSavingsCalculator/SavingsCalculatorPremium/out/production/SavingsCalculatorCommon/com/avantics/common/R$dimen.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MsSavingsCalculator/SavingsCalculatorPremium/out/production/SavingsCalculatorCommon/com/avantics/common/R$drawable.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MsSavingsCalculator/SavingsCalculatorPremium/out/production/SavingsCalculatorCommon/com/avantics/common/R$id.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MsSavingsCalculator/SavingsCalculatorPremium/out/production/SavingsCalculatorCommon/com/avantics/common/R$layout.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MsSavingsCalculator/SavingsCalculatorPremium/out/production/SavingsCalculatorCommon/com/avantics/common/R$string.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MsSavingsCalculator/SavingsCalculatorPremium/out/production/SavingsCalculatorCommon/com/avantics/common/R$style.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MsSavingsCalculator/SavingsCalculatorPremium/out/production/SavingsCalculatorCommon/com/avantics/common/R.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MsSavingsCalculator/SavingsCalculatorPremium/out/production/SavingsCalculatorCommon/com/avantics/savingscalc/common/BuildConfig.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MsSavingsCalculator/SavingsCalculatorPremium/out/production/SavingsCalculatorCommon/com/avantics/savingscalc/common/IActivity.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MsSavingsCalculator/SavingsCalculatorPremium/out/production/SavingsCalculatorCommon/com/avantics/savingscalc/common/Quote.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MsSavingsCalculator/SavingsCalculatorPremium/out/production/SavingsCalculatorCommon/com/avantics/savingscalc/common/R$attr.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MsSavingsCalculator/SavingsCalculatorPremium/out/production/SavingsCalculatorCommon/com/avantics/savingscalc/common/R$dimen.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MsSavingsCalculator/SavingsCalculatorPremium/out/production/SavingsCalculatorCommon/com/avantics/savingscalc/common/R$drawable.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MsSavingsCalculator/SavingsCalculatorPremium/out/production/SavingsCalculatorCommon/com/avantics/savingscalc/common/R$id.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MsSavingsCalculator/SavingsCalculatorPremium/out/production/SavingsCalculatorCommon/com/avantics/savingscalc/common/R$layout.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MsSavingsCalculator/SavingsCalculatorPremium/out/production/SavingsCalculatorCommon/com/avantics/savingscalc/common/R$string.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MsSavingsCalculator/SavingsCalculatorPremium/out/production/SavingsCalculatorCommon/com/avantics/savingscalc/common/R$style.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MsSavingsCalculator/SavingsCalculatorPremium/out/production/SavingsCalculatorCommon/com/avantics/savingscalc/common/R.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MsSavingsCalculator/SavingsCalculatorPremium/out/production/SavingsCalculatorCommon/com/avantics/savingscalc/common/UiBindingManager.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MsSavingsCalculator/SavingsCalculatorPremium/out/production/SavingsCalculatorCommon/com/avantics/savingscalc/common/fragments/IncumbentFragment.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MsSavingsCalculator/SavingsCalculatorPremium/out/production/SavingsCalculatorCommon/com/avantics/savingscalc/common/fragments/ProposedFragment.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MsSavingsCalculator/SavingsCalculatorPremium/out/production/SavingsCalculatorCommon/com/avantics/savingscalc/common/fragments/QuoteFragment.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MsSavingsCalculator/SavingsCalculatorPremium/out/production/SavingsCalculatorCommon/com/avantics/savingscalc/common/fragments/SummaryFragment.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MsSavingsCalculator/SavingsCalculatorPremium/out/production/SavingsCalculatorPremium/com/avantics/common/BuildConfig.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MsSavingsCalculator/SavingsCalculatorPremium/out/production/SavingsCalculatorPremium/com/avantics/common/R$attr.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MsSavingsCalculator/SavingsCalculatorPremium/out/production/SavingsCalculatorPremium/com/avantics/common/R$dimen.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MsSavingsCalculator/SavingsCalculatorPremium/out/production/SavingsCalculatorPremium/com/avantics/common/R$drawable.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MsSavingsCalculator/SavingsCalculatorPremium/out/production/SavingsCalculatorPremium/com/avantics/common/R$id.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MsSavingsCalculator/SavingsCalculatorPremium/out/production/SavingsCalculatorPremium/com/avantics/common/R$layout.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MsSavingsCalculator/SavingsCalculatorPremium/out/production/SavingsCalculatorPremium/com/avantics/common/R$menu.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MsSavingsCalculator/SavingsCalculatorPremium/out/production/SavingsCalculatorPremium/com/avantics/common/R$string.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MsSavingsCalculator/SavingsCalculatorPremium/out/production/SavingsCalculatorPremium/com/avantics/common/R$style.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MsSavingsCalculator/SavingsCalculatorPremium/out/production/SavingsCalculatorPremium/com/avantics/common/R.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MsSavingsCalculator/SavingsCalculatorPremium/out/production/SavingsCalculatorPremium/com/avantics/savingscalc/common/BuildConfig.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MsSavingsCalculator/SavingsCalculatorPremium/out/production/SavingsCalculatorPremium/com/avantics/savingscalc/common/R$attr.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MsSavingsCalculator/SavingsCalculatorPremium/out/production/SavingsCalculatorPremium/com/avantics/savingscalc/common/R$dimen.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MsSavingsCalculator/SavingsCalculatorPremium/out/production/SavingsCalculatorPremium/com/avantics/savingscalc/common/R$drawable.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MsSavingsCalculator/SavingsCalculatorPremium/out/production/SavingsCalculatorPremium/com/avantics/savingscalc/common/R$id.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MsSavingsCalculator/SavingsCalculatorPremium/out/production/SavingsCalculatorPremium/com/avantics/savingscalc/common/R$layout.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MsSavingsCalculator/SavingsCalculatorPremium/out/production/SavingsCalculatorPremium/com/avantics/savingscalc/common/R$menu.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MsSavingsCalculator/SavingsCalculatorPremium/out/production/SavingsCalculatorPremium/com/avantics/savingscalc/common/R$string.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MsSavingsCalculator/SavingsCalculatorPremium/out/production/SavingsCalculatorPremium/com/avantics/savingscalc/common/R$style.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MsSavingsCalculator/SavingsCalculatorPremium/out/production/SavingsCalculatorPremium/com/avantics/savingscalc/common/R.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MsSavingsCalculator/SavingsCalculatorPremium/out/production/SavingsCalculatorPremium/com/avantics/savingscalcpremium/BuildConfig.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MsSavingsCalculator/SavingsCalculatorPremium/out/production/SavingsCalculatorPremium/com/avantics/savingscalcpremium/ConfirmDialogFragment$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MsSavingsCalculator/SavingsCalculatorPremium/out/production/SavingsCalculatorPremium/com/avantics/savingscalcpremium/ConfirmDialogFragment$2.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MsSavingsCalculator/SavingsCalculatorPremium/out/production/SavingsCalculatorPremium/com/avantics/savingscalcpremium/ConfirmDialogFragment.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MsSavingsCalculator/SavingsCalculatorPremium/out/production/SavingsCalculatorPremium/com/avantics/savingscalcpremium/ConfirmationDialogHandler.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MsSavingsCalculator/SavingsCalculatorPremium/out/production/SavingsCalculatorPremium/com/avantics/savingscalcpremium/DatabaseHelper.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MsSavingsCalculator/SavingsCalculatorPremium/out/production/SavingsCalculatorPremium/com/avantics/savingscalcpremium/DeleteQuoteRequestHandler.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MsSavingsCalculator/SavingsCalculatorPremium/out/production/SavingsCalculatorPremium/com/avantics/savingscalcpremium/ExcelExporter.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MsSavingsCalculator/SavingsCalculatorPremium/out/production/SavingsCalculatorPremium/com/avantics/savingscalcpremium/LoadListItem.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MsSavingsCalculator/SavingsCalculatorPremium/out/production/SavingsCalculatorPremium/com/avantics/savingscalcpremium/LoadListItemAdapter$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MsSavingsCalculator/SavingsCalculatorPremium/out/production/SavingsCalculatorPremium/com/avantics/savingscalcpremium/LoadListItemAdapter$LoadListItemHolder.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MsSavingsCalculator/SavingsCalculatorPremium/out/production/SavingsCalculatorPremium/com/avantics/savingscalcpremium/LoadListItemAdapter.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MsSavingsCalculator/SavingsCalculatorPremium/out/production/SavingsCalculatorPremium/com/avantics/savingscalcpremium/LoadQuoteDialogFragment$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MsSavingsCalculator/SavingsCalculatorPremium/out/production/SavingsCalculatorPremium/com/avantics/savingscalcpremium/LoadQuoteDialogFragment.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MsSavingsCalculator/SavingsCalculatorPremium/out/production/SavingsCalculatorPremium/com/avantics/savingscalcpremium/R$attr.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MsSavingsCalculator/SavingsCalculatorPremium/out/production/SavingsCalculatorPremium/com/avantics/savingscalcpremium/R$dimen.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MsSavingsCalculator/SavingsCalculatorPremium/out/production/SavingsCalculatorPremium/com/avantics/savingscalcpremium/R$drawable.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MsSavingsCalculator/SavingsCalculatorPremium/out/production/SavingsCalculatorPremium/com/avantics/savingscalcpremium/R$id.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MsSavingsCalculator/SavingsCalculatorPremium/out/production/SavingsCalculatorPremium/com/avantics/savingscalcpremium/R$layout.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MsSavingsCalculator/SavingsCalculatorPremium/out/production/SavingsCalculatorPremium/com/avantics/savingscalcpremium/R$menu.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MsSavingsCalculator/SavingsCalculatorPremium/out/production/SavingsCalculatorPremium/com/avantics/savingscalcpremium/R$string.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MsSavingsCalculator/SavingsCalculatorPremium/out/production/SavingsCalculatorPremium/com/avantics/savingscalcpremium/R$style.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MsSavingsCalculator/SavingsCalculatorPremium/out/production/SavingsCalculatorPremium/com/avantics/savingscalcpremium/R.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MsSavingsCalculator/SavingsCalculatorPremium/out/production/SavingsCalculatorPremium/com/avantics/savingscalcpremium/activities/MainActivity$1$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MsSavingsCalculator/SavingsCalculatorPremium/out/production/SavingsCalculatorPremium/com/avantics/savingscalcpremium/activities/MainActivity$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MsSavingsCalculator/SavingsCalculatorPremium/out/production/SavingsCalculatorPremium/com/avantics/savingscalcpremium/activities/MainActivity$2.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MsSavingsCalculator/SavingsCalculatorPremium/out/production/SavingsCalculatorPremium/com/avantics/savingscalcpremium/activities/MainActivity$3.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MsSavingsCalculator/SavingsCalculatorPremium/out/production/SavingsCalculatorPremium/com/avantics/savingscalcpremium/activities/MainActivity$4.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MsSavingsCalculator/SavingsCalculatorPremium/out/production/SavingsCalculatorPremium/com/avantics/savingscalcpremium/activities/MainActivity$5.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MsSavingsCalculator/SavingsCalculatorPremium/out/production/SavingsCalculatorPremium/com/avantics/savingscalcpremium/activities/MainActivity$6.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MsSavingsCalculator/SavingsCalculatorPremium/out/production/SavingsCalculatorPremium/com/avantics/savingscalcpremium/activities/MainActivity.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MsSavingsCalculator/SavingsCalculatorPremium/out/production/SavingsCalculatorPremium/com/avantics/savingscalcpremium/activities/SettingsActivity.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MsSavingsCalculator/SavingsCalculatorPremium/out/production/SavingsCalculatorPremium/com/avantics/savingscalcpremium/fragments/PremiumQuoteFragment.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MsSavingsCalculator/SavingsCalculatorPremium/out/production/SavingsCalculatorPremium/com/avantics/savingscalcpremium/fragments/SettingsFragment.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MsSavingsCalculator/SavingsCalculatorPremium/proguard-project.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MsSavingsCalculator/SavingsCalculatorPremium/project.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MsSavingsCalculator/SavingsCalculatorPremium/res/drawable-hdpi/action_search.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MsSavingsCalculator/SavingsCalculatorPremium/res/drawable-hdpi/av_replay.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MsSavingsCalculator/SavingsCalculatorPremium/res/drawable-hdpi/content_new.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MsSavingsCalculator/SavingsCalculatorPremium/res/drawable-hdpi/content_remove.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MsSavingsCalculator/SavingsCalculatorPremium/res/drawable-hdpi/content_save.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MsSavingsCalculator/SavingsCalculatorPremium/res/drawable-hdpi/social_send_now.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MsSavingsCalculator/SavingsCalculatorPremium/res/drawable-hdpi/social_share.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MsSavingsCalculator/SavingsCalculatorPremium/res/drawable-mdpi/action_search.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MsSavingsCalculator/SavingsCalculatorPremium/res/drawable-mdpi/av_replay.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MsSavingsCalculator/SavingsCalculatorPremium/res/drawable-mdpi/content_new.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MsSavingsCalculator/SavingsCalculatorPremium/res/drawable-mdpi/content_remove.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MsSavingsCalculator/SavingsCalculatorPremium/res/drawable-mdpi/content_save.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MsSavingsCalculator/SavingsCalculatorPremium/res/drawable-mdpi/social_send_now.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MsSavingsCalculator/SavingsCalculatorPremium/res/drawable-mdpi/social_share.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MsSavingsCalculator/SavingsCalculatorPremium/res/drawable-xhdpi/action_search.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MsSavingsCalculator/SavingsCalculatorPremium/res/drawable-xhdpi/av_replay.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MsSavingsCalculator/SavingsCalculatorPremium/res/drawable-xhdpi/content_new.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MsSavingsCalculator/SavingsCalculatorPremium/res/drawable-xhdpi/content_remove.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MsSavingsCalculator/SavingsCalculatorPremium/res/drawable-xhdpi/content_save.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MsSavingsCalculator/SavingsCalculatorPremium/res/drawable-xhdpi/social_send_now.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MsSavingsCalculator/SavingsCalculatorPremium/res/drawable-xhdpi/social_share.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MsSavingsCalculator/SavingsCalculatorPremium/res/layout/choose_item_row.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MsSavingsCalculator/SavingsCalculatorPremium/res/layout/listview_dialog.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MsSavingsCalculator/SavingsCalculatorPremium/res/layout/load_quote_row.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MsSavingsCalculator/SavingsCalculatorPremium/res/layout/preference_contact_lookup.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MsSavingsCalculator/SavingsCalculatorPremium/res/layout/premium_quote_form.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MsSavingsCalculator/SavingsCalculatorPremium/res/layout/save_quote_view.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MsSavingsCalculator/SavingsCalculatorPremium/res/layout/settings.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MsSavingsCalculator/SavingsCalculatorPremium/res/menu/main.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MsSavingsCalculator/SavingsCalculatorPremium/res/values-sw600dp/dimens.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MsSavingsCalculator/SavingsCalculatorPremium/res/values-sw720dp-land/dimens.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MsSavingsCalculator/SavingsCalculatorPremium/res/values-v11/styles.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MsSavingsCalculator/SavingsCalculatorPremium/res/values-v14/styles.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MsSavingsCalculator/SavingsCalculatorPremium/res/values/strings.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MsSavingsCalculator/SavingsCalculatorPremium/res/values/styles.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MsSavingsCalculator/SavingsCalculatorPremium/src/com/avantics/savingscalcpremium/ChooseEmailItemAdapter.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MsSavingsCalculator/SavingsCalculatorPremium/src/com/avantics/savingscalcpremium/ConfirmDialogFragment.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MsSavingsCalculator/SavingsCalculatorPremium/src/com/avantics/savingscalcpremium/ConfirmationDialogHandler.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MsSavingsCalculator/SavingsCalculatorPremium/src/com/avantics/savingscalcpremium/ContactPreference.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MsSavingsCalculator/SavingsCalculatorPremium/src/com/avantics/savingscalcpremium/DatabaseHelper.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MsSavingsCalculator/SavingsCalculatorPremium/src/com/avantics/savingscalcpremium/DeleteQuoteRequestHandler.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MsSavingsCalculator/SavingsCalculatorPremium/src/com/avantics/savingscalcpremium/ExcelExporter.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MsSavingsCalculator/SavingsCalculatorPremium/src/com/avantics/savingscalcpremium/LoadListItem.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MsSavingsCalculator/SavingsCalculatorPremium/src/com/avantics/savingscalcpremium/LoadListItemAdapter.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MsSavingsCalculator/SavingsCalculatorPremium/src/com/avantics/savingscalcpremium/activities/MainActivity.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MsSavingsCalculator/SavingsCalculatorPremium/src/com/avantics/savingscalcpremium/activities/SettingsActivity.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MsSavingsCalculator/SavingsCalculatorPremium/src/com/avantics/savingscalcpremium/activities/SupportSettingsActivity.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MsSavingsCalculator/SavingsCalculatorPremium/src/com/avantics/savingscalcpremium/fragments/PremiumQuoteFragment.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MsSavingsCalculator/SavingsCalculatorPremium/src/com/avantics/savingscalcpremium/fragments/SettingsFragment.java" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AvanticsCommon/AvanticsCommon.iml" afterPath="$PROJECT_DIR$/AvanticsCommon/AvanticsCommon.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SavingsCalculatorCommon/SavingsCalculatorCommon.iml" afterPath="$PROJECT_DIR$/SavingsCalculatorCommon/SavingsCalculatorCommon.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SavingsCalculator/.idea/workspace.xml" afterPath="$PROJECT_DIR$/SavingsCalculator/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SavingsCalculatorPremium/.idea/workspace.xml" afterPath="$PROJECT_DIR$/SavingsCalculatorPremium/.idea/workspace.xml" />
     </list>
     <ignored path="MsSavingsCalculator.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -624,7 +33,7 @@
     <disable_hints />
   </component>
   <component name="DebuggerManager">
-    <breakpoint_any default_suspend_policy="SuspendAll" default_condition_enabled="true">
+    <breakpoint_any default_suspend_policy="SuspendAll" default_condition_enabled="true" converted="true">
       <breakpoint>
         <option name="NOTIFY_CAUGHT" value="true" />
         <option name="NOTIFY_UNCAUGHT" value="true" />
@@ -660,9 +69,8 @@
         <option name="LOG_MESSAGE" value="" />
       </breakpoint>
     </breakpoint_any>
-    <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
-    <breakpoint_rules />
-    <ui_properties />
+    <breakpoint_rules converted="true" />
+    <ui_properties converted="true" />
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FavoritesManager">
@@ -701,9 +109,8 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="y" value="22" />
-    <option name="width" value="1680" />
-    <option name="height" value="1024" />
+    <option name="width" value="1920" />
+    <option name="height" value="1080" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
@@ -719,7 +126,7 @@
     <option name="STATE" value="0" />
   </component>
   <component name="ProjectView">
-    <navigator currentView="ProjectPane" proportions="" version="1" splitterProportion="0.5">
+    <navigator currentView="ProjectPane" proportions="" version="1">
       <flattenPackages />
       <showMembers />
       <showModules />
@@ -731,7 +138,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -742,7 +148,9 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
       <pane id="PackagesPane" />
+      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -752,14 +160,14 @@
     <property name="MemberChooser.sorted" value="false" />
     <property name="MemberChooser.showClasses" value="true" />
     <property name="MemberChooser.copyJavadoc" value="false" />
-    <property name="last_opened_file_path" value="$USER_HOME$/Ubuntu One/savingscalc.keystore" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/SavingsCalculatorPremium" />
     <property name="recentsLimit" value="5" />
     <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="Repository.Attach.JavaDocs" value="false" />
     <property name="Repository.Attach.Sources" value="false" />
-    <property name="FullScreen" value="false" />
+    <property name="FullScreen" value="true" />
     <property name="ExportedModule" value="SavingsCalculatorPremium" />
     <property name="ExportedApkPath" value="$USER_HOME$/Ubuntu One/dev/MsSavingsCalculator/sales calc releases/SavingsCalculatorPremium_1.0.16.apk" />
     <property name="AndroidRunProguardForReleaseBuild" value="false" />
@@ -815,19 +223,6 @@
       <option name="PORT" value="5005" />
       <method />
     </configuration>
-    <configuration default="true" type="Applet" factoryName="Applet">
-      <module name="" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="HTML_FILE_NAME" />
-      <option name="HTML_USED" value="false" />
-      <option name="WIDTH" value="400" />
-      <option name="HEIGHT" value="300" />
-      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
-      <option name="VM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <method />
-    </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
       <module name="" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
@@ -853,6 +248,19 @@
       <envs />
       <properties />
       <listeners />
+      <method />
+    </configuration>
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <module name="" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="HTML_FILE_NAME" />
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <option name="VM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
       <method />
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
@@ -1006,7 +414,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="22" width="1680" height="1024" extended-state="6" />
+    <frame x="0" y="0" width="1920" height="1080" extended-state="6" />
     <editor active="false" />
     <layout>
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -1019,22 +427,22 @@
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32819384" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.28744492" sideWeight="0.5" order="13" side_tool="true" content_ui="tabs" />
-      <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3246951" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Android" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33920705" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24973376" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.47435898" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.47390842" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32967034" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3289183" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3246951" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Android" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33920705" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
@@ -1042,14 +450,14 @@
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32819384" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32819384" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32819384" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Gradle Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.28744492" sideWeight="0.5" order="14" side_tool="true" content_ui="tabs" />
       <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
+      <window_info id="Gradle Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.28744492" sideWeight="0.5" order="14" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32819384" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24908425" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32929516" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
@@ -1062,13 +470,16 @@
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3246951" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Android" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33920705" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24973376" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout-to-restore>
   </component>
   <component name="Vcs.Log.UiProperties">
     <option name="RECENTLY_FILTERED_USER_GROUPS">
+      <collection />
+    </option>
+    <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
       <collection />
     </option>
   </component>
